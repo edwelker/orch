@@ -1,0 +1,83 @@
+{% extends "mockup.html" %}
+
+{% block member %}
+    {% if member %}
+            <div class="col">
+                {% if member.photo %}
+                <img src="{{member.photo.thumb_url}}" alt="{{member.withinstrument}}"/>
+                {% endif %}
+            </div>
+            <div class="col last">
+                <p class="member">{{ member.fullmember }}</p>
+                {{ member.bio|safe|truncatewords_html:120 }}
+                <p><a href="{{ member.get_absolute_url }}">Read more about {{member.first_name}}...</a></p>
+                <p><a href="/members/">Meet more of the orchestra...</a></p>
+            </div>
+    {% else %}
+        <p>No members found. Please add some members.</p>
+    {% endif %}
+{% endblock %}
+
+{% block concert %}
+    {% if primary_event.date %}
+    <div class="primary">
+        {% if primary_event.image %}
+            <div class="image">
+                <img src="{{primary_event.image.url}}" alt="Event promo image"/>
+            </div>
+        {% endif %}
+            <div class="description">
+                <h2>{{primary_event.name}}</h2>
+                <div>{{ primary_event.date|date:"l, F jS Y" }}</div>
+                <div>{{ primary_event.date|date:"g:i a" }}
+                {%if primary_event.alt_time%} &amp; {{primary_event.alt_time|time:"g:i a"}}{%endif%}, 
+                <a href="{{primary_event.location.get_absolute_url}}">{{primary_event.location}}</a></div>
+                <div class="conductor">Jason Love, conductor</div>
+                {{ primary_event.description|safe }}
+                
+                {% if primary_event.preconcert_discussion %}
+                {% with primary_event.preconcert_discussion as e %}
+                    <p class="preconcert">Enjoy a pre-concert discussion
+                    at 
+                    {{e.time|time:"g:i a"}} 
+                     with
+                    {{e.speaker}}
+                    in the 
+                    {{e.talk_location}}.</p>
+                    {% if e.sponsor %}
+                        <p>The pre-concert discussion is brought to you by {{e.sponsor}}.</p>
+                    {% endif %}
+                    </p>
+                {% endwith %}
+                {% endif %}
+            </div>
+    </div>
+    {% else %}
+        <p>No events found. Please add an event.</p>
+    {% endif %}
+    
+   
+    {% if secondary_event.date %}
+        <div class="secondary">
+            <div class="description">
+                <h2>{{secondary_event.name}}</h2>
+                <div>{{ secondary_event.date|date:"l, F jS Y" }}</div>
+                <div>{{ secondary_event.date|date:"g:i a" }}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a></div>
+                {{ secondary_event.description|safe }}
+            </div>
+        {% if secondary_event.image %}
+            <div class="image">
+                <img src="{{secondary_event.image.url}}" alt="Event promo image"/>
+            </div>
+        {% endif %}
+        </div>
+    {% else %}
+        {%comment%}<p>No events found. Please add an event.</p>{%endcomment%}
+    {% endif %}
+   
+    
+        
+    <div class="description">
+        <p class="tickets">For advance tickets, please visit our Tickets page. Tickets will also be available at the door. <em>We are not equipped to process credit cards at the door; we are happy to accept cash or personal checks.</em></p>
+    </div>    
+{% endblock %}
