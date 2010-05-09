@@ -1,5 +1,6 @@
 from django.db import models
 from ThumbnailImageField import ThumbnailImageField
+from imagekit.models import ImageModel
 
 # Create your models here.
 class Season(models.Model):
@@ -98,7 +99,7 @@ class PreConcertDiscussion(models.Model):
 
 
         
-class Soloist(models.Model):
+class Soloist(ImageModel):
     name = models.CharField(max_length=100, help_text="Artist Name.")
     instrument = models.CharField(max_length=100, help_text="Artist Instrument.")
     work = models.CharField(max_length=100, blank=True, null=True, help_text="The piece they're playing. Optional.")
@@ -106,7 +107,13 @@ class Soloist(models.Model):
     season = models.ManyToManyField(Season)
     slug = models.SlugField( unique=True, help_text='Suggested value is automatically generated from soloist name. Must be unique.')
     image = ThumbnailImageField(blank=True,null=True,help_text="Upload an image for this artist. Optional.",upload_to='images/soloists')
-
+    orig_image = models.ImageField(blank=True,null=True,upload_to='images/soloists',help_text="Upload an image for this artist. Optional.")
+    num_views = models.PositiveIntegerField(editable=False, default=0)
+	
+    class IKOptions:
+        spec_module = 'events.specs'
+        image_field = 'orig_image'
+        save_count_as = 'num_views'
     
     def __unicode__(self):
         return self.name

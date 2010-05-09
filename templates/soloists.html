@@ -9,7 +9,7 @@
 	{% for soloist in soloists %}
 	<div class="soloist">
 	    {% if soloist.image %}
-        <a href="{{soloist.get_absolute_url}}"><img src="/{{ soloist.image.thumb_url }}" alt="{{ soloist.name }}"/></a>
+        <a href="{{soloist.get_absolute_url}}"><img src="/{{ soloist.thumb.url }}" alt="{{ soloist.name }}"/></a>
         {% endif %}
         
 		<h3><a href="{{ soloist.get_absolute_url }}">{{ soloist.name }}</a>, 

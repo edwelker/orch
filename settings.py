@@ -97,7 +97,8 @@ INSTALLED_APPS = (
     'orch.homepage_viewer',
     'django_extensions',
     'debug_toolbar',
-    'haystack'
+    'haystack',
+    'imagekit',
 )
 
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
