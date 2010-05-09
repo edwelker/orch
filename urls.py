@@ -2,6 +2,9 @@ from django.conf.urls.defaults import *
 from django.conf import settings
 from events.models import Season, Location, Event, PreConcertDiscussion, Soloist
 
+import os
+here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
+
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
@@ -35,6 +38,6 @@ urlpatterns = patterns('',
 
 if settings.DEBUG:
     urlpatterns += patterns('',
-        (r'^site_media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
-        (r'^images/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT + "/images"})
+        (r'^site_media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here('site_media') }),
+        (r'^images/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("/images") })
     )

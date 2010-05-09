@@ -2,7 +2,6 @@
 
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
-med = os.path.join(os.path.dirname(__file__), 'site_media')
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -45,8 +44,7 @@ USE_I18N = False
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-#MEDIA_ROOT = '/home/ewelker/git_repos/columbia_orchestra/orch/site_media'
-MEDIT_ROOT = med 
+MEDIT_ROOT = here('site_media') 
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
