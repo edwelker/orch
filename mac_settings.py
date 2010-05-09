@@ -15,7 +15,7 @@ MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
 #DATABASE_NAME = '/home/ewelker/git_repos/columbia_orchestra/orch.db'       
-DATABASE_NAME  = here('../orch.db')
+DATABASE_NAME  = here('orch.db')
 
 # Or path to database file if using sqlite3.
 DATABASE_USER = ''             # Not used with sqlite3.
@@ -99,6 +99,7 @@ INSTALLED_APPS = (
     'orch.homepage_viewer',
     'django_extensions',
     'debug_toolbar',
+    'haystack'
 )
 
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
@@ -118,3 +119,7 @@ DEBUG_TOOLBAR_PANELS = (
     'debug_toolbar.panels.cache.CacheDebugPanel',
     'debug_toolbar.panels.logger.LoggingPanel',
 )
+
+HAYSTACK_SITECONF = 'orch.search_sites' 
+HAYSTACK_SEARCH_ENGINE = 'whoosh'
+HAYSTACK_WHOOSH_PATH = here('orch_index')

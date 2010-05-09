@@ -1,5 +1,8 @@
 # Django settings for orch project.
 
+import os
+here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -10,7 +13,9 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-DATABASE_NAME = '/home/gbyo/webapps/columbia_orchestra/orch.db'             
+#DATABASE_NAME = '/home/ewelker/git_repos/columbia_orchestra/orch.db'       
+DATABASE_NAME  = here('orch.db')
+
 # Or path to database file if using sqlite3.
 DATABASE_USER = ''             # Not used with sqlite3.
 DATABASE_PASSWORD = ''         # Not used with sqlite3.
@@ -18,7 +23,7 @@ DATABASE_HOST = ''             # Set to empty string for localhost. Not used wit
 DATABASE_PORT = ''             # Set to empty string for default. Not used with sqlite3.
 
 TWITTER_USER = "ColumbiaOrch"
-TWITTER_TIMEOUT = 900  #every 15 minutes
+TWITTER_TIMEOUT = 3600
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -39,7 +44,7 @@ USE_I18N = False
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = '/home/gbyo/webapps/columbia_orchestra/orch/site_media'
+MEDIT_ROOT = here('site_media') 
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
@@ -66,14 +71,15 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
-#    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 ROOT_URLCONF = 'orch.urls'
 
 TEMPLATE_DIRS = (
 
-    '/home/gbyo/webapps/columbia_orchestra/orch/templates'
+    '/home/ewelker/git_repos/columbia_orchestra/orch/templates',
+    here('templates'),
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -90,15 +96,14 @@ INSTALLED_APPS = (
     'orch.events',
     'orch.homepage_viewer',
     'django_extensions',
-#    'debug_toolbar',
-    'haystack',
+    'debug_toolbar',
+    'haystack'
 )
 
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
 TEMPLATE_CONTEXT_PROCESSORS = TEMPLATE_CONTEXT_PROCESSORS + (
 	"orch.context_processors.latest_tweets",
-    "orch.context_processors.latest_facebook",
 )
 
 INTERNAL_IPS = ('127.0.0.1')
@@ -115,4 +120,4 @@ DEBUG_TOOLBAR_PANELS = (
 
 HAYSTACK_SITECONF = 'orch.search_sites' 
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
-HAYSTACK_WHOOSH_PATH = '/home/gbyo/webapps/columbia_orchestra/orch_index'
+HAYSTACK_WHOOSH_PATH = here('orch_index')
