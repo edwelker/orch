@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib import admin
-from ThumbnailImageField import ThumbnailImageField
+from imagekit.models import ImageModel
 
 # Create your models here.
 class Instrument(models.Model):
@@ -9,7 +9,7 @@ class Instrument(models.Model):
     def __unicode__(self):
         return "%s" % self.name
 
-class OrchestraMember(models.Model):  
+class OrchestraMember(ImageModel):  
 
     first_name = models.CharField(max_length=100)
     middle_name = models.CharField(max_length=100, blank=True)
@@ -23,7 +23,14 @@ class OrchestraMember(models.Model):
 
     bio = models.TextField(blank=True,help_text="Wrap paragraphs in '&lt;p&gt;...&lt;/p&gt;'")
 
-    photo = ThumbnailImageField(blank=True,upload_to='images/user_photos')
+    photo = models.ImageField(blank=True,null=True,upload_to='site_media/images/members')
+    num_views = models.PositiveIntegerField(editable=False, default=0)
+	
+    class IKOptions:
+        spec_module = 'roster.member_specs'
+        cache_dir = '.'
+        image_field = 'photo'
+        save_count_as = 'num_views'
     
     noncurrent_member = models.BooleanField(help_text="Use to mark a member as former or not-current to temporarily remove from roster.")
 

@@ -3,8 +3,8 @@
 {% block member %}
     {% if member %}
             <div class="col">
-                {% if member.photo %}
-                <img src="{{member.photo.thumb_url}}" alt="{{member.withinstrument}}"/>
+                {% if member.display %}
+                <img src="{{member.thumb.url}}" alt="{{member.withinstrument}}"/>
                 {% endif %}
             </div>
             <div class="col last">

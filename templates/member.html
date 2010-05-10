@@ -9,8 +9,8 @@
     <div class="member_detail">
     	<h2>{{ member.withinstrument }}</h2>
     	
-    	{% if member.photo %}
-    	   <img src="/{{member.photo.url}}" alt="{{member}}"/>
+    	{% if member.display %}
+    	   <img src="/{{member.display.url}}" alt="{{member}}"/>
     	{% endif %}
     	
     	{{ member.bio|safe }}

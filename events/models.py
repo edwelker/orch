@@ -1,5 +1,4 @@
 from django.db import models
-#from ThumbnailImageField import ThumbnailImageField
 from imagekit.models import ImageModel
 
 # Create your models here.
