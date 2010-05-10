@@ -59,12 +59,12 @@ class Event(ImageModel):
     soloists = models.ManyToManyField("Soloist", blank=True)
     preconcert_discussion = models.OneToOneField('PreConcertDiscussion', blank=True, null=True)
 
-    image = models.ImageField(blank=True,null=True,upload_to='site_media/images/events',help_text="Optional, but highly recommended.")
+    image = models.ImageField(blank=True,null=True,upload_to='site_media/images/events/',help_text="Optional, but highly recommended.")
     num_views = models.PositiveIntegerField(editable=False, default=0)
 	
     class IKOptions:
         spec_module = 'events.event_specs'
-        cache_dir = '.'
+        cache_dir = ''
         image_field = 'image'
         save_count_as = 'num_views'
     
