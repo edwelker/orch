@@ -15,10 +15,6 @@ class EnchanceThumb(processors.Adjustment):
 	contrast = 1.2
 	sharpness = 1.2
 	
-class EnchanceDisplay(processors.Adjustment):
-	contrast = 1.2
-	sharpness = 1.2
-	
 class Thumbnail(ImageSpec):
 	access_as = 'thumb'
 	pre_cache = True
@@ -26,4 +22,4 @@ class Thumbnail(ImageSpec):
 	
 class Display(ImageSpec):
 	increment_count = True
-	processors = [ResizeDisplay, EnchanceThumb]
+	processors = [ResizeDisplay]
