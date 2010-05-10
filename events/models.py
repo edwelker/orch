@@ -1,5 +1,5 @@
 from django.db import models
-from ThumbnailImageField import ThumbnailImageField
+#from ThumbnailImageField import ThumbnailImageField
 from imagekit.models import ImageModel
 
 # Create your models here.
@@ -47,7 +47,7 @@ class Location(models.Model):
 
 
 
-class Event(models.Model):
+class Event(ImageModel):
     name = models.CharField(max_length=100, help_text="Name of the Event. Must be unique, even across seasons (so if you're doing 'Holiday Concert', make it '2009 Holiday Concert', etc.)")
     date = models.DateTimeField()
     alt_time = models.TimeField(blank=True,null=True, verbose_name="Alternate Time", help_text="Optional")
@@ -58,8 +58,16 @@ class Event(models.Model):
     description = models.TextField(help_text="Description paragraphs (required). Please wrap all paragraphs in '&lt;p&gt;....&lt;/p&gt;'.")    
     slug = models.SlugField(unique=True, help_text='Suggested value is automatically generated from event name. Must be unique.')
     soloists = models.ManyToManyField("Soloist", blank=True)
-    image = ThumbnailImageField(blank=True,help_text="Not optional for primary events.",upload_to='images/events')
     preconcert_discussion = models.OneToOneField('PreConcertDiscussion', blank=True, null=True)
+
+    image = models.ImageField(blank=True,null=True,upload_to='site_media/images/events',help_text="Optional, but highly recommended.")
+    num_views = models.PositiveIntegerField(editable=False, default=0)
+	
+    class IKOptions:
+        spec_module = 'events.event_specs'
+        cache_dir = '.'
+        image_field = 'image'
+        save_count_as = 'num_views'
     
     STATUS=(
             (1, "Orchestra"),
@@ -106,13 +114,13 @@ class Soloist(ImageModel):
     bio = models.TextField(blank=True, null=True, help_text="Artist Biography (Optional). Please wrap paragraphs in '&lt;p&gt;....&lt;/p&gt;'.")
     season = models.ManyToManyField(Season)
     slug = models.SlugField( unique=True, help_text='Suggested value is automatically generated from soloist name. Must be unique.')
-    image = ThumbnailImageField(blank=True,null=True,help_text="Upload an image for this artist. Optional.",upload_to='images/soloists')
-    orig_image = models.ImageField(blank=True,null=True,upload_to='images/soloists',help_text="Upload an image for this artist. Optional.")
+    image = models.ImageField(blank=True,null=True,upload_to='site_media/images/soloists',help_text="Upload an image for this artist. Optional.")
     num_views = models.PositiveIntegerField(editable=False, default=0)
 	
     class IKOptions:
-        spec_module = 'events.specs'
-        image_field = 'orig_image'
+        spec_module = 'events.soloist_specs'
+        cache_dir = '.'
+        image_field = 'image'
         save_count_as = 'num_views'
     
     def __unicode__(self):

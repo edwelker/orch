@@ -1,17 +1,21 @@
-# events/specs.py
+# events/soloist_specs.py
 
 from imagekit.specs import ImageSpec
 from imagekit import processors
 
 class ResizeThumb(processors.Resize):
-	width = 230
-	height = 230
+	width = 200
+	height = 200
 	crop = True
 	
 class ResizeDisplay(processors.Resize):
 	width = 460
 	
 class EnchanceThumb(processors.Adjustment):
+	contrast = 1.2
+	sharpness = 1.2
+	
+class EnchanceDisplay(processors.Adjustment):
 	contrast = 1.2
 	sharpness = 1.2
 	
@@ -22,4 +26,4 @@ class Thumbnail(ImageSpec):
 	
 class Display(ImageSpec):
 	increment_count = True
-	processors = [ResizeDisplay]
+	processors = [ResizeDisplay, EnchanceThumb]

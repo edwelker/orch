@@ -18,8 +18,8 @@
     
     
     
-    {% if soloist.image %}
-    	<img src="/{{ soloist.image.url }}" alt="{{ soloist.name }}"/>
+    {% if soloist.display %}
+    	<img src="/{{ soloist.display.url }}" alt="{{ soloist.name }}"/>
     {% endif %}
     
     {{ soloist.bio|safe }}

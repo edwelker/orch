@@ -44,7 +44,7 @@ USE_I18N = False
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIT_ROOT = here('site_media') 
+MEDIT_ROOT = here('site_media')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
@@ -104,7 +104,8 @@ INSTALLED_APPS = (
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
 TEMPLATE_CONTEXT_PROCESSORS = TEMPLATE_CONTEXT_PROCESSORS + (
-	"orch.context_processors.latest_tweets",
+    "orch.context_processors.latest_tweets",
+    "orch.context_processors.latest_facebook",
 )
 
 INTERNAL_IPS = ('127.0.0.1')
@@ -118,6 +119,12 @@ DEBUG_TOOLBAR_PANELS = (
     'debug_toolbar.panels.cache.CacheDebugPanel',
     'debug_toolbar.panels.logger.LoggingPanel',
 )
+
+DEBUG_TOOLBAR_CONFIG = {
+    'INTERCEPT_REDIRECTS': False,
+    'HIDE_DJANGO_SQL': False,
+    'TAG': 'div',
+}
 
 HAYSTACK_SITECONF = 'orch.search_sites' 
 HAYSTACK_SEARCH_ENGINE = 'whoosh'

@@ -21,9 +21,9 @@
 {% block concert %}
     {% if primary_event.date %}
     <div class="primary">
-        {% if primary_event.image %}
+        {% if primary_event.display %}
             <div class="image">
-                <img src="{{primary_event.image.url}}" alt="Event promo image"/>
+                <img src="{{primary_event.display.url}}" alt="Event promo image"/>
             </div>
         {% endif %}
             <div class="description">
@@ -67,7 +67,7 @@
             </div>
         {% if secondary_event.image %}
             <div class="image">
-                <img src="{{secondary_event.image.url}}" alt="Event promo image"/>
+                <img src="{{secondary_event.display.url}}" alt="Event promo image"/>
             </div>
         {% endif %}
         </div>

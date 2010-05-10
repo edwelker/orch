@@ -113,6 +113,13 @@ DEBUG_TOOLBAR_PANELS = (
     'debug_toolbar.panels.logger.LoggingPanel',
 )
 
+DEBUG_TOOLBAR_CONFIG = {
+    'INTERCEPT_REDIRECTS': False,
+    'HIDE_DJANGO_SQL': False,
+    'TAG': 'div',
+}
+
+
 HAYSTACK_SITECONF = 'orch.search_sites' 
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
 HAYSTACK_WHOOSH_PATH = '/home/ewelker/git_repos/columbia_orchestra/orch_index'
