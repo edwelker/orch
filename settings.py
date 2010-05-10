@@ -23,7 +23,7 @@ DATABASE_HOST = ''             # Set to empty string for localhost. Not used wit
 DATABASE_PORT = ''             # Set to empty string for default. Not used with sqlite3.
 
 TWITTER_USER = "ColumbiaOrch"
-TWITTER_TIMEOUT = 3600
+TWITTER_TIMEOUT = 900  #every 15 minutes
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -78,7 +78,6 @@ ROOT_URLCONF = 'orch.urls'
 
 TEMPLATE_DIRS = (
 
-    '/home/ewelker/git_repos/columbia_orchestra/orch/templates',
     here('templates'),
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
