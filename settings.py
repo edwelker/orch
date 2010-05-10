@@ -94,6 +94,7 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     'orch.roster',
     'orch.events',
+    'orch.uploader',
     'orch.homepage_viewer',
     'django_extensions',
     'debug_toolbar',
