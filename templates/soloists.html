@@ -1,10 +1,10 @@
 {% extends 'mockup2.html' %}
 
-{% block title %}Soloists {%endblock %}
+{% block title %}Artists {%endblock %}
 
 {% block content %}
 <div class="content">
-	<h2>Season Soloists - {{ season.name }}</h2>
+	<h2>Season Guest Artists - {{ season.name }}</h2>
 	{% if soloists %}
 	{% for soloist in soloists %}
 	<div class="soloist">
