@@ -88,7 +88,7 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 
 
 
-.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto; overflow: auto; /*margin-top: 2em;*/ border: 1px solid #16584c;}
+.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto; overflow: auto; /*margin-top: 2em; border: 1px solid #16584c; */}
 .footer .col { color: white; }
 .footer span.offscreen { background: transparent url(footlogo.png) no-repeat 0 0; display: block; width: 241px; height: 71px; margin-top: 1em;  }
 .footer ul { margin:1em 0 0 0;padding:0;list-style-type:none;}
