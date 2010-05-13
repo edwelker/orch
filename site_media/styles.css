@@ -74,7 +74,7 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 .twocol { width: 49%; margin-right: 2%; float: left; }
 .twocol .col { margin-right: 4%; width: 48%; float: left; }
 .twocol div.last, div.last  { margin:0;}
-.main  h2 { color: #054f49; text-transform: uppercase; font-size: 1.6em; font-weight: normal; border-bottom: 1px solid #ccc; padding-bottom: .4em; }
+.main h2 { color: #054f49; text-transform: uppercase; font-size: 2em; font-weight: normal; border-bottom: 1px solid #ccc; padding-bottom: .4em; }
 .main h2 a { color: #054f49; text-decoration: none;  padding-top: .2em; }
 .main h2 a:hover { border-bottom: 1px dotted #054f49; }
 .main .member { font-size: 1.4em; font-weight: bold; margin-top:-.25em;}

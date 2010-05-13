@@ -4,12 +4,13 @@ from imagekit.specs import ImageSpec
 from imagekit import processors
 
 class ResizeThumb(processors.Resize):
-	width = 200
-	height = 200
+	width = 140
+	height = 140
 	crop = True
 	
 class ResizeDisplay(processors.Resize):
-	width = 460
+    width = 460
+    height = 300
 	
 class EnchanceThumb(processors.Adjustment):
 	contrast = 1.2
