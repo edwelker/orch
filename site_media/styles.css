@@ -50,7 +50,7 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 .nav ul ul.menu_concerts { left: 2.6em; }
 .nav ul ul.menu_behind { /*left: 14.8em;*/left: 16.8em; }
 .nav ul ul.menu_support { left: 32.8em; }
-.nav ul ul.menu_about { left: 39.6em; }
+.nav ul ul.menu_about { left: 35.2em; }
 
 .next_bg { background-color: #be9521; margin-bottom: 4em; }
 .next_concert { background-color: #fbbf13; position: relative; top: 15px; -moz-box-shadow: 5px 8px 8px #111; -webkit-box-shadow: 5px 8px 8px #111; box-shadow: 5px 8px 8px #111; overflow: auto; padding: 2em; }

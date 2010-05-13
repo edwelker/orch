@@ -9,7 +9,8 @@ class ResizeThumb(processors.Resize):
 	crop = True
 	
 class ResizeDisplay(processors.Resize):
-	width = 460
+    width = 400
+    height = 300
 	
 class EnchanceThumb(processors.Adjustment):
 	contrast = 1.2
