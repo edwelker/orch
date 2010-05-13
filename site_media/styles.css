@@ -1,8 +1,8 @@
-body { margin:0;padding:0;background-color:#333; font: 62.5%/1.4 arial, sans-serif; }
+body { margin:0;padding:0;background-color:#333; font: 62.5%/1.4 verdana, sans-serif; }
 .description h2, .description div, .main h2, .subpage h1 { font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 img { border: 0; }
 
-.content { width: 75%; }
+.content { /*width: 75%;*/ }
 .main div.wide { width: 100%;}
 div.subpage { padding: 20px; }
 .content p, .content ul, .concertInfo, .vcard, dl { font-size: 1.3em; }
@@ -37,7 +37,7 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 .search_area { position: absolute; right: 20px; top: 7.5em; }
 .search_area input, .search_area button { height: 2em; border: 0; margin:0; }
 .search_area  input { background-color: #c1cfcf; -moz-border-radius: 4px 0 0 4px; width: 13em; height: 1.8em; padding: .3em 0 0 .3em;}
-.search_area button { background: transparent url(searchbg.png) repeat-x 0 0; -moz-border-radius: 0 4px 4px 0; height: 2.1em; position: relative; left: -.3em; top: .25em; color: #fff; font-weight:bold;}
+.search_area button { background: transparent url(searchbg.png) repeat-x 0 0; -moz-border-radius: 0 4px 4px 0; height: 2.1em; position: relative; left: -.3em; top: .2em; color: #fff; font-weight:bold;}
 
 .nav { background-color: #333; height: 46px;  text-align: center; }
 .nav ul { margin:0;padding:0;list-style-type:none; position: relative; top: 12px; overflow:visible; }
@@ -52,7 +52,8 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 .nav ul ul.menu_support { left: 32.8em; }
 .nav ul ul.menu_about { left: 35.2em; }
 
-.next_bg { background-color: #be9521; margin-bottom: 4em; }
+.next_bg { background-color: #be9521; /*margin-bottom: 4em;*/ }
+.next_bg_home { margin-bottom: 4em; }
 .next_concert { background-color: #fbbf13; position: relative; top: 15px; -moz-box-shadow: 5px 8px 8px #111; -webkit-box-shadow: 5px 8px 8px #111; box-shadow: 5px 8px 8px #111; overflow: auto; padding: 2em; }
 .image img { width: 45em; border: 10px solid white; -moz-border-radius: 0px; -moz-box-shadow: 4px 4px 8px rgba(0,0,0,.5); float: left;}
 .next_concert .description { float: right; width: 47em; z-index:2; }
@@ -87,7 +88,7 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 
 
 
-.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto; overflow: auto; margin-top: 2em; border: 1px solid #16584c;}
+.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto; overflow: auto; /*margin-top: 2em;*/ border: 1px solid #16584c;}
 .footer .col { color: white; }
 .footer span.offscreen { background: transparent url(footlogo.png) no-repeat 0 0; display: block; width: 241px; height: 71px; margin-top: 1em;  }
 .footer ul { margin:1em 0 0 0;padding:0;list-style-type:none;}
