@@ -22,8 +22,8 @@ urlpatterns = patterns('',
     (r'^season/events/(?P<slug>[-\w]+)/$', 'events.views.view_specific_event'),
 	(r'^locations/$', 'events.views.all_locations'),
 	(r'^locations/(?P<slug>[-\w]+)/$', 'events.views.single_location'),
-	(r'^soloists/$', 'events.views.all_soloists'),
-	(r'^soloists/(?P<slug>[-\w]+)/$', 'events.views.single_soloist'),
+	(r'^artists/$', 'events.views.all_soloists'),
+	(r'^artists/(?P<slug>[-\w]+)/$', 'events.views.single_soloist'),
     
     (r'^search/', include('haystack.urls')),
 
