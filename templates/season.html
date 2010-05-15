@@ -14,6 +14,9 @@
             <div class="vevent">
                 
                 <h4 class="summary">{{ event.name }}</h4>
+                {% if event.thumb %}
+                    <img src="/{{event.thumb.url}}" class="event_img" alt="event image"/>
+                {% endif %}                
                 <p class="dtstart" title='{{ event.date|date:"Y-m-d\TH:i:s" }}-05:00'>{{ event.date|date:"l, F jS Y" }} - 
                 {{ event.date|date:"g:i a" }}
                 {% if event.alt_time %}
@@ -34,7 +37,6 @@
                         <p class="soloist"><a href="{{s.get_absolute_url}}">{{s.name}}</a>{%if s.work%} &mdash; {{s.work}}{%endif%}</p>
                     {% endfor %}
                 {% endif %}
-                
                 {% if event.description %}
                     {{ event.description|safe }}
                 {% endif %}

@@ -41,6 +41,6 @@ if settings.DEBUG:
         (r'^site_media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here('site_media') }),
         (r'^images/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("site_media/images") }),
         
-        (r'^uploads/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("uploads") }),
+        (r'^uploads/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("site_media/uploads") }),
         (r'^model_imgs/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("site_media/model_imgs") }),
     )
