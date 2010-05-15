@@ -62,7 +62,8 @@ dd{ margin-left: 19em; }
 .next_bg { background-color: #be9521; /*margin-bottom: 4em;*/ }
 .next_bg_home { margin-bottom: 4em; }
 .next_concert { background-color: #fbbf13; position: relative; top: 15px; -moz-box-shadow: 5px 8px 8px #111; -webkit-box-shadow: 5px 8px 8px #111; box-shadow: 5px 8px 8px #111; overflow: auto; padding: 2em; }
-.image img { width: 45em; border: 10px solid white; -moz-border-radius: 0px; -moz-box-shadow: 4px 4px 8px rgba(0,0,0,.5); float: left;}
+.image { text-align: center; }
+.image img { border: 10px solid white; -moz-border-radius: 0px; -moz-box-shadow: 4px 4px 8px rgba(0,0,0,.5); float: left; }
 .next_concert .description { float: right; width: 47em; z-index:2; }
 
 
