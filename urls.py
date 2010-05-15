@@ -40,5 +40,7 @@ if settings.DEBUG:
     urlpatterns += patterns('',
         (r'^site_media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here('site_media') }),
         (r'^images/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("site_media/images") }),
+        
         (r'^uploads/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("uploads") }),
+        (r'^cache/(?P<path>.*)$', 'django.views.static.serve', {'document_root': here("site_media/cache") }),
     )

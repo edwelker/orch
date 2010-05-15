@@ -59,12 +59,11 @@ class Event(ImageModel):
     soloists = models.ManyToManyField("Soloist", blank=True)
     preconcert_discussion = models.OneToOneField('PreConcertDiscussion', blank=True, null=True)
 
-    image = models.ImageField(blank=True,null=True,upload_to='site_media/images/events',help_text="Optional, but highly recommended.")
+    image = models.ImageField(blank=True,null=True,upload_to='images/events',help_text="Optional, but highly recommended.")
     num_views = models.PositiveIntegerField(editable=False, default=0)
 	
     class IKOptions:
         spec_module = 'events.event_specs'
-        cache_dir = '..'
         image_field = 'image'
         save_count_as = 'num_views'
     
@@ -113,12 +112,11 @@ class Soloist(ImageModel):
     bio = models.TextField(blank=True, null=True, help_text="Artist Biography (Optional). Please wrap paragraphs in '&lt;p&gt;....&lt;/p&gt;'.")
     season = models.ManyToManyField(Season)
     slug = models.SlugField( unique=True, help_text='Suggested value is automatically generated from soloist name. Must be unique.')
-    image = models.ImageField(blank=True,null=True,upload_to='site_media/images/soloists',help_text="Upload an image for this artist. Optional.")
+    image = models.ImageField(blank=True,null=True,upload_to='images/soloists',help_text="Upload an image for this artist. Optional.")
     num_views = models.PositiveIntegerField(editable=False, default=0)
 	
     class IKOptions:
         spec_module = 'events.soloist_specs'
-        cache_dir = '.'
         image_field = 'image'
         save_count_as = 'num_views'
     
@@ -126,7 +124,7 @@ class Soloist(ImageModel):
         return self.name
         
     def get_absolute_url(self):
-        return "/soloists/%s/" % self.slug
+        return "/artists/%s/" % self.slug
     
     def search_result(self):
         return self.__unicode__()

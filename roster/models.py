@@ -23,12 +23,11 @@ class OrchestraMember(ImageModel):
 
     bio = models.TextField(blank=True,help_text="Wrap paragraphs in '&lt;p&gt;...&lt;/p&gt;'")
 
-    photo = models.ImageField(blank=True,null=True,upload_to='site_media/images/members')
+    photo = models.ImageField(blank=True,null=True,upload_to='images/members')
     num_views = models.PositiveIntegerField(editable=False, default=0)
 	
     class IKOptions:
         spec_module = 'roster.member_specs'
-        cache_dir = '.'
         image_field = 'photo'
         save_count_as = 'num_views'
     
