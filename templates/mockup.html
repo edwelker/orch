@@ -17,7 +17,7 @@
 	</div>
 		
 	<div class="main">
-		<div class="twocol">
+		<div class="col">
 			<h2>Meet the Orchestra</h2>
             {% block member %}{% endblock %}
 		</div>
@@ -45,10 +45,9 @@
 		</div>
 		
 		
-		<div class="col last">
+		<div class="twocol last">
 			<h2><a class="social youtube" href="http://www.youtube.com/user/colorch">Youtube</a></h2>
-
-            {% include "inc/youtube.html" %}
+            {% block youtube %}{% endblock %}
                 
 		</div>
 

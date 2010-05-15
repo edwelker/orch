@@ -79,12 +79,13 @@ dd{ margin-left: 19em; }
 .main { background-color: #fff; margin: 0 auto; border: 1px #efefef; overflow: auto; }
 .col { margin-right: 2%; width: 23.5%; float: left; }
 .twocol { width: 49%; margin-right: 2%; float: left; }
+.twocol object { margin: 0 auto; }
 .twocol .col { margin-right: 4%; width: 48%; float: left; }
 .twocol div.last, div.last  { margin:0;}
-.main h2 { color: #054f49; text-transform: uppercase; font-size: 2em; font-weight: normal; border-bottom: 1px solid #ccc; padding-bottom: .1em; }
+.main h2 { color: #054f49; text-transform: uppercase; font-size: 1.8em; font-weight: normal; border-bottom: 1px solid #ccc; padding-bottom: .1em; }
 .main h2 a { color: #054f49; text-decoration: none;  padding-top: .2em; }
 .main h2 a:hover { border-bottom: 1px dotted #054f49; }
-.main .member { font-size: 1.4em; font-weight: bold; margin-top:-.25em;}
+.main .member { font-size: 1.4em; font-weight: bold; } 
  
 .main  .social { padding-left: 2em; text-transform: capitalize; margin-bottom: .5em; padding-bottom: .2em; }
 .facebook { background: transparent url(facebook.png) no-repeat 0 0; }

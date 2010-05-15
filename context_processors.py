@@ -23,9 +23,10 @@ def latest_tweets( request ):
         for t in tweets:
             t.date = datetime.strptime( t.created_at, "%a %b %d %H:%M:%S +0000 %Y" )
             t.text = re.sub(pattern, replacement, t.text)
-        cache.set( 'tweets', tweets, settings.TWITTER_TIMEOUT )
     except:
         return HttpResponseServerError('Twitter failure')
+    
+    cache.set( 'tweets', tweets, settings.TWITTER_TIMEOUT )
 
     return {"tweets": tweets, "dates": dates}
 
@@ -45,8 +46,9 @@ def latest_facebook( request ):
             entry['published'] = parse(entry.published)
             entry['title'] = re.sub(pattern, replacement, entry.title)
             
-        cache.set( 'fb', fb, settings.TWITTER_TIMEOUT )    
     except:
         return HttpResponseServerError('Facebook failure')
+    
+    cache.set( 'fb', fb, settings.TWITTER_TIMEOUT )    
     
     return { 'fb': fb }

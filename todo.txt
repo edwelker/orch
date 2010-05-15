@@ -4,5 +4,4 @@ the soloists page... instead of vertical, maybe wrap them horizontally.
 howard county general logo - this concert
 tickets for next week.
 amazon link on homepage, if there is an elegant way
-Artists - add Jason and Randall and Brenda at the top of artists page.
-Partners - throw all fo the logos up at the top, and add the list below.
+Artists - (via "artistic tag" in model) add Jason and Randall and Brenda at the top of artists page.

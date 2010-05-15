@@ -1,18 +1,23 @@
 {% extends "mockup.html" %}
 
+{% block youtube %}
+    {% if primary_event.youtube_video %}
+        {{ primary_event.youtube_video|safe }}
+    {% else %}
+        {% include "inc/youtube.html" %}
+    {% endif %}
+{% endblock %}
+
+
 {% block member %}
     {% if member %}
-            <div class="col">
-                {% if member.display %}
-                <img src="{{member.thumb.url}}" alt="{{member.withinstrument}}"/>
-                {% endif %}
-            </div>
-            <div class="col last">
-                <p class="member">{{ member.fullmember }}</p>
-                <!--  member.bio|safe|truncatewords_html:120 -->
-                <p><a href="{{ member.get_absolute_url }}">Read more about {{member.first_name}}...</a></p>
-                <p><a href="/members/">Meet more of the orchestra...</a></p>
-            </div>
+        {% if member.display %}
+        <img src="{{member.thumb.url}}" alt="{{member.withinstrument}}"/>
+        {% endif %}
+        <p class="member">{{ member.fullmember }}</p>
+        <!--  member.bio|safe|truncatewords_html:120 -->
+        <p><a href="{{ member.get_absolute_url }}">Read more about {{member.first_name}}...</a></p>
+        <p><a href="/members/">Meet more of the orchestra...</a></p>
     {% else %}
         <p>No members found. Please add some members.</p>
     {% endif %}
@@ -44,9 +49,6 @@
                     {{e.talk_location}}.</p>
                     {% if e.sponsor %}
                         <p>The <a href="/preludes/">prelude series</a> is brought to you by {{e.sponsor}}.</p>
-                    {% endif %}
-                    {% if primary_event.youtube_video %}
-                        {{primary_event.youtube_video|safe}}
                     {% endif %}
                     </p>
                 {% endwith %}
