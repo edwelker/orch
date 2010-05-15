@@ -25,6 +25,7 @@ p.dtstart, p.location, p.tickets { margin: 0;}
 .search table ul { list-style-type: none; }
 div.soloist { overflow: auto; clear: both; border-bottom: 1px solid #ccc; margin-bottom: 1em; }
 div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
+pre { font-size: 1.4em; }
 
 dt{ width: 18em; float:left; clear: left; }
 dd{ margin-left: 19em; }
