@@ -39,7 +39,7 @@ def latest_facebook( request ):
 
     try:
         feed = feedparser.parse('http://www.facebook.com/feeds/page.php?format=atom10&id=211864312316')    
-        fb = feed['entries'][0:2]
+        fb = feed['entries'][0:1]
         #dates = [parse(d.published) for d in fb]
     
         for entry in fb:
