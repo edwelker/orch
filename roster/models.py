@@ -30,7 +30,7 @@ class OrchestraMember(ImageModel):
         spec_module = 'roster.member_specs'
         image_field = 'photo'
         save_count_as = 'num_views'
-        cache_dir = 'models_imgs'
+        cache_dir = 'model_imgs'
     
     noncurrent_member = models.BooleanField(help_text="Use to mark a member as former or not-current to temporarily remove from roster.")
 
