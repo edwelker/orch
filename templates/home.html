@@ -45,6 +45,9 @@
                     {% if e.sponsor %}
                         <p>The <a href="/preludes/">prelude series</a> is brought to you by {{e.sponsor}}.</p>
                     {% endif %}
+                    {% if primary_event.youtube_video %}
+                        {{primary_event.youtube_video|safe}}
+                    {% endif %}
                     </p>
                 {% endwith %}
                 {% endif %}
