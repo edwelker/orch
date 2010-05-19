@@ -1,11 +1,8 @@
-Concert with image, you click on the image, and it goes to the bio of the
 the soloists page... instead of vertical, maybe wrap them horizontally.
 howard county general logo - this concert
 amazon link on homepage, if there is an elegant way
 Artists - (via "artistic tag" in model) add Jason and Randall and Brenda at the top of artists page.
-young artists
 
 add other members to the roster
 cache timing on webfaction
 Smaller main image, and centered
-
