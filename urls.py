@@ -24,6 +24,8 @@ urlpatterns = patterns('',
 	(r'^locations/(?P<slug>[-\w]+)/$', 'events.views.single_location'),
 	(r'^artists/$', 'events.views.all_soloists'),
 	(r'^artists/(?P<slug>[-\w]+)/$', 'events.views.single_soloist'),
+
+    (r'^sponsors/$', 'sponsors.views.all'),
     
     (r'^search/', include('haystack.urls')),
 
