@@ -1,6 +1,5 @@
 from django.db import models
 from imagekit.models import ImageModel
-from django.contrib import admin
 
 # Create your models here.
 
@@ -24,4 +23,3 @@ class Sponsor(ImageModel):
     def get_absolute_url(self):
         return "/sponsors/%s/" % self.slug.lower()
 
-admin.site.register(Sponsor)

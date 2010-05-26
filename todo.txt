@@ -6,3 +6,5 @@ Artists - (via "artistic tag" in model) add Jason and Randall and Brenda at the 
 add other members to the roster
 cache timing on webfaction
 Smaller main image, and centered
+
+Gotta fix the overlap of season dates, and what to do about that

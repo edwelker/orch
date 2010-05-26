@@ -59,7 +59,7 @@ class Event(ImageModel):
     soloists = models.ManyToManyField("Soloist", blank=True)
     preconcert_discussion = models.OneToOneField('PreConcertDiscussion', blank=True, null=True)
     
-    
+    youtube_video = models.TextField(blank=True, null=True, help_text="The embed code from the youtube video")
 
     image = models.ImageField(blank=True,null=True,upload_to='src_imgs/events',help_text="Optional, but highly recommended.")
     num_views = models.PositiveIntegerField(editable=False, default=0)
@@ -99,7 +99,7 @@ class PreConcertDiscussion(models.Model):
     speaker = models.CharField(max_length=100)
     talk_location = models.CharField(max_length=200, help_text="Will be used in a sentence, '...at (time) in the (talk location).'")
     sponsor = models.CharField(max_length=150, blank=True, null=True, help_text="Optional. When added will add 'Brought to you by (sponsor name)' line to the Pre-concert discussion mention.")
-    
+    youtube_embed_code = models.TextField(blank=True, null=True, help_text="Just copy and paste the embed code from Youtube.")    
     def __unicode__(self):
         return self.event.name
     
