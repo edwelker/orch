@@ -18,12 +18,13 @@ urlpatterns = patterns('',
     (r'^members/(?P<first_name>.*)_(?P<last_name>.*)/$', 'orch.roster.views.member'),
     
     (r'^season/$', 'events.views.view_current_season'),
-	(r'^season/(?P<slug>[-\w]+)/$', 'events.views.view_season'),
+    (r'^seasons/$', 'events.views.all_seasons'),
+    (r'^seasons/(?P<slug>[-\w]+)/$', 'events.views.view_season'),
     (r'^season/events/(?P<slug>[-\w]+)/$', 'events.views.view_specific_event'),
-	(r'^locations/$', 'events.views.all_locations'),
-	(r'^locations/(?P<slug>[-\w]+)/$', 'events.views.single_location'),
-	(r'^artists/$', 'events.views.all_soloists'),
-	(r'^artists/(?P<slug>[-\w]+)/$', 'events.views.single_soloist'),
+    (r'^locations/$', 'events.views.all_locations'),
+    (r'^locations/(?P<slug>[-\w]+)/$', 'events.views.single_location'),
+    (r'^artists/$', 'events.views.all_soloists'),
+    (r'^artists/(?P<slug>[-\w]+)/$', 'events.views.single_soloist'),
 
     (r'^sponsors/$', 'sponsors.views.all'),
     

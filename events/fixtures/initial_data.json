@@ -1,16 +1,5 @@
 [
   {
-    "pk": 1, 
-    "model": "events.season", 
-    "fields": {
-      "startdate": "2009-08-01", 
-      "slug": "2009-2010_Season", 
-      "enddate": "2010-05-22", 
-      "name": "2009-2010 Season", 
-      "description": ""
-    }
-  }, 
-  {
     "pk": 2, 
     "model": "events.season", 
     "fields": {
@@ -18,6 +7,17 @@
       "slug": "2010-2011-season", 
       "enddate": "2011-06-05", 
       "name": "2010-2011 Season", 
+      "description": ""
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2009-08-01", 
+      "slug": "2009-2010_Season", 
+      "enddate": "2010-05-22", 
+      "name": "2009-2010 Season", 
       "description": ""
     }
   }, 
@@ -290,7 +290,7 @@
       "location": 1, 
       "alt_time": null, 
       "date": "2010-10-16 19:30:00", 
-      "num_views": 6, 
+      "num_views": 13, 
       "slug": "land-and-sea", 
       "soloists": [
         6
@@ -463,7 +463,7 @@
       "image": "src_imgs/soloists/s-carney.jpg", 
       "work": "Tchaikovsky Violin Concerto", 
       "instrument": "violin", 
-      "num_views": 0, 
+      "num_views": 1, 
       "slug": "jonathan-carney"
     }
   }, 
@@ -527,7 +527,7 @@
       "image": "src_imgs/soloists/Shafer.jpg", 
       "work": "Mozart Clarinet Concerto", 
       "instrument": "clarinet", 
-      "num_views": 5, 
+      "num_views": 6, 
       "slug": "jason-shafer"
     }
   }, 

@@ -9,3 +9,5 @@ Smaller main image, and centered
 
 Gotta fix the overlap of season dates, and what to do about that
 Multiple images for the first concert - also, a soloist and a standard image, or soloist and composer, etc.
+
+ordering of pieces per concert - lookup manytomany aux tables

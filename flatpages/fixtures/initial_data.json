@@ -210,6 +210,21 @@
     }
   }, 
   {
+    "pk": 20, 
+    "model": "flatpages.flatpage", 
+    "fields": {
+      "registration_required": false, 
+      "title": "Press Room", 
+      "url": "/press_room/", 
+      "template_name": "", 
+      "sites": [
+        1
+      ], 
+      "content": "<h2>Press Room</h2>\r\n\r\n<p>The Press Room will be updated for the 2010-2011 season shortly.</p>", 
+      "enable_comments": false
+    }
+  }, 
+  {
     "pk": 11, 
     "model": "flatpages.flatpage", 
     "fields": {

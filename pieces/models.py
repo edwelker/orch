@@ -11,6 +11,12 @@ class Piece(models.Model):
         else:
             return u"%s - %s" % (self.composer, self.title,)
 
+    def disp(self):
+        if self.movement:
+            return u"%s - %s, %s" % (self.composer.disp(), self.title, self.movement,)
+        else:
+            return u"%s - %s" % (self.composer.disp(), self.title,)
+
     class Meta:
         ordering = ['composer']
 
@@ -30,4 +36,13 @@ class Composer(models.Model):
         if self.other_composer:
             return u"%s" % self.other_composer
         else:
-            return u"%s, %s %s" % (self.last_name, self.first_name, self.middle_name)
+            return u"%s, %s %s" % (self.last_name, self.first_name, self.middle_name, )
+
+
+    def disp(self):
+         if self.other_composer:
+            return u"%s" % self.other_composer
+         else:
+            return u"%s %s %s" % (self.first_name, self.middle_name, self.last_name, )
+
+       

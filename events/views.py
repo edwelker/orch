@@ -13,13 +13,17 @@ def view_specific_event(request, slug):
     return render_to_response('single_event.html', {'event': event, 'season': season})
     
 def view_current_season(request):
-    curSeasonName, future, past = get_current_seasonEvents_and_Name()
-    return render_to_response('season.html', { 'future': future, 'past': past, 'seasonname': curSeasonName })
+    curSeasonName, events = get_current_seasonEvents_and_Name()
+    return render_to_response('season.html', { 'events': events, 'seasonname': curSeasonName })
     
 def view_season(request, slug):
     season = get_object_or_404(Season, slug=slug)
     events = Event.objects.filter(season__name__exact=season.name)
-    return render_to_response('season.html', { 'season': events, 'seasonname': season.name })
+    return render_to_response('season.html', { 'events': events, 'seasonname': season.name })
+
+def all_seasons(request):
+    seasons = Season.objects.all()
+    return render_to_response('seasons.html', { 'seasons': seasons })
     
 def all_locations(request):
     locations = Location.objects.filter()
@@ -69,9 +73,9 @@ def get_current_seasonEvents_and_Name():
     curSeason = Season.objects.filter(startdate__lte=today, enddate__gte=today)
     curSeason = Season() if (len(curSeason) == 0) else curSeason[0]
     curSeasonName = curSeason.name
-    future = Event.objects.filter(season__name__exact=curSeason.name, date__gte=today).order_by('date')
-    past = Event.objects.filter(season__name__exact=curSeason.name, date__lte=today).order_by('date')
-    return (curSeasonName, future, past)
+#    future = Event.objects.filter(season__name__exact=curSeason.name, date__gte=today).order_by('date')
+    events = Event.objects.filter(season__name__exact=curSeason.name)
+    return (curSeasonName, events)
     
 #little helpers
 def get_current_season():

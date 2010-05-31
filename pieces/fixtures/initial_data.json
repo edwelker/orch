@@ -1,101 +1,11 @@
 [
   {
-    "pk": 2, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 2, 
-      "title": "Motor City Dance Mix"
-    }
-  }, 
-  {
-    "pk": 3, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 3, 
-      "title": "Clarinet Concerto"
-    }
-  }, 
-  {
-    "pk": 4, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 4, 
-      "title": "La Mer"
-    }
-  }, 
-  {
-    "pk": 5, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 5, 
-      "title": "Fanfare for the Uncommon Woman"
-    }
-  }, 
-  {
     "pk": 6, 
     "model": "pieces.piece", 
     "fields": {
       "movement": "", 
       "composer": 6, 
       "title": "Butterfly Lovers Violin Concerto"
-    }
-  }, 
-  {
-    "pk": 7, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 7, 
-      "title": "The Planets"
-    }
-  }, 
-  {
-    "pk": 8, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 8, 
-      "title": "Festive Overture"
-    }
-  }, 
-  {
-    "pk": 9, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 9, 
-      "title": "Danzon No. 2"
-    }
-  }, 
-  {
-    "pk": 10, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 10, 
-      "title": "Pavane for a Dead Princess"
-    }
-  }, 
-  {
-    "pk": 11, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 11, 
-      "title": "Variations on a Theme by Haydn"
-    }
-  }, 
-  {
-    "pk": 12, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 12, 
-      "title": "Threnody to the Victims of Hiroshima"
     }
   }, 
   {
@@ -117,57 +27,12 @@
     }
   }, 
   {
-    "pk": 15, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 15, 
-      "title": "Music from The Creation"
-    }
-  }, 
-  {
     "pk": 16, 
     "model": "pieces.piece", 
     "fields": {
       "movement": "", 
       "composer": 16, 
       "title": "Overture to Egmont"
-    }
-  }, 
-  {
-    "pk": 17, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 17, 
-      "title": "Violin Concerto"
-    }
-  }, 
-  {
-    "pk": 18, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 18, 
-      "title": "Rite of Spring"
-    }
-  }, 
-  {
-    "pk": 19, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "Third Movement", 
-      "composer": 19, 
-      "title": "Symphony No. 1, \"Remembrance\""
-    }
-  }, 
-  {
-    "pk": 20, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 20, 
-      "title": "Hebrides Overture"
     }
   }, 
   {
@@ -180,21 +45,21 @@
     }
   }, 
   {
-    "pk": 22, 
+    "pk": 11, 
     "model": "pieces.piece", 
     "fields": {
       "movement": "", 
-      "composer": 22, 
-      "title": "Pines of Rome"
+      "composer": 11, 
+      "title": "Variations on a Theme by Haydn"
     }
   }, 
   {
-    "pk": 23, 
+    "pk": 4, 
     "model": "pieces.piece", 
     "fields": {
       "movement": "", 
-      "composer": 23, 
-      "title": "\"Malambo\" from Estancia "
+      "composer": 4, 
+      "title": "La Mer"
     }
   }, 
   {
@@ -207,30 +72,12 @@
     }
   }, 
   {
-    "pk": 25, 
+    "pk": 23, 
     "model": "pieces.piece", 
     "fields": {
       "movement": "", 
-      "composer": 25, 
-      "title": "Rush"
-    }
-  }, 
-  {
-    "pk": 26, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "", 
-      "composer": 10, 
-      "title": "Mother Goose Suite"
-    }
-  }, 
-  {
-    "pk": 27, 
-    "model": "pieces.piece", 
-    "fields": {
-      "movement": "Movement 1", 
-      "composer": 26, 
-      "title": "Violin Concerto in d minor"
+      "composer": 23, 
+      "title": "\"Malambo\" from Estancia "
     }
   }, 
   {
@@ -243,12 +90,75 @@
     }
   }, 
   {
-    "pk": 29, 
+    "pk": 15, 
     "model": "pieces.piece", 
     "fields": {
-      "movement": "Movement 3", 
-      "composer": 17, 
-      "title": "Violin Concerto"
+      "movement": "", 
+      "composer": 15, 
+      "title": "Music from The Creation"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 2, 
+      "title": "Motor City Dance Mix"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 7, 
+      "title": "The Planets"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "Third Movement", 
+      "composer": 19, 
+      "title": "Symphony No. 1, \"Remembrance\""
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 25, 
+      "title": "Rush"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 28, 
+      "title": "Symphony No. 1"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 20, 
+      "title": "Hebrides Overture"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 3, 
+      "title": "Clarinet Concerto"
     }
   }, 
   {
@@ -261,12 +171,102 @@
     }
   }, 
   {
-    "pk": 31, 
+    "pk": 9, 
     "model": "pieces.piece", 
     "fields": {
       "movement": "", 
-      "composer": 28, 
-      "title": "Symphony No. 1"
+      "composer": 9, 
+      "title": "Danzon No. 2"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 12, 
+      "title": "Threnody to the Victims of Hiroshima"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 10, 
+      "title": "Pavane for a Dead Princess"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 10, 
+      "title": "Mother Goose Suite"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 22, 
+      "title": "Pines of Rome"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 8, 
+      "title": "Festive Overture"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 18, 
+      "title": "Rite of Spring"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 17, 
+      "title": "Violin Concerto"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "Movement 3", 
+      "composer": 17, 
+      "title": "Violin Concerto"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 5, 
+      "title": "Fanfare for the Uncommon Woman"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "Movement 1", 
+      "composer": 26, 
+      "title": "Violin Concerto in d minor"
     }
   }, 
   {

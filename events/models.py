@@ -14,10 +14,10 @@ class Season(models.Model):
         return self.name
     
     class Meta:
-        ordering = ["startdate"]
+        ordering = ["-startdate"]
 
     def get_absolute_url(self):
-        return "/season/%s/" % self.slug
+        return "/seasons/%s/" % self.slug
     
 
 
