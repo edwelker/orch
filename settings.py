@@ -95,6 +95,7 @@ INSTALLED_APPS = (
     'orch.events',
     'orch.uploader',
     'orch.sponsors',
+    'orch.soloists',
     'orch.pieces',
     'orch.homepage_viewer',
     'django_extensions',
