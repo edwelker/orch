@@ -3,6 +3,7 @@
     "pk": 6, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 6, 
       "title": "Butterfly Lovers Violin Concerto"
@@ -12,6 +13,7 @@
     "pk": 13, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 13, 
       "title": "Harry Patch (In Memory Of)"
@@ -21,6 +23,7 @@
     "pk": 14, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 14, 
       "title": "\u201cBatter My Heart\u201d from Doctor Atomic"
@@ -30,6 +33,7 @@
     "pk": 16, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 16, 
       "title": "Overture to Egmont"
@@ -39,6 +43,7 @@
     "pk": 21, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 21, 
       "title": "Baal Shem"
@@ -48,6 +53,7 @@
     "pk": 11, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 11, 
       "title": "Variations on a Theme by Haydn"
@@ -57,6 +63,7 @@
     "pk": 4, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 4, 
       "title": "La Mer"
@@ -66,6 +73,7 @@
     "pk": 24, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 24, 
       "title": "The Noon Witch "
@@ -75,6 +83,7 @@
     "pk": 23, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 23, 
       "title": "\"Malambo\" from Estancia "
@@ -84,6 +93,7 @@
     "pk": 28, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 27, 
       "title": "Poem for Flute"
@@ -93,6 +103,7 @@
     "pk": 15, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 15, 
       "title": "Music from The Creation"
@@ -102,6 +113,7 @@
     "pk": 2, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 2, 
       "title": "Motor City Dance Mix"
@@ -111,6 +123,7 @@
     "pk": 7, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 7, 
       "title": "The Planets"
@@ -120,6 +133,7 @@
     "pk": 19, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "Third Movement", 
       "composer": 19, 
       "title": "Symphony No. 1, \"Remembrance\""
@@ -129,6 +143,7 @@
     "pk": 25, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 25, 
       "title": "Rush"
@@ -138,6 +153,7 @@
     "pk": 31, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 28, 
       "title": "Symphony No. 1"
@@ -147,6 +163,7 @@
     "pk": 20, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 20, 
       "title": "Hebrides Overture"
@@ -156,6 +173,7 @@
     "pk": 3, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 3, 
       "title": "Clarinet Concerto"
@@ -165,6 +183,7 @@
     "pk": 30, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 3, 
       "title": "Piano Concerto No. 20"
@@ -174,6 +193,7 @@
     "pk": 9, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 9, 
       "title": "Danzon No. 2"
@@ -183,6 +203,7 @@
     "pk": 12, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 12, 
       "title": "Threnody to the Victims of Hiroshima"
@@ -192,6 +213,7 @@
     "pk": 10, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 10, 
       "title": "Pavane for a Dead Princess"
@@ -201,6 +223,7 @@
     "pk": 26, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 10, 
       "title": "Mother Goose Suite"
@@ -210,6 +233,7 @@
     "pk": 22, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 22, 
       "title": "Pines of Rome"
@@ -219,6 +243,7 @@
     "pk": 8, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 8, 
       "title": "Festive Overture"
@@ -228,6 +253,7 @@
     "pk": 18, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 18, 
       "title": "Rite of Spring"
@@ -237,6 +263,7 @@
     "pk": 17, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 17, 
       "title": "Violin Concerto"
@@ -246,6 +273,7 @@
     "pk": 29, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "Movement 3", 
       "composer": 17, 
       "title": "Violin Concerto"
@@ -255,6 +283,7 @@
     "pk": 5, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "", 
       "composer": 5, 
       "title": "Fanfare for the Uncommon Woman"
@@ -264,6 +293,7 @@
     "pk": 27, 
     "model": "pieces.piece", 
     "fields": {
+      "soloist": [], 
       "movement": "Movement 1", 
       "composer": 26, 
       "title": "Violin Concerto in d minor"
