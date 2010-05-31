@@ -1,0 +1,569 @@
+[
+  {
+    "pk": 2, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 2, 
+      "title": "Motor City Dance Mix"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 3, 
+      "title": "Clarinet Concerto"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 4, 
+      "title": "La Mer"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 5, 
+      "title": "Fanfare for the Uncommon Woman"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 6, 
+      "title": "Butterfly Lovers Violin Concerto"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 7, 
+      "title": "The Planets"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 8, 
+      "title": "Festive Overture"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 9, 
+      "title": "Danzon No. 2"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 10, 
+      "title": "Pavane for a Dead Princess"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 11, 
+      "title": "Variations on a Theme by Haydn"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 12, 
+      "title": "Threnody to the Victims of Hiroshima"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 13, 
+      "title": "Harry Patch (In Memory Of)"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 14, 
+      "title": "\u201cBatter My Heart\u201d from Doctor Atomic"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 15, 
+      "title": "Music from The Creation"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 16, 
+      "title": "Overture to Egmont"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 17, 
+      "title": "Violin Concerto"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 18, 
+      "title": "Rite of Spring"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "Third Movement", 
+      "composer": 19, 
+      "title": "Symphony No. 1, \"Remembrance\""
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 20, 
+      "title": "Hebrides Overture"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 21, 
+      "title": "Baal Shem"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 22, 
+      "title": "Pines of Rome"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 23, 
+      "title": "\"Malambo\" from Estancia "
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 24, 
+      "title": "The Noon Witch "
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 25, 
+      "title": "Rush"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 10, 
+      "title": "Mother Goose Suite"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "Movement 1", 
+      "composer": 26, 
+      "title": "Violin Concerto in d minor"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 27, 
+      "title": "Poem for Flute"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "Movement 3", 
+      "composer": 17, 
+      "title": "Violin Concerto"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 3, 
+      "title": "Piano Concerto No. 20"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "pieces.piece", 
+    "fields": {
+      "movement": "", 
+      "composer": 28, 
+      "title": "Symphony No. 1"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "", 
+      "last_name": "", 
+      "middle_name": "", 
+      "other_composer": "Chen Gang / He Zhanhao"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "", 
+      "last_name": "", 
+      "middle_name": "", 
+      "other_composer": "Radiohead"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "John", 
+      "last_name": "Adams", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Ludwig", 
+      "last_name": "Beethoven", 
+      "middle_name": "van", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Ernest", 
+      "last_name": "Bloch", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Johannes ", 
+      "last_name": "Brahms", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Claude", 
+      "last_name": "Debussy", 
+      "middle_name": "", 
+      "other_composer": null
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Anton\u00edn", 
+      "last_name": "Dvo\u0159\u00e1k", 
+      "middle_name": "Leopold", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Alberto", 
+      "last_name": "Ginastera", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Charles", 
+      "last_name": "Griffes", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Franz", 
+      "last_name": "Haydn", 
+      "middle_name": "Joseph", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Jonathan", 
+      "last_name": "Holland", 
+      "middle_name": "Bailey", 
+      "other_composer": null
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Gustav", 
+      "last_name": "Holst", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Albert", 
+      "last_name": "Hurwit", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Jonathan", 
+      "last_name": "Leshnoff", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Gustav", 
+      "last_name": "Mahler", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Felix", 
+      "last_name": "Mendelssohn", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Wolfgang", 
+      "last_name": "Mozart", 
+      "middle_name": "Amadeus", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Arturo", 
+      "last_name": "M\u00e1rquez", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Krzystof", 
+      "last_name": "Penderecki", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Maurice", 
+      "last_name": "Ravel", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Ottorino", 
+      "last_name": "Respighi", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Dmitri", 
+      "last_name": "Shostakovich", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Igor", 
+      "last_name": "Stravinsky", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Pyotr", 
+      "last_name": "Tchaikovsky", 
+      "middle_name": "Ilyich", 
+      "other_composer": ""
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Joan", 
+      "last_name": "Tower", 
+      "middle_name": "", 
+      "other_composer": null
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "pieces.composer", 
+    "fields": {
+      "url": "", 
+      "first_name": "Henryk", 
+      "last_name": "Wieniawski", 
+      "middle_name": "", 
+      "other_composer": ""
+    }
+  }
+]
