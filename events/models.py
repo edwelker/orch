@@ -57,7 +57,6 @@ class Event(ImageModel):
     season = models.ForeignKey(Season)
     description = models.TextField(help_text="Description paragraphs (required). Please wrap all paragraphs in '&lt;p&gt;....&lt;/p&gt;'.")    
     slug = models.SlugField(unique=True, help_text='Suggested value is automatically generated from event name. Must be unique.')
-    soloists = models.ManyToManyField("Soloist", blank=True)
     preconcert_discussion = models.OneToOneField('PreConcertDiscussion', blank=True, null=True)
     
     pieces = models.ManyToManyField('pieces.Piece',blank=True,null=True)
@@ -106,34 +105,3 @@ class PreConcertDiscussion(models.Model):
     def __unicode__(self):
         return self.event.name
     
-    
-
-
-        
-class Soloist(ImageModel):
-    name = models.CharField(max_length=100, help_text="Artist Name.")
-    instrument = models.CharField(max_length=100, help_text="Artist Instrument.")
-    work = models.CharField(max_length=100, blank=True, null=True, help_text="The piece they're playing. Optional.")
-    bio = models.TextField(blank=True, null=True, help_text="Artist Biography (Optional). Please wrap paragraphs in '&lt;p&gt;....&lt;/p&gt;'.")
-    season = models.ManyToManyField(Season)
-    slug = models.SlugField( unique=True, help_text='Suggested value is automatically generated from soloist name. Must be unique.')
-    image = models.ImageField(blank=True,null=True,upload_to='src_imgs/soloists',help_text="Upload an image for this artist. Optional.")
-    num_views = models.PositiveIntegerField(editable=False, default=0)
-	
-    class IKOptions:
-        spec_module = 'events.soloist_specs'
-        image_field = 'image'
-        save_count_as = 'num_views'
-        cache_dir = 'model_imgs'
-    
-    def __unicode__(self):
-        return self.name
-        
-    def get_absolute_url(self):
-        return "/artists/%s/" % self.slug
-    
-    def search_result(self):
-        return self.__unicode__()
-
-    def type(self):
-        return "Soloist"

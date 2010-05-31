@@ -1,6 +1,7 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
-from events.models import Season, Location, Event, PreConcertDiscussion, Soloist
+from events.models import Season, Location, Event, PreConcertDiscussion
+from soloists.models import Soloist
 
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
@@ -23,8 +24,9 @@ urlpatterns = patterns('',
     (r'^season/events/(?P<slug>[-\w]+)/$', 'events.views.view_specific_event'),
     (r'^locations/$', 'events.views.all_locations'),
     (r'^locations/(?P<slug>[-\w]+)/$', 'events.views.single_location'),
-    (r'^artists/$', 'events.views.all_soloists'),
-    (r'^artists/(?P<slug>[-\w]+)/$', 'events.views.single_soloist'),
+
+    (r'^artists/$', 'soloists.views.all_soloists'),
+    (r'^artists/(?P<slug>[-\w]+)/$', 'soloists.views.single_soloist'),
 
     (r'^sponsors/$', 'sponsors.views.all'),
     

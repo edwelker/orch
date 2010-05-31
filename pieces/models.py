@@ -5,6 +5,8 @@ class Piece(models.Model):
     title = models.CharField(max_length=250)
     movement = models.CharField(blank=True,null=True,max_length=100, help_text="Optional")
     composer = models.ForeignKey("Composer")
+    soloist = models.ManyToManyField("soloists.Soloist", blank=True, null=True)
+    
     def __unicode__(self):
         if self.movement:
             return u"%s - %s, %s" % (self.composer, self.title, self.movement,)

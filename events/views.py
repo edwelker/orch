@@ -1,6 +1,6 @@
 from django.shortcuts import render_to_response, get_object_or_404
 import datetime
-from events.models import Event, Season, Location, Soloist
+from events.models import Event, Season, Location
 
 # Create your views here.
 def view_single_event(request):
