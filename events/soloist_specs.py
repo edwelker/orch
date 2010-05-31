@@ -6,7 +6,6 @@ from imagekit import processors
 class ResizeThumb(processors.Resize):
 	width = 140
 	height = 140
-	crop = True
 	
 class ResizeDisplay(processors.Resize):
     width = 460
