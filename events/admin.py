@@ -18,7 +18,7 @@ class EventAdmin(admin.ModelAdmin):
     list_display = ('name', 'date', 'location', 'season')
     list_filter = ('location', 'season')
     ordering = ['-date']
-    
+    filter_horizontal = ('pieces',)    
 
 admin.site.register(Event, EventAdmin)
 

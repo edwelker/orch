@@ -6,7 +6,13 @@ class Piece(models.Model):
     movement = models.CharField(blank=True,null=True,max_length=100, help_text="Optional")
     composer = models.ForeignKey("Composer")
     def __unicode__(self):
-        return "%s" % self.title
+        if self.movement:
+            return u"%s - %s, %s" % (self.composer, self.title, self.movement,)
+        else:
+            return u"%s - %s" % (self.composer, self.title,)
+
+    class Meta:
+        ordering = ['composer']
 
 class Composer(models.Model):
     first_name = models.CharField(blank=True,null=True,max_length=100)
@@ -22,6 +28,6 @@ class Composer(models.Model):
 
     def __unicode__(self):
         if self.other_composer:
-            return "%s" % self.other_composer
+            return u"%s" % self.other_composer
         else:
-            return "%s, %s %s" % (self.last_name, self.first_name, self.middle_name)
+            return u"%s, %s %s" % (self.last_name, self.first_name, self.middle_name)
