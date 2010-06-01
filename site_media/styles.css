@@ -47,7 +47,7 @@ dd{ margin-left: 19em; }
 .search_area { position: absolute; right: 20px; top: 7.5em; }
 .search_area input, .search_area button { height: 2em; border: 0; margin:0; }
 .search_area  input { background-color: #c1cfcf; -moz-border-radius: 4px 0 0 4px; width: 13em; height: 1.8em; padding: .3em 0 0 .3em;}
-.search_area button { background: transparent url(searchbg.png) repeat-x 0 0; -moz-border-radius: 0 4px 4px 0; height: 2.1em; position: relative; left: -.3em; top: .2em; color: #fff; font-weight:bold;}
+.search_area button { background: transparent url(searchbg.png) repeat-x 0 0; -moz-border-radius: 0 4px 4px 0; height: 2.1em; position: relative; left: -.3em; top: -.1em; top:.15em\9; *top:0em;  color: #fff; font-weight:bold;}
 
 .nav { background-color: #333; height: 46px;  text-align: center; }
 .nav ul { margin:0;padding:0;list-style-type:none; position: relative; top: 12px; overflow:visible; }
@@ -84,9 +84,9 @@ dd{ margin-left: 19em; }
 .col p, .col ul li a { font-size: 1.3em; }
 
 
-.main { background-color: #fff; margin: 0 auto; border: 1px #efefef; overflow: auto; }
-.col { margin-right: 2%; width: 23.5%; float: left; }
-.twocol { width: 49%; margin-right: 2%; float: left; }
+.main { background-color: #fff; margin: 0 auto; border: 1px #efefef; overflow: auto; *overflow:visible; }
+.col { margin-right: 2%; width: 23.5%; float: left; *zoom:1; *padding:1em 0; }
+.twocol { width: 49%; margin-right: 2%; float: left; *zooom:1; *padding: 1em 0; }
 .twocol object { margin: 0 auto; }
 .twocol .col { margin-right: 4%; width: 48%; float: left; }
 .twocol div.last, div.last  { margin:0;}
@@ -103,7 +103,7 @@ dd{ margin-left: 19em; }
 
 
 
-.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto; overflow: auto; /*margin-top: 2em; border: 1px solid #16584c; */}
+.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto; overflow: auto; *zoom:1; *overflow:visible;}
 .footer .col { color: white; }
 .footer span.offscreen { background: transparent url(footlogo.png) no-repeat 0 0; display: block; width: 241px; height: 71px; margin-top: 1em;  }
 .footer ul { margin:1em 0 0 0;padding:0;list-style-type:none;}
