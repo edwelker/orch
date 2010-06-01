@@ -25,7 +25,9 @@ p.dtstart, p.location, p.tickets { margin: 0;}
 .search table ul { list-style-type: none; }
 div.soloist { overflow: auto; clear: both; border-bottom: 1px solid #ccc; margin-bottom: 1em; }
 div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
+.piece_soloist{ font-style: italic; margin-left: 2em; }
 .program { margin: 1em; margin-left:2em; }
+.seasons{list-style-type:none; }
 
 pre { font-size: 1.4em; }
 

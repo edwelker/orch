@@ -19,6 +19,13 @@ class Piece(models.Model):
         else:
             return u"%s - %s" % (self.composer.disp(), self.title,)
 
+    def pretty(self):
+        if self.movement:
+            return u"%s, %s, by %s" % (self.title, self.movement, self.composer.disp(), )
+        else:
+            return u"%s, by %s" % (self.title, self.composer.disp(),)
+
+
     class Meta:
         ordering = ['composer']
 

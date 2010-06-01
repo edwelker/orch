@@ -29,3 +29,6 @@ class Soloist(ImageModel):
 
     def type(self):
         return "Soloist"
+
+    def with_instrument(self):
+        return "%s, %s" % (self.name, self.instrument,)

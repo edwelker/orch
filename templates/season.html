@@ -13,8 +13,20 @@
             <div class="vevent">
                 
                 <h4 class="summary">{{ event.name }}</h4>
-                {% if event.thumb %}
+                {% if event.thumb.url %}
                     <img src="/{{event.thumb.url}}" class="event_img" alt="event image"/>
+                    {% else %}
+
+                    <!-- this is so ugly, have to fix this ASAP!  -->
+                    {% if event.pieces.all %}
+                        {% for p in event.pieces.all %}
+                            {% for s in p.soloist.all %}
+                                {% if s.thumb.url %}
+                                    <a href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}                     
+                    {% endif %}
                 {% endif %}                
                 <p class="dtstart" title='{{ event.date|date:"Y-m-d\TH:i:s" }}-05:00'>{{ event.date|date:"l, F jS Y" }} - 
                 {{ event.date|date:"g:i a" }}
@@ -40,7 +52,14 @@
                 {% if event.pieces %}
                     <div class="program">
                     {% for p in event.pieces.all %}
-                    <div class="piece"> {{p.disp}} </div>
+                    <div class="piece"> 
+                        {{p.disp}} 
+                        {% if p.soloist %}
+                            {% for s in p.soloist.all %}
+                            <div class="piece_soloist">Featuring <a href="{{s.get_absolute_url}}">{{ s.with_instrument}}</a></div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
                     {% endfor %}
                     </div>
                 {% endif %}

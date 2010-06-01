@@ -6,7 +6,7 @@
 <div class="content">
 <h2>Historical Seasons</h2>
     {% if seasons %}
-        <ul>
+        <ul class="seasons">
         {% for s in seasons %}
             <li><a href="{{s.get_absolute_url}}">{{s}}</a></li>
         {% endfor %}

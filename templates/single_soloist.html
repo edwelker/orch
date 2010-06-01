@@ -6,13 +6,13 @@
 <div class="content">
     <h2>{{ soloist.name }}, {{ soloist.instrument }}</h2>
     
-    {% if soloist.work %}
-      <p>{{ soloist.work }}</p>
-    {% endif %}
-    
+    {% for p in pieces %}
+        <p>{{p.pretty}}</p>
+    {% endfor %}
+
     <p>
     {% for event in events %}
-    	<a href="{{ event.get_absolute_url }}">{{ event.name }}</a>, {{ event.date|date:"l, F jS Y" }}
+    	<a href="{{ event.season.get_absolute_url }}">{{ event.name }}</a>, {{ event.date|date:"l, F jS Y" }}
     {% endfor %}
     </p>
     

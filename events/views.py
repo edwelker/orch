@@ -19,6 +19,11 @@ def view_current_season(request):
 def view_season(request, slug):
     season = get_object_or_404(Season, slug=slug)
     events = Event.objects.filter(season__name__exact=season.name)
+    
+#    pieces = [e.pieces.all() for e in events if e.pieces]
+#    pieces = [piece for sublist in pieces for piece in sublist]
+
+
     return render_to_response('season.html', { 'events': events, 'seasonname': season.name })
 
 def all_seasons(request):
