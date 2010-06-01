@@ -25,4 +25,4 @@ class Thumbnail(ImageSpec):
 	
 class Display(ImageSpec):
 	increment_count = True
-	processors = [ResizeDisplay, EnchanceThumb]
+	processors = [ResizeDisplay, EnchanceDisplay]
