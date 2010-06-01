@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd /home/gbyo/webapps/columbia_orchestra;
+rm -rf orch;
+git clone git@github.com:edwelker/orch.git;
+restart;
+
+source /home/gbyo/vir/col/bin/activate;
+
+python /home/gbyo/webapps/columbia_orchestra/orch/manage.py syncdb;
+
+python /home/gbyo/webapps/columbia_orchestra/orch/manage.py update_index;
