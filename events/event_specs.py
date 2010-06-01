@@ -13,7 +13,6 @@ class ResizeDisplay(processors.Resize):
     
 	
 class EnchanceThumb(processors.Adjustment):
-	contrast = 1.2
 	sharpness = 1.2
 	
 class Thumbnail(ImageSpec):
