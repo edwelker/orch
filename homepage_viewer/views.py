@@ -5,6 +5,7 @@ from django.shortcuts import render_to_response
 import datetime
 import random
 from django.core.cache import cache
+from orch.events.views import get_current_season
 
 # Create your views here.
 
@@ -16,10 +17,30 @@ def home(request):
     m = get_member()
     p = get_primary()
     s = get_secondary()
-    
-    return render_to_response('home.html', {'member': m, 'primary_event': p, "secondary_event": s}, 
+
+    if((datetime.datetime.today() + datetime.timedelta(60)) < p.date):
+        season = get_season()
+        disp_season = True
+
+    if disp_season:
+        return render_to_response('home.html', {'member': m, 'season': season }, 
                               context_instance=RequestContext(request))
-   
+    else:
+        return render_to_response('home.html', {'member': m, 'primary_event': p, "secondary_event": s}, 
+                              context_instance=RequestContext(request))
+ 
+
+def get_season():
+    season = cache.get('season')
+
+    if season:
+        return season
+
+    season = get_current_season()
+
+    cache.set('season', season, CACHE_TIME )
+    return season
+
 
 def get_member():
     member = cache.get('member')

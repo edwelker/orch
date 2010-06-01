@@ -9,7 +9,7 @@ class ResizeThumb(processors.Resize):
 	
 class ResizeDisplay(processors.Resize):
     width = 460
-    height = 300 
+    height = 380 
 	
 class EnchanceThumb(processors.Adjustment):
 	contrast = 1.2

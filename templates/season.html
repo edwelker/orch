@@ -10,7 +10,7 @@
         
             {% if events %}
             {% for event in events %}
-            <div class="vevent">
+            <div class="vevent" id="{{event.slug}}">
                 
                 <h4 class="summary">{{ event.name }}</h4>
                 {% if event.thumb.url %}

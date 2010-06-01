@@ -4,7 +4,8 @@
     {% if primary_event.youtube_video %}
         {{ primary_event.youtube_video|safe }}
     {% else %}
-        {% include "inc/youtube.html" %}
+    <object width="470" height="385"><param name="movie" value="http://www.youtube.com/v/-ysTZ4TaCmQ&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/-ysTZ4TaCmQ&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="470" height="385"></embed></object>
+    <!-- {% include "inc/youtube.html" %} -->
     {% endif %}
 {% endblock %}
 
@@ -26,11 +27,25 @@
 {% block concert %}
     {% if primary_event.date %}
     <div class="primary">
-        {% if primary_event.display %}
-            <div class="image">
-                <img src="{{primary_event.display.url}}" alt="Event promo image"/>
+        <div class="image">
+                {% if primary_event.thumb.url %}
+                
+                    <img src="/{{primary_event.thumb.url}}" class="event_img" alt="event image"/>
+                
+                    {% else %}
+
+                    <!-- this is so ugly, have to fix this ASAP!  -->
+                    {% if primary_event.pieces.all %}
+                        {% for p in primary_event.pieces.all %}
+                            {% for s in p.soloist.all %}
+                                {% if s.display.url %}
+                                    <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}                     
+                    {% endif %}    
+                {% endif %}   
             </div>
-        {% endif %}
             <div class="description">
                 <h2>{{primary_event.name}}</h2>
                 <div>{{ primary_event.date|date:"l, F jS Y" }}</div>
@@ -58,10 +73,24 @@
             </div>
     </div>
     {% else %}
-        <p>No events found. Please add an event.</p>
+        {% if season %}
+        <div class="hp_season">
+            <h2>Presenting the {{season}}</h2>
+            <div class="image">
+                <img src="/site_media/photo.png"/>
+            </div>
+            <div class="description">
+            <ul class="concert">
+            {% for e in season.event_set.all %}
+                <li><a href="{{season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a> &mdash; <em>{{e.date|date:"l, F jS Y"}}</em></li>
+            {% endfor %}
+            </ul>
+            </div>
+        </div>
+        {% endif %}
     {% endif %}
     
-   
+<!--   
     {% if secondary_event.date %}
         <div class="secondary">
             <div class="description">
@@ -79,10 +108,10 @@
     {% else %}
         {%comment%}<p>No events found. Please add an event.</p>{%endcomment%}
     {% endif %}
-   
-    
+    -->
+
         
     <div class="description">
-        <p class="tickets">For advance tickets, please visit our Tickets page. Tickets will also be available at the door. <em>We are not equipped to process credit cards at the door; we are happy to accept cash or personal checks.</em></p>
+        <p class="tickets">For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door. <em>We are not equipped to process credit cards at the door; we are happy to accept cash or personal checks.</em></p>
     </div>    
 {% endblock %}
