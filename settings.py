@@ -102,6 +102,7 @@ INSTALLED_APPS = (
     'debug_toolbar',
     'haystack',
     'imagekit',
+    'django.contrib.databrowse',
 )
 
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
@@ -132,3 +133,15 @@ DEBUG_TOOLBAR_CONFIG = {
 HAYSTACK_SITECONF = 'orch.search_sites' 
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
 HAYSTACK_WHOOSH_PATH = here('orch_index')
+
+from django.contrib import databrowse
+from orch.events.models import Event, Season, Location
+from orch.pieces.models import Piece, Composer
+from orch.soloists.models import Soloist
+
+databrowse.site.register(Event)
+databrowse.site.register(Season)
+databrowse.site.register(Location)
+databrowse.site.register(Piece)
+databrowse.site.register(Composer)
+databrowse.site.register(Soloist)

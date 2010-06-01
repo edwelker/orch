@@ -3,6 +3,9 @@ from django.conf import settings
 from events.models import Season, Location, Event, PreConcertDiscussion
 from soloists.models import Soloist
 
+from django.contrib import databrowse
+from django.contrib.admin.views.decorators import staff_member_required
+
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
 
@@ -38,7 +41,7 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     (r'^admin/', include(admin.site.urls)),
-
+    (r'^databrowse/(.*)', staff_member_required(databrowse.site.root)),
 )
 
 if settings.DEBUG:
