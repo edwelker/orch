@@ -3,7 +3,9 @@
     "pk": 6, 
     "model": "pieces.piece", 
     "fields": {
-      "soloist": [], 
+      "soloist": [
+        7
+      ], 
       "movement": "", 
       "composer": 6, 
       "title": "Butterfly Lovers Violin Concerto"
@@ -43,7 +45,9 @@
     "pk": 21, 
     "model": "pieces.piece", 
     "fields": {
-      "soloist": [], 
+      "soloist": [
+        3
+      ], 
       "movement": "", 
       "composer": 21, 
       "title": "Baal Shem"
@@ -173,7 +177,9 @@
     "pk": 3, 
     "model": "pieces.piece", 
     "fields": {
-      "soloist": [], 
+      "soloist": [
+        6
+      ], 
       "movement": "", 
       "composer": 3, 
       "title": "Clarinet Concerto"
@@ -183,7 +189,9 @@
     "pk": 30, 
     "model": "pieces.piece", 
     "fields": {
-      "soloist": [], 
+      "soloist": [
+        1
+      ], 
       "movement": "", 
       "composer": 3, 
       "title": "Piano Concerto No. 20"
@@ -263,7 +271,9 @@
     "pk": 17, 
     "model": "pieces.piece", 
     "fields": {
-      "soloist": [], 
+      "soloist": [
+        2
+      ], 
       "movement": "", 
       "composer": 17, 
       "title": "Violin Concerto"

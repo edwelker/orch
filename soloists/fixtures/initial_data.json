@@ -21,7 +21,7 @@
       "image": "src_imgs/soloists/s-carney.jpg", 
       "work": "Tchaikovsky Violin Concerto", 
       "instrument": "violin", 
-      "num_views": 1, 
+      "num_views": 3, 
       "slug": "jonathan-carney"
     }
   }, 
@@ -34,7 +34,7 @@
       "image": "src_imgs/soloists/s-mutchnik.jpg", 
       "work": "Bloch Baal Shem", 
       "instrument": "violin", 
-      "num_views": 0, 
+      "num_views": 2, 
       "slug": "ronald-mutchnik"
     }
   }, 
@@ -73,7 +73,7 @@
       "image": "src_imgs/soloists/Shafer.jpg", 
       "work": "Mozart Clarinet Concerto", 
       "instrument": "clarinet", 
-      "num_views": 6, 
+      "num_views": 40, 
       "slug": "jason-shafer"
     }
   }, 
@@ -86,7 +86,7 @@
       "image": "src_imgs/soloists/QingLi.jpg", 
       "work": "Butterfly Lovers Concerto", 
       "instrument": "violin", 
-      "num_views": 1, 
+      "num_views": 14, 
       "slug": "qing-li"
     }
   }
