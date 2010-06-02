@@ -15,10 +15,14 @@
 		<h3><a href="{{ soloist.get_absolute_url }}">{{ soloist.name }}</a>, 
 		{{ soloist.instrument }}</h3>
 		<p>
+
+        <!--  TODO this REALLY needs to be removed -->
 		{% if soloist.work %}
 		  {{ soloist.work }}<br/>
 		{% endif %}
-        Concert: 
+        <!-- Concert:
+        {{events}}
+
 		{% for e in soloist.event_set.all %}
 		   <a href="{{e.get_absolute_url}}">{{ e.name }}</a>, {{e.date|date:"l, F jS Y"}} 
 		{% endfor %}

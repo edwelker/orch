@@ -13,8 +13,8 @@ div.subpage { padding: 20px; }
 .content h3.past, .content h3.future { font-size: 1.4em; font-weight: normal; }
 .content h4.summary { background-color: #fff; padding: 0; font-size: 1.8em; margin: .8em 0; }
 h4 { font-size: 1.3em; margin: 1em 0 .3em 0; }
-.member_detail img, .event_detail img { float: left; margin: 0 2em 2em 0; }
-.member_detail p:nth-of-type(1):first-letter, .event_detail p:nth-of-type(1):first-letter{ font-size: 1.8em; font-weight: bold; line-height: .6; }
+.member_detail img, .event_detail img, .soloist_detail img { float: left; margin: 0 2em 2em 0; }
+.member_detail p:nth-of-type(1):first-letter, .event_detail p:nth-of-type(1):first-letter, .soloist_detail p:nth-of-type(3):first-letter{ font-size: 1.8em; font-weight: bold; line-height: .6; }
 .member_list .group { float: left; margin-right: 3em; }
 .member_list ul {list-style-type:none; font-size:1.3em; padding-left:1.5em; margin:.3em 0;}
 .member_list h3 { margin: .5em 0 .3em;}

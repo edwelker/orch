@@ -7,7 +7,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Eddie Welker', 'eddie.welker@gmail.com'),
+    ('user', 'email@email.com'),
 )
 
 MANAGERS = ADMINS
@@ -102,7 +102,7 @@ INSTALLED_APPS = (
     'debug_toolbar',
     'haystack',
     'imagekit',
-    'django.contrib.databrowse',
+#    'django.contrib.databrowse',
 )
 
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS

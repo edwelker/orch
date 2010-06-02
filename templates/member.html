@@ -9,11 +9,15 @@
     <div class="member_detail">
     	<h2>{{ member.withinstrument }}</h2>
     	
-    	{% if member.display %}
+    	{% if member.display.url %}
     	   <img src="/{{member.display.url}}" alt="{{member}}"/>
     	{% endif %}
     	
     	{{ member.bio|safe }}
+
+        <p>
+            <a href="/members/">Meet more of the orchestra...</a>
+        </p>
 	</div>
 </div>
 {% endblock %}

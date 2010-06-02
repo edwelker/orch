@@ -12,8 +12,10 @@
 
 {% block member %}
     {% if member %}
-        {% if member.display %}
-        <img src="{{member.thumb.url}}" alt="{{member.withinstrument}}"/>
+        {% if member.display.url %}
+        <a href="{{member.get_absolute_url}}">
+            <img src="{{member.thumb.url}}" alt="{{member.withinstrument}}"/>
+        </a>
         {% endif %}
         <p class="member">{{ member.fullmember }}</p>
         <!--  member.bio|safe|truncatewords_html:120 -->
