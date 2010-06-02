@@ -72,6 +72,7 @@ dd{ margin-left: 19em; }
 
 
 .description h2, .hp_season h2 { font-size: 2.6em; text-shadow: 3px 3px 6px rgba(0,0,0,.4); margin-bottom: .4666em; padding-bottom: .4666em; border-bottom: 1px solid #9d7a17; border-bottom: 1px solid rgba(0,0,0,.3) }
+.hp_season h2 { margin-top: 0em; }
 .description div { font-size: 1.6em; }
 .description div.conductor { font-style: italic; }
 .description p { font-size: 1.3em; }
