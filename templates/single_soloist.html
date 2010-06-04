@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="content soloist_detail">
-    <h2>{{ soloist.name }}, {{ soloist.instrument }}</h2>
+    <h2>{{ soloist.name }} {{ soloist.instrument }}</h2>
     
     {% for p in pieces %}
         <p>{{p.pretty}}</p>

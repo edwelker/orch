@@ -1,0 +1,18 @@
+[
+  {
+    "pk": 1, 
+    "model": "uploader.file", 
+    "fields": {
+      "date": "2010-06-03 21:52:20", 
+      "file": "uploads/2010/interview-091017.mp3"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "uploader.file", 
+    "fields": {
+      "date": "2010-06-03 21:52:34", 
+      "file": "uploads/2010/wbjc_interview_may2010.mp3"
+    }
+  }
+]

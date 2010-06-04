@@ -73,7 +73,7 @@
       "image": "src_imgs/soloists/Shafer.jpg", 
       "work": "Mozart Clarinet Concerto", 
       "instrument": "clarinet", 
-      "num_views": 40, 
+      "num_views": 45, 
       "slug": "jason-shafer"
     }
   }, 
@@ -86,7 +86,7 @@
       "image": "src_imgs/soloists/QingLi.jpg", 
       "work": "Butterfly Lovers Concerto", 
       "instrument": "violin", 
-      "num_views": 14, 
+      "num_views": 18, 
       "slug": "qing-li"
     }
   }

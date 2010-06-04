@@ -12,16 +12,6 @@
     }
   }, 
   {
-    "pk": 13, 
-    "model": "pieces.piece", 
-    "fields": {
-      "soloist": [], 
-      "movement": "", 
-      "composer": 13, 
-      "title": "Harry Patch (In Memory Of)"
-    }
-  }, 
-  {
     "pk": 14, 
     "model": "pieces.piece", 
     "fields": {
@@ -317,7 +307,7 @@
       "first_name": "", 
       "last_name": "", 
       "middle_name": "", 
-      "other_composer": "Chen Gang / He Zhanhao"
+      "other_composer": "Chen Gang and He Zhanhao"
     }
   }, 
   {

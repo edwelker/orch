@@ -14,16 +14,16 @@ Event Locations
 			<div class="street-address">{{ location.address }}</div>
 			<span class="locality">{{ location.city }}</span> <span class="region">{{ location.state }}</span>, <span class="postal-code">{{ location.zip }}</span>
 			<br/>
-		<a href="{{ location.url }}">Google Maps directions to {{ location.name }}</a>
+		<a href="{{ location.url }}" target="_blank">Google Maps directions to {{ location.name }}</a>
 		{% if location.alt_url %}
 		<br/>
-			<a href="{{ location.alt_url }}">Website directions</a>
+			<a href="{{ location.alt_url }}" target="_blank">Website directions</a>
 		{% endif %}
 		</div>
 	</div>
 	{% endfor %}
 	
 	<h3>Free Senior Transportation</h3>
-<p>The Columbia Senior Transportation Service, funded by the Columbia Association, provides free door-to-door transportation to concerts and other events via URTA vans and mini-buses. Telephone your request 24 hours in advance of the concert. If you need a wheelchair lift, please mention this when you call. To request a ride or get information, please call (410) 715-3087.</p>
+<p>The Columbia Senior Transportation Service, funded by the Columbia Association, provides free door-to-door transportation to concerts and other events via URTA vans and mini-buses. Telephone your request 24 hours in advance of the concert. If you need a wheelchair lift, please mention this when you call. To request a ride or get information, please call 410-715-3087.</p>
 </div>
 {% endblock %}
