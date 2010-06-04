@@ -9,7 +9,7 @@ from orch.events.views import get_current_season
 
 # Create your views here.
 
-CACHE_TIME = 3600
+CACHE_TIME = 300
 
 def home(request):
     '''get an event and member to display on the homepage. objects cached for an hour'''
