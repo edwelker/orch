@@ -1,6 +1,7 @@
 from django.db import models
 from imagekit.models import ImageModel
 from orch.pieces.models import Piece
+from sortedm2m.fields import SortedManyToManyField
 
 # Create your models here.
 class Season(models.Model):
@@ -59,7 +60,7 @@ class Event(ImageModel):
     slug = models.SlugField(unique=True, help_text='Suggested value is automatically generated from event name. Must be unique.')
     preconcert_discussion = models.OneToOneField('PreConcertDiscussion', blank=True, null=True)
     
-    pieces = models.ManyToManyField('pieces.Piece',blank=True,null=True)
+    pieces = SortedManyToManyField('pieces.Piece',blank=True,null=True)
     
     youtube_video = models.TextField(blank=True, null=True, help_text="The embed code from the youtube video")
 

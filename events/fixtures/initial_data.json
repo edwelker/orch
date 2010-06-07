@@ -75,11 +75,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        16, 
-        18, 
-        17
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2009-10-17 19:30:00", 
@@ -100,7 +95,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
       "location": 2, 
       "alt_time": null, 
       "date": "2009-11-08 15:00:00", 
@@ -121,12 +115,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        21, 
-        19, 
-        20, 
-        22
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2009-12-12 20:00:00", 
@@ -147,7 +135,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
       "location": 1, 
       "alt_time": "15:00:00", 
       "date": "2010-01-09 12:30:00", 
@@ -168,7 +155,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-02-27 19:30:00", 
@@ -189,15 +175,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        24, 
-        23, 
-        28, 
-        25, 
-        26, 
-        29, 
-        27
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-03-27 19:30:00", 
@@ -218,7 +195,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
       "location": 2, 
       "alt_time": null, 
       "date": "2010-04-17 19:30:00", 
@@ -239,7 +215,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
       "location": 2, 
       "alt_time": null, 
       "date": "2010-05-08 19:30:00", 
@@ -260,10 +235,6 @@
       "image": "src_imgs/events/Hsiu-Hui_Wang.jpg", 
       "ticket_link": "", 
       "preconcert_discussion": 1, 
-      "pieces": [
-        31, 
-        30
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-05-22 19:30:00", 
@@ -284,11 +255,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        4, 
-        2, 
-        3
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-10-16 19:30:00", 
@@ -309,11 +275,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        6, 
-        7, 
-        5
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-12-04 19:30:00", 
@@ -334,7 +295,7 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+       
       "location": 1, 
       "alt_time": "15:00:00", 
       "date": "2011-01-08 12:30:00", 
@@ -355,7 +316,7 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+       
       "location": 1, 
       "alt_time": null, 
       "date": "2011-02-12 19:30:00", 
@@ -376,12 +337,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        11, 
-        9, 
-        10, 
-        8
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2011-03-26 19:30:00", 
@@ -402,11 +357,6 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        14, 
-        15, 
-        12
-      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2011-06-04 19:30:00", 
