@@ -50,7 +50,7 @@
             </div>
             <div class="description">
                 <h2>{{primary_event.name}}</h2>
-                <div>{{ primary_event.date|date:"l, F jS Y" }}</div>
+                <div>{{ primary_event.date|date:"l, F j, Y" }}</div>
                 
                 <div>{{ primary_event.date|date:"g:i a" }}{%if primary_event.alt_time%} &amp; {{primary_event.alt_time|time:"g:i a"}}{%endif%}, 
                 
@@ -84,7 +84,7 @@
             <div class="description">
             <ul class="concert">
             {% for e in season.event_set.all %}
-                <li><a href="{{season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a> &mdash; <em>{{e.date|date:"l, F jS Y"}}</em></li>
+                <li><a href="{{season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a> &mdash; <em>{{e.date|date:"l, F j, Y"}}</em></li>
             {% endfor %}
             </ul>
             </div>
@@ -97,7 +97,7 @@
         <div class="secondary">
             <div class="description">
                 <h2>{{secondary_event.name}}</h2>
-                <div>{{ secondary_event.date|date:"l, F jS Y" }}</div>
+                <div>{{ secondary_event.date|date:"l, F j, Y" }}</div>
                 <div>{{ secondary_event.date|date:"g:i a" }}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a></div>
                 {{ secondary_event.description|safe }}
             </div>

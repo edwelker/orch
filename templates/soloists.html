@@ -24,7 +24,7 @@
         {{events}}
 
 		{% for e in soloist.event_set.all %}
-		   <a href="{{e.get_absolute_url}}">{{ e.name }}</a>, {{e.date|date:"l, F jS Y"}} 
+		   <a href="{{e.get_absolute_url}}">{{ e.name }}</a>, {{e.date|date:"l, F j, Y"}} 
 		{% endfor %}
 		</p>
 	</div>
