@@ -30,6 +30,8 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 .program { margin: 1em; margin-left:2em; }
 .seasons{list-style-type:none; }
 .history img { clear:right; }
+.partners_logos a img{ margin: .7em 1em; }
+pre.schedule { font-family: verdana, sans-serif; }
 
 pre { font-size: 1.4em; }
 
