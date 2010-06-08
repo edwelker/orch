@@ -102,6 +102,7 @@ INSTALLED_APPS = (
     'debug_toolbar',
     'haystack',
     'imagekit',
+    'south',
 #    'django.contrib.databrowse',
 )
 

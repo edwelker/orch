@@ -35,6 +35,8 @@ class Composer(ImageModel):
     middle_name = models.CharField(blank=True,null=True,max_length=100)
     last_name = models.CharField(blank=True,null=True,max_length=100)
 
+    bio = models.TextField(blank=True,null=True,help_text="Optional, but please wrap paragraphs in '&lt;p&gt;...&lt;/p&gt;'.")
+
     other_composer = models.CharField(blank=True,null=True,max_length=100, help_text="For cases where composer is 'Traditional' or something not following the First Middle Last name pattern.")
 
     photo = models.ImageField(blank=True,null=True,upload_to='src_imgs/composers',help_text="Optional.")

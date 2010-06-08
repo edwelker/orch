@@ -303,6 +303,7 @@
     "pk": 6, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "", 
       "last_name": "", 
       "middle_name": "", 
@@ -316,6 +317,7 @@
     "pk": 13, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "", 
       "last_name": "", 
       "middle_name": "", 
@@ -329,6 +331,7 @@
     "pk": 14, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "John", 
       "last_name": "Adams", 
       "middle_name": "", 
@@ -342,6 +345,7 @@
     "pk": 16, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Ludwig", 
       "last_name": "Beethoven", 
       "middle_name": "van", 
@@ -355,6 +359,7 @@
     "pk": 21, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Ernest", 
       "last_name": "Bloch", 
       "middle_name": "", 
@@ -368,6 +373,7 @@
     "pk": 11, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Johannes ", 
       "last_name": "Brahms", 
       "middle_name": "", 
@@ -381,6 +387,7 @@
     "pk": 4, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Claude", 
       "last_name": "Debussy", 
       "middle_name": "", 
@@ -394,6 +401,7 @@
     "pk": 24, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Anton\u00edn", 
       "last_name": "Dvo\u0159\u00e1k", 
       "middle_name": "Leopold", 
@@ -407,6 +415,7 @@
     "pk": 23, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Alberto", 
       "last_name": "Ginastera", 
       "middle_name": "", 
@@ -420,6 +429,7 @@
     "pk": 27, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Charles", 
       "last_name": "Griffes", 
       "middle_name": "", 
@@ -433,6 +443,7 @@
     "pk": 15, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Franz", 
       "last_name": "Haydn", 
       "middle_name": "Joseph", 
@@ -446,6 +457,7 @@
     "pk": 2, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Jonathan", 
       "last_name": "Holland", 
       "middle_name": "Bailey", 
@@ -459,6 +471,7 @@
     "pk": 7, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Gustav", 
       "last_name": "Holst", 
       "middle_name": "", 
@@ -472,6 +485,7 @@
     "pk": 19, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Albert", 
       "last_name": "Hurwit", 
       "middle_name": "", 
@@ -485,6 +499,7 @@
     "pk": 25, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Jonathan", 
       "last_name": "Leshnoff", 
       "middle_name": "", 
@@ -498,6 +513,7 @@
     "pk": 28, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Gustav", 
       "last_name": "Mahler", 
       "middle_name": "", 
@@ -511,6 +527,7 @@
     "pk": 20, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Felix", 
       "last_name": "Mendelssohn", 
       "middle_name": "", 
@@ -524,6 +541,7 @@
     "pk": 3, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Wolfgang", 
       "last_name": "Mozart", 
       "middle_name": "Amadeus", 
@@ -537,6 +555,7 @@
     "pk": 9, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Arturo", 
       "last_name": "M\u00e1rquez", 
       "middle_name": "", 
@@ -550,6 +569,7 @@
     "pk": 12, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Krzystof", 
       "last_name": "Penderecki", 
       "middle_name": "", 
@@ -563,6 +583,7 @@
     "pk": 10, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Maurice", 
       "last_name": "Ravel", 
       "middle_name": "", 
@@ -576,6 +597,7 @@
     "pk": 22, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Ottorino", 
       "last_name": "Respighi", 
       "middle_name": "", 
@@ -589,6 +611,7 @@
     "pk": 8, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Dmitri", 
       "last_name": "Shostakovich", 
       "middle_name": "", 
@@ -602,6 +625,7 @@
     "pk": 18, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Igor", 
       "last_name": "Stravinsky", 
       "middle_name": "", 
@@ -615,6 +639,7 @@
     "pk": 17, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Pyotr", 
       "last_name": "Tchaikovsky", 
       "middle_name": "Ilyich", 
@@ -628,6 +653,7 @@
     "pk": 5, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Joan", 
       "last_name": "Tower", 
       "middle_name": "", 
@@ -641,6 +667,7 @@
     "pk": 26, 
     "model": "pieces.composer", 
     "fields": {
+      "bio": null, 
       "first_name": "Henryk", 
       "last_name": "Wieniawski", 
       "middle_name": "", 
