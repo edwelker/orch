@@ -61,10 +61,9 @@ class Event(ImageModel):
     preconcert_discussion = models.OneToOneField('PreConcertDiscussion', blank=True, null=True)
     
     pieces = SortedManyToManyField('pieces.Piece',blank=True,null=True)
+    soloists = models.ManyToManyField('soloists.Soloist',blank=True,null=True,help_text="ONLY use this when a soloist is not performing a specific piece listed on event... for example, random pops pieces, etc.")
     
-    youtube_video = models.TextField(blank=True, null=True, help_text="The embed code from the youtube video")
-
-    image = models.ImageField(blank=True,null=True,upload_to='src_imgs/events',help_text="Optional, but highly recommended.")
+    image = models.ImageField(blank=True,null=True,upload_to='src_imgs/events',help_text="Optional. Soloist and composer images will take presidence over this image.")
     num_views = models.PositiveIntegerField(editable=False, default=0)
 	
     class IKOptions:

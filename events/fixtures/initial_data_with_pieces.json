@@ -70,17 +70,20 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Jonathan Carney & The Rite of Spring", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+      "pieces": [
+        16,
+        17, 
+        18
+      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2009-10-17 19:30:00", 
       "num_views": 0, 
       "slug": "jonathan-carney-rite-spring", 
-      "soloists": [], 
       "description": "<p>Over 100 musicians take the stage as the orchestra brings you three of the most inspired pieces of music ever conceived! Beethoven was considered mad by his contemporaries\u2026Tchaikovsky\u2019s Concerto was deemed unplayable\u2026The French police couldn\u2019t stop the riot at Stravinsky\u2019s premiere\u2026But today these incredible works stand among the greatest of the Classical, Romantic, and Twentieth-Century masterpieces.</p>"
     }
   }, 
@@ -91,7 +94,7 @@
       "alt_date": null, 
       "status": 2, 
       "name": "Chamber Concert", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -101,7 +104,6 @@
       "date": "2009-11-08 15:00:00", 
       "num_views": 0, 
       "slug": "chamber-concert1", 
-      "soloists": [], 
       "description": "<p>Join members of the orchestra for a FREE chamber program including Dvorak's Sextet for Strings, Corelli's Christmas Concerto, Poulenc's Sextet for Piano and Winds and more!</p>"
     }
   }, 
@@ -112,17 +114,21 @@
       "alt_date": null, 
       "status": 1, 
       "name": "A Time and Place", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+      "pieces": [
+        19, 
+        20, 
+        21, 
+        22
+      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2009-12-12 20:00:00", 
       "num_views": 0, 
       "slug": "time-and-place", 
-      "soloists": [], 
       "description": "<p>From the craggy rocks of the Scottish islands in Mendelssohn\u2019s overture to Respighi\u2019s triumphant trumpets of ancient Rome, join us as we explore four exotic musical landscapes. Commemorate the 50th anniversary of Bloch's death with local virtuoso Ronald Mutchnik in an exploration of Chassidic life, and then hear the premiere of Albert Hurwit\u2019s winning work in the orchestra\u2019s fourth American Composer Competition, inspired by his family\u2019s migration during the Jewish Diaspora and the Holocaust. Don\u2019t miss our pre-concert lecture with the composer in attendance!</p>\r\n\r\n<p>Featuring the winner of the American Composer Competition, Albert Hurwit. </p>"
     }
   }, 
@@ -133,7 +139,7 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Young People's Concert", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -143,7 +149,6 @@
       "date": "2010-01-09 12:30:00", 
       "num_views": 0, 
       "slug": "young-peoples-concert", 
-      "soloists": [], 
       "description": "<p>One of our most popular events! Narrated tales including <i>Casey at the Bat</i> teach children about the instruments of the orchestra and more. Choose either the 12:30 or 3:00 concert and try your hand at playing one of the instruments from the concert at our Musical Instrument Petting Zoo, sponsored by our friends at Music & Arts. </p>"
     }
   }, 
@@ -154,7 +159,7 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Symphonic Pops", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -164,7 +169,6 @@
       "date": "2010-02-27 19:30:00", 
       "num_views": 0, 
       "slug": "symphonic-pops", 
-      "soloists": [], 
       "description": "<p>What do you get when you bring together Broadway shows like Les Miserables and Gypsy, the songs of Simon & Garfunkel, Celtic classics including music from Lord of the Dance, and combine it with great film scores? It\u2019s an evening the whole family will not forget! Featuring Theresa Bickham, soprano, Neil Ewachiw, baritone, and members of the Teelin Irish Dance Company. </p>"
     }
   }, 
@@ -175,17 +179,24 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Short Stories", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+      "pieces": [
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29
+      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-03-27 19:30:00", 
       "num_views": 0, 
       "slug": "short-stories", 
-      "soloists": [], 
       "description": "<p>Definitely one for the whole family! Symphonies may be long like novels, but great music often comes in smaller packages. Each of these Argentinian, Czech, French, and American stories has a flavor all its own. Maryland composer Jonathan Leshnoff is gaining international renown, and his <i>Rush</i> will sweep you off your feet! Plus, performances by the young maestros who win our Young Artist Competition are a highlight to the season.</p>\r\n\r\n<p>This concert sponsored in part by a generous contribution from PNC.</p>"
     }
   }, 
@@ -196,7 +207,7 @@
       "alt_date": null, 
       "status": 2, 
       "name": "Chamber Concert", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -206,7 +217,6 @@
       "date": "2010-04-17 19:30:00", 
       "num_views": 0, 
       "slug": "chamber-concert3", 
-      "soloists": [], 
       "description": "<p>You'll love hearing members of the orchestra up close and personal in this intimate setting! This concert includes highlights from Mendelssohn's glorious Octet, Dvorak's G Major Quintet, a Mozart String Quartet, and the return of the bassoon quartet! This is a free concert (donations accepted) and a wonderful way to hear our players featured in small ensembles. </p>"
     }
   }, 
@@ -217,7 +227,7 @@
       "alt_date": null, 
       "status": 2, 
       "name": "Chamber Concert", 
-      "season": 1, 
+            "season": 1, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -227,7 +237,6 @@
       "date": "2010-05-08 19:30:00", 
       "num_views": 0, 
       "slug": "chamber-concert", 
-      "soloists": [], 
       "description": "<p>Concertmaster Brenda Anna, violin, pianist Nancy Smith, and Music Director Jason Love, cello, bring you three masterworks with a decidedly ethnic flavor! Swiss composer Frank Martin brings a multicultural twist to his <em>Trio on Irish Folk Songs</em> while Zoltan Kodaly explores the traditions of his Hungarian homeland in the virtuosic <em>Duo for Violin and Cello</em>. The program closes in the great Austrian tradition with Schubert's tuneful B-Flat Major Trio. Free admission (donations accepted).</p>"
     }
   }, 
@@ -238,17 +247,19 @@
       "alt_date": null, 
       "status": 1, 
       "name": "The Titans", 
-      "season": 1, 
+            "season": 1, 
       "image": "src_imgs/events/Hsiu-Hui_Wang.jpg", 
       "ticket_link": "", 
       "preconcert_discussion": 1, 
-      "pieces": [], 
+      "pieces": [
+        30, 
+        31
+      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-05-22 19:30:00", 
       "num_views": 5, 
       "slug": "titans", 
-      "soloists": [], 
       "description": "<p>What a way to celebrate Mahler\u2019s 150th! We pull out all the stops in Mahler\u2019s most popular symphony, an emotional crown jewel in the Romantic tradition. But first, Gemini Trio pianist and Howard Community College faculty member Hsiu-Hui Wang captures both the stormy and profound moods of one of Mozart\u2019s most cherished works. </p>"
     }
   }, 
@@ -259,7 +270,7 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Land and Sea", 
-      "season": 2, 
+            "season": 2, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -273,7 +284,6 @@
       "date": "2010-10-16 19:30:00", 
       "num_views": 22, 
       "slug": "land-and-sea", 
-      "soloists": [], 
       "description": "<p>The Columbia Orchestra bursts out in full color with Debussy\u2019s impressionistic masterpiece! Jason Shafer, the Orchestra\u2019s 2003 Young Artist Competition winner now playing in Florida\u2019s New World Symphony, brings his virtuosity to one of Mozart\u2019s last and most beautiful concertos. Begin the journey with a young African-American composer\u2019s jazzy celebration of Detroit\u2019s automotive history and its world-class orchestra. </p>"
     }
   }, 
@@ -284,17 +294,20 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Earth and Sky", 
-      "season": 2, 
+            "season": 2, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+      "pieces": [
+        5, 
+        6, 
+        7
+      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-12-04 19:30:00", 
       "num_views": 0, 
       "slug": "earth-and-sky", 
-      "soloists": [], 
       "description": "<p>Over a hundred musicians take the stage for Holst\u2019s unforgettable depictions not just of the planets themselves, but the human emotions and passions represented by the gods for which they are named. First, Baltimore Symphony violinist Qing Li joins the orchestra for a ravishing, romantic score based on an ancient Chinese legend, and our marvelous brass and percussion sections shine in Joan Tower\u2019s fanfare. </p>"
     }
   }, 
@@ -305,7 +318,7 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Peter and the Wolf ... and Friends", 
-      "season": 2, 
+            "season": 2, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -315,7 +328,6 @@
       "date": "2011-01-08 12:30:00", 
       "num_views": 0, 
       "slug": "peter-and-wolf-and-friends", 
-      "soloists": [], 
       "description": "<p>Not only is this a fun introduction to the instruments of orchestra for younger students, older kids will enjoy learning more in a fun environment about how music is put together. The orchestra is joined by the marvelous performers of Kinetics Dance Theatre for Prokofiev\u2019s immortal Peter and the Wolf, and kids will love a chance to try out many musical instruments at our Petting Zoo sponsored by Music & Arts held between our two concerts.</p>"
     }
   }, 
@@ -326,7 +338,7 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Symphonic Pops", 
-      "season": 2, 
+            "season": 2, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
@@ -336,7 +348,6 @@
       "date": "2011-02-12 19:30:00", 
       "num_views": 0, 
       "slug": "symphonic-pops-2011", 
-      "soloists": [], 
       "description": "<p>Broadway\u2019s greatest hits, blockbusters from the silver screen, and a \u201cSalute to Sammy\u201d with local song-stylist Stan Gilmer highlight one of our most popular, family-friendly events.</p>"
     }
   }, 
@@ -347,17 +358,21 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Young and Eclectic", 
-      "season": 2, 
+            "season": 2, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+      "pieces": [
+        8, 
+        9, 
+        10, 
+        11
+      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2011-03-26 19:30:00", 
       "num_views": 0, 
       "slug": "young-and-eclectic", 
-      "soloists": [], 
       "description": "<p>A thrilling concert for the classical connoisseur, musical novices, and kids of all ages. We\u2019re bringing together several works that don\u2019t have to be long to be inspirational! And the jaw-dropping talent of the virtuosos who win our competition will help us complete this exotic journey around the globe. </p>"
     }
   }, 
@@ -368,17 +383,20 @@
       "alt_date": null, 
       "status": 1, 
       "name": "Creation and Destruction", 
-      "season": 2, 
+            "season": 2, 
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+      "pieces": [
+        12, 
+        14, 
+        15
+      ], 
       "location": 1, 
       "alt_time": null, 
       "date": "2011-06-04 19:30:00", 
       "num_views": 0, 
       "slug": "creation-and-destruction", 
-      "soloists": [], 
       "description": "<p>Our season finale is truly an exploration of the depths human spirit. The Masterworks Chorale of Carroll County. joins us for Haydn\u2019s exploration of the numinous in highlights from his celebrated oratorio. First, great artists of our time explore how humankind balances its creative impulse against its destructive tendencies. </p>"
     }
   }, 
