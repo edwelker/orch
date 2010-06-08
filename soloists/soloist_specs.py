@@ -4,8 +4,8 @@ from imagekit.specs import ImageSpec
 from imagekit import processors
 
 class ResizeThumb(processors.Resize):
-	width = 140
-	height = 140
+	width = 160
+	height = 160
 	
 class ResizeDisplay(processors.Resize):
     width = 460
