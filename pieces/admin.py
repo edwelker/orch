@@ -10,7 +10,7 @@ class ComposerAdmin(admin.ModelAdmin):
 
     fieldsets = (
             ("Standard Composer", { 'fields': (('first_name', 'middle_name', 'last_name'), 'url')}),
-            ("Advanced", { 'classes' : ('collapse',), 'fields': ('other_composer',)}),
+            ("Advanced", { 'classes' : ('collapse',), 'fields': ('other_composer', 'photo')}),
             )
     list_display = ('__unicode__',)
     search_fields = ('last_name', 'first_name', 'middle_name', 'other_composer',)

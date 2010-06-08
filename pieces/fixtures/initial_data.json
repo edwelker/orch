@@ -303,297 +303,351 @@
     "pk": 6, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "", 
       "last_name": "", 
       "middle_name": "", 
-      "other_composer": "Chen Gang and He Zhanhao"
+      "other_composer": "Chen Gang and He Zhanhao", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 13, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "", 
       "last_name": "", 
       "middle_name": "", 
-      "other_composer": "Radiohead"
+      "other_composer": "Radiohead", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 14, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "John", 
       "last_name": "Adams", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 16, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Ludwig", 
       "last_name": "Beethoven", 
       "middle_name": "van", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 21, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Ernest", 
       "last_name": "Bloch", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 11, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Johannes ", 
       "last_name": "Brahms", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 4, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Claude", 
       "last_name": "Debussy", 
       "middle_name": "", 
-      "other_composer": null
+      "other_composer": null, 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 24, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Anton\u00edn", 
       "last_name": "Dvo\u0159\u00e1k", 
       "middle_name": "Leopold", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 23, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Alberto", 
       "last_name": "Ginastera", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 27, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Charles", 
       "last_name": "Griffes", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 15, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Franz", 
       "last_name": "Haydn", 
       "middle_name": "Joseph", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 2, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Jonathan", 
       "last_name": "Holland", 
       "middle_name": "Bailey", 
-      "other_composer": null
+      "other_composer": null, 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 7, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Gustav", 
       "last_name": "Holst", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 19, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Albert", 
       "last_name": "Hurwit", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 25, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Jonathan", 
       "last_name": "Leshnoff", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 28, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Gustav", 
       "last_name": "Mahler", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 20, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Felix", 
       "last_name": "Mendelssohn", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 3, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Wolfgang", 
       "last_name": "Mozart", 
       "middle_name": "Amadeus", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 9, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Arturo", 
       "last_name": "M\u00e1rquez", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 12, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Krzystof", 
       "last_name": "Penderecki", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 10, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Maurice", 
       "last_name": "Ravel", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 22, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Ottorino", 
       "last_name": "Respighi", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 8, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Dmitri", 
       "last_name": "Shostakovich", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 18, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Igor", 
       "last_name": "Stravinsky", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 17, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Pyotr", 
       "last_name": "Tchaikovsky", 
       "middle_name": "Ilyich", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 5, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Joan", 
       "last_name": "Tower", 
       "middle_name": "", 
-      "other_composer": null
+      "other_composer": null, 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }, 
   {
     "pk": 26, 
     "model": "pieces.composer", 
     "fields": {
-      "url": "", 
       "first_name": "Henryk", 
       "last_name": "Wieniawski", 
       "middle_name": "", 
-      "other_composer": ""
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": null
     }
   }
 ]

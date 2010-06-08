@@ -1,4 +1,5 @@
 from django.db import models
+from imagekit.models import ImageModel
 
 # Create your models here.
 class Piece(models.Model):
@@ -29,12 +30,21 @@ class Piece(models.Model):
     class Meta:
         ordering = ['composer']
 
-class Composer(models.Model):
+class Composer(ImageModel):
     first_name = models.CharField(blank=True,null=True,max_length=100)
     middle_name = models.CharField(blank=True,null=True,max_length=100)
     last_name = models.CharField(blank=True,null=True,max_length=100)
 
     other_composer = models.CharField(blank=True,null=True,max_length=100, help_text="For cases where composer is 'Traditional' or something not following the First Middle Last name pattern.")
+
+    photo = models.ImageField(blank=True,null=True,upload_to='src_imgs/composers',help_text="Optional.")
+    num_views = models.PositiveIntegerField(editable=False, default=0)
+
+    class IKOptions:
+        spec_module = 'pieces.composer_specs'
+        image_field = 'photo'
+        save_count_as = 'num_views'
+        cache_dir = 'model_imgs'
 
     url = models.URLField(blank=True,null=True)
 
