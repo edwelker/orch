@@ -26,8 +26,9 @@ p.dtstart, p.location, p.tickets { margin: 0;}
 .search table ul { list-style-type: none; }
 div.soloist { overflow: auto; clear: both; border-bottom: 1px solid #ccc; margin-bottom: 1em; }
 div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
-.piece_soloist{ font-style: italic; margin-left: 2em; }
-.program { margin: 1em; margin-left:2em; }
+.piece_soloist, .nopiece_soloist{ font-style: italic; margin-left: 2em; }
+.nopiece_soloist{ margin-left: 0; }
+.program { margin: 2em; margin-left:2em; }
 .seasons{list-style-type:none; }
 .history img { clear:right; }
 .partners_logos a img{ margin: .7em 1em; }

@@ -97,7 +97,9 @@
     "pk": 15, 
     "model": "pieces.piece", 
     "fields": {
-      "soloist": [], 
+      "soloist": [
+        8
+      ], 
       "movement": "", 
       "composer": 15, 
       "title": "Music from The Creation"
