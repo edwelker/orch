@@ -40,7 +40,7 @@ class Composer(ImageModel):
     other_composer = models.CharField(blank=True,null=True,max_length=100, help_text="For cases where composer is 'Traditional' or something not following the First Middle Last name pattern.")
 
     photo = models.ImageField(blank=True,null=True,upload_to='src_imgs/composers',help_text="Optional.")
-    num_views = models.PositiveIntegerField(editable=False, default=0)
+    num_views = models.PositiveIntegerField(null=True,editable=False, default=0)
 
     class IKOptions:
         spec_module = 'pieces.composer_specs'

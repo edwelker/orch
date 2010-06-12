@@ -263,11 +263,7 @@
       "image": "", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [
-        2, 
-        3, 
-        4
-      ], 
+      "pieces": [], 
       "location": 1, 
       "alt_time": null, 
       "date": "2010-10-16 19:30:00", 

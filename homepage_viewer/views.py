@@ -13,12 +13,14 @@ CACHE_TIME = 300
 
 def home(request):
     '''get an event and member to display on the homepage. objects cached for an hour'''
-    
+   
+    disp_season = False
+
     m = get_member()
     p = get_primary()
     s = get_secondary()
 
-    if((datetime.datetime.today() + datetime.timedelta(60)) < p.date):
+    if(p and (datetime.datetime.today() + datetime.timedelta(60)) < p.date):
         season = get_season()
         disp_season = True
 
