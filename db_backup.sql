@@ -168,6 +168,10 @@ INSERT INTO "django_admin_log" VALUES(10,'2010-06-13 11:28:26.149254',1,11,'9','
 INSERT INTO "django_admin_log" VALUES(11,'2010-06-13 11:36:15.858282',1,11,'9','Stan Gilmer',2,'Changed bio.');
 INSERT INTO "django_admin_log" VALUES(12,'2010-06-13 12:43:40.305348',1,13,'29',' ',1,'');
 INSERT INTO "django_admin_log" VALUES(13,'2010-06-13 12:48:19.181404',1,16,'13','Young and Eclectic',2,'Changed pieces.');
+INSERT INTO "django_admin_log" VALUES(14,'2010-06-13 14:14:37.824373',1,16,'4','Jonathan Carney & The Rite of Spring',2,'Changed pieces.');
+INSERT INTO "django_admin_log" VALUES(15,'2010-06-13 14:15:10.817250',1,16,'6','A Time and Place',2,'Changed pieces.');
+INSERT INTO "django_admin_log" VALUES(16,'2010-06-13 14:15:55.820626',1,16,'8','Short Stories',2,'Changed pieces.');
+INSERT INTO "django_admin_log" VALUES(17,'2010-06-13 14:16:20.541509',1,16,'2','The Titans',2,'Changed pieces.');
 CREATE TABLE "django_flatpage_sites" (
     "id" integer NOT NULL PRIMARY KEY,
     "flatpage_id" integer NOT NULL,
@@ -1713,6 +1717,22 @@ INSERT INTO "events_event_pieces" VALUES(11,13,9,10);
 INSERT INTO "events_event_pieces" VALUES(12,13,10,11);
 INSERT INTO "events_event_pieces" VALUES(13,13,11,12);
 INSERT INTO "events_event_pieces" VALUES(14,13,32,13);
+INSERT INTO "events_event_pieces" VALUES(15,4,16,14);
+INSERT INTO "events_event_pieces" VALUES(16,4,17,15);
+INSERT INTO "events_event_pieces" VALUES(17,4,18,16);
+INSERT INTO "events_event_pieces" VALUES(18,6,19,17);
+INSERT INTO "events_event_pieces" VALUES(19,6,20,18);
+INSERT INTO "events_event_pieces" VALUES(20,6,21,19);
+INSERT INTO "events_event_pieces" VALUES(21,6,22,20);
+INSERT INTO "events_event_pieces" VALUES(22,8,23,21);
+INSERT INTO "events_event_pieces" VALUES(23,8,24,22);
+INSERT INTO "events_event_pieces" VALUES(24,8,25,23);
+INSERT INTO "events_event_pieces" VALUES(25,8,26,24);
+INSERT INTO "events_event_pieces" VALUES(26,8,27,25);
+INSERT INTO "events_event_pieces" VALUES(27,8,28,26);
+INSERT INTO "events_event_pieces" VALUES(28,8,29,27);
+INSERT INTO "events_event_pieces" VALUES(29,2,30,28);
+INSERT INTO "events_event_pieces" VALUES(30,2,31,29);
 CREATE TABLE "events_event_soloists" (
     "id" integer NOT NULL PRIMARY KEY,
     "event_id" integer NOT NULL,
@@ -1976,7 +1996,7 @@ INSERT INTO "roster_orchestramember" VALUES(45,'Penny','','Zahn',3,0,0,0,'','',0
 INSERT INTO "roster_orchestramember" VALUES(46,'Bryan','','Barrett',4,0,0,0,'<p>I was born and brought up in England and started playing the cello at school. I spent 23 years as an officer in the Royal Navy, without many opportunities to play the cello, and played classical guitar for many years – easier to carry onboard a ship! I immigrated to the States in 1989 and we live in Annapolis.  I was so pleased to find a wealth of community music in Maryland and auditioned for the Columbia orchestra. I joined 7 years ago and have been thrilled to be able to play so much of the great orchestral repertoire that I have loved all my live, and also to be introduced to a lot of contemporary works that I would not otherwise have discovered. I have studied the cello here with Kerena Mueller and Gita Ladd. I am sort of retired, consulting in subsea engineering part time for the company I used to work for, and hope, as I turn 70 this year, to be able to continue to play for this wonderful orchestra for many years. </p>
 
 <p>Member of Columbia Orchestra since 2003</p>','src_imgs/members/BryanBarrett.jpg',6,0);
-INSERT INTO "roster_orchestramember" VALUES(47,'John','','Carter',4,0,0,0,'<p>John B. Carter is completing his second season with the Columbia Orchestra as a member of the cello section.  John, a Pennsylvania native, was introduced to the cello as a junior-high student by Donald E. Sutter who was the lead violinist for a string quartet in which John took part at Trinity Lutheran Church in Coatesville, PA.  John, originally a trumpeter, switched to the French horn and held the first chair horn position in the Coatesville Area Senior High School Symphonic Band.  As the first chair cellist in the Coatesville Area Senior High Orchestra, John placed to sit third chair at the Mid-East All Star Orchestra during his junior year, and played the Grieg Piano Concerto and the Great Gate of Kiev from Mussorgsky’s Pictures at an Exhibition at the festival concert.  He attended the string workshops at West Chester University each summer as a teenager.  John studied Psychology at Waynesburg University, Waynesburg, Pennsylvania and graduated in 1973 with a Bachelor’s Degree.  At Waynesburg, he was a member of the fledgling Waynesburg Marching Band and its orchestra under the direction of Allen C Emerick.  John attended graduate school at Roosevelt University in Chicago, Illinois where he earned a Master’s Degree in Public Administration and played with the Chatham Symphony, the DePaul University Orchestra (Leon Stein) and the Lewis University Orchestra.  John continues to enjoy playing chamber music, and is a volunteer musician at St Mark’s Evangelical Lutheran Church in Baltimore where he is a member.  One of John’s favorite remembrances is of a comment made by his father, Lee, during  intermission at a Mid-East orchestra performance in Schwenksville, PA that featured the Beethoven 1st Symphony:  ‘Man, I thought that song would never end!’ quipped his Dad.  John chooses Brahms, Rachmaninoff and Chopin among his favorite composers and enjoys listening to music and reading in his spare time.</p>','src_imgs/members/JohnCarter.jpg',6,0);
+INSERT INTO "roster_orchestramember" VALUES(47,'John','','Carter',4,0,0,0,'<p>John B. Carter is completing his second season with the Columbia Orchestra as a member of the cello section.  John, a Pennsylvania native, was introduced to the cello as a junior-high student by Donald E. Sutter who was the lead violinist for a string quartet in which John took part at Trinity Lutheran Church in Coatesville, PA.  John, originally a trumpeter, switched to the French horn and held the first chair horn position in the Coatesville Area Senior High School Symphonic Band.  As the first chair cellist in the Coatesville Area Senior High Orchestra, John placed to sit third chair at the Mid-East All Star Orchestra during his junior year, and played the Grieg Piano Concerto and the Great Gate of Kiev from Mussorgsky’s Pictures at an Exhibition at the festival concert.  He attended the string workshops at West Chester University each summer as a teenager.  John studied Psychology at Waynesburg University, Waynesburg, Pennsylvania and graduated in 1973 with a Bachelor’s Degree.  At Waynesburg, he was a member of the fledgling Waynesburg Marching Band and its orchestra under the direction of Allen C Emerick.  John attended graduate school at Roosevelt University in Chicago, Illinois where he earned a Master’s Degree in Public Administration and played with the Chatham Symphony, the DePaul University Orchestra (Leon Stein) and the Lewis University Orchestra.  John continues to enjoy playing chamber music, and is a volunteer musician at St Mark’s Evangelical Lutheran Church in Baltimore where he is a member.  One of John’s favorite remembrances is of a comment made by his father, Lee, during  intermission at a Mid-East orchestra performance in Schwenksville, PA that featured the Beethoven 1st Symphony:  ‘Man, I thought that song would never end!’ quipped his Dad.  John chooses Brahms, Rachmaninoff and Chopin among his favorite composers and enjoys listening to music and reading in his spare time.</p>','src_imgs/members/JohnCarter.jpg',7,0);
 INSERT INTO "roster_orchestramember" VALUES(48,'Sarah','','Cotterill',4,0,0,0,'','',0,0);
 INSERT INTO "roster_orchestramember" VALUES(49,'Carolyn','','Ginnever',4,0,0,0,'','',0,0);
 INSERT INTO "roster_orchestramember" VALUES(50,'Kathy','','Hughes',4,0,0,0,'','',0,0);

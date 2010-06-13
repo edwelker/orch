@@ -12,6 +12,16 @@
     }
   }, 
   {
+    "pk": 32, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 29, 
+      "title": "Winners of the Young Artist Competition"
+    }
+  }, 
+  {
     "pk": 14, 
     "model": "pieces.piece", 
     "fields": {
@@ -327,6 +337,20 @@
       "url": "", 
       "photo": "", 
       "num_views": null
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "", 
+      "last_name": "", 
+      "middle_name": "", 
+      "other_composer": " ", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
     }
   }, 
   {
