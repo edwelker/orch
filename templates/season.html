@@ -13,9 +13,6 @@
             <div class="vevent" id="{{event.slug}}">
                 
                 <h4 class="summary">{{ event.name }}</h4>
-                {% if event.thumb.url %}
-                    <img src="/{{event.thumb.url}}" class="event_img" alt="event image"/>
-                    {% else %}
 
                     <!-- this is so ugly, have to fix this ASAP!  -->
                     {% if event.pieces.all %}
@@ -37,7 +34,6 @@
 
 
 
-                {% endif %}                
                 <p class="dtstart" title='{{ event.date|date:"Y-m-d\TH:i:s" }}-05:00'>{{ event.date|date:"l, F j, Y" }} - 
                 {{ event.date|date:"g:i a" }}
                 {% if event.alt_time %}
