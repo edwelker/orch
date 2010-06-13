@@ -1,6 +1,6 @@
 {% extends 'mockup2.html' %}
 
-{% block title %}Artists {%endblock %}
+{% block title %}Guest Artists {%endblock %}
 
 {% block content %}
 <div class="content">
@@ -12,16 +12,16 @@
         <a href="{{soloist.get_absolute_url}}"><img src="/{{ soloist.thumb.url }}" alt="{{ soloist.name }}"/></a>
         {% endif %}
         
-		<h3><a href="{{ soloist.get_absolute_url }}">{{ soloist.name }}</a>, 
-		{{ soloist.instrument }}</h3>
+        <h3><a href="{{ soloist.get_absolute_url }}">{{ soloist.with_instrument}}</a></h3>
 		<p>
+        
+                {% for p in soloist.piece_set.all %}
+                    {% for e in p.event_set.all %}
 
-        <!--  TODO this REALLY needs to be removed -->
-		{% if soloist.work %}
-		  {{ soloist.work }}<br/>
-		{% endif %}
-        <!-- Concert: -->
-        {{events}}
+                    <a href="{{e.get_absolute_url}}">{{e.name}}</a>, {{e.date|date:"l, F j, Y"}}
+
+                    {% endfor %}
+                {% endfor %} 
 
 		{% for e in soloist.event_set.all %}
 		   <a href="{{e.get_absolute_url}}">{{ e.name }}</a>, {{e.date|date:"l, F j, Y"}} 

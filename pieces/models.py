@@ -15,13 +15,21 @@ class Piece(models.Model):
             return u"%s - %s" % (self.composer, self.title,)
 
     def disp(self):
-        if self.movement:
+        c = self.composer.disp()
+
+        if c == " ":
+            return u"%s" % (self.title,)
+        elif self.movement:
             return u"%s - %s, %s" % (self.composer.disp(), self.title, self.movement,)
         else:
             return u"%s - %s" % (self.composer.disp(), self.title,)
 
     def pretty(self):
-        if self.movement:
+        c = self.composer.disp()
+
+        if c == " ":
+            return u"%s" % (self.title,)
+        elif self.movement:
             return u"%s, %s, by %s" % (self.title, self.movement, self.composer.disp(), )
         else:
             return u"%s, by %s" % (self.title, self.composer.disp(),)

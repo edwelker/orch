@@ -5,7 +5,6 @@ from orch.soloists.models import Soloist
 class SoloistIndex(SearchIndex):
     text = CharField(document=True, use_template=True)
     name = CharField(model_attr='name')
-    work = CharField(model_attr='work')
     bio = CharField(model_attr='bio')
     
 site.register(Soloist, SoloistIndex)

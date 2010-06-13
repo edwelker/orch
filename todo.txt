@@ -7,6 +7,6 @@ Multiple images for the first concert - also, a soloist and a standard image, or
 
 add "conductor" option for seasons
 
-for the soloists (soloist list) I need to wire that up so it shows the correct info.  Right now it's pulling from the soloist.work field, which should also be removed.
+need easy access to an event from all soloists.
 
 Add capibility to admin to restart the server, as well as have a mock server for data-change tests, and pushing it to production.

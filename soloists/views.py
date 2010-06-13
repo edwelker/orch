@@ -8,6 +8,12 @@ def all_soloists(request):
     curSeason = get_current_season()
     
     events = curSeason.event_set.all()
+
+    #get all of the non-piece soloists
+    s = [event.soloists.all() for event in events if event.soloists]
+    #unpack
+    s = [soloist for sub in s for soloist in sub]
+
     #get all of the pieces in events if there are any
     pieces = [event.pieces.all() for event in events if event.pieces]
     
@@ -19,6 +25,10 @@ def all_soloists(request):
 
     #unpack the subarrays again
     soloists = [soloist for subarray in soloists for soloist in subarray]
+
+    #add event.soloists to piece.soloists
+    soloists.extend(s)
+    soloists.sort(reverse=True)
     
     return render_to_response('soloists.html', { 'soloists': soloists, 'season': curSeason })
     

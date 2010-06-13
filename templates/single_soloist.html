@@ -1,22 +1,36 @@
 {% extends 'mockup2.html' %}
 
-{% block title %}{{ soloist.name }}, {{ soloist.instrument }} - Guest Artist{% endblock %}
+{% block title %}{{ soloist.with_instrument }} - Guest Artist{% endblock %}
 
 {% block content %}
 <div class="content soloist_detail">
-    <h2>{{ soloist.name }} {{ soloist.instrument }}</h2>
-    
-    {% for p in pieces %}
-        <p>{{p.pretty}}</p>
-    {% endfor %}
+    <h2>{{ soloist.with_instrument }}</h2>
 
-    <p>
-    {% for event in events %}
-    	<a href="{{ event.season.get_absolute_url }}">{{ event.name }}</a>, {{ event.date|date:"l, F j, Y" }}
-    {% endfor %}
-    </p>
-    
-    
+    {% if pieces %}
+        {% for p in pieces %}
+            <p>{{p.pretty}}</p>
+        {% endfor %}
+
+    <!-- this is a little hack to deal with CSS first letter caps when soloist is associated with event only (no pieces) -->
+    {% else %}
+        <p> </p>
+    {% endif %}
+
+    {% if events %}
+        <p>
+            {% for event in events %}
+                <a href="{{ event.season.get_absolute_url }}#{{event.slug}}">{{ event.name }}</a>, {{ event.date|date:"l, F j, Y" }}
+            {% endfor %}
+        </p>
+    {% endif %}
+
+    {% if soloist.event_set.all %}
+        <p>
+            {% for e in soloist.event_set.all %}
+                <a href="{{e.season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a>, {{e.date|date:"l, F j, Y"}}
+            {% endfor %}
+        </p>
+    {% endif %}
     
     {% if soloist.display %}
     	<img src="/{{ soloist.display.url }}" alt="{{ soloist.name }}"/>

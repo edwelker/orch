@@ -22,7 +22,7 @@ h4 { font-size: 1.3em; margin: 1em 0 .3em 0; }
 .vcalendar h3 { font-size: 1.8em; text-shadow: 3px 3px 6px rgba(0,0,0,.4); }
 p.dtstart, p.location, p.tickets { margin: 0;}
 .vevent { border-bottom: 1px solid #ccc; overflow:auto; }
-.vevent img { float: left; margin: 0 1em .5em 0; }
+.vevent img { float: left; margin: 0 1em .7em 0; }
 .search table ul { list-style-type: none; }
 div.soloist { overflow: auto; clear: both; border-bottom: 1px solid #ccc; margin-bottom: 1em; }
 div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
@@ -63,10 +63,10 @@ dd{ margin-left: 19em; }
 .nav ul ul li a { padding: .3em 1em; }
 .nav ul ul li a:hover { background-color: #FBBF13; background-color: rgba(251,191,19,.4); text-shadow: 3px 3px 6px rgba(0,0,0,.9); }
 
-.nav ul ul.menu_concerts { left: -1.5em; }
-.nav ul ul.menu_behind { /*left: 14.8em;*/left: 18.2em; }
-.nav ul ul.menu_support { left: 33.7em; }
-.nav ul ul.menu_about { left: 36.2em; }
+.nav ul ul.menu_concerts { left: 6.4em; }
+.nav ul ul.menu_behind { left: 26.1em; }
+.nav ul ul.menu_support { left: 41.6em; }
+.nav ul ul.menu_about { left: 43.8em; }
 
 .next_bg { background-color: #be9521; /*margin-bottom: 4em;*/ }
 .next_bg_home { margin-bottom: 4em; }
