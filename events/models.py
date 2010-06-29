@@ -63,7 +63,7 @@ class Event(ImageModel):
     pieces = SortedManyToManyField('pieces.Piece',blank=True,null=True)
     soloists = models.ManyToManyField('soloists.Soloist',blank=True,null=True,help_text="ONLY use this when a soloist is not performing a specific piece listed on event... for example, random pops pieces, etc.")
     
-    image = models.ImageField(blank=True,null=True,upload_to='src_imgs/events',help_text="Optional. Soloist and composer images will take presidence over this image.")
+    image = models.ImageField(blank=True,null=True,default='',upload_to='src_imgs/events',help_text="Optional. Soloist and composer images will take presidence over this image.")
     num_views = models.PositiveIntegerField(editable=False, default=0)
 	
     class IKOptions:

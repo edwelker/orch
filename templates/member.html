@@ -8,8 +8,9 @@
 <div class="content">
     <div class="member_detail">
     	<h2>{{ member.withinstrument }}</h2>
-    	
-    	{% if member.display.url %}
+    
+        <!-- need to fix this, but I'll need to mess with imagekit -->
+    	{% if member.display.url != 'model_imgs/_display.'%}
     	   <img src="/{{member.display.url}}" alt="{{member}}"/>
     	{% endif %}
     	
