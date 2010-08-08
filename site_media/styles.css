@@ -56,7 +56,7 @@ dd{ margin-left: 19em; }
 
 .nav { background-color: #333; height: 46px;  text-align: center; }
 .nav ul { margin:0;padding:0;list-style-type:none; position: relative; top: 12px; overflow:visible; }
-.nav ul li { display: inline;  margin-right: 30px; float: left;}
+.nav ul li { display: inline;  margin-right: 25px; float: left;}
 .nav ul ul  { display: none; position: absolute; background-color:#333; top:1.7em; padding:1.3em 0 .5em 0; z-index:10;} 
 .nav ul li a { color: #fff;  text-transform: uppercase; text-decoration: none; font-size: 1.3em;}
 .nav ul ul li { display: block; float: none; z-index: 10; margin: .3em 0; }
@@ -65,10 +65,10 @@ dd{ margin-left: 19em; }
 
 .nav ul ul { z-index: 400; }
 
-.nav ul ul.menu_concerts { left: 5.4em; }
-.nav ul ul.menu_behind { left: 23.8em; }
-.nav ul ul.menu_support { left: 38.2em; }
-.nav ul ul.menu_about { left: 39.8em; }
+.nav ul ul.menu_concerts { left: 4.9em; }
+.nav ul ul.menu_behind { left: 22.9em; }
+.nav ul ul.menu_support { left: 36.7em; }
+.nav ul ul.menu_about { left: 37.8em; }
 
 .next_bg { background-color: #be9521; /*margin-bottom: 4em;*/ }
 .next_bg_home { margin-bottom: 4em; *margin-bottom: 2em; }
