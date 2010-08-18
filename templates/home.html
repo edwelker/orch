@@ -26,26 +26,27 @@
     {% if primary_event.date %}
     <div class="primary">
         <div class="image">
-                {% if primary_event.thumb.url %}
-                
+                {%comment%}{% if primary_event.thumb.url %}                
                     <img src="/{{primary_event.thumb.url}}" class="event_img" alt="event image"/>
                 
                     {% else %}
+                    {% endcomment %}
+
 
                     <!-- this is so ugly, have to fix this ASAP!  -->
                     {% if primary_event.pieces.all %}
                         {% for p in primary_event.pieces.all %}
                             {% for s in p.soloist.all %}
-                                {% if s.display.url %}
+                                {% if s.display.url and s.instrument != 'composer' %}
                                     <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
                                 {% endif %}
                             {% endfor %}
                         {% endfor %}                     
                     {% endif %}    
-                {% endif %}   
+                {%comment%} {% endif %} {% endcomment %}
             </div>
             <div class="description">
-                <h2>{{primary_event.name}}</h2>
+                <h2><a href="{{primary_event.season.get_absolute_url}}#{{primary_event.slug}}">{{primary_event.name}}</a></h2>
                 <div>{{ primary_event.date|date:"l, F j, Y" }}</div>
                 
                 <div>{{ primary_event.date|date:"g:i a" }}{%if primary_event.alt_time%} &amp; {{primary_event.alt_time|time:"g:i a"}}{%endif%}, 
