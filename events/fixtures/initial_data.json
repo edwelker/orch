@@ -280,7 +280,7 @@
       "status": 1, 
       "name": "Land and Sea", 
       "season": 2, 
-      "image": "", 
+      "image": "src_imgs/events/MTC_logo.JPG", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
       "pieces": [
@@ -361,7 +361,9 @@
       "num_views": 0, 
       "slug": "symphonic-pops-2011", 
       "soloists": [
-        9
+        9, 
+        10, 
+        11
       ], 
       "description": "<p>Broadway\u2019s greatest hits, blockbusters from the silver screen, and a \u201cSalute to Sammy\u201d with local song-stylist Stan Gilmer highlight one of our most popular, family-friendly events.</p>"
     }
@@ -415,7 +417,7 @@
       "num_views": 0, 
       "slug": "creation-and-destruction", 
       "soloists": [], 
-      "description": "<p>Our season finale is truly an exploration of the depths human spirit. The Masterworks Chorale of Carroll County. joins us for Haydn\u2019s exploration of the numinous in highlights from his celebrated oratorio. First, great artists of our time explore how humankind balances its creative impulse against its destructive tendencies. </p>"
+      "description": "<p>Our season finale takes an ecstatic look at the heights and depths of the human spirit. The Masterworks Chorale of Carroll County joins us for Haydn\u2019s exploration of the numinous in highlights from his celebrated oratorio. First, great artists of our time explore how humankind balances its creative impulse against its destructive tendencies. </p>"
     }
   }, 
   {
