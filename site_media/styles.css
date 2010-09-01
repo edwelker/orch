@@ -1,6 +1,8 @@
 body { margin:0;padding:0;background-color:#333; font: 62.5%/1.4 verdana, sans-serif; }
 .description h2, .description div, .main h2, .subpage h1, .hp_season h2, .hp_season .concert { font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 img { border: 0; }
+.main a, .main a:visited{color:#229;text-decoration:none;border-bottom:1px dotted #66b;}
+.main a:hover, .main a:active{color:#229;border-bottom:1px solid #229;}
 
 .content { /*width: 75%;*/ }
 .main div.wide { width: 100%;}
