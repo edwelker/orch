@@ -298,6 +298,27 @@
     }
   }, 
   {
+    "pk": 17, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert One", 
+      "season": 2, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2010-11-20 19:30:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-one", 
+      "soloists": [], 
+      "description": "<p>Composers often share their most intimate thoughts through chamber music, and this FREE three-concert series is a wonderful way to hear orchestra members up close. Hear a mixture of strings, woodwinds, and brass in the lovely setting of Christ Episcopal Church.</p>"
+    }
+  }, 
+  {
     "pk": 12, 
     "model": "events.event", 
     "fields": {
@@ -339,8 +360,10 @@
       "date": "2011-01-08 12:30:00", 
       "num_views": 0, 
       "slug": "peter-and-wolf-and-friends", 
-      "soloists": [], 
-      "description": "<p>Not only is this a fun introduction to the instruments of orchestra for younger students, older kids will enjoy learning more in a fun environment about how music is put together. The orchestra is joined by the marvelous performers of Kinetics Dance Theatre for Prokofiev\u2019s immortal Peter and the Wolf, and kids will love a chance to try out many musical instruments at our Petting Zoo sponsored by Music & Arts held between our two concerts.</p>"
+      "soloists": [
+        15
+      ], 
+      "description": "<p>Not only is this a great introduction to the instruments of orchestra for younger students, older kids will enjoy learning more in a fun environment about how music is put together. The orchestra is joined by the marvelous performers of Kinetics Dance Theatre for Prokofiev\u2019s immortal Peter and the Wolf, and kids will love a chance to try out many musical instruments at our Petting Zoo sponsored by Music & Arts held between our two concerts.</p>"
     }
   }, 
   {
@@ -396,6 +419,48 @@
     }
   }, 
   {
+    "pk": 18, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert Two", 
+      "season": 2, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2011-04-02 19:30:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-two", 
+      "soloists": [], 
+      "description": "<p>Composers often share their most intimate thoughts through chamber music, and this FREE three-concert series is a wonderful way to hear orchestra members up close. Hear a mixture of strings, woodwinds, and brass in the lovely setting of Christ Episcopal Church.</p>"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert Three", 
+      "season": 2, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2011-05-21 19:30:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-three", 
+      "soloists": [], 
+      "description": "<p>Composers often share their most intimate thoughts through chamber music, and this FREE three-concert series is a wonderful way to hear orchestra members up close. Concertmaster <a href=\"/members/brenda_anna/\"> Brenda Anna,</a> violin, Music Director <a href=\"/members/jason_love/\">Jason Love,</a> cello, and Columbia Orchestra pianist <a href=\"/members/nancy_smith/\">Nancy Smith</a> perform in the lovely setting of Christ Episcopal Church.</p>"
+    }
+  }, 
+  {
     "pk": 16, 
     "model": "events.event", 
     "fields": {
@@ -416,7 +481,11 @@
       "date": "2011-06-04 19:30:00", 
       "num_views": 0, 
       "slug": "creation-and-destruction", 
-      "soloists": [], 
+      "soloists": [
+        5, 
+        13, 
+        14
+      ], 
       "description": "<p>Our season finale takes an ecstatic look at the heights and depths of the human spirit. The Masterworks Chorale of Carroll County joins us for Haydn\u2019s exploration of the numinous in highlights from his celebrated oratorio. First, great artists of our time explore how humankind balances its creative impulse against its destructive tendencies. </p>"
     }
   }, 

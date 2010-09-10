@@ -5,6 +5,16 @@
 	<meta charset="utf-8"/>
     <link rel="stylesheet" href="/site_media/styles.css"/>
     <script type="text/javascript" src="/site_media/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/site_media/jquery.cycle.lite.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image').cycle({
+                fx: 'fade',
+				containerResize: 1,
+				timeout: 5000
+            });
+         });
+    </script>
     {% include "inc/menu_js.html" %}
 </head>
 <body>
@@ -15,8 +25,20 @@
             {% block concert %}{% endblock %}
 		</div>
 	</div>
+
 		
 	<div class="main">
+        <!-- 
+        <div>
+            <h2>News</h2>
+            {% block news %}{% endblock %}
+        </div>
+        -->
+        <div class="news">
+        <h2>News</h2>
+        <p>The Columbia Orchestra is seeking a part-time Administrative Assistant.  For more details, please see our <a href="/employment">Employment Opportunities</a> page.</p>
+        </div>
+
 		<div class="col">
 			<h2>Meet the Orchestra</h2>
             {% block member %}{% endblock %}

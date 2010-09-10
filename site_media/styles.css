@@ -7,7 +7,7 @@ img { border: 0; }
 .content { /*width: 75%;*/ }
 .main div.wide { width: 100%;}
 div.subpage { padding: 20px; }
-.content p, .content ul, .concertInfo, .vcard, dl, .piece { font-size: 1.3em; }
+.content p, .content ul, .concertInfo, .vcard, dl, .piece, .concert_soloists, .news p { font-size: 1.3em; }
 .concertInfo { margin-bottom: 1em; }
 .content h1 { font-size: 2.2em; /*background-color: #fbbf13; display: inline; padding: .2em 1em; -moz-box-shadow: 2px 2px 8px rgba(0,0,0,.5); -webkit-box-shadow: 5px 8px 8px rgba(0,0,0,.5); box-shadow: 5px 8px 8px rgba(0,0,0,.5); position: relative; top: -.25em; left: .5em; */ }
 .content h3 { font-size: 1.4em; font-weight: bold; margin: 1.4em 0 .3em 0; }
@@ -35,6 +35,7 @@ div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }
 .history img { clear:right; }
 .partners_logos a img{ margin: .7em 1em; }
 pre.schedule { font-family: verdana, sans-serif; }
+.concert_soloists{font-style:italic;}
 
 pre { font-size: 1.4em; }
 
@@ -74,8 +75,8 @@ dd{ margin-left: 19em; }
 
 .next_bg { background-color: #be9521; /*margin-bottom: 4em;*/ }
 .next_bg_home { margin-bottom: 4em; *margin-bottom: 2em; }
-.next_concert { background-color: #fbbf13; -moz-box-shadow: 5px 8px 8px #111; -webkit-box-shadow: 5px 8px 8px #111; box-shadow: 5px 8px 8px #111; overflow: auto; padding: 2em; position: relative; top: 15px; *position:static; *top:0; }
-.image { width: 47em; text-align:center; float:left; }
+.next_concert { background-color: #fbbf13; -moz-box-shadow: 5px 8px 8px #111; -webkit-box-shadow: 5px 8px 8px #111; box-shadow: 5px 8px 8px #111; overflow: hidden; padding: 2em; position: relative; top: 15px; *position:static; *top:0; }
+.image { width: 47em; text-align:center; float:left; overflow:visible; height: 40em;}
 .image img { border: 10px solid white; -moz-border-radius: 0px; -moz-box-shadow: 4px 4px 8px rgba(0,0,0,.5); }
 .next_concert .description { float: right; width: 47em; z-index:2; }
 

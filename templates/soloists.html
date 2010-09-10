@@ -18,13 +18,13 @@
                 {% for p in soloist.piece_set.all %}
                     {% for e in p.event_set.all %}
 
-                    <a href="{{e.get_absolute_url}}">{{e.name}}</a>, {{e.date|date:"l, F j, Y"}}
+                    <a href="{{e.season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a>, {{e.date|date:"l, F j, Y"}}
 
                     {% endfor %}
                 {% endfor %} 
 
 		{% for e in soloist.event_set.all %}
-		   <a href="{{e.get_absolute_url}}">{{ e.name }}</a>, {{e.date|date:"l, F j, Y"}} 
+		   <a href="{{e.season.get_absolute_url}}#{{e.slug}}">{{ e.name }}</a>, {{e.date|date:"l, F j, Y"}} 
 		{% endfor %}
 		</p>
 	</div>

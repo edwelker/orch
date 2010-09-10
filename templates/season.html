@@ -52,22 +52,29 @@
                 <p class="tickets"><a href="{{ event.ticket_link }}">Click here to purchase tickets</a></p>
                 {% endif %}
 
+                <div class="concert_soloists">
                 {% if event.soloists %}
                     {% for s in event.soloists.all %}
-                    <p class="nopiece_soloist">Featuring <a href="{{s.get_absolute_url}}">{{s.with_instrument}}</a></p>
+                    <div><a href="{{s.get_absolute_url}}">{{s.with_instrument}}</a></div>
                     {% endfor %}
                 {% endif %}
+
+                {% if event.pieces.all %}
+                    {% for p in event.pieces.all %}
+                        {% if p.soloist %}
+                            {% for s in p.soloist.all %}
+                                <div><a href="{{s.get_absolute_url}}">{{ s.with_instrument}}</a></div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                </div>
 
                 {% if event.pieces.all %}
                     <div class="program">
                     {% for p in event.pieces.all %}
                     <div class="piece"> 
                         {{p.disp}} 
-                        {% if p.soloist %}
-                            {% for s in p.soloist.all %}
-                            <div class="piece_soloist">Featuring <a href="{{s.get_absolute_url}}">{{ s.with_instrument}}</a></div>
-                            {% endfor %}
-                        {% endif %}
                     </div>
                     {% endfor %}
                     </div>
