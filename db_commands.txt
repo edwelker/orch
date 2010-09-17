@@ -1,3 +1,5 @@
 .output file_name.sql
 .dump
 .exit
+
+.restore filename.sql
