@@ -1,6 +1,7 @@
 [
   {
     "pk": 1, 
+    "order": "1",  
     "model": "roster.instrument", 
     "fields": {
       "name": "First Violin"
@@ -8,6 +9,7 @@
   }, 
   {
     "pk": 2, 
+    "order": "2",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Second Violin"
@@ -15,6 +17,7 @@
   }, 
   {
     "pk": 3, 
+    "order": "3",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Viola"
@@ -22,6 +25,7 @@
   }, 
   {
     "pk": 4, 
+    "order": "4",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Cello"
@@ -29,6 +33,7 @@
   }, 
   {
     "pk": 5, 
+    "order": "5",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Bass"
@@ -36,6 +41,7 @@
   }, 
   {
     "pk": 6, 
+    "order": "6",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Flute/Piccolo"
@@ -43,6 +49,7 @@
   }, 
   {
     "pk": 7, 
+    "order": "7",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Oboe"
@@ -50,6 +57,7 @@
   }, 
   {
     "pk": 8, 
+    "order": "8",  
     "model": "roster.instrument", 
     "fields": {
       "name": "English Horn"
@@ -57,6 +65,7 @@
   }, 
   {
     "pk": 9, 
+    "order": "9",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Clarinet"
@@ -64,6 +73,7 @@
   }, 
   {
     "pk": 10, 
+    "order": "10",  
     "model": "roster.instrument", 
     "fields": {
       "name": "E-Flat Clarinet"
@@ -71,6 +81,7 @@
   }, 
   {
     "pk": 11, 
+    "order": "11",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Bass Clarinet"
@@ -78,6 +89,7 @@
   }, 
   {
     "pk": 12, 
+    "order": "12",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Bassoon"
@@ -85,6 +97,7 @@
   }, 
   {
     "pk": 13, 
+    "order": "13",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Contrabassoon"
@@ -92,6 +105,7 @@
   }, 
   {
     "pk": 14, 
+    "order": "14",  
     "model": "roster.instrument", 
     "fields": {
       "name": "French Horn"
@@ -99,6 +113,7 @@
   }, 
   {
     "pk": 15, 
+    "order": "15",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Trumpet"
@@ -106,6 +121,7 @@
   }, 
   {
     "pk": 16, 
+    "order": "16",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Bass Trumpet"
@@ -113,6 +129,7 @@
   }, 
   {
     "pk": 17, 
+    "order": "17",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Trombone"
@@ -120,6 +137,7 @@
   }, 
   {
     "pk": 18, 
+    "order": "18",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Bass Trombone"
@@ -127,6 +145,7 @@
   }, 
   {
     "pk": 19, 
+    "order": "19",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Tuba"
@@ -134,6 +153,7 @@
   }, 
   {
     "pk": 20, 
+    "order": "20",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Percussion"
@@ -141,6 +161,7 @@
   }, 
   {
     "pk": 21, 
+    "order": "21",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Timpani"
@@ -148,6 +169,7 @@
   }, 
   {
     "pk": 22, 
+    "order": "22",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Piano/Keyboard"
@@ -155,6 +177,7 @@
   }, 
   {
     "pk": 23, 
+    "order": "23",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Alto Flute"
@@ -162,6 +185,7 @@
   }, 
   {
     "pk": 24, 
+    "order": "24",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Harp"
@@ -169,6 +193,7 @@
   }, 
   {
     "pk": 25, 
+    "order": "25",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Tenor Saxophone"
@@ -176,6 +201,7 @@
   }, 
   {
     "pk": 26, 
+    "order": "26",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Assistant Conductor"
@@ -183,6 +209,7 @@
   }, 
   {
     "pk": 27, 
+    "order": "27",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Music Director"
@@ -190,6 +217,7 @@
   }, 
   {
     "pk": 28, 
+    "order": "28",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Executive Director"
@@ -197,6 +225,7 @@
   }, 
   {
     "pk": 29, 
+    "order": "29",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Flute"
@@ -204,6 +233,7 @@
   }, 
   {
     "pk": 30, 
+    "order": "30",  
     "model": "roster.instrument", 
     "fields": {
       "name": "E-Flat, Bass Clarinets"
@@ -211,6 +241,7 @@
   }, 
   {
     "pk": 31, 
+    "order": "31",  
     "model": "roster.instrument", 
     "fields": {
       "name": "Piccolo"

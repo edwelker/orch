@@ -5,9 +5,14 @@ from imagekit.models import ImageModel
 # Create your models here.
 class Instrument(models.Model):
     name = models.CharField(max_length=120)
+
+    order = models.IntegerField(help_text="The order in which this instrument should display on the members page... so violin 1 = 1, violin 2 = 2, cello=3, etc.",default=0)
     
     def __unicode__(self):
         return "%s" % self.name
+
+    class Meta:
+        ordering = ['order']
 
 class OrchestraMember(ImageModel):  
 
