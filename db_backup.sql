@@ -137,7 +137,7 @@ CREATE TABLE "auth_user" (
     "last_login" datetime NOT NULL,
     "date_joined" datetime NOT NULL
 );
-INSERT INTO "auth_user" VALUES(1,'ewelker','','','ewelker@cdepot.com','sha1$17872$ed010e2b63a304878bdddb72fd11df8f6d5dd1cb',1,1,1,'2010-08-27 17:37:06.463204','2010-06-12 00:14:25.526220');
+INSERT INTO "auth_user" VALUES(1,'ewelker','','','ewelker@cdepot.com','sha1$17872$ed010e2b63a304878bdddb72fd11df8f6d5dd1cb',1,1,1,'2010-09-17 14:20:43.124051','2010-06-12 00:14:25.526220');
 INSERT INTO "auth_user" VALUES(2,'jlmus07','','','','sha1$29c82$9ff62190f9086058c7a911baba830c633cb3d81c',1,1,0,'2010-08-26 20:04:26.660831','2010-07-28 15:19:18');
 CREATE TABLE "auth_message" (
     "id" integer NOT NULL PRIMARY KEY,
@@ -258,6 +258,10 @@ INSERT INTO "django_session" VALUES('5b7f8354482258c7eabb1294c87283e8','gAJ9cQEo
 cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LjlmMjg2Zjg1YjVkMTE3N2Y5ODg0
 NTk4OWJjZTFiNjg4
 ','2010-09-10 17:37:06.480624');
+INSERT INTO "django_session" VALUES('da3d2506d804bfbff34fa50f208ff517','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LjlmMjg2Zjg1YjVkMTE3N2Y5ODg0
+NTk4OWJjZTFiNjg4
+','2010-10-01 14:20:43.203660');
 CREATE TABLE "django_site" (
     "id" integer NOT NULL PRIMARY KEY,
     "domain" varchar(100) NOT NULL,
@@ -492,6 +496,45 @@ INSERT INTO "django_admin_log" VALUES(215,'2010-09-06 15:48:33.587269',2,16,'19'
 INSERT INTO "django_admin_log" VALUES(216,'2010-09-06 15:50:08.293154',2,16,'19','Chamber Concert Three',2,'Changed description.');
 INSERT INTO "django_admin_log" VALUES(217,'2010-09-06 15:52:18.647666',2,11,'12','Jonathan Bailey Holland',2,'Changed instrument.');
 INSERT INTO "django_admin_log" VALUES(218,'2010-09-07 15:23:38.688439',2,16,'19','Chamber Concert Three',2,'Changed description.');
+INSERT INTO "django_admin_log" VALUES(219,'2010-09-17 14:21:50.637337',1,18,'1','First Violin',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(220,'2010-09-17 14:22:01.051741',1,18,'2','Second Violin',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(221,'2010-09-17 14:24:51.893698',1,18,'3','Viola',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(222,'2010-09-17 14:25:00.204486',1,18,'4','Cello',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(223,'2010-09-17 14:25:13.332273',1,18,'5','Bass',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(224,'2010-09-17 14:26:06.488370',1,18,'5','Bass',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(225,'2010-09-17 14:26:24.664383',1,18,'29','Flute',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(226,'2010-09-17 14:26:31.294852',1,18,'31','Piccolo',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(227,'2010-09-17 14:27:00.264353',1,18,'23','Alto Flute',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(228,'2010-09-17 14:27:11.556674',1,18,'7','Oboe',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(229,'2010-09-17 14:27:25.648453',1,18,'8','English Horn',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(230,'2010-09-17 14:27:41.051548',1,18,'9','Clarinet',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(231,'2010-09-17 14:28:22.310886',1,18,'10','E-Flat Clarinet',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(232,'2010-09-17 14:28:44.561385',1,18,'30','E-Flat, Bass Clarinets',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(233,'2010-09-17 14:28:58.523056',1,18,'11','Bass Clarinet',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(234,'2010-09-17 14:30:19.785466',1,18,'32','Soprano Saxophone',1,'');
+INSERT INTO "django_admin_log" VALUES(235,'2010-09-17 14:30:41.337095',1,18,'33','Alto Saxophone',1,'');
+INSERT INTO "django_admin_log" VALUES(236,'2010-09-17 14:30:53.255867',1,18,'25','Tenor Saxophone',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(237,'2010-09-17 14:31:07.042215',1,18,'34','Baritone Saxophone',1,'');
+INSERT INTO "django_admin_log" VALUES(238,'2010-09-17 14:31:20.521568',1,18,'12','Bassoon',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(239,'2010-09-17 14:31:28.005104',1,18,'13','Contrabassoon',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(240,'2010-09-17 14:31:34.766310',1,18,'14','French Horn',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(241,'2010-09-17 14:31:42.777435',1,18,'15','Trumpet',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(242,'2010-09-17 14:31:56.610424',1,18,'16','Bass Trumpet',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(243,'2010-09-17 14:32:04.504975',1,18,'17','Trombone',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(244,'2010-09-17 14:32:16.385225',1,18,'18','Bass Trombone',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(245,'2010-09-17 14:32:39.274836',1,18,'35','Tenor Tuba',1,'');
+INSERT INTO "django_admin_log" VALUES(246,'2010-09-17 14:32:46.929608',1,18,'19','Tuba',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(247,'2010-09-17 14:32:59.110692',1,18,'24','Harp',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(248,'2010-09-17 14:33:06.768094',1,18,'22','Piano/Keyboard',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(249,'2010-09-17 14:33:14.996547',1,18,'21','Timpani',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(250,'2010-09-17 14:33:23.272817',1,18,'20','Percussion',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(251,'2010-09-17 14:33:43.344902',1,18,'36','Music Librarian',1,'');
+INSERT INTO "django_admin_log" VALUES(252,'2010-09-17 14:34:35.508041',1,18,'37','Personnel Manager (Winds, Brass, Percussion)',1,'');
+INSERT INTO "django_admin_log" VALUES(253,'2010-09-17 14:34:52.233271',1,18,'38','Personnel Manager (Strings)',1,'');
+INSERT INTO "django_admin_log" VALUES(254,'2010-09-17 14:36:10.867921',1,18,'26','Assistant Conductor',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(255,'2010-09-17 14:36:17.717535',1,18,'27','Music Director',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(256,'2010-09-17 14:36:27.891146',1,18,'28','Executive Director',2,'Changed order.');
+INSERT INTO "django_admin_log" VALUES(257,'2010-09-17 14:43:55.660878',1,18,'6','Flute/Piccolo',3,'');
 CREATE TABLE "django_flatpage_sites" (
     "id" integer NOT NULL PRIMARY KEY,
     "flatpage_id" integer NOT NULL,
@@ -2135,13 +2178,13 @@ CREATE TABLE "pieces_piece_soloist" (
     "soloist_id" integer NOT NULL REFERENCES "soloists_soloist" ("id"),
     UNIQUE ("piece_id", "soloist_id")
 );
-INSERT INTO "pieces_piece_soloist" VALUES(2,21,3);
-INSERT INTO "pieces_piece_soloist" VALUES(3,3,6);
-INSERT INTO "pieces_piece_soloist" VALUES(4,30,1);
-INSERT INTO "pieces_piece_soloist" VALUES(5,17,2);
-INSERT INTO "pieces_piece_soloist" VALUES(6,15,8);
-INSERT INTO "pieces_piece_soloist" VALUES(7,6,7);
 INSERT INTO "pieces_piece_soloist" VALUES(8,2,12);
+INSERT INTO "pieces_piece_soloist" VALUES(9,6,7);
+INSERT INTO "pieces_piece_soloist" VALUES(10,21,3);
+INSERT INTO "pieces_piece_soloist" VALUES(11,15,8);
+INSERT INTO "pieces_piece_soloist" VALUES(12,3,6);
+INSERT INTO "pieces_piece_soloist" VALUES(13,30,1);
+INSERT INTO "pieces_piece_soloist" VALUES(14,17,2);
 CREATE TABLE "pieces_piece" (
     "id" integer NOT NULL PRIMARY KEY,
     "title" varchar(250) NOT NULL,
@@ -2152,7 +2195,7 @@ INSERT INTO "pieces_piece" VALUES(2,'Motor City Dance Mix','',2);
 INSERT INTO "pieces_piece" VALUES(3,'Clarinet Concerto','',3);
 INSERT INTO "pieces_piece" VALUES(4,'La Mer','',4);
 INSERT INTO "pieces_piece" VALUES(5,'Fanfare for the Uncommon Woman','',5);
-INSERT INTO "pieces_piece" VALUES(6,'Butterfly Lovers'' Violin Concerto','',6);
+INSERT INTO "pieces_piece" VALUES(6,'Butterfly Lovers Violin Concerto','',6);
 INSERT INTO "pieces_piece" VALUES(7,'The Planets','',7);
 INSERT INTO "pieces_piece" VALUES(8,'Festive Overture','',8);
 INSERT INTO "pieces_piece" VALUES(9,'Danzon No. 2','',9);
@@ -2277,19 +2320,49 @@ INSERT INTO "events_event_pieces" VALUES(36,11,4,29);
 INSERT INTO "events_event_pieces" VALUES(37,16,12,27);
 INSERT INTO "events_event_pieces" VALUES(38,16,14,28);
 INSERT INTO "events_event_pieces" VALUES(39,16,15,29);
+INSERT INTO "events_event_pieces" VALUES(40,4,16,27);
+INSERT INTO "events_event_pieces" VALUES(41,4,17,28);
+INSERT INTO "events_event_pieces" VALUES(42,4,18,29);
+INSERT INTO "events_event_pieces" VALUES(43,6,19,26);
+INSERT INTO "events_event_pieces" VALUES(44,6,20,27);
+INSERT INTO "events_event_pieces" VALUES(45,6,21,28);
+INSERT INTO "events_event_pieces" VALUES(46,6,22,29);
+INSERT INTO "events_event_pieces" VALUES(47,8,23,23);
+INSERT INTO "events_event_pieces" VALUES(48,8,24,24);
+INSERT INTO "events_event_pieces" VALUES(49,8,25,25);
+INSERT INTO "events_event_pieces" VALUES(50,8,26,26);
+INSERT INTO "events_event_pieces" VALUES(51,8,27,27);
+INSERT INTO "events_event_pieces" VALUES(52,8,28,28);
+INSERT INTO "events_event_pieces" VALUES(53,8,29,29);
+INSERT INTO "events_event_pieces" VALUES(54,2,30,28);
+INSERT INTO "events_event_pieces" VALUES(55,2,31,29);
+INSERT INTO "events_event_pieces" VALUES(56,11,2,27);
+INSERT INTO "events_event_pieces" VALUES(57,11,3,28);
+INSERT INTO "events_event_pieces" VALUES(58,11,4,29);
+INSERT INTO "events_event_pieces" VALUES(59,12,5,27);
+INSERT INTO "events_event_pieces" VALUES(60,12,6,28);
+INSERT INTO "events_event_pieces" VALUES(61,12,7,29);
+INSERT INTO "events_event_pieces" VALUES(62,13,8,25);
+INSERT INTO "events_event_pieces" VALUES(63,13,9,26);
+INSERT INTO "events_event_pieces" VALUES(64,13,10,27);
+INSERT INTO "events_event_pieces" VALUES(65,13,11,28);
+INSERT INTO "events_event_pieces" VALUES(66,13,32,29);
+INSERT INTO "events_event_pieces" VALUES(67,16,12,27);
+INSERT INTO "events_event_pieces" VALUES(68,16,14,28);
+INSERT INTO "events_event_pieces" VALUES(69,16,15,29);
 CREATE TABLE "events_event_soloists" (
     "id" integer NOT NULL PRIMARY KEY,
     "event_id" integer NOT NULL,
     "soloist_id" integer NOT NULL REFERENCES "soloists_soloist" ("id"),
     UNIQUE ("event_id", "soloist_id")
 );
-INSERT INTO "events_event_soloists" VALUES(1,15,9);
-INSERT INTO "events_event_soloists" VALUES(2,15,10);
-INSERT INTO "events_event_soloists" VALUES(3,15,11);
-INSERT INTO "events_event_soloists" VALUES(4,16,5);
-INSERT INTO "events_event_soloists" VALUES(5,16,14);
-INSERT INTO "events_event_soloists" VALUES(6,16,13);
 INSERT INTO "events_event_soloists" VALUES(7,14,15);
+INSERT INTO "events_event_soloists" VALUES(8,15,9);
+INSERT INTO "events_event_soloists" VALUES(9,15,10);
+INSERT INTO "events_event_soloists" VALUES(10,15,11);
+INSERT INTO "events_event_soloists" VALUES(11,16,13);
+INSERT INTO "events_event_soloists" VALUES(12,16,5);
+INSERT INTO "events_event_soloists" VALUES(13,16,14);
 CREATE TABLE "events_event" (
     "id" integer NOT NULL PRIMARY KEY,
     "name" varchar(100) NOT NULL,
@@ -2340,38 +2413,44 @@ INSERT INTO "events_preconcertdiscussion" VALUES(1,'18:30:00','Bill Scanlan Murp
 CREATE TABLE "roster_instrument" (
     "id" integer NOT NULL PRIMARY KEY,
     "name" varchar(120) NOT NULL
-);
-INSERT INTO "roster_instrument" VALUES(1,'First Violin');
-INSERT INTO "roster_instrument" VALUES(2,'Second Violin');
-INSERT INTO "roster_instrument" VALUES(3,'Viola');
-INSERT INTO "roster_instrument" VALUES(4,'Cello');
-INSERT INTO "roster_instrument" VALUES(5,'Bass');
-INSERT INTO "roster_instrument" VALUES(6,'Flute/Piccolo');
-INSERT INTO "roster_instrument" VALUES(7,'Oboe');
-INSERT INTO "roster_instrument" VALUES(8,'English Horn');
-INSERT INTO "roster_instrument" VALUES(9,'Clarinet');
-INSERT INTO "roster_instrument" VALUES(10,'E-Flat Clarinet');
-INSERT INTO "roster_instrument" VALUES(11,'Bass Clarinet');
-INSERT INTO "roster_instrument" VALUES(12,'Bassoon');
-INSERT INTO "roster_instrument" VALUES(13,'Contrabassoon');
-INSERT INTO "roster_instrument" VALUES(14,'French Horn');
-INSERT INTO "roster_instrument" VALUES(15,'Trumpet');
-INSERT INTO "roster_instrument" VALUES(16,'Bass Trumpet');
-INSERT INTO "roster_instrument" VALUES(17,'Trombone');
-INSERT INTO "roster_instrument" VALUES(18,'Bass Trombone');
-INSERT INTO "roster_instrument" VALUES(19,'Tuba');
-INSERT INTO "roster_instrument" VALUES(20,'Percussion');
-INSERT INTO "roster_instrument" VALUES(21,'Timpani');
-INSERT INTO "roster_instrument" VALUES(22,'Piano/Keyboard');
-INSERT INTO "roster_instrument" VALUES(23,'Alto Flute');
-INSERT INTO "roster_instrument" VALUES(24,'Harp');
-INSERT INTO "roster_instrument" VALUES(25,'Tenor Saxophone');
-INSERT INTO "roster_instrument" VALUES(26,'Assistant Conductor');
-INSERT INTO "roster_instrument" VALUES(27,'Music Director');
-INSERT INTO "roster_instrument" VALUES(28,'Executive Director');
-INSERT INTO "roster_instrument" VALUES(29,'Flute');
-INSERT INTO "roster_instrument" VALUES(30,'E-Flat, Bass Clarinets');
-INSERT INTO "roster_instrument" VALUES(31,'Piccolo');
+, "order" INTEGER DEFAULT '0' NOT NULL);
+INSERT INTO "roster_instrument" VALUES(1,'First Violin',1);
+INSERT INTO "roster_instrument" VALUES(2,'Second Violin',2);
+INSERT INTO "roster_instrument" VALUES(3,'Viola',3);
+INSERT INTO "roster_instrument" VALUES(4,'Cello',4);
+INSERT INTO "roster_instrument" VALUES(5,'Bass',5);
+INSERT INTO "roster_instrument" VALUES(7,'Oboe',9);
+INSERT INTO "roster_instrument" VALUES(8,'English Horn',10);
+INSERT INTO "roster_instrument" VALUES(9,'Clarinet',11);
+INSERT INTO "roster_instrument" VALUES(10,'E-Flat Clarinet',12);
+INSERT INTO "roster_instrument" VALUES(11,'Bass Clarinet',14);
+INSERT INTO "roster_instrument" VALUES(12,'Bassoon',19);
+INSERT INTO "roster_instrument" VALUES(13,'Contrabassoon',20);
+INSERT INTO "roster_instrument" VALUES(14,'French Horn',21);
+INSERT INTO "roster_instrument" VALUES(15,'Trumpet',22);
+INSERT INTO "roster_instrument" VALUES(16,'Bass Trumpet',23);
+INSERT INTO "roster_instrument" VALUES(17,'Trombone',24);
+INSERT INTO "roster_instrument" VALUES(18,'Bass Trombone',25);
+INSERT INTO "roster_instrument" VALUES(19,'Tuba',27);
+INSERT INTO "roster_instrument" VALUES(20,'Percussion',31);
+INSERT INTO "roster_instrument" VALUES(21,'Timpani',30);
+INSERT INTO "roster_instrument" VALUES(22,'Piano/Keyboard',29);
+INSERT INTO "roster_instrument" VALUES(23,'Alto Flute',8);
+INSERT INTO "roster_instrument" VALUES(24,'Harp',28);
+INSERT INTO "roster_instrument" VALUES(25,'Tenor Saxophone',17);
+INSERT INTO "roster_instrument" VALUES(26,'Assistant Conductor',35);
+INSERT INTO "roster_instrument" VALUES(27,'Music Director',36);
+INSERT INTO "roster_instrument" VALUES(28,'Executive Director',37);
+INSERT INTO "roster_instrument" VALUES(29,'Flute',6);
+INSERT INTO "roster_instrument" VALUES(30,'E-Flat, Bass Clarinets',13);
+INSERT INTO "roster_instrument" VALUES(31,'Piccolo',7);
+INSERT INTO "roster_instrument" VALUES(32,'Soprano Saxophone',15);
+INSERT INTO "roster_instrument" VALUES(33,'Alto Saxophone',16);
+INSERT INTO "roster_instrument" VALUES(34,'Baritone Saxophone',18);
+INSERT INTO "roster_instrument" VALUES(35,'Tenor Tuba',26);
+INSERT INTO "roster_instrument" VALUES(36,'Music Librarian',32);
+INSERT INTO "roster_instrument" VALUES(37,'Personnel Manager (Winds, Brass, Percussion)',33);
+INSERT INTO "roster_instrument" VALUES(38,'Personnel Manager (Strings)',34);
 CREATE TABLE "roster_orchestramember" (
     "id" integer NOT NULL PRIMARY KEY,
     "first_name" varchar(100) NOT NULL,
