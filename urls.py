@@ -6,6 +6,8 @@ from soloists.models import Soloist
 from django.contrib import databrowse
 from django.contrib.admin.views.decorators import staff_member_required
 
+from django.http import HttpResponsePermanentRedirect
+
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
 
@@ -34,6 +36,10 @@ urlpatterns = patterns('',
     (r'^sponsors/$', 'sponsors.views.all'),
     
     (r'^search/', include('haystack.urls')),
+
+    (r'^youngartists\.shtml', lambda request: HttpResponsePermanentRedirect('/young_artist_competition')),
+    (r'^index\.shtml', lambda request: HttpResponsePermanentRedirect('/')),
+    (r'^compcomp\.shtml', lambda request: HttpResponsePermanentRedirect('/composer_competition')),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:
