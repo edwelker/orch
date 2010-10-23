@@ -1,7 +1,9 @@
 {% extends "mockup.html" %}
 
 {% block youtube %}
-    <object width="470" height="385"><param name="movie" value="http://www.youtube.com/v/-ysTZ4TaCmQ&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/-ysTZ4TaCmQ&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="470" height="385"></embed></object>
+    <!--<object width="470" height="385"><param name="movie" value="http://www.youtube.com/v/-ysTZ4TaCmQ&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/-ysTZ4TaCmQ&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="470" height="385"></embed></object>-->
+	
+	<object width="470" height="385"><param name="movie" value="http://www.youtube.com/v/c6jABdXe5P8?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/c6jABdXe5P8?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="470" height="385"></embed></object>
     <!--  include "inc/youtube.html"  -->
 {% endblock %}
 
@@ -42,7 +44,11 @@
                                 {% endif %}
                             {% endfor %}
                         {% endfor %}                     
-                    {% endif %}    
+                    {% endif %} 
+
+                    {% if primary_event.image %}
+                        <a href="{{primary_event.season.get_absolute_url}}#{{primary_event.slug}}"><img src="/{{primary_event.display.url}}" class="event_img" alt="{{primary_event}}"/></a>
+                    {% endif %}
                 {%comment%} {% endif %} {% endcomment %}
             </div>
             <div class="description">
@@ -69,8 +75,8 @@
                     </p>
                 {% endwith %}
                 {% endif %}
-				<p class="tickets">For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door. <em>We are not equipped to process credit cards at the door; we are happy to accept cash or personal checks.</em></p>
-
+		<!--		<p class="tickets">For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door. <em>We are not equipped to process credit cards at the door; we are happy to accept cash or personal checks.</em></p>
+-->
             </div>   
 
     </div>
