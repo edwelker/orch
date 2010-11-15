@@ -16,6 +16,8 @@
 
                 <h4 class="summary">{{ event.name }}</h4>
 
+
+                <div class="soloist_imgs">
                     <!-- this is so ugly, have to fix this ASAP!  -->
                     {% if event.pieces.all %}
                         {% for p in event.pieces.all %}
@@ -32,7 +34,7 @@
                             <a href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
                         {% endfor %}
                     {% endif %}
-
+                </div>
 
                     
 

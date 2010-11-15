@@ -32,6 +32,16 @@
     }
   }, 
   {
+    "pk": 43, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 34, 
+      "title": "Trumpet Concerto"
+    }
+  }, 
+  {
     "pk": 16, 
     "model": "pieces.piece", 
     "fields": {
@@ -39,6 +49,36 @@
       "movement": "", 
       "composer": 16, 
       "title": "Overture to Egmont"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 16, 
+      "title": "Symphony No. 7 in A Major, Op. 92"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 16, 
+      "title": "Piano Trio No. 4"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 33, 
+      "title": "Symphonic Dances from West Side Story"
     }
   }, 
   {
@@ -54,6 +94,16 @@
     }
   }, 
   {
+    "pk": 44, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 35, 
+      "title": "Cello Concerto, 1st movement"
+    }
+  }, 
+  {
     "pk": 11, 
     "model": "pieces.piece", 
     "fields": {
@@ -61,6 +111,16 @@
       "movement": "", 
       "composer": 11, 
       "title": "Variations on a Theme by Haydn"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 11, 
+      "title": "Symphony No. 4"
     }
   }, 
   {
@@ -74,6 +134,16 @@
     }
   }, 
   {
+    "pk": 45, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 36, 
+      "title": "The Map"
+    }
+  }, 
+  {
     "pk": 24, 
     "model": "pieces.piece", 
     "fields": {
@@ -84,6 +154,16 @@
     }
   }, 
   {
+    "pk": 34, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 24, 
+      "title": "Carnival Overture, Op. 92"
+    }
+  }, 
+  {
     "pk": 23, 
     "model": "pieces.piece", 
     "fields": {
@@ -91,6 +171,18 @@
       "movement": "", 
       "composer": 23, 
       "title": "\"Malambo\" from Estancia "
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [
+        13
+      ], 
+      "movement": "", 
+      "composer": 30, 
+      "title": "Three Songs for Soprano and Orchestra (2002)"
     }
   }, 
   {
@@ -116,10 +208,22 @@
     }
   }, 
   {
-    "pk": 2, 
+    "pk": 38, 
     "model": "pieces.piece", 
     "fields": {
       "soloist": [], 
+      "movement": "", 
+      "composer": 15, 
+      "title": "Sinfonia Concertante"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [
+        12
+      ], 
       "movement": "", 
       "composer": 2, 
       "title": "Motor City Dance Mix"
@@ -220,6 +324,46 @@
     }
   }, 
   {
+    "pk": 35, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 31, 
+      "title": "Music from Romeo and Juliet"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 31, 
+      "title": "Peter and the Wolf"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 37, 
+      "title": "Shiraz"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 37, 
+      "title": "Shiraz"
+    }
+  }, 
+  {
     "pk": 10, 
     "model": "pieces.piece", 
     "fields": {
@@ -250,6 +394,16 @@
     }
   }, 
   {
+    "pk": 50, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 38, 
+      "title": "Piano Quintet"
+    }
+  }, 
+  {
     "pk": 8, 
     "model": "pieces.piece", 
     "fields": {
@@ -257,6 +411,26 @@
       "movement": "", 
       "composer": 8, 
       "title": "Festive Overture"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 32, 
+      "title": "Symphony No. 1"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 32, 
+      "title": "Violin Concerto, 1st movement"
     }
   }, 
   {
@@ -299,6 +473,16 @@
       "movement": "", 
       "composer": 5, 
       "title": "Fanfare for the Uncommon Woman"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "pieces.piece", 
+    "fields": {
+      "soloist": [], 
+      "movement": "", 
+      "composer": 5, 
+      "title": "Made in America"
     }
   }, 
   {
@@ -368,10 +552,24 @@
     }
   }, 
   {
+    "pk": 34, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Alexander", 
+      "last_name": "Arutiunian", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
+    }
+  }, 
+  {
     "pk": 16, 
     "model": "pieces.composer", 
     "fields": {
-      "bio": null, 
+      "bio": "", 
       "first_name": "Ludwig", 
       "last_name": "Beethoven", 
       "middle_name": "van", 
@@ -379,6 +577,20 @@
       "url": "", 
       "photo": "", 
       "num_views": null
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Leonard", 
+      "last_name": "Bernstein", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
     }
   }, 
   {
@@ -396,10 +608,24 @@
     }
   }, 
   {
+    "pk": 35, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Luigi", 
+      "last_name": "Boccherini", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
+    }
+  }, 
+  {
     "pk": 11, 
     "model": "pieces.composer", 
     "fields": {
-      "bio": null, 
+      "bio": "", 
       "first_name": "Johannes ", 
       "last_name": "Brahms", 
       "middle_name": "", 
@@ -424,10 +650,24 @@
     }
   }, 
   {
+    "pk": 36, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Tan", 
+      "last_name": "Dun", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
+    }
+  }, 
+  {
     "pk": 24, 
     "model": "pieces.composer", 
     "fields": {
-      "bio": null, 
+      "bio": "", 
       "first_name": "Anton\u00edn", 
       "last_name": "Dvo\u0159\u00e1k", 
       "middle_name": "Leopold", 
@@ -452,6 +692,20 @@
     }
   }, 
   {
+    "pk": 30, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Osvaldo", 
+      "last_name": "Golijov", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
+    }
+  }, 
+  {
     "pk": 27, 
     "model": "pieces.composer", 
     "fields": {
@@ -469,7 +723,7 @@
     "pk": 15, 
     "model": "pieces.composer", 
     "fields": {
-      "bio": null, 
+      "bio": "", 
       "first_name": "Franz", 
       "last_name": "Haydn", 
       "middle_name": "Joseph", 
@@ -606,6 +860,34 @@
     }
   }, 
   {
+    "pk": 31, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Sergei", 
+      "last_name": "Prokofiev", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Behzad", 
+      "last_name": "Ranjbaran", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
+    }
+  }, 
+  {
     "pk": 10, 
     "model": "pieces.composer", 
     "fields": {
@@ -634,6 +916,20 @@
     }
   }, 
   {
+    "pk": 38, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Robert", 
+      "last_name": "Schumann", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
+    }
+  }, 
+  {
     "pk": 8, 
     "model": "pieces.composer", 
     "fields": {
@@ -645,6 +941,20 @@
       "url": "", 
       "photo": "", 
       "num_views": null
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "pieces.composer", 
+    "fields": {
+      "bio": "", 
+      "first_name": "Jean", 
+      "last_name": "Sibelius", 
+      "middle_name": "", 
+      "other_composer": "", 
+      "url": "", 
+      "photo": "", 
+      "num_views": 0
     }
   }, 
   {
@@ -679,11 +989,11 @@
     "pk": 5, 
     "model": "pieces.composer", 
     "fields": {
-      "bio": null, 
+      "bio": "", 
       "first_name": "Joan", 
       "last_name": "Tower", 
       "middle_name": "", 
-      "other_composer": null, 
+      "other_composer": "", 
       "url": "", 
       "photo": "", 
       "num_views": null

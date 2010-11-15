@@ -24,7 +24,7 @@ h4 { font-size: 1.3em; margin: 1em 0 .3em 0; }
 .vcalendar h3 { font-size: 1.8em; text-shadow: 3px 3px 6px rgba(0,0,0,.4); }
 p.dtstart, p.location, p.tickets { margin: 0;}
 .vevent { border-bottom: 1px solid #ccc; ovdisplaye; }
-.vevent img { float: right; margin: -3.4em 1em .7em 0; }
+.vevent .soloist_imgs img { float: right; margin: -3.4em 1em .7em 0; }
 .search table ul { list-style-type: none; }
 div.soloist { overflow: auto; clear: both; border-bottom: 1px solid #ccc; margin-bottom: 1em; }
 div.soloist img { float: left; margin-right: 1em; margin-bottom: 1em; }

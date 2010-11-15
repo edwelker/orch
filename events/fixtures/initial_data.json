@@ -22,6 +22,28 @@
     }
   }, 
   {
+    "pk": 3, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2008-08-01", 
+      "slug": "2008-2009_Season", 
+      "enddate": "2009-06-07", 
+      "name": "2008-2009 Season", 
+      "description": ""
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2007-08-01", 
+      "slug": "2007-2008-season", 
+      "enddate": "2008-06-01", 
+      "name": "2007-2008 Season", 
+      "description": ""
+    }
+  }, 
+  {
     "pk": 1, 
     "model": "events.location", 
     "fields": {
@@ -65,6 +87,228 @@
   }, 
   {
     "pk": 4, 
+    "model": "events.location", 
+    "fields": {
+      "city": "Columbia", 
+      "name": "St. Johns Baptist Church", 
+      "zip": "21045", 
+      "url": "http://www.stjohnbaptistchurch.org/", 
+      "alt_url": "", 
+      "state": "MD", 
+      "address": "9055 Tamar Drive", 
+      "slug": "st-johns-baptist-church"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Romeo and Juliet", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        34, 
+        33, 
+        35
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2008-10-18 19:30:00", 
+      "num_views": 0, 
+      "slug": "romeo-and-juliet", 
+      "soloists": [], 
+      "description": "<p> Darkness meets light in this magical program! Whether it's a Bohemian overture that says life is a bustling carnival, an Argentinean composer probing weighty poems in Spanish, Yiddish, and by Emily Dickinson, or a 20th-Century Russian composer's take on the 17th century's most famous English play, this concert brings together many of the diverse voices that sing together to tell the human story: our overarching goal for this season. </p>\r\n\r\n<p> Featuring: actors from the Chesapeake Shakespeare Company</p>"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Young People's Concert", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        36
+      ], 
+      "location": 1, 
+      "alt_time": "15:00:00", 
+      "date": "2008-11-08 12:30:00", 
+      "num_views": 0, 
+      "slug": "2008-young-peoples-concert", 
+      "soloists": [], 
+      "description": "<p>One of our most popular events! Join our full orchestra for a dramatic presentation of this classic orchestral story plus other fun music designed to get kids excited about music and the orchestra. Don't miss our musical instrument petting zoo where your child can actually try out many of the instruments from the concert!</p>\r\n\r\n<p>Featuring: Dyana Neal and The Kinetics Dance Theatre. </p>"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert One", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2008-11-22 20:00:00", 
+      "num_views": 0, 
+      "slug": "2008-chamber-concert-1", 
+      "soloists": [], 
+      "description": "<p>Join members of the orchestra for an eclectic program of music including Bach's Musical Offering, a Bruch String Quintet, Gounod's Little Symphony for winds and more! And it is FREE. </p>"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Sibelius' First", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        38, 
+        39, 
+        37
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2009-01-10 19:30:00", 
+      "num_views": 0, 
+      "slug": "sibelius-first", 
+      "soloists": [], 
+      "description": "<p>Part meditation on <i>America, the Beautiful</i>, orchestras across the country co-commissioned this modern masterpiece from one of America's most respected living composers. Then we feature soloists from your own Columbia Orchestra in one of Haydn's most beautiful works. Finally, we travel to Finland in one of Sibelius's most gripping, romantic works. </p>\r\n\r\n<p>Featuring:\r\n<ul>\r\n     <li>Monica DeLeon, Bassoon</li>\r\n      <li>Brenda Anna, Violin</li>\r\n      <li>Jason Love, Cello</li>\r\n</ul>"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Symphonic Pops", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2009-02-07 19:30:00", 
+      "num_views": 0, 
+      "slug": "2009_symphonic-pops", 
+      "soloists": [], 
+      "description": "<p>Variety is the spice of Pops! Broadway's greatest hits, music from films like Ben Hur, Rocky and Doctor Zhivago, the magic of Disney, or Spirituals featuring the McDaniel College Gospel Choir. Your only problem will be picking which great melody to whistle on the way home!</p>\r\n\r\n<p> Featuring: \r\n<ul>\r\n    <li> The McDaniel College Gospel Choir, Eric B. Byrd, Director</li>\r\n    <li>John Dooley, baritone , and Theresa Bickham, soprano</li>\r\n</ul>\r\n</p>"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert Two: Beethoven, Brahms ... and Benjamin", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2009-03-21 19:30:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-two-beethoven-brahms-and-benjamin", 
+      "soloists": [], 
+      "description": "<p>Join Brenda Anna, violin, Jason Love, cello, and Nancy Smith, piano, for a FREE concert of Beethoven's \"Ghost\" trio, Brahms' B Major trio, and Ap\u00e9ritif by Columbia composer Tom Benjamin. </p>"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Beethoven and Bernstein", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        40, 
+        41, 
+        43, 
+        42, 
+        44
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2009-03-28 19:30:00", 
+      "num_views": 0, 
+      "slug": "beethoven-and-bernstein", 
+      "soloists": [], 
+      "description": "<p>Though Beethoven's contemporaries criticized its lack of melody, Wagner acknowledged Beethoven's <i>Seventh</i> as \"the apotheosis of the dance.\" Although Bernstein was warned his show didn't have a single \"hit\" before its premiere, these dance numbers have become among Broadways' most well-known tunes. As a highlight to every season we pair the great voices of the past with our youngest virtuosos, the winners of our 2009 Young Artist competition. </p>\r\n\r\n<p>\r\nFeaturing:\r\n<ul>\r\n    <li>Acadia Kocher, trumpet; Winner of the Young Artist Competition Senior Wind Division</li>\r\n    <li>Evangeline Chandran, violin; Winner of the Young Artist Competition Junior Division</li>\r\n    <li>Shing Ann Yeh, cello; Winner of the Young Artist Competition Senior String Division</li>\r\n</ul>\r\n</p>"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert Three", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2009-05-30 19:30:00", 
+      "num_views": 0, 
+      "slug": "2009-chamber-concert-two", 
+      "soloists": [], 
+      "description": "<p>Individual members of Howard County's own orchestra shine in this intimate, small-group setting! Woodwinds, brass, piano, and strings come together for Schumann's four-horn Concert-piece, Mendelssohn's Third String Quartet, a charming trio by Damase, and Stravinsky's masterful neo-Classical Octet. This concert is free and open to the public. (Donations accepted.) </p>"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "From the Past to the Present", 
+      "season": 3, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        46, 
+        45
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2009-06-06 19:30:00", 
+      "num_views": 0, 
+      "slug": "past-present", 
+      "soloists": [], 
+      "description": "<p>Two great composers explore what it means to be part of a musical tradition. Building on the enthusiasm for our performance of Tan Dun's Paper Concerto, this mixed-media cello concerto bridges the ancient world with our technological era as Chinese folk musicians perform on video along with our live Western orchestra. And was Brahms the most traditional or progressive composer of his age? His last symphony says \"yes\" to both!</p>"
+    }
+  }, 
+  {
+    "pk": 4, 
     "model": "events.event", 
     "fields": {
       "alt_date": null, 
@@ -77,7 +321,8 @@
       "pieces": [
         16, 
         17, 
-        18
+        18, 
+        16
       ], 
       "location": 1, 
       "alt_time": null, 
@@ -294,7 +539,28 @@
       "num_views": 22, 
       "slug": "land-and-sea", 
       "soloists": [], 
-      "description": "<p>The Columbia Orchestra bursts out in full color with Debussy\u2019s impressionistic masterpiece! Jason Shafer, the Orchestra\u2019s 2003 Young Artist Competition winner now playing in Florida\u2019s New World Symphony, brings his virtuosity to one of Mozart\u2019s last and most beautiful concertos. Begin the journey with a young African-American composer\u2019s jazzy celebration of Detroit\u2019s automotive history and its world-class orchestra. </p>"
+      "description": "<p>The Columbia Orchestra bursts out in full color with Debussy\u2019s impressionistic masterpiece! Jason Shafer, the Orchestra\u2019s 2003 Young Artist Competition winner now playing in Florida\u2019s New World Symphony, brings his virtuosity to one of Mozart\u2019s last and most beautiful concertos. Begin the journey with a young African-American composer\u2019s jazzy celebration of Detroit\u2019s automotive history and its world-class orchestra. </p>\r\n\r\n<p>Join us at 6:30pm for a \"<a href=\"http://columbiaorchestra.org/preludes/\">Prelude</a>,\" a fun, fascinating pre-concert discussion with Bill Scanlan Murphy brought to you by Baltimore-Washington Financial Advisors.</p>\r\n\r\n<p><a href=\"http://www.bwfa.com/\" target=\"co_link\"><img src=\"/images/logo-bwfa.jpg\" alt=\"Baltimore Washington Financial Advisors\" style=\"\" border=\"0\" height=\"39\" width=\"132\"></a></p>"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Sounds of Praise", 
+      "season": 2, 
+      "image": "src_imgs/events/St_Johns.jpg", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 4, 
+      "alt_time": null, 
+      "date": "2010-11-07 17:00:00", 
+      "num_views": 1194, 
+      "slug": "sounds-praise", 
+      "soloists": [], 
+      "description": "<p>The Columbia Orchestra joins the Cathedral Choir of St. Johns Baptist Church and their Director Linda Hall for an evening of glorious singing! The inspiration for the concert comes from Psalm 150: \"Let everything that hath breath, Praise the Lord.\"  Tickets are $10 and are available through St. Johns Baptist Church. For more information contact Carolyn Gayle at 410-992-6977.</p>"
     }
   }, 
   {
@@ -303,19 +569,19 @@
     "fields": {
       "alt_date": null, 
       "status": 1, 
-      "name": "Chamber Concert One", 
+      "name": "Chamber Concert One: Spotlight on Strings", 
       "season": 2, 
-      "image": "", 
+      "image": "src_imgs/events/Str_Qtet_1.jpg", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
       "pieces": [], 
       "location": 2, 
       "alt_time": null, 
       "date": "2010-11-20 19:30:00", 
-      "num_views": 0, 
+      "num_views": 408, 
       "slug": "chamber-concert-one", 
       "soloists": [], 
-      "description": "<p>Composers often share their most intimate thoughts through chamber music, and this FREE three-concert series is a wonderful way to hear orchestra members up close. Hear a mixture of strings, woodwinds, and brass in the lovely setting of Christ Episcopal Church.</p>"
+      "description": "<p>This intimate but thrilling concert showcases remarkable music for some of our violins, violas, and cellos. You'll hear orchestra members up close in a string sampler including music from Mozart's G Minor String Quintet, Dvorak's American Quartet, and Kodaly's Solo Cello Sonata. It's a FREE concert in a lovely setting.</p>\r\n\r\n<p><em>This concert will last approximately one hour with no intermission. Free admission; donations accepted.</em></p>"
     }
   }, 
   {
@@ -415,7 +681,7 @@
       "num_views": 0, 
       "slug": "young-and-eclectic", 
       "soloists": [], 
-      "description": "<p>A thrilling concert for the classical connoisseur, musical novices, and kids of all ages. We\u2019re bringing together several works that don\u2019t have to be long to be inspirational! And the jaw-dropping talent of the virtuosos who win our competition will help us complete this exotic journey around the globe. </p>"
+      "description": "<p>A thrilling concert for the classical connoisseur, musical novices, and kids of all ages. We\u2019re bringing together several works that don\u2019t have to be long to be inspirational! And the jaw-dropping talent of the virtuosos who win our competition will help us complete this exotic journey around the globe. </p>\r\n\r\n<p>Concert sponsored by PNC.</p>\r\n<p><a href=\"https://www.pnc.com/\"><img src=\"http://columbiaorchestra.org/images/logo-PNC.gif\" height=\"25\" width=\"83\"/></a></p>\r\n\r\n<p>Young Artists competition sponsored by Gaile's Violin Shop, Inc.</p>\r\n<p><a href=\"http://www.gailesviolin.com/\"><img src=\"/images/logo-Gailes-small.jpg\"  height=\"25\" width=\"74\" border=\"0\"></a>"
     }
   }, 
   {
@@ -447,17 +713,23 @@
       "status": 1, 
       "name": "Chamber Concert Three", 
       "season": 2, 
-      "image": "", 
+      "image": "src_imgs/events/trio2.jpg", 
       "ticket_link": "", 
       "preconcert_discussion": null, 
-      "pieces": [], 
+      "pieces": [
+        49, 
+        47, 
+        50
+      ], 
       "location": 2, 
       "alt_time": null, 
       "date": "2011-05-21 19:30:00", 
       "num_views": 0, 
       "slug": "chamber-concert-three", 
-      "soloists": [], 
-      "description": "<p>Composers often share their most intimate thoughts through chamber music, and this FREE three-concert series is a wonderful way to hear orchestra members up close. Concertmaster <a href=\"/members/brenda_anna/\"> Brenda Anna,</a> violin, Music Director <a href=\"/members/jason_love/\">Jason Love,</a> cello, and Columbia Orchestra pianist <a href=\"/members/nancy_smith/\">Nancy Smith</a> perform in the lovely setting of Christ Episcopal Church.</p>"
+      "soloists": [
+        20
+      ], 
+      "description": "<p>You may think \"moody\" or \"stormy\" when you hear the word \"Beethoven,\" but this wonderful trio shows Ludwig's playful side and features the kind of gorgeous melodies you'd expect from the master. Ranjbaran's work celebrates the vitality and poetry of the ancient city in his native Iran for which both the piece and the famous wine grapes are named. Finally, orchestra members Paul Li, violin, and Robin Strempek, viola, join the <a href=\"/artists/columbia-orchestra-piano-trio/\"> Columbia Orchestra Piano Trio</a> \u2013 Concertmaster <a href=\"/members/brenda_anna/\"> Brenda Anna,</a> violin, Music Director <a href=\"/members/jason_love/\">Jason Love,</a> cello, and orchestra pianist <a href=\"/members/nancy_smith/\">Nancy Smith</a> \u2013 for one of the great chamber works of all time, Schumann's Piano Quintet.</p>\r\n\r\n<p><em>This performance will last approximately one-and-a-half hours with one 15-minute intermission. Free admission; donations accepted.</em></p>"
     }
   }, 
   {
