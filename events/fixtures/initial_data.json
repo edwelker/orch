@@ -44,6 +44,61 @@
     }
   }, 
   {
+    "pk": 5, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2006-08-01", 
+      "slug": "2006-2007_Season", 
+      "enddate": "2007-06-01", 
+      "name": "2006-2007 Season", 
+      "description": ""
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2005-08-01", 
+      "slug": "2005-2006-season", 
+      "enddate": "2006-06-01", 
+      "name": "2005-2006 Season", 
+      "description": ""
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2004-08-01", 
+      "slug": "2004-2005-season", 
+      "enddate": "2005-06-01", 
+      "name": "2004-2005 Season", 
+      "description": ""
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2003-08-01", 
+      "slug": "2003-2004-seasion", 
+      "enddate": "2004-06-01", 
+      "name": "2003-2004 Seasion", 
+      "description": ""
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "events.season", 
+    "fields": {
+      "startdate": "2002-08-01", 
+      "slug": "2002-2003-season", 
+      "enddate": "2003-08-01", 
+      "name": "2002-2003 Season", 
+      "description": ""
+    }
+  }, 
+  {
     "pk": 1, 
     "model": "events.location", 
     "fields": {
@@ -97,6 +152,1137 @@
       "state": "MD", 
       "address": "9055 Tamar Drive", 
       "slug": "st-johns-baptist-church"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "events.location", 
+    "fields": {
+      "city": "Clarksville", 
+      "name": "The Gathering Place", 
+      "zip": "21029", 
+      "url": "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=6120+Daylong+Lane+21029&sll=37.0625,-95.677068&sspn=34.259599,79.013672&ie=UTF8&hq=&hnear=6120+Daylong+Ln,+Clarksville,+Howard,+Maryland+21029&z=16", 
+      "alt_url": "http://www.thegatheringplace.tv/directions.shtml", 
+      "state": "Maryland", 
+      "address": "6120 Daylong Ln", 
+      "slug": "gathering-place"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "events.location", 
+    "fields": {
+      "city": "Columbia", 
+      "name": "Wilde Lake Interfaith Center", 
+      "zip": "21044", 
+      "url": "http://maps.google.com/maps?hl=en&ie=UTF8&q=wilde+lake+interfaith+center+columbia+md&fb=1&gl=us&hq=wilde+lake+interfaith+center&hnear=Columbia,+MD&cid=0,0,14232234560388340614&ei=4N3nTInIOoKKlwf_zv2aCQ&oi=local_result&ved=0CBIQnwIwAA&ll=39.220534,-76.871917&spn=0.007597,0.01929&z=16&iwloc=A", 
+      "alt_url": "", 
+      "state": "Maryland", 
+      "address": "10431 Twin Rivers Road", 
+      "slug": "wilde-lake-interfaith-center"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Exotic Landscapes", 
+      "season": 9, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        129, 
+        130, 
+        131
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2002-10-12 20:00:00", 
+      "num_views": 0, 
+      "slug": "exotic-landscapes", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "To The Sea", 
+      "season": 9, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        132, 
+        133, 
+        134, 
+        135
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2002-12-14 20:00:00", 
+      "num_views": 0, 
+      "slug": "sea", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "A Heritage of Harmony", 
+      "season": 9, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        140, 
+        136, 
+        137, 
+        139, 
+        138
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2003-02-15 20:00:00", 
+      "num_views": 0, 
+      "slug": "heritage-harmony", 
+      "soloists": [
+        48, 
+        50, 
+        51
+      ], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Young People's Concert", 
+      "season": 9, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 6, 
+      "alt_time": null, 
+      "date": "2003-03-08 15:00:00", 
+      "num_views": 0, 
+      "slug": "young-peoples-concert-2003-03-08", 
+      "soloists": [], 
+      "description": "<p>An introduction to the orchestra for children and their parents in an informal setting. Come early for the instrument petting zoo beginning at 2:00 PM! Free for children under 12.<p/>"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Russian Memories and American Dreams", 
+      "season": 9, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        141, 
+        142, 
+        143
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2003-05-10 20:00:00", 
+      "num_views": 0, 
+      "slug": "russian-memories-and-american-dreams", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Bits and Pieces: A Chamber Music Concert", 
+      "season": 9, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        146, 
+        144, 
+        147, 
+        145
+      ], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2003-05-31 20:00:00", 
+      "num_views": 0, 
+      "slug": "bits-and-pieces-chamber-music-concert", 
+      "soloists": [], 
+      "description": "<p>An evening of works for smaller ensembles, showcasing a variety of members and sections of the orchestra.</p>"
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Symphonic Pops", 
+      "season": 9, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        148, 
+        149, 
+        150, 
+        151
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2003-06-07 20:00:00", 
+      "num_views": 0, 
+      "slug": "symphonic-pops-2003-06-07", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "MasterWorks One:  Final Words", 
+      "season": 8, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        110, 
+        111, 
+        112
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2003-10-18 20:00:00", 
+      "num_views": 0, 
+      "slug": "masterworks-one-final-words", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "MasterWorks Two:  The French Connection", 
+      "season": 8, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        113, 
+        10, 
+        114, 
+        116, 
+        115, 
+        117
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2003-12-13 20:00:00", 
+      "num_views": 0, 
+      "slug": "masterworks-two-french-connection", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Young People's Concert", 
+      "season": 8, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 6, 
+      "alt_time": null, 
+      "date": "2004-01-10 15:00:00", 
+      "num_views": 0, 
+      "slug": "young-peoples-concert-2004-01-10", 
+      "soloists": [], 
+      "description": "<p>An introduction to the orchestra for children and their parents in an informal setting. This year's program features the Peabody Violin Choir, directed by Rebecca Henry. Come early (2-3) for the Musical Instrument Petting Zoo for a chance to hear, touch and play musical instruments! </p>"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": "2004-02-29 15:00:00", 
+      "status": 1, 
+      "name": "MasterWorks Three:  Body, Voice and Spirit", 
+      "season": 8, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        118, 
+        119, 
+        120
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2004-02-28 20:00:00", 
+      "num_views": 0, 
+      "slug": "masterworks-three-body-voice-and-spirit", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "MasterWorks Four: Wolfgang, Felix, and Igor", 
+      "season": 8, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        121, 
+        122, 
+        123
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2004-04-17 20:00:00", 
+      "num_views": 0, 
+      "slug": "masterworks-four-wolfgang-felix-and-igor", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Piano recital by Brian Ganz", 
+      "season": 8, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        125, 
+        126, 
+        124
+      ], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2004-05-15 20:00:00", 
+      "num_views": 0, 
+      "slug": "piano-recital-brian-ganz", 
+      "soloists": [
+        31
+      ], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Symphonic Pops", 
+      "season": 8, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        128, 
+        127
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2004-06-05 20:00:00", 
+      "num_views": 0, 
+      "slug": "symphonic-pops-2004-06-05", 
+      "soloists": [], 
+      "description": "<p>A fun-filled evening for the entire family, including blues, spirituals, and Gospel piano, plus film music from Harry Potter, and much more.</p>"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Taleful Tunes", 
+      "season": 7, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        94, 
+        96, 
+        95
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2004-10-23 19:30:00", 
+      "num_views": 0, 
+      "slug": "taleful-tunes", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Young People's Concert", 
+      "season": 7, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 6, 
+      "alt_time": "15:00:00", 
+      "date": "2004-11-13 12:30:00", 
+      "num_views": 0, 
+      "slug": "young-peoples-concert-2004-11-13", 
+      "soloists": [], 
+      "description": "<p>An introduction to the orchestra for children and their parents in an informal setting. This year's program features Prokofiev\u2019s beloved Peter and the Wolf with live action and more music featuring the Peabody Children\u2019s Chorus, Doreen Falby, Director. Don't miss the 1:30-3:00 Musical Instrument Petting Zoo for a chance to hear, touch and play musical instruments! </p>"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Around the World", 
+      "season": 7, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        97, 
+        98, 
+        99, 
+        100, 
+        101
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2005-01-15 19:30:00", 
+      "num_views": 0, 
+      "slug": "around-world-2005-01-05", 
+      "soloists": [], 
+      "description": "</p>"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "MasterWorks Three", 
+      "season": 7, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        102, 
+        103, 
+        104, 
+        105, 
+        106
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2005-03-05 19:30:00", 
+      "num_views": 0, 
+      "slug": "masterworks-three", 
+      "soloists": [], 
+      "description": "</p>"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Symphonic Pops:  Broadway, Beatles, and Beyond", 
+      "season": 7, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2005-04-09 19:30:00", 
+      "num_views": 0, 
+      "slug": "symphonic-pops-broadway-beatles-and-beyond", 
+      "soloists": [], 
+      "description": "<p>Featuring music from Phantom of the Opera, Les Miserables, and some of the Fab Four\u2019s greatest hits! (Guest artists to be announced) </p>"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "And the Winner Is...", 
+      "season": 7, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        107, 
+        108, 
+        109
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2005-06-04 19:30:00", 
+      "num_views": 0, 
+      "slug": "and-winner", 
+      "soloists": [], 
+      "description": "<p/>"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Blockbusters and Discoveries:  The Agony and the Ecstasy", 
+      "season": 6, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        69, 
+        71, 
+        70
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2005-10-15 19:30:00", 
+      "num_views": 0, 
+      "slug": "blockbusters-and-discoveries-agony-and-ecstasy", 
+      "soloists": [], 
+      "description": "<p>Just as Leonardo da Vinci toiled to create some of the world\u2019s greatest art under the demands of religious and political leaders, Ludwig van Beethoven and Jennifer Higdon demonstrate the triumph of the human spirit over tragic obstacles. </p>"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Explorations: A Tribute to John Denver", 
+      "season": 6, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2005-10-30 15:30:00", 
+      "num_views": 0, 
+      "slug": "explorations-tribute-john-denver", 
+      "soloists": [], 
+      "description": "<p>Members and songwriters of the original John Denver Band remember the music of one of America\u2019s best-loved singers, as they perform Rocky Mountain High, Thank God I\u2019m a Country Boy, and more than a dozen other hits!</p>\r\n\r\n<p>Featuring: Kenn Roberts and Mack Bailey of The Hard Travelers\r\nand friends Chris Nole, Bill Danoff, Mollie Weaver, Jim Salestrom, Jim Horn, and John Sommers.</p>\r\n\r\n<p>This concert is a project of the M.U.S.E. Foundation.</p>\r\n"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Explorations: Young People's Concert", 
+      "season": 6, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        72, 
+        73
+      ], 
+      "location": 6, 
+      "alt_time": "15:00:00", 
+      "date": "2005-12-03 12:30:00", 
+      "num_views": 0, 
+      "slug": "explorations-young-peoples-concert", 
+      "soloists": [], 
+      "description": "<p>An introduction to the orchestra and dance for children and their parents in a fun, informal setting. The program will feature students from the Peabody Dance Program, Carol Bartlett, Director.</p>\r\n\r\n<p>Don't miss the 1:30-3:00 Musical Instrument Petting Zoo for a chance to hear, touch and play musical instruments! </p>"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Blockbusters and Discoveries:  Arabian Nights", 
+      "season": 6, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        74, 
+        75
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2006-01-21 19:30:00", 
+      "num_views": 0, 
+      "slug": "blockbusters-and-discoveries-arabian-nights", 
+      "soloists": [], 
+      "description": "<p>Though children may dream of Tales of Arabian Nights, Rimsky-Korsakov used these myths and legends to inspire a tone poem of epic proportions. Just as China gave the gift of paper to the world, Tan Dun explores its sonic possibilities in an enthralling new work.</p>"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Blockbusters and Discoveries: Perfect Storms", 
+      "season": 6, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        76, 
+        77, 
+        78, 
+        79
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2006-03-04 19:30:00", 
+      "num_views": 0, 
+      "slug": "blockbusters-and-discoveries-perfect-storms", 
+      "soloists": [], 
+      "description": "<p>Britten\u2019s seafarer Peter Grimes is the quintessential outsider, while the waves of Sibelius\u2019 Symphony lap the shores of a proud nation with both calm waters and perilous seas.</p>\r\n\r\n<p>Featuring the winners of the Columbia Orchestra 2006 Young Artist Competition </p>"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Explorations:  COMCAST presents \u201cBy George! By Ira! By Gershwin!\u201d ", 
+      "season": 6, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2006-04-08 19:30:00", 
+      "num_views": 0, 
+      "slug": "explorations-comcast-presents-george-ira-gershwin", 
+      "soloists": [], 
+      "description": "<p>Celebrate the genius of George and Ira Gershwin as a dramatic multimedia narrative with spectacular visual images tells the compelling story of their rise to fame. A jazz quintet joins the orchestra for Selections from Porgy and Bess, Rhapsody in Blue, and more!</p>\r\n\r\n<p>Featuring Carolyn Black-Sotir, Arno Drucker, R. Timothy McReynolds, Thomas Williams and Richard McCready</p>"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Blockbusters and Discoveries:  Clear and Present Danger", 
+      "season": 6, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        81, 
+        80
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2006-06-03 19:30:00", 
+      "num_views": 0, 
+      "slug": "blockbusters-and-discoveries-clear-and-present-dan", 
+      "soloists": [], 
+      "description": "<p>Aristocracy and democracy. Religion and humanism. Communism and capitalism. Mozart and Shostakovich respond to turmoil around them by creating some of the most revolutionary and moving music ever written.</p>"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Passion and Destiny", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        54, 
+        56, 
+        55, 
+        51, 
+        52
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2006-10-21 19:30:00", 
+      "num_views": 0, 
+      "slug": "passion-and-destiny", 
+      "soloists": [], 
+      "description": "<p>From the Italian passion of Verdi and the Spanish poetry of Rodrigo, from the French sensuality of Ravel and the German transcendence of Wagner, this concert is more than a tour of Europe's greatest landscapes---it's a tour of the human experience.</p>"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "A Tribute to John Denver", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2006-10-29 13:30:00", 
+      "num_views": 0, 
+      "slug": "tribute-john-denver", 
+      "soloists": [], 
+      "description": "<p>Members and songwriters of the original John Denver Band remember the music of one of America\u2019s best-loved singers, as they perform Rocky Mountain High, Thank God I\u2019m a Country Boy, and more than a dozen other hits!</p>\r\n\r\n<p>Featuring: Kenn Roberts and Mack Bailey of The Hard Travelers\r\nand friends Chris Nole, Bill Danoff, Mollie Weaver, Jim Salestrom, Jim Horn, Pete Huttlinger, Ira Gitlin and John Sommers.</p>\r\n\r\n<p>This concert is a project of the M.U.S.E. Foundation.</p>"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Secrets of Grace", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        57, 
+        58, 
+        61, 
+        59, 
+        60
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2006-12-09 19:30:00", 
+      "num_views": 0, 
+      "slug": "secrets-grace", 
+      "soloists": [], 
+      "description": "<p>Featuring the Central Maryland Chorale, directed by Monica Otal.</p>\r\n\r\n<p>Themes of faith, humanity, and hope are central in the works of two of orchestral music's greatest composers: Wolfgang Amadeus Mozart and John Adams. The Central Maryland Chorale joins the orchestra for music which is both sublime and powerful.</p>\r\n\r\n<p>Includes a special presentation with Jason Love.</p>"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Young People's Concert", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        36
+      ], 
+      "location": 1, 
+      "alt_time": "15:00:00", 
+      "date": "2007-01-13 12:30:00", 
+      "num_views": 0, 
+      "slug": "young-peoples-concert-2007", 
+      "soloists": [], 
+      "description": "<p>Join us as the Columbia Orchestra presents Prokofiev's beloved Peter and the Wolf and other children's favorites. The concert's new location, at the Jim Rouse Theatre in Wilde Lake High School, is just across the parking lot from the old Wilde Lake Interfaith Center location. Sponsored by TARGET.</p>\r\n\r\n<p>Don't miss the 1:30-3:00 Musical Instrument Petting Zoo for a chance to hear, touch and play musical instruments!\r\nSponsored by THE MUSIC AND ARTS CENTERS.</p>\r\n"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "City and Country", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        63, 
+        64, 
+        62, 
+        27
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2007-02-24 19:30:00", 
+      "num_views": 0, 
+      "slug": "city-and-country", 
+      "soloists": [], 
+      "description": "<p>Beethoven travels to the country to ease his deafness, and Daniel Bernard Roumain explores cultures coming together when he moves to Harlem. Join us as we explore what \"nature\" and \"culture\" mean in our fast-paced 21st century.</p>\r\n\r\n<p>Featuring the winners of the Columbia Orchestra 2007 Young Artist Competition</p>"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Pops Concert:  Of Stage and Screen", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2007-03-24 19:30:00", 
+      "num_views": 0, 
+      "slug": "pops-concert-stage-and-screen", 
+      "soloists": [], 
+      "description": "<p>The Columbia Orchestra and guest vocalists perform Broadway and Hollywood's biggest show-stoppers, from Leonard Bernstein's West Side Story and Andrew Lloyd Webber's most memorable hits to Lord of the Rings and a Salute to John Williams.</p>\r\n\r\n<p>Featuring: Amanda Gosier, soprano and Stephen Cramer, tenor.</p>\r\n\r\n"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Music Concert", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 3, 
+      "alt_time": null, 
+      "date": "2007-05-04 20:00:00", 
+      "num_views": 0, 
+      "slug": "chamber-music-concert", 
+      "soloists": [], 
+      "description": "<p>Music Director Jason Love, concertmaster Brenda Anna and Columbia Orchestra pianist Nancy Smith present a free recital featuring Bartok's Romanian Folk Dances, Debussy's Cello Sonata and Beethoven's Archduke Trio. Join us for an intimate evening of chamber music!</p>"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "A New World", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        65, 
+        67, 
+        68, 
+        66
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2007-06-02 19:30:00", 
+      "num_views": 0, 
+      "slug": "new-world", 
+      "soloists": [], 
+      "description": "<p>Featuring David Heuser, the Columbia Orchestra 2007 American Composer Competition Winner</p>\r\n\r\n<p>Hightlighting America for our season finale, we feature Dvo\u0159\u00e1k and Barber's best known works and the 2007 American Composer Competition Winner. Baltimore Symphony Concertmaster Jonathan Carney rounds out the program with a beautiful, uplifting -- and yes, sometimes jazzy! -- violin concerto by Willian Bolcom.</p>"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Columbia Festival of the Arts: Mark O'Connor with the Columbia Orchestra", 
+      "season": 5, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2007-06-10 19:30:00", 
+      "num_views": 0, 
+      "slug": "columbia-festival-arts-mark-oconnor-columbia-orche", 
+      "soloists": [], 
+      "description": "<p>Legendary violinist/composer/fiddler Mark O'Connor returns to the Festival joining the Columbia Orchestra for an unforgettable evening.</p>\r\n\r\n\r\n"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Classical Concert 1:  Tchaikovsky's Fourth", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        82, 
+        83, 
+        84
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2007-10-20 19:30:00", 
+      "num_views": 0, 
+      "slug": "classical-concert-1-tchaikovskys-fourth", 
+      "soloists": [], 
+      "description": "<p>Our anniversary season starts with this magnificent Bach concerto, the first work ever performed by the orchestra! Tchaikovsky explores the themes of fate and destiny in one of his most enduring symphonies in a program also featuring Maryland horn virtuoso Larry Williams. </p>"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2007-11-02 20:00:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-2007-11-02", 
+      "soloists": [], 
+      "description": "<p>Hear the members of the orchestra up close playing great music in small ensembles. This FREE concert features music by Beethoven, Brahms, Haydn. Mozart, Persichetti, a new work by the orchestra's new principal bassoonist, Monica De Leon. </p>"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Classical Concert 2:  Ganz Plays Brahms", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        86, 
+        85
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2007-12-01 19:30:00", 
+      "num_views": 0, 
+      "slug": "classical-concert-2-ganz-plays-brahms", 
+      "soloists": [], 
+      "description": "<p>World-Renowned Howard County native Brian Ganz returns to the orchestra to perform one of Brahms\u2019s most bold and emotional masterpieces. And Charles Ives explores our musical heritage through everything from sacred hymns to \u201cTurkey in the Straw\u201d in this most American of symphonies. </p>"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Young People's Concert", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        93
+      ], 
+      "location": 1, 
+      "alt_time": "15:00:00", 
+      "date": "2008-01-12 12:30:00", 
+      "num_views": 0, 
+      "slug": "young-peoples-concert-2008", 
+      "soloists": [], 
+      "description": "<p>For the classical music fan in training! Featuring Benjamin Britten\u2019s Young Person\u2019s Guide to the Orchestra,  the young musicians of the Peabody Violin Choir and your chance to play the instruments of the orchestra at our instrument petting zoo.</p>\r\n\r\n<p>Don't miss the 1:30-3:00 Musical Instrument Petting Zoo for a chance to hear, touch and play musical instruments! </p>"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Symphonic Pops", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2008-02-16 19:30:00", 
+      "num_views": 0, 
+      "slug": "symphonic-pops-2008", 
+      "soloists": [], 
+      "description": "<p>A salute to Stephen Sondheim, greatest hits from Rodgers and Hammerstein, highlights from Grieg\u2019s Peer Gynt, and great film music from Pirates of the Caribbean to Psycho. The program will also feature the local premiere of Deus Ex Machina by Maryland composer Mark Lortz. </p>"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2008-03-08 19:30:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-2008-03-08", 
+      "soloists": [], 
+      "description": "<p>Hear the members of the orchestra up close playing great music in small ensembles. And it is FREE. </p>"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": "2008-04-06 15:00:00", 
+      "status": 1, 
+      "name": "Classical Concert 3:  Embracing the Millions: A Community Arts Project", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2008-04-05 19:30:00", 
+      "num_views": 0, 
+      "slug": "classical-concert-3-embracing-millions-community-a", 
+      "soloists": [], 
+      "description": "<p>Is Beethoven\u2019s vision of a universal brotherhood possible in the 21st century? Regional performers, artists, and students explore the urgent questions raised by the world\u2019s most famous symphony throughout the season culminating this concert. Visit www.embracingthemillions.org to learn more and participate in the experience. </p>"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2008-05-09 20:00:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-2008-05-09", 
+      "soloists": [], 
+      "description": "<p>Hear the members of the orchestra up close playing great music in small ensembles. And it is FREE. </p>"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Classical Concert 4:  Pictures at an Exhibition", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [
+        90, 
+        89, 
+        91, 
+        92
+      ], 
+      "location": 1, 
+      "alt_time": null, 
+      "date": "2008-05-31 19:30:00", 
+      "num_views": 0, 
+      "slug": "classical-concert-4-pictures-exhibition", 
+      "soloists": [], 
+      "description": "<p>We commemorate our 30th anniversary season in the Jim Rouse Theatre performing music by his nephew, Christopher Rouse. Howard County\u2019s greatest young talent is on display as we feature the winners of our Young Artist Competition and we finish the year with the masterpiece with which Maestro Love christened his tenure with the orchestra, Pictures at an Exhibition.\r\n</p>\r\n"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "events.event", 
+    "fields": {
+      "alt_date": null, 
+      "status": 1, 
+      "name": "Chamber Concert", 
+      "season": 4, 
+      "image": "", 
+      "ticket_link": "", 
+      "preconcert_discussion": null, 
+      "pieces": [], 
+      "location": 2, 
+      "alt_time": null, 
+      "date": "2008-06-22 15:00:00", 
+      "num_views": 0, 
+      "slug": "chamber-concert-2008-06-22", 
+      "soloists": [], 
+      "description": "<p>Violinist Brenda Anna, pianist Nancy Smith, and cellist Jason Love perform a program including Maurice Ravel's Piano Trio and the Trio No. 2 by Dmitri Shostakovich. And it is FREE. </p>"
     }
   }, 
   {
@@ -578,7 +1764,7 @@
       "location": 2, 
       "alt_time": null, 
       "date": "2010-11-20 19:30:00", 
-      "num_views": 408, 
+      "num_views": 837, 
       "slug": "chamber-concert-one", 
       "soloists": [], 
       "description": "<p>This intimate but thrilling concert showcases remarkable music for some of our violins, violas, and cellos. You'll hear orchestra members up close in a string sampler including music from Mozart's G Minor String Quintet, Dvorak's American Quartet, and Kodaly's Solo Cello Sonata. It's a FREE concert in a lovely setting.</p>\r\n\r\n<p><em>This concert will last approximately one hour with no intermission. Free admission; donations accepted.</em></p>"
