@@ -10,13 +10,21 @@ def all_members(request):
     order  = Instrument.objects.order_by('order')
 
     m = []
+    i = []
 
-    for i in order:
+    for ins in order:
         for x in members:
-            if i.pk == x.instrument.pk:
-                m.append(x)      
+            if ins.pk == x.instrument.pk:
+                m.append(x)
+                if not i.count(ins):
+                    i.append(ins)
+            if x.second_instrument != None and x.second_instrument == ins:
+                if not m.count(x):
+                    m.append(x)
+                if not i.count(ins):
+                    i.append(ins)
 
-    return render_to_response('members.html', {'members': m})
+    return render_to_response('members.html', {'members': m, 'instruments': i})
 
 def member(request, first_name, last_name):
     m = get_object_or_404(OrchestraMember, first_name__iexact=first_name, last_name__iexact=last_name)

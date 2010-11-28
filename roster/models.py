@@ -22,6 +22,7 @@ class OrchestraMember(ImageModel):
 
     #instrument = models.IntegerField(max_length=10, choices=INSTRUMENTS)
     instrument = models.ForeignKey(Instrument)
+    second_instrument = models.ForeignKey(Instrument, null=True, blank=True, related_name="%(app_label)s_%(class)s_related")
     principal = models.BooleanField()
     concertmaster = models.BooleanField()
     concertmistress = models.BooleanField()
@@ -77,7 +78,7 @@ class OrchestraMember(ImageModel):
         return "/members/%s_%s/" % (self.first_name.lower(), self.last_name.lower())
     
 class OrchestraMemberAdmin(admin.ModelAdmin):
-    list_display = ('__unicode__', 'last_name', 'first_name', 'instrument', 'noncurrent_member')
+    list_display = ('__unicode__', 'last_name', 'first_name', 'instrument', 'second_instrument', 'noncurrent_member')
     list_filter = ('instrument','principal','noncurrent_member')
     search_fields = ('first_name', 'last_name', 'middle_name')
     list_per_page = 30

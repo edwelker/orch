@@ -308,6 +308,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -325,6 +326,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -338,10 +340,11 @@
       "last_name": "Anna", 
       "middle_name": "", 
       "photo": "src_imgs/members/Brenda_Anna_8x10.jpg", 
-      "num_views": 2098, 
+      "num_views": 2100, 
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": true, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -355,10 +358,11 @@
       "last_name": "Barrett", 
       "middle_name": "", 
       "photo": "src_imgs/members/Bryan.jpg", 
-      "num_views": 1681, 
+      "num_views": 1683, 
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -376,6 +380,7 @@
       "noncurrent_member": true, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -393,6 +398,7 @@
       "noncurrent_member": false, 
       "instrument": 18, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -410,6 +416,7 @@
       "noncurrent_member": true, 
       "instrument": 5, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -427,6 +434,7 @@
       "noncurrent_member": true, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -444,6 +452,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -461,6 +470,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -478,6 +488,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -495,6 +506,7 @@
       "noncurrent_member": true, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -512,6 +524,7 @@
       "noncurrent_member": true, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -529,6 +542,7 @@
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -546,6 +560,7 @@
       "noncurrent_member": true, 
       "instrument": 20, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -563,6 +578,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -580,6 +596,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -597,6 +614,7 @@
       "noncurrent_member": true, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -614,6 +632,7 @@
       "noncurrent_member": false, 
       "instrument": 5, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -631,6 +650,7 @@
       "noncurrent_member": false, 
       "instrument": 12, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -648,6 +668,7 @@
       "noncurrent_member": false, 
       "instrument": 13, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -665,6 +686,7 @@
       "noncurrent_member": false, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -682,6 +704,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -699,6 +722,7 @@
       "noncurrent_member": true, 
       "instrument": 7, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -716,6 +740,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -733,6 +758,7 @@
       "noncurrent_member": true, 
       "instrument": 13, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -750,6 +776,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -767,6 +794,7 @@
       "noncurrent_member": true, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -784,23 +812,7 @@
       "noncurrent_member": false, 
       "instrument": 9, 
       "concertmistress": false, 
-      "concertmaster": false, 
-      "principal": false
-    }
-  }, 
-  {
-    "pk": 124, 
-    "model": "roster.orchestramember", 
-    "fields": {
-      "bio": "", 
-      "first_name": "Lori", 
-      "last_name": "Fowser", 
-      "middle_name": "", 
-      "photo": "", 
-      "num_views": 0, 
-      "noncurrent_member": false, 
-      "instrument": 30, 
-      "concertmistress": false, 
+      "second_instrument": 30, 
       "concertmaster": false, 
       "principal": false
     }
@@ -818,6 +830,7 @@
       "noncurrent_member": true, 
       "instrument": 17, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -835,6 +848,7 @@
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -852,6 +866,7 @@
       "noncurrent_member": false, 
       "instrument": 7, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -869,6 +884,7 @@
       "noncurrent_member": false, 
       "instrument": 8, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -882,10 +898,11 @@
       "last_name": "Girdler", 
       "middle_name": "", 
       "photo": "src_imgs/members/Jeff_Girdler.jpg", 
-      "num_views": 687, 
+      "num_views": 688, 
       "noncurrent_member": false, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -903,6 +920,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -920,6 +938,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -937,6 +956,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -954,6 +974,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -971,6 +992,7 @@
       "noncurrent_member": false, 
       "instrument": 28, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -988,6 +1010,7 @@
       "noncurrent_member": false, 
       "instrument": 9, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1005,6 +1028,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1022,6 +1046,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1039,6 +1064,7 @@
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1056,6 +1082,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1073,6 +1100,7 @@
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1090,6 +1118,7 @@
       "noncurrent_member": true, 
       "instrument": 20, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1107,6 +1136,7 @@
       "noncurrent_member": true, 
       "instrument": 12, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1124,6 +1154,7 @@
       "noncurrent_member": false, 
       "instrument": 12, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1141,6 +1172,7 @@
       "noncurrent_member": false, 
       "instrument": 9, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -1158,6 +1190,7 @@
       "noncurrent_member": false, 
       "instrument": 5, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1175,6 +1208,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1192,6 +1226,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1209,6 +1244,7 @@
       "noncurrent_member": true, 
       "instrument": 10, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1226,6 +1262,7 @@
       "noncurrent_member": true, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1243,6 +1280,7 @@
       "noncurrent_member": true, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1260,6 +1298,7 @@
       "noncurrent_member": true, 
       "instrument": 12, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1277,6 +1316,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1294,6 +1334,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1307,10 +1348,11 @@
       "last_name": "Kimble", 
       "middle_name": "", 
       "photo": "src_imgs/members/Katie_Kimble.JPG", 
-      "num_views": 741, 
+      "num_views": 744, 
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1328,6 +1370,7 @@
       "noncurrent_member": true, 
       "instrument": 7, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1345,6 +1388,7 @@
       "noncurrent_member": true, 
       "instrument": 8, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1362,6 +1406,7 @@
       "noncurrent_member": true, 
       "instrument": 19, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1379,6 +1424,7 @@
       "noncurrent_member": true, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1396,6 +1442,7 @@
       "noncurrent_member": false, 
       "instrument": 29, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1413,6 +1460,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1430,6 +1478,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1447,6 +1496,7 @@
       "noncurrent_member": true, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1464,6 +1514,7 @@
       "noncurrent_member": true, 
       "instrument": 9, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1481,6 +1532,7 @@
       "noncurrent_member": false, 
       "instrument": 19, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -1498,6 +1550,7 @@
       "noncurrent_member": false, 
       "instrument": 15, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1515,6 +1568,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1532,6 +1586,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1545,10 +1600,11 @@
       "last_name": "Lindenmann", 
       "middle_name": "", 
       "photo": "src_imgs/members/Paul_Lindemann.jpg", 
-      "num_views": 224, 
+      "num_views": 225, 
       "noncurrent_member": false, 
       "instrument": 15, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1562,10 +1618,11 @@
       "last_name": "Love", 
       "middle_name": "", 
       "photo": "src_imgs/members/Jason_Love.jpg", 
-      "num_views": 2313, 
+      "num_views": 2314, 
       "noncurrent_member": false, 
       "instrument": 27, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1583,6 +1640,7 @@
       "noncurrent_member": false, 
       "instrument": 17, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1596,10 +1654,11 @@
       "last_name": "Mancini", 
       "middle_name": "", 
       "photo": "src_imgs/members/MeredithMancini.jpg", 
-      "num_views": 1578, 
+      "num_views": 1579, 
       "noncurrent_member": false, 
       "instrument": 24, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1617,6 +1676,7 @@
       "noncurrent_member": true, 
       "instrument": 20, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1630,10 +1690,11 @@
       "last_name": "McLaine", 
       "middle_name": "", 
       "photo": "src_imgs/members/AlMcLaine.JPG", 
-      "num_views": 1716, 
+      "num_views": 1717, 
       "noncurrent_member": false, 
       "instrument": 5, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -1651,6 +1712,7 @@
       "noncurrent_member": false, 
       "instrument": 20, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1668,6 +1730,7 @@
       "noncurrent_member": false, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1685,6 +1748,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1702,6 +1766,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1719,6 +1784,7 @@
       "noncurrent_member": false, 
       "instrument": 29, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -1736,6 +1802,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -1753,6 +1820,7 @@
       "noncurrent_member": true, 
       "instrument": 5, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1766,10 +1834,11 @@
       "last_name": "Oliver", 
       "middle_name": "", 
       "photo": "src_imgs/members/HannahOliver.jpg", 
-      "num_views": 1784, 
+      "num_views": 1786, 
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1787,6 +1856,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1804,6 +1874,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1821,6 +1892,7 @@
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1838,6 +1910,7 @@
       "noncurrent_member": true, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1855,6 +1928,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1872,6 +1946,7 @@
       "noncurrent_member": false, 
       "instrument": 15, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -1889,6 +1964,7 @@
       "noncurrent_member": false, 
       "instrument": 25, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1906,6 +1982,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1923,6 +2000,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1940,6 +2018,7 @@
       "noncurrent_member": true, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1953,27 +2032,11 @@
       "last_name": "Schiller", 
       "middle_name": "Lee", 
       "photo": "src_imgs/members/DevonaSchiller.jpg", 
-      "num_views": 1018, 
+      "num_views": 1020, 
       "noncurrent_member": false, 
       "instrument": 29, 
       "concertmistress": false, 
-      "concertmaster": false, 
-      "principal": false
-    }
-  }, 
-  {
-    "pk": 123, 
-    "model": "roster.orchestramember", 
-    "fields": {
-      "bio": "<p>Devona Schiller, a native of Baltimore County, Maryland, joined the Columbia Orchestra as piccoloist in 2006.  She also currently serves as Principal Flutist of the U. S. Naval Academy Band.  She was formerly Principal Flutist of the U. S. ATLANTIC Fleet Band and has held positions with the Virginia Beach and Annapolis Wind Symphonies.</p>\r\n\r\n<p>Mrs. Schiller received Bachelor of Music degrees in education and performance in 1998 from James Madison University, where she studied with Carol Kniebusch Noe. Under the tutelage of Anthony Maiello, she received a Master of Music in conducting from George Mason University in 2003. </p>\r\n\r\n<p>An experienced soloist, Mrs. Schiller has been the first prize winner of the James Madison University Concerto Competition, Virginia Music Teacher\u2019s Association Concerto Competition and the Sigma Alpha Iota Scholarship Competition.  She can be heard on the James Madison University Flute Choir feature compact disc Sounds and Colors. </p>\r\n\r\n<p>A dedicated educator and advocate of the arts, Mrs. Schiller frequently teaches and serves as a clinician and adjudicator in Baltimore and Anne Arundel County schools.  Mrs. Schiller currently resides in Annapolis, MD and enjoys spending time with her husband, John and family.  Other interests include serving in church ministries, women\u2019s lacrosse, weight training, cooking, biking, and interior design.</p>", 
-      "first_name": "Devona", 
-      "last_name": "Schiller", 
-      "middle_name": "Lee", 
-      "photo": "", 
-      "num_views": 0, 
-      "noncurrent_member": false, 
-      "instrument": 31, 
-      "concertmistress": false, 
+      "second_instrument": 31, 
       "concertmaster": false, 
       "principal": false
     }
@@ -1991,6 +2054,7 @@
       "noncurrent_member": true, 
       "instrument": 23, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2004,10 +2068,11 @@
       "last_name": "Schwartz", 
       "middle_name": "", 
       "photo": "", 
-      "num_views": 222, 
+      "num_views": 223, 
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2021,10 +2086,11 @@
       "last_name": "Schwartz", 
       "middle_name": "", 
       "photo": "src_imgs/members/Monica.JPG", 
-      "num_views": 1676, 
+      "num_views": 1681, 
       "noncurrent_member": false, 
       "instrument": 12, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -2038,10 +2104,11 @@
       "last_name": "Scimonelli", 
       "middle_name": "", 
       "photo": "src_imgs/members/AnnemarieScimonelli.jpg", 
-      "num_views": 1760, 
+      "num_views": 1761, 
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2059,6 +2126,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2076,6 +2144,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2093,6 +2162,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2106,10 +2176,11 @@
       "last_name": "Smith", 
       "middle_name": "", 
       "photo": "src_imgs/members/Nancy_Smith_Color.JPG", 
-      "num_views": 1580, 
+      "num_views": 1583, 
       "noncurrent_member": false, 
       "instrument": 22, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2127,6 +2198,7 @@
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2144,6 +2216,7 @@
       "noncurrent_member": false, 
       "instrument": 21, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -2161,6 +2234,7 @@
       "noncurrent_member": false, 
       "instrument": 7, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -2178,6 +2252,7 @@
       "noncurrent_member": true, 
       "instrument": 26, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2195,6 +2270,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2212,6 +2288,7 @@
       "noncurrent_member": true, 
       "instrument": 15, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2229,6 +2306,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2246,6 +2324,7 @@
       "noncurrent_member": false, 
       "instrument": 5, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2263,6 +2342,7 @@
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2280,6 +2360,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2297,6 +2378,7 @@
       "noncurrent_member": false, 
       "instrument": 1, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2314,6 +2396,7 @@
       "noncurrent_member": true, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2331,6 +2414,7 @@
       "noncurrent_member": false, 
       "instrument": 20, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2348,6 +2432,7 @@
       "noncurrent_member": true, 
       "instrument": 29, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2361,10 +2446,11 @@
       "last_name": "Waickman", 
       "middle_name": "", 
       "photo": "src_imgs/members/Adam_Waickman.jpg", 
-      "num_views": 909, 
+      "num_views": 910, 
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2378,10 +2464,11 @@
       "last_name": "Walton", 
       "middle_name": "", 
       "photo": "src_imgs/members/Ken.jpg", 
-      "num_views": 1382, 
+      "num_views": 1383, 
       "noncurrent_member": false, 
       "instrument": 20, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2399,6 +2486,7 @@
       "noncurrent_member": false, 
       "instrument": 14, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -2412,10 +2500,11 @@
       "last_name": "Wayne", 
       "middle_name": "", 
       "photo": "src_imgs/members/Dottie_Wayne.jpg", 
-      "num_views": 673, 
+      "num_views": 675, 
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2429,10 +2518,11 @@
       "last_name": "Welker", 
       "middle_name": "Jean", 
       "photo": "src_imgs/members/EddieWelker.jpg", 
-      "num_views": 2128, 
+      "num_views": 2130, 
       "noncurrent_member": false, 
       "instrument": 4, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -2450,6 +2540,7 @@
       "noncurrent_member": false, 
       "instrument": 17, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }
@@ -2467,6 +2558,7 @@
       "noncurrent_member": false, 
       "instrument": 7, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2484,6 +2576,7 @@
       "noncurrent_member": false, 
       "instrument": 2, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2501,6 +2594,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": false
     }
@@ -2518,6 +2612,7 @@
       "noncurrent_member": false, 
       "instrument": 3, 
       "concertmistress": false, 
+      "second_instrument": null, 
       "concertmaster": false, 
       "principal": true
     }

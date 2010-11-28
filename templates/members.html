@@ -9,16 +9,16 @@ Meet the Orchestra
 <div class="member_list">
 	<h2>Meet The Orchestra</h2>
     
-    {% regroup members by instrument as inst_list %}
-    {%for inst in inst_list %}
+    {%for inst in instruments %}
     
     {% if forloop.first %}
         <div class="group">
     {% endif %}
     
-        <h3>{{ inst.grouper }}</h3>
+        <h3>{{ inst }}</h3>
         <ul>
-            {% for m in inst.list %}
+            {% for m in members %}
+                {% if m.instrument == inst or m.second_instrument == inst %}
                 <li>
                 {% if m.bio %}
                     <a href="{{m.get_absolute_url}}">
@@ -28,6 +28,7 @@ Meet the Orchestra
                     {{ m.withoutinstrument }}
                 {% endif %}
                 </li>
+                {% endif %}
             {% endfor %}
         </ul>
         
