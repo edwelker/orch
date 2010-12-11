@@ -49,6 +49,14 @@
                         {% endfor %}                     
                     {% endif %} 
 
+                    {% if primary_event.soloists.all %}
+                        {% for s in primary_event.soloists.all %}
+                            {% if s.display.url and s.instrument != 'composer' %} 
+                                <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>              
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+
                     {% if primary_event.image %}
                         <a href="{{primary_event.season.get_absolute_url}}#{{primary_event.slug}}"><img src="/{{primary_event.display.url}}" class="event_img" alt="{{primary_event}}"/></a>
                     {% endif %}
