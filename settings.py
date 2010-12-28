@@ -93,7 +93,6 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     'orch.roster',
     'orch.events',
-    'orch.uploader',
     'orch.sponsors',
     'orch.soloists',
     'orch.pieces',
