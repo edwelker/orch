@@ -11,6 +11,21 @@
 {% endblock %}
 
 
+{% block news %}
+   {% if news %}
+   <div class="news">
+   	<h2>News</h2>
+   	{% for n in news %}
+	    {% if n.display_title %}
+		<h3>{{ n.title }}</h3>
+	    {% endif %}
+	    {{ n.body|safe }}
+	{% endfor %}
+   </div>
+   {% endif %}
+{% endblock %}
+
+
 {% block member %}
     {% if member %}
         {% if member.display.url %}

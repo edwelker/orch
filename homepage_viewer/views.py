@@ -1,5 +1,6 @@
 from orch.roster.models import OrchestraMember
 from orch.events.models import Event
+from orch.news.models import News
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 import datetime
@@ -19,6 +20,7 @@ def home(request):
     m = get_member()
     p = get_primary()
     s = get_secondary()
+    n = get_news()
 
     if(p and (datetime.datetime.today() + datetime.timedelta(60)) < p.date):
         season = get_season()
@@ -28,8 +30,8 @@ def home(request):
         return render_to_response('home.html', {'member': m, 'season': season }, 
                               context_instance=RequestContext(request))
     else:
-        return render_to_response('home.html', {'member': m, 'primary_event': p, "secondary_event": s}, 
-                              context_instance=RequestContext(request))
+        return render_to_response('home.html', {'member': m, 'primary_event': p, "secondary_event": s,
+	'news': n }, context_instance=RequestContext(request))
  
 
 def get_season():
@@ -58,6 +60,19 @@ def get_member():
     cache.set('member', member, CACHE_TIME )
 
     return member
+
+def get_news():
+    news = cache.get('news')
+    if news:
+    	return news
+
+    now = datetime.datetime.now()
+    news = News.objects.exclude(unpost_date__lte=now).exclude(post_date__gte=now).order_by('-order')
+
+    cache.set('news', news, CACHE_TIME )
+
+    return news
+
 
 def get_primary():
     primary_event = cache.get('primary_event')
