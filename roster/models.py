@@ -11,6 +11,9 @@ class Instrument(models.Model):
     def __unicode__(self):
         return "%s" % self.name
 
+    def getorder(self):
+        return "%s" % self.order
+
     class Meta:
         ordering = ['order']
 
