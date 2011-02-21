@@ -3836,7 +3836,7 @@ INSERT INTO "soloists_soloist" VALUES(29,'Eric Zuber','piano','','eric-zuber',''
 INSERT INTO "soloists_soloist" VALUES(30,'Larry Williams','horn','','larry-williams','',228);
 INSERT INTO "soloists_soloist" VALUES(31,'Brian Ganz','piano','','brian-ganz','',238);
 INSERT INTO "soloists_soloist" VALUES(32,'Theresa Bickham and Stephen Cramer','voice','','theresa-bickham-and-stephen-cramer','',0);
-INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','','alan-zhang','src_imgs/soloists/Alan_Zhang_1.JPG',514);
+INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','','alan-zhang','src_imgs/soloists/Alan_Zhang_1.JPG',516);
 INSERT INTO "soloists_soloist" VALUES(34,'Brian Kim','violin','','brian-kim','',244);
 INSERT INTO "soloists_soloist" VALUES(35,'Peabody Violin Choir, Christian Tremblay, Director','','','peabody-violin-choir-christian-tremblay-director','',227);
 INSERT INTO "soloists_soloist" VALUES(36,'Peter Minkler','viola','','peter-minkler','',224);
@@ -3870,8 +3870,8 @@ INSERT INTO "soloists_soloist" VALUES(59,'Sarah Kim','violin','<p>Sarah Kim, a s
 
 <p>In 2010, she was first place winner in the Maryland State Music Teachers Association Violin Competition, and in 2009, second place winner at the Asian American Music Society String Competition, Peewee Division.</p>
 
-<p>Sarah is an avid book reader and enjoys watching science fiction movies.</p>','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',276);
-INSERT INTO "soloists_soloist" VALUES(60,'Yaeji Shin','flute','','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',281);
+<p>Sarah is an avid book reader and enjoys watching science fiction movies.</p>','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',279);
+INSERT INTO "soloists_soloist" VALUES(60,'Yaeji Shin','flute','','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',283);
 CREATE TABLE "pieces_piece_soloist" (
     "id" integer NOT NULL PRIMARY KEY,
     "piece_id" integer NOT NULL,
@@ -4497,7 +4497,7 @@ INSERT INTO "events_event" VALUES(13,'Young and Eclectic','2011-03-26 19:30:00',
 <div class="iconblock">
 	<div class="icnblk_img"><a href="http://www.bwfa.com/" target="co_link"><img src="/images/logo-bwfa.jpg" alt="Baltimore Washington Financial Advisors" style="" border="0" height="39" width="132"></a></div>
 	<div class="icnblk_cntnt">Join us at 6:30pm for a "<a href="http://columbiaorchestra.org/preludes/">Prelude</a>," a fun, fascinating pre-concert discussion with Bill Scanlan Murphy brought to you by Baltimore-Washington Financial Advisors.</div>
-</div>','young-and-eclectic',NULL,'src_imgs/events/YoungEcl.jpg',314,1);
+</div>','young-and-eclectic',NULL,'src_imgs/events/YoungEcl.jpg',315,1);
 INSERT INTO "events_event" VALUES(14,'Peter and the Wolf ... and Friends','2011-01-08 12:30:00','15:00:00',NULL,1,'',2,'<p>Not only is this a great introduction to the instruments of orchestra for younger students, older kids will enjoy learning more in a fun environment about how music is put together. The orchestra is joined by the marvelous performers of Kinetics Dance Theatre for Prokofiev’s immortal Peter and the Wolf, and kids will love a chance to try out many musical instruments at our Petting Zoo sponsored by Music & Arts held between our two concerts.</p>
 
 <p>[Photo: Kitty R Photography]</p>','peter-and-wolf-and-friends',NULL,'',0,1);
@@ -5145,7 +5145,7 @@ INSERT INTO "roster_orchestramember" VALUES(101,'Douglas','','Lee',19,1,0,0,'<p>
 
 <p>Favorite TV shows?  “Friday Night Lights” </p>
 
-<p>Other surprising facts about you?  I was born in North Dakota.  I’m married to Lynn Halverson, a former cello player in the orchestra (see dress rehearsal story above).  We collect many, many books, especially cookbooks.  I also collect an insane number of CDs.  I was a park ranger at Natural Bridges National Monument, Utah in 1976, the summer after my freshman year in college.  I was a trial lawyer in Philadelphia before moving to the D.C. area in 1989 (in another life...)   </p>','src_imgs/members/DougLee.JPG',2225,0,NULL);
+<p>Other surprising facts about you?  I was born in North Dakota.  I’m married to Lynn Halverson, a former cello player in the orchestra (see dress rehearsal story above).  We collect many, many books, especially cookbooks.  I also collect an insane number of CDs.  I was a park ranger at Natural Bridges National Monument, Utah in 1976, the summer after my freshman year in college.  I was a trial lawyer in Philadelphia before moving to the D.C. area in 1989 (in another life...)   </p>','src_imgs/members/DougLee.JPG',2226,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(102,'Sarah','','Knapp',19,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(103,'Nancy','','Smith',22,0,0,0,'<p>Nancy Smith holds bachelors and masters degrees in Piano Performance from the Eastman School of Music and the Florida State University School of Music, respectively.  Since 2002, she has been Pianist of the Columbia Orchestra.  Previously, Nancy performed with the Florida State University Symphony Orchestra, and as pianist with numerous choral groups.  Her chamber music experience extends to performances as part of the International Institute for Chamber Music, the Sarasota Music Festival, the Festival of New Music, the Dickinson Piano Quartet, and The Columbia Orchestra Trio.  Over the years, Nancy’s career has morphed from free-lance musician to a career that has included stints in arts administration, non-profit management, and proposal development.  Her career has included tenures as Manager of the Tallahassee Symphony Orchestra, service with the Florida Arts Council, Executive Director of AEMS:  Arts Education in Maryland Schools Alliance, and work for the national consulting company MGT of America.  Currently, Nancy is Director of Grants Development for The Community College of Baltimore County, where she oversees the design of projects in a broad array of disciplines.  In 2010, with her help, the college received more than $10 million in grant funding. </p>','src_imgs/members/Nancy_Smith_Color.JPG',2368,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(104,'Meredith','','Mancini',24,0,0,0,'<p>Columbia Orchestra Member since: 1999 
