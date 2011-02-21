@@ -1471,6 +1471,10 @@ INSERT INTO "django_admin_log" VALUES(848,'2011-02-20 23:11:54.441990',3,16,'13'
 INSERT INTO "django_admin_log" VALUES(849,'2011-02-21 15:57:10.955747',1,16,'13','Young and Eclectic',2,'Changed description and pieces.');
 INSERT INTO "django_admin_log" VALUES(850,'2011-02-21 16:06:29.355344',1,16,'13','Young and Eclectic',2,'Changed description.');
 INSERT INTO "django_admin_log" VALUES(851,'2011-02-21 16:50:33.244520',1,11,'33','Alan Zhang',2,'Changed image.');
+INSERT INTO "django_admin_log" VALUES(852,'2011-02-21 17:14:47.524693',3,11,'33','Alan Zhang',2,'Changed image.');
+INSERT INTO "django_admin_log" VALUES(853,'2011-02-21 17:18:06.203788',3,13,'92','Vieuxtemps, Henri ',1,'');
+INSERT INTO "django_admin_log" VALUES(854,'2011-02-21 17:18:14.407921',3,12,'173','Vieuxtemps, Henri  - Concerto No. 5 in A Minor',1,'');
+INSERT INTO "django_admin_log" VALUES(855,'2011-02-21 17:19:30.660011',3,12,'173','Vieuxtemps, Henri  - Concerto No. 5 in A Minor',2,'Changed soloist.');
 CREATE TABLE "django_flatpage_sites" (
     "id" integer NOT NULL PRIMARY KEY,
     "flatpage_id" integer NOT NULL,
@@ -3836,7 +3840,7 @@ INSERT INTO "soloists_soloist" VALUES(29,'Eric Zuber','piano','','eric-zuber',''
 INSERT INTO "soloists_soloist" VALUES(30,'Larry Williams','horn','','larry-williams','',228);
 INSERT INTO "soloists_soloist" VALUES(31,'Brian Ganz','piano','','brian-ganz','',238);
 INSERT INTO "soloists_soloist" VALUES(32,'Theresa Bickham and Stephen Cramer','voice','','theresa-bickham-and-stephen-cramer','',0);
-INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','','alan-zhang','src_imgs/soloists/Alan_Zhang_1.JPG',516);
+INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','','alan-zhang','src_imgs/soloists/Alan_Zhang_2.JPG',525);
 INSERT INTO "soloists_soloist" VALUES(34,'Brian Kim','violin','','brian-kim','',244);
 INSERT INTO "soloists_soloist" VALUES(35,'Peabody Violin Choir, Christian Tremblay, Director','','','peabody-violin-choir-christian-tremblay-director','',227);
 INSERT INTO "soloists_soloist" VALUES(36,'Peter Minkler','viola','','peter-minkler','',224);
@@ -3870,8 +3874,8 @@ INSERT INTO "soloists_soloist" VALUES(59,'Sarah Kim','violin','<p>Sarah Kim, a s
 
 <p>In 2010, she was first place winner in the Maryland State Music Teachers Association Violin Competition, and in 2009, second place winner at the Asian American Music Society String Competition, Peewee Division.</p>
 
-<p>Sarah is an avid book reader and enjoys watching science fiction movies.</p>','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',279);
-INSERT INTO "soloists_soloist" VALUES(60,'Yaeji Shin','flute','','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',283);
+<p>Sarah is an avid book reader and enjoys watching science fiction movies.</p>','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',287);
+INSERT INTO "soloists_soloist" VALUES(60,'Yaeji Shin','flute','','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',291);
 CREATE TABLE "pieces_piece_soloist" (
     "id" integer NOT NULL PRIMARY KEY,
     "piece_id" integer NOT NULL,
@@ -3932,6 +3936,7 @@ INSERT INTO "pieces_piece_soloist" VALUES(58,169,54);
 INSERT INTO "pieces_piece_soloist" VALUES(59,32,33);
 INSERT INTO "pieces_piece_soloist" VALUES(60,32,59);
 INSERT INTO "pieces_piece_soloist" VALUES(61,32,60);
+INSERT INTO "pieces_piece_soloist" VALUES(62,173,33);
 CREATE TABLE "pieces_piece" (
     "id" integer NOT NULL PRIMARY KEY,
     "title" varchar(250) NOT NULL,
@@ -4107,6 +4112,7 @@ INSERT INTO "pieces_piece" VALUES(169,'Don''t Fall Asleep','',87);
 INSERT INTO "pieces_piece" VALUES(170,'Gloomy Sunday','',87);
 INSERT INTO "pieces_piece" VALUES(171,'My Heart Belongs to Daddy','',87);
 INSERT INTO "pieces_piece" VALUES(172,'Route 66','',91);
+INSERT INTO "pieces_piece" VALUES(173,'Concerto No. 5 in A Minor','',92);
 CREATE TABLE "pieces_composer" (
     "id" integer NOT NULL PRIMARY KEY,
     "first_name" varchar(100),
@@ -4208,6 +4214,7 @@ INSERT INTO "pieces_composer" VALUES(88,'Pablo','','Sarasate','','','',0,'');
 INSERT INTO "pieces_composer" VALUES(89,'Morton','','Gould','','','',0,'');
 INSERT INTO "pieces_composer" VALUES(90,'Leroy','','Anderson','','','',0,'');
 INSERT INTO "pieces_composer" VALUES(91,'Michael','','Daugherty','','','',0,'');
+INSERT INTO "pieces_composer" VALUES(92,'Henri','','Vieuxtemps','','','',0,'');
 CREATE TABLE "events_season" (
     "id" integer NOT NULL PRIMARY KEY,
     "name" varchar(100) NOT NULL UNIQUE,
@@ -4497,7 +4504,7 @@ INSERT INTO "events_event" VALUES(13,'Young and Eclectic','2011-03-26 19:30:00',
 <div class="iconblock">
 	<div class="icnblk_img"><a href="http://www.bwfa.com/" target="co_link"><img src="/images/logo-bwfa.jpg" alt="Baltimore Washington Financial Advisors" style="" border="0" height="39" width="132"></a></div>
 	<div class="icnblk_cntnt">Join us at 6:30pm for a "<a href="http://columbiaorchestra.org/preludes/">Prelude</a>," a fun, fascinating pre-concert discussion with Bill Scanlan Murphy brought to you by Baltimore-Washington Financial Advisors.</div>
-</div>','young-and-eclectic',NULL,'src_imgs/events/YoungEcl.jpg',315,1);
+</div>','young-and-eclectic',NULL,'src_imgs/events/YoungEcl.jpg',316,1);
 INSERT INTO "events_event" VALUES(14,'Peter and the Wolf ... and Friends','2011-01-08 12:30:00','15:00:00',NULL,1,'',2,'<p>Not only is this a great introduction to the instruments of orchestra for younger students, older kids will enjoy learning more in a fun environment about how music is put together. The orchestra is joined by the marvelous performers of Kinetics Dance Theatre for Prokofiev’s immortal Peter and the Wolf, and kids will love a chance to try out many musical instruments at our Petting Zoo sponsored by Music & Arts held between our two concerts.</p>
 
 <p>[Photo: Kitty R Photography]</p>','peter-and-wolf-and-friends',NULL,'',0,1);
@@ -5172,7 +5179,7 @@ orchestras since then and enjoys playing occasional freelance gigs as well.</p>
 full time private practice in Ellicott City.</p>
 
 <p>When not at work or playing music, he is likely be found in the great outdoors with his family
-and friends or hosting meditation at the <a class="bodylink" href="http://www.hocodharmagroup.org" target="co_link" title="Pop-up">Howard County Dharma Group</a>.</p>','src_imgs/members/Jeff_Soulen2.jpg',1464,0,NULL);
+and friends or hosting meditation at the <a class="bodylink" href="http://www.hocodharmagroup.org" target="co_link" title="Pop-up">Howard County Dharma Group</a>.</p>','src_imgs/members/Jeff_Soulen2.jpg',1465,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(106,'Gretchen ','','McCracken',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(107,'Greg','','Herron',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(108,'Ken','','Walton',20,0,0,0,'<p>I started my musical studies with piano lessons when I was 9 years  
