@@ -134,11 +134,31 @@
                 <div>{{ secondary_event.date|date:"g:i a" }}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a></div>
                 {{ secondary_event.description|safe }}
             </div>
-        {% if secondary_event.image %}
+
             <div class="image">
-                <img src="{{secondary_event.display.url}}" alt="Event promo image"/>
-            </div>
-        {% endif %}
+				<!-- this is so ugly, have to fix this ASAP!  -->
+	            {% if secondary_event.pieces.all %}
+	                {% for p in secondary_event.pieces.all %}
+	                    {% for s in p.soloist.all %}
+	                        {% if s.display.url and s.instrument != 'composer' %}
+	                            <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
+	                        {% endif %}
+	                    {% endfor %}
+	                {% endfor %}                     
+	            {% endif %} 
+
+	            {% if secondary_event.soloists.all %}
+	                {% for s in secondary_event.soloists.all %}
+	                    {% if s.display.url and s.instrument != 'composer' %} 
+	                        <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>              
+	                    {% endif %}
+	                {% endfor %}
+	            {% endif %}
+
+	            {% if secondary_event.image %}
+	                <a href="{{primary_event.season.get_absolute_url}}#{{primary_event.slug}}"><img src="/{{primary_event.display.url}}" class="event_img" alt="{{primary_event}}"/></a>
+	            {% endif %}
+			</div>
         </div>
     {% else %}
         {%comment%}<p>No events found. Please add an event.</p>{%endcomment%}

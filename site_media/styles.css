@@ -81,6 +81,10 @@ dd{ margin-left: 19em; }
 .image img { border: 10px solid white; -moz-border-radius: 0px; -moz-box-shadow: 4px 4px 8px rgba(0,0,0,.5); }
 .next_concert .description { float: right; width: 46em; z-index:2; }
 
+.primary{clear:both;overflow:hidden;}
+.secondary{margin:3em 0;}
+.secondary .description{float:left;}
+.secondary .image{float:right; min-height:10em; position:relative; left:-1em;}
 
 .description h2, .hp_season h2 { font-size: 2.6em; text-shadow: 3px 3px 6px rgba(0,0,0,.4); margin-bottom: .4666em; padding-bottom: .4666em; border-bottom: 1px solid #9d7a17; border-bottom: 1px solid rgba(0,0,0,.3) }
 .hp_season h2 { margin-top: 0em; }
