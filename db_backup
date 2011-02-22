@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sqlite3 orch.db .dump > db_backup.sql
