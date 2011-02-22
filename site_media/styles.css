@@ -119,7 +119,7 @@ dd{ margin-left: 19em; }
 
 
 
-.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto; overflow: auto; *zoom:1; *overflow:visible;}
+.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto 4em; overflow: auto; *zoom:1; *overflow:visible;}
 .footer .col { color: white; }
 .footer span.offscreen { background: transparent url(footlogo.png) no-repeat 0 0; display: block; width: 241px; height: 71px; margin-top: 1em;  }
 .footer ul { margin:1em 0 0 0;padding:0;list-style-type:none;}
