@@ -21,8 +21,8 @@ class EventAdmin(admin.ModelAdmin):
     filter_horizontal = ('pieces',)    
 
     fieldsets = (
-            ("Basic", {'fields': ('name','date','location','season','description','slug','pieces')}),
-            ("Advanced", {'classes':('collapse',),'fields':('status','ticket_link','alt_time','alt_date','soloists','image','preconcert_discussion')})
+            ("Basic", {'fields': ('name','date','location','season','status','description','slug','pieces')}),
+            ("Advanced", {'classes':('collapse',),'fields':('ticket_link','alt_time','alt_date','soloists','image','preconcert_discussion')})
             )
 
 admin.site.register(Event, EventAdmin)
