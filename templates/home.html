@@ -159,7 +159,7 @@
 	            {% endif %}
 
 	            {% if secondary_event.image %}
-	                <a href="{{primary_event.season.get_absolute_url}}#{{primary_event.slug}}"><img src="/{{primary_event.display.url}}" class="event_img" alt="{{primary_event}}"/></a>
+	                <a href="{{secondary_event.season.get_absolute_url}}#{{secondary_event.slug}}"><img src="/{{secondary_event.display.url}}" class="event_img" alt="{{secondary_event}}"/></a>
 	            {% endif %}
 			</div>
         </div>
