@@ -8,6 +8,7 @@ from django.http import HttpResponseServerError
 
 pattern = r'''\b((?:(?:http)://|www\.)[-a-zA-Z0-9+&@#/%=~_|$?!:,.]*[a-zA-Z0-9+&@#/%=~_|$])'''
 replacement = '<a href="\\1">\\1</a>'
+httpreplacement = '<a href="http://\\1">\\1</a>'
 
 def latest_tweets( request ):
     tweets = cache.get( 'tweets' )
@@ -22,7 +23,10 @@ def latest_tweets( request ):
         tweets = api.GetUserTimeline( settings.TWITTER_USER, count=2 )
         for t in tweets:
             t.date = datetime.strptime( t.created_at, "%a %b %d %H:%M:%S +0000 %Y" )
-            t.text = re.sub(pattern, replacement, t.text)
+            if re.search(pattern, t.text).expand('//1').startswith('www'):
+                t.text = re.sub(pattern, httpreplacement, t.text)
+            else:
+                t.text = re.sub(pattern, replacement, t.text)
     except:
         return HttpResponseServerError('Twitter failure')
     
