@@ -61,7 +61,7 @@ dd{ margin-left: 19em; }
 .nav { background-color: #555; height: 46px;  text-align: center; }
 .nav ul { margin:0;padding:0;list-style-type:none; position: relative; top: 12px; overflow:visible; }
 .nav ul li { display: inline;  margin-right: 25px; float: left;}
-.nav ul ul  { display: none; position: absolute; background-color:#555; top:1.7em; padding:1.3em 0 .5em 0; z-index:10;} 
+.nav ul ul  { display: none; position: absolute; background-color:#555; top:1.7em; padding:1.3em 0 .5em 0; z-index:1000;} 
 .nav ul li a { color: #fff;  text-transform: uppercase; text-decoration: none; font-size: 1.3em;}
 .nav ul ul li { display: block; float: none; z-index: 10; margin: .3em 0; }
 .nav ul ul li a { padding: .3em 1em; }
