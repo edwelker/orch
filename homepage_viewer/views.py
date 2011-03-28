@@ -22,9 +22,12 @@ def home(request):
     s = get_secondary()
     n = get_news()
 
-    if(p and (datetime.datetime.today() + datetime.timedelta(minutes=60)) < p.date):
-        season = get_season()
-        disp_season = True
+#need to fix this:
+#in some cases, you'll be more than 60 days away from the next concert, but in-season. Need to factor in 
+#secondary concerts as well as when the season starts.
+#    if(p and (datetime.datetime.today() + datetime.timedelta(60)) < p.date):
+#        season = get_season()
+#        disp_season = True
 
     if disp_season:
         return render_to_response('home.html', {'member': m, 'season': season }, 
