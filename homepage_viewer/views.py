@@ -22,7 +22,7 @@ def home(request):
     s = get_secondary()
     n = get_news()
 
-    if(p and (datetime.datetime.today() + datetime.timedelta(60)) < p.date):
+    if(p and (datetime.datetime.today() + datetime.timedelta(minutes=60)) < p.date):
         season = get_season()
         disp_season = True
 
