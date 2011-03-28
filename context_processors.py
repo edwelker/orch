@@ -9,6 +9,7 @@ from django.http import HttpResponseServerError
 pattern = r'''\b((?:(?:http)://|www\.)[-a-zA-Z0-9+&@#/%=~_|$?!:,.]*[a-zA-Z0-9+&@#/%=~_|$])'''
 replacement = '<a href="\\1">\\1</a>'
 httpreplacement = '<a href="http://\\1">\\1</a>'
+httpwwwreplacement = '<a href="http://www.\\1">\\1</a>'
 
 def latest_tweets( request ):
     tweets = cache.get( 'tweets' )
@@ -25,6 +26,8 @@ def latest_tweets( request ):
             t.date = datetime.strptime( t.created_at, "%a %b %d %H:%M:%S +0000 %Y" )
             if re.search(pattern, t.text).expand('\\1').startswith('www'):
                 t.text = re.sub(pattern, httpreplacement, t.text)
+            elif re.search(pattern, t.text).expand('\\1').startswith('columbiaorchestra.org'):
+                t.text = re.sub(pattern, httpwwwreplacement, t.text)
             else:
                 t.text = re.sub(pattern, replacement, t.text)
     except:
