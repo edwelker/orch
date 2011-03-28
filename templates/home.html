@@ -39,7 +39,7 @@
         <p class="member">{{ member.fullmember }}</p>
         <!--  member.bio|safe|truncatewords_html:120 -->
         <p><a href="{{ member.get_absolute_url }}">Read more about {{member.first_name}} {{member.middle_name}}...</a></p>
-        <p><a href="/members/">Meet more of the orchestra...</a></p>
+        <p><a href="/members/">Meet more of the orchestra musicians...</a></p>
     {% else %}
         <p>No members found. Please add some members.</p>
     {% endif %}
