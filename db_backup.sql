@@ -287,11 +287,11 @@ CREATE TABLE "auth_user" (
     "last_login" datetime NOT NULL,
     "date_joined" datetime NOT NULL
 );
-INSERT INTO "auth_user" VALUES(1,'ewelker','','','ewelker@cdepot.com','sha1$17872$ed010e2b63a304878bdddb72fd11df8f6d5dd1cb',1,1,1,'2011-03-17 15:06:25.665296','2010-06-12 00:14:25.526220');
-INSERT INTO "auth_user" VALUES(2,'jlmus07','','','','sha1$29c82$9ff62190f9086058c7a911baba830c633cb3d81c',1,1,0,'2011-03-16 11:24:50.421958','2010-07-28 15:19:18');
-INSERT INTO "auth_user" VALUES(3,'vacosta','Viviana','Acosta','viviana.acosta@gmail.com','sha1$38960$c084b2329ed3bc01a54aed6157e18e317b50d4f3',1,1,0,'2011-02-20 22:00:36.572889','2010-09-27 11:55:12');
+INSERT INTO "auth_user" VALUES(1,'ewelker','','','ewelker@cdepot.com','sha1$17872$ed010e2b63a304878bdddb72fd11df8f6d5dd1cb',1,1,1,'2011-04-07 09:39:51.701114','2010-06-12 00:14:25.526220');
+INSERT INTO "auth_user" VALUES(2,'jlmus07','','','','sha1$29c82$9ff62190f9086058c7a911baba830c633cb3d81c',1,1,0,'2011-04-27 13:59:14.373483','2010-07-28 15:19:18');
+INSERT INTO "auth_user" VALUES(3,'vacosta','Viviana','Acosta','viviana.acosta@gmail.com','sha1$38960$c084b2329ed3bc01a54aed6157e18e317b50d4f3',1,1,0,'2011-05-01 17:04:36.049132','2010-09-27 11:55:12');
 INSERT INTO "auth_user" VALUES(4,'jason','General','Users','','sha1$aec97$e06b18619fafa8f3a187ef8b1044e32bca06d46a',0,1,0,'2010-10-23 16:18:40','2010-10-23 16:18:40');
-INSERT INTO "auth_user" VALUES(5,'paulli','Paul','Li','','sha1$91bfa$b09be0ef17e91c03b80a91b8885b3d3e88240b70',1,1,0,'2011-03-14 22:50:08.031689','2010-10-28 20:31:44');
+INSERT INTO "auth_user" VALUES(5,'paulli','Paul','Li','','sha1$91bfa$b09be0ef17e91c03b80a91b8885b3d3e88240b70',1,1,0,'2011-05-11 20:16:15.911946','2010-10-28 20:31:44');
 INSERT INTO "auth_user" VALUES(6,'jsoulen','Jeff','Soulen','','sha1$316fe$269d5c7c4efd9519af5ca6b879e2601a2c306bd3',1,1,0,'2010-10-30 15:11:49.290456','2010-10-28 21:33:04');
 INSERT INTO "auth_user" VALUES(7,'fakeuser','','','','sha1$092dd$81ae5c8592b76e3f4d51bc401eb488ec392604d7',1,1,0,'2010-12-28 00:36:53.288009','2010-12-28 00:36:26');
 CREATE TABLE "auth_message" (
@@ -624,6 +624,49 @@ INSERT INTO "django_session" VALUES('7dda2dda1b154e2e3feeea46e8d4fa9b','gAJ9cQEo
 cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LjlmMjg2Zjg1YjVkMTE3N2Y5ODg0
 NTk4OWJjZTFiNjg4
 ','2011-03-31 15:06:25.683641');
+INSERT INTO "django_session" VALUES('4c3575feeab6b4e5162a37be704d4df0','gAJ9cQFVCnRlc3Rjb29raWVxAlUGd29ya2VkcQNzLmY0NGE5MzA4NmNkOWQ3NDY5MWZjZGU3MWM3
+ODcxYWUy
+','2011-04-10 19:19:10.198684');
+INSERT INTO "django_session" VALUES('598c9a79ca149753da43e7e1cec07540','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwN1LjI3NGFmOGRlZTRjOTgyMTVlZmRi
+YTQwMWU5NDAxYmEy
+','2011-04-11 00:12:22.217582');
+INSERT INTO "django_session" VALUES('002757d538e43cbbd4d1ab059a5505e0','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwV1LjMwYzkzZmI3NDZlYTg1NTdhYzE3
+NmE1N2E2YzQ2Njg0
+','2011-04-12 07:34:28.513774');
+INSERT INTO "django_session" VALUES('ed57950cf0aa36351122498713dcf7b8','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwN1LjI3NGFmOGRlZTRjOTgyMTVlZmRi
+YTQwMWU5NDAxYmEy
+','2011-04-16 07:43:39.407159');
+INSERT INTO "django_session" VALUES('5b0f1ac354a7e2dbb18b59ac2ac6e18f','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwJ1Ljg2ZjA5ZWZkMWZlN2U3MjYwZGJi
+MWJjMDVmYjA5NjBj
+','2011-04-17 22:49:45.165907');
+INSERT INTO "django_session" VALUES('2a346bf501dfe2fd2bdac54457cf6bc8','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LjlmMjg2Zjg1YjVkMTE3N2Y5ODg0
+NTk4OWJjZTFiNjg4
+','2011-04-21 09:39:51.744496');
+INSERT INTO "django_session" VALUES('95cdb8354316847dc253c1e10a516ef1','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwV1LjMwYzkzZmI3NDZlYTg1NTdhYzE3
+NmE1N2E2YzQ2Njg0
+','2011-04-26 19:48:26.840786');
+INSERT INTO "django_session" VALUES('44e71bc421787fff373e237dc9f1b2a2','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwJ1Ljg2ZjA5ZWZkMWZlN2U3MjYwZGJi
+MWJjMDVmYjA5NjBj
+','2011-05-11 13:59:14.386159');
+INSERT INTO "django_session" VALUES('f48866506bd20e6c84e9ba1a8ea75233','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwV1LjMwYzkzZmI3NDZlYTg1NTdhYzE3
+NmE1N2E2YzQ2Njg0
+','2011-05-11 17:43:40.922895');
+INSERT INTO "django_session" VALUES('01239328f1e3e7a33973c84738ad6d57','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwN1LjI3NGFmOGRlZTRjOTgyMTVlZmRi
+YTQwMWU5NDAxYmEy
+','2011-05-15 17:04:36.073724');
+INSERT INTO "django_session" VALUES('1da7d56fe277e88da3e208780e19f6bf','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwV1LjMwYzkzZmI3NDZlYTg1NTdhYzE3
+NmE1N2E2YzQ2Njg0
+','2011-05-25 20:16:15.936112');
 CREATE TABLE "django_site" (
     "id" integer NOT NULL PRIMARY KEY,
     "domain" varchar(100) NOT NULL,
@@ -1551,6 +1594,535 @@ INSERT INTO "django_admin_log" VALUES(908,'2011-03-25 15:57:16.460965',2,16,'19'
 INSERT INTO "django_admin_log" VALUES(909,'2011-03-25 15:57:51.617538',2,12,'50','Schumann, Robert  - Piano Quintet, Op. 44',2,'Changed title.');
 INSERT INTO "django_admin_log" VALUES(910,'2011-03-25 15:58:14.663190',2,16,'19','Chamber Concert Three: The Light and the Dark',2,'Changed pieces.');
 INSERT INTO "django_admin_log" VALUES(911,'2011-03-26 13:48:33.583751',1,16,'18','Chamber Concert Two',2,'Changed image.');
+INSERT INTO "django_admin_log" VALUES(912,'2011-03-26 17:15:59.369299',1,9,'15','/tickets/ -- Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(913,'2011-03-26 17:16:48.922363',1,9,'15','/tickets/ -- Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(914,'2011-03-28 00:17:14.246790',3,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(915,'2011-03-28 00:23:13.579074',3,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(916,'2011-03-28 00:24:36.279450',3,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(917,'2011-03-28 00:28:46.850473',3,9,'29','/support/raffle/ -- Columbia Orchestra Spring Raffle',1,'');
+INSERT INTO "django_admin_log" VALUES(918,'2011-03-28 19:41:35.991707',5,9,'30','payment_test -- Payment Test Form',1,'');
+INSERT INTO "django_admin_log" VALUES(919,'2011-03-28 19:41:59.629321',5,9,'30','/payment_test/ -- Payment Test Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(920,'2011-03-28 19:43:24.874553',5,9,'31','/thanks_test/ -- Test Thanks Page',1,'');
+INSERT INTO "django_admin_log" VALUES(921,'2011-03-28 19:44:25.601251',5,9,'32','/sorry_test/ -- Test Sorry Page',1,'');
+INSERT INTO "django_admin_log" VALUES(922,'2011-03-28 19:54:44.989265',5,9,'30','/payment_test/ -- Payment Test Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(923,'2011-03-28 19:57:58.553439',5,9,'30','/payment_test/ -- Payment Test Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(924,'2011-03-28 19:59:25.389073',5,9,'30','/payment_test/ -- Payment Test Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(925,'2011-03-28 20:10:22.166527',5,9,'30','/payment_test/ -- Payment Test Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(926,'2011-03-28 20:11:58.559135',5,9,'30','/payment_test/ -- Payment Test Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(927,'2011-03-29 07:34:45.223011',5,9,'31','/test/thanks/ -- Test Thanks Page',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(928,'2011-03-29 07:34:58.216366',5,9,'30','/test/payment/ -- Payment Test Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(929,'2011-03-29 07:35:12.454228',5,9,'32','/test/sorry/ -- Test Sorry Page',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(930,'2011-03-31 06:15:50.391629',5,16,'16','Creation and Destruction',2,'Changed description and pieces.');
+INSERT INTO "django_admin_log" VALUES(931,'2011-03-31 06:16:51.808493',5,16,'16','Creation and Destruction',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(932,'2011-03-31 06:17:01.573360',5,16,'16','Creation and Destruction',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(933,'2011-03-31 21:54:48.877424',5,9,'33','/test/raffle/ -- Raffle Order Form',1,'');
+INSERT INTO "django_admin_log" VALUES(934,'2011-03-31 23:35:09.275301',5,9,'33','/test/raffle/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(935,'2011-04-01 00:11:53.487608',5,9,'33','/test/raffle/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(936,'2011-04-01 00:41:15.395036',5,9,'32','/test/sorry/ -- Test Sorry Page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(937,'2011-04-01 00:43:10.267345',5,9,'32','/test/sorry/ -- Test Sorry Page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(938,'2011-04-01 00:44:48.723259',5,9,'31','/test/thanks/ -- Thank You',2,'Changed title and content.');
+INSERT INTO "django_admin_log" VALUES(939,'2011-04-01 00:45:19.915113',5,9,'32','/test/sorry/ -- Test Sorry Page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(940,'2011-04-03 21:48:24.570318',3,9,'33','/test/raffle/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(941,'2011-04-03 21:49:55.834845',3,9,'33','/test/raffle/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(942,'2011-04-03 22:53:53.416867',2,9,'17','/member_schedule/ -- Member Schedule',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(943,'2011-04-03 23:12:47.344946',2,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(944,'2011-04-03 23:13:24.230955',2,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(945,'2011-04-03 23:13:55.451495',2,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(946,'2011-04-03 23:14:39.429803',2,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(947,'2011-04-04 22:45:59.520950',5,9,'29','/support/raffle/ -- Columbia Orchestra Spring Raffle',3,'');
+INSERT INTO "django_admin_log" VALUES(948,'2011-04-04 22:48:08.879161',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed title and content.');
+INSERT INTO "django_admin_log" VALUES(949,'2011-04-04 22:56:23.005509',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(950,'2011-04-04 23:27:30.825522',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(951,'2011-04-04 23:42:51.732806',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(952,'2011-04-04 23:45:10.495281',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(953,'2011-04-05 00:19:04.152274',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(954,'2011-04-05 00:21:46.927465',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(955,'2011-04-05 00:22:56.569108',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(956,'2011-04-05 00:25:35.870998',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(957,'2011-04-05 00:40:31.038960',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(958,'2011-04-05 00:41:53.086774',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(959,'2011-04-05 00:48:06.209582',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(960,'2011-04-06 08:10:00.052167',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(961,'2011-04-06 08:10:35.304489',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(962,'2011-04-06 08:10:35.675028',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(963,'2011-04-06 08:12:10.981174',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(964,'2011-04-06 08:14:00.399146',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(965,'2011-04-06 08:16:24.221436',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(966,'2011-04-06 08:17:29.165997',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(967,'2011-04-06 22:53:41.026559',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(968,'2011-04-06 23:15:00.181320',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(969,'2011-04-06 23:18:49.959680',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(970,'2011-04-06 23:42:44.534065',5,9,'30','/test/payment/ -- Payment Test Form',3,'');
+INSERT INTO "django_admin_log" VALUES(971,'2011-04-06 23:51:49.292225',5,9,'34','/test/raffle_form/ -- Raffle Order Form',1,'');
+INSERT INTO "django_admin_log" VALUES(972,'2011-04-06 23:52:32.743545',5,9,'33','/support/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(973,'2011-04-06 23:53:08.061223',5,9,'32','/support/raffle/sorry/ -- Test Sorry Page',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(974,'2011-04-06 23:53:19.679803',5,9,'31','/support/raffle/thanks/ -- Thank You',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(975,'2011-04-06 23:54:14.044922',5,9,'32','/support/raffle/sorry/ -- Online Raffle Order Not Successful',2,'Changed title.');
+INSERT INTO "django_admin_log" VALUES(976,'2011-04-06 23:54:47.529579',5,9,'31','/support/raffle/thanks/ -- Thank You For Your Order',2,'Changed title.');
+INSERT INTO "django_admin_log" VALUES(977,'2011-04-06 23:56:00.609936',5,9,'31','/support/raffle/thanks/ -- Thank You For Your Support',2,'Changed title and content.');
+INSERT INTO "django_admin_log" VALUES(978,'2011-04-06 23:59:47.977694',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(979,'2011-04-07 00:00:58.773615',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(980,'2011-04-07 00:07:12.004842',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(981,'2011-04-07 00:09:24.752720',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(982,'2011-04-07 00:09:55.972998',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(983,'2011-04-07 00:10:54.728261',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(984,'2011-04-07 00:18:32.406387',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(985,'2011-04-07 00:19:15.154369',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(986,'2011-04-07 00:20:04.123608',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(987,'2011-04-07 00:20:20.385758',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(988,'2011-04-07 00:20:39.651729',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(989,'2011-04-07 00:21:03.508757',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(990,'2011-04-07 00:21:27.318487',5,9,'34','/test/raffle_form/ -- Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(991,'2011-04-07 00:40:35.314225',5,9,'33','/support/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(992,'2011-04-07 00:46:53.734757',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed title and content.');
+INSERT INTO "django_admin_log" VALUES(993,'2011-04-07 00:47:15.901511',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(994,'2011-04-07 00:48:36.230259',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(995,'2011-04-07 00:49:39.173473',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(996,'2011-04-07 00:59:24.971505',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(997,'2011-04-07 01:04:01.229931',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(998,'2011-04-07 01:05:25.705177',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(999,'2011-04-07 01:07:52.947929',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1000,'2011-04-07 01:08:51.262867',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1001,'2011-04-07 01:09:40.262586',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1002,'2011-04-07 01:12:01.322238',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1003,'2011-04-07 01:12:42.260544',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1004,'2011-04-07 01:13:22.018622',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1005,'2011-04-07 01:17:42.509274',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1006,'2011-04-07 01:18:07.124820',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1007,'2011-04-07 01:19:06.319453',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1008,'2011-04-07 01:19:33.751541',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1009,'2011-04-07 01:21:02.076374',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1010,'2011-04-07 01:23:01.080618',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1011,'2011-04-07 01:23:43.346572',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1012,'2011-04-07 01:28:14.541210',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1013,'2011-04-07 01:34:43.655678',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1014,'2011-04-07 01:35:42.019884',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1015,'2011-04-07 01:36:31.793578',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1016,'2011-04-07 01:39:11.015303',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1017,'2011-04-07 01:44:50.430766',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1018,'2011-04-07 01:45:26.813952',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1019,'2011-04-07 01:45:42.313206',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1020,'2011-04-07 01:46:34.973843',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1021,'2011-04-07 01:46:59.449811',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1022,'2011-04-07 01:47:49.245670',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1023,'2011-04-07 01:48:34.362473',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1024,'2011-04-07 01:49:26.802749',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1025,'2011-04-07 01:49:47.886926',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1026,'2011-04-07 01:50:46.699480',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1027,'2011-04-07 01:51:09.221131',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1028,'2011-04-07 01:51:31.626474',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1029,'2011-04-07 01:51:54.139640',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1030,'2011-04-07 01:56:31.985927',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1031,'2011-04-07 01:58:59.281404',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1032,'2011-04-07 01:59:30.835438',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1033,'2011-04-07 02:00:01.086979',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1034,'2011-04-07 02:03:55.709601',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1035,'2011-04-07 02:06:10.473327',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1036,'2011-04-07 02:07:54.355444',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1037,'2011-04-07 02:08:20.417020',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1038,'2011-04-07 02:09:38.550463',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1039,'2011-04-07 02:10:12.353239',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1040,'2011-04-07 02:10:38.335212',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1041,'2011-04-07 02:11:03.764576',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1042,'2011-04-07 02:12:09.688773',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1043,'2011-04-07 02:12:30.258249',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1044,'2011-04-07 02:14:09.755684',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1045,'2011-04-07 02:19:29.496885',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1046,'2011-04-07 02:20:16.162430',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1047,'2011-04-07 02:25:01.052025',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1048,'2011-04-07 07:08:13.180649',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1049,'2011-04-07 07:08:34.985860',5,9,'33','/support/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1050,'2011-04-07 07:08:42.271701',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1051,'2011-04-07 07:09:05.429301',5,9,'33','/support/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1052,'2011-04-07 07:09:09.804220',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1053,'2011-04-07 07:10:53.980024',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1054,'2011-04-07 07:11:55.413044',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1055,'2011-04-07 07:13:45.743162',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1056,'2011-04-07 07:14:32.960633',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1057,'2011-04-07 07:15:26.073854',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1058,'2011-04-07 07:15:39.741292',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1059,'2011-04-07 07:15:55.733603',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1060,'2011-04-07 07:18:56.284094',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1061,'2011-04-07 07:27:26.337788',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1062,'2011-04-07 07:28:21.865569',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1063,'2011-04-07 07:29:08.731269',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1064,'2011-04-07 07:31:34.062970',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1065,'2011-04-07 07:31:51.403057',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1066,'2011-04-07 07:34:09.132067',5,9,'34','/test/raffle_form/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1067,'2011-04-07 07:34:24.682792',5,9,'34','/test/raffle/form/ -- Test Raffle Order Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1068,'2011-04-07 07:34:33.474534',5,9,'34','/test/raffle/order -- Test Raffle Order Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1069,'2011-04-07 07:34:52.445439',5,9,'34','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1070,'2011-04-07 07:37:15.784255',5,9,'34','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1071,'2011-04-07 07:38:50.601956',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed url and title.');
+INSERT INTO "django_admin_log" VALUES(1072,'2011-04-07 07:42:36.773516',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1073,'2011-04-07 07:45:10.402595',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1074,'2011-04-07 07:48:02.785782',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1075,'2011-04-07 07:48:25.269706',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1076,'2011-04-07 07:48:57.942333',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1077,'2011-04-07 07:49:25.980876',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1078,'2011-04-07 08:06:43.486739',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',1,'');
+INSERT INTO "django_admin_log" VALUES(1079,'2011-04-07 08:07:15.734382',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1080,'2011-04-07 08:08:01.733109',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1081,'2011-04-07 08:09:16.044044',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1082,'2011-04-07 08:10:01.624337',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1083,'2011-04-07 08:10:32.488103',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1084,'2011-04-07 08:11:18.407938',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1085,'2011-04-07 08:12:44.323364',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1086,'2011-04-07 08:13:33.428676',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1087,'2011-04-07 08:13:47.217699',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1088,'2011-04-07 08:14:05.351729',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1089,'2011-04-07 08:15:06.134428',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1090,'2011-04-07 08:15:53.593931',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1091,'2011-04-07 08:16:20.878150',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1092,'2011-04-07 08:16:37.394579',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1093,'2011-04-07 08:19:32.114389',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1094,'2011-04-07 08:21:58.622398',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1095,'2011-04-07 08:22:43.113908',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1096,'2011-04-07 08:24:01.280750',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1097,'2011-04-07 08:25:51.029458',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1098,'2011-04-07 08:29:28.741043',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1099,'2011-04-07 08:37:27.479192',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1100,'2011-04-09 18:18:32.933418',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1101,'2011-04-09 22:47:21.035454',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1102,'2011-04-09 22:56:37.982115',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1103,'2011-04-09 23:00:16.613615',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1104,'2011-04-09 23:13:35.622704',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1105,'2011-04-09 23:16:07.596169',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1106,'2011-04-09 23:16:57.027662',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1107,'2011-04-09 23:20:19.543524',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1108,'2011-04-09 23:24:12.946585',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1109,'2011-04-09 23:28:15.924440',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1110,'2011-04-09 23:31:06.824952',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1111,'2011-04-09 23:33:10.320297',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1112,'2011-04-09 23:34:50.387189',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1113,'2011-04-09 23:37:59.961137',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1114,'2011-04-09 23:38:40.989769',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1115,'2011-04-09 23:39:57.428416',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1116,'2011-04-09 23:40:56.415391',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1117,'2011-04-09 23:42:00.620648',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1118,'2011-04-09 23:42:49.283435',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1119,'2011-04-09 23:43:16.567351',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1120,'2011-04-09 23:45:14.173408',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1121,'2011-04-09 23:49:22.270574',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1122,'2011-04-09 23:52:23.735469',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1123,'2011-04-09 23:56:27.652940',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1124,'2011-04-10 00:06:00.451241',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1125,'2011-04-10 00:07:18.963406',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1126,'2011-04-10 00:08:38.662536',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1127,'2011-04-10 00:11:05.990396',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1128,'2011-04-10 00:17:57.196115',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1129,'2011-04-10 00:22:16.448856',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1130,'2011-04-10 00:23:40.653458',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1131,'2011-04-10 00:31:18.720326',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1132,'2011-04-10 00:35:31.073043',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1133,'2011-04-10 00:37:01.899576',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1134,'2011-04-10 00:38:33.389538',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1135,'2011-04-10 00:43:38.368881',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1136,'2011-04-10 00:45:07.164450',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1137,'2011-04-10 00:47:23.657166',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1138,'2011-04-10 00:48:30.079344',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1139,'2011-04-10 00:49:52.863627',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1140,'2011-04-10 00:52:15.512740',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1141,'2011-04-10 00:55:48.820456',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1142,'2011-04-10 00:57:54.281011',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1143,'2011-04-10 01:04:54.975388',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1144,'2011-04-10 01:07:45.860150',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1145,'2011-04-10 01:09:26.136777',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1146,'2011-04-10 01:11:15.260603',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1147,'2011-04-10 01:12:10.995750',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1148,'2011-04-10 01:13:01.262158',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1149,'2011-04-10 01:15:05.611628',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1150,'2011-04-10 01:17:08.877187',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1151,'2011-04-10 01:18:22.106238',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1152,'2011-04-10 01:23:40.501100',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1153,'2011-04-10 01:24:42.496438',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1154,'2011-04-10 01:26:54.959875',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1155,'2011-04-10 01:29:04.696371',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1156,'2011-04-10 07:34:52.241121',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1157,'2011-04-10 07:41:04.656162',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1158,'2011-04-10 07:44:14.512802',5,9,'31','/support/raffle/thanks/ -- Thank You For Your Support',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1159,'2011-04-11 13:36:55.250982',2,9,'18','/stuff_from_jason/ -- Stuff From Jason',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1160,'2011-04-12 20:05:05.921078',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',1,'');
+INSERT INTO "django_admin_log" VALUES(1161,'2011-04-12 20:08:57.956294',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1162,'2011-04-12 20:10:50.727217',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1163,'2011-04-12 20:11:51.785647',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1164,'2011-04-12 20:22:31.162374',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1165,'2011-04-12 20:27:14.657868',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1166,'2011-04-13 20:28:14.378799',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1167,'2011-04-13 20:28:52.923766',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1168,'2011-04-13 20:31:10.223371',5,9,'31','/support/raffle/thanks/ -- Thank You For Your Support',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1169,'2011-04-19 21:56:11.760201',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1170,'2011-04-19 21:58:10.474527',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1171,'2011-04-19 22:28:07.498975',5,9,'36','/composer_competition/faq/ -- Composer Competition FAQ',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1172,'2011-04-19 22:51:13.816489',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',1,'');
+INSERT INTO "django_admin_log" VALUES(1173,'2011-04-19 22:52:26.940851',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1174,'2011-04-19 22:54:10.317683',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1175,'2011-04-19 22:56:05.368575',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1176,'2011-04-19 22:58:13.329607',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1177,'2011-04-19 22:58:51.340101',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1178,'2011-04-19 23:00:29.594757',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1179,'2011-04-19 23:01:50.288566',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1180,'2011-04-19 23:03:57.803162',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1181,'2011-04-19 23:04:43.293175',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1182,'2011-04-19 23:05:48.724637',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1183,'2011-04-19 23:06:06.357267',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1184,'2011-04-19 23:07:35.517630',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1185,'2011-04-19 23:08:50.251307',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1186,'2011-04-20 00:08:38.777897',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1187,'2011-04-20 00:09:40.852607',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1188,'2011-04-20 00:10:13.078706',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1189,'2011-04-20 00:13:27.655150',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1190,'2011-04-20 00:14:15.711547',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1191,'2011-04-20 00:22:32.561182',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1192,'2011-04-20 00:23:11.280123',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1193,'2011-04-20 00:23:46.945238',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1194,'2011-04-20 00:24:24.305430',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1195,'2011-04-20 00:24:55.277138',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1196,'2011-04-20 00:27:56.099720',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1197,'2011-04-20 00:29:17.474442',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1198,'2011-04-20 00:31:20.347286',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1199,'2011-04-20 00:31:34.058762',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1200,'2011-04-20 00:32:13.471540',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1201,'2011-04-20 00:32:24.325025',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1202,'2011-04-20 00:36:02.696802',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1203,'2011-04-20 00:36:45.624698',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1204,'2011-04-20 00:40:31.563259',5,9,'37','/test/composer_competition/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1205,'2011-04-20 01:25:21.327039',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1206,'2011-04-20 01:26:58.805424',5,9,'38','/composer_competition/past_winners/ -- American Composer Competition &mdash; Past Winners',1,'');
+INSERT INTO "django_admin_log" VALUES(1207,'2011-04-20 01:27:45.346409',5,9,'38','/composer_competition/past_winners/ -- American Composer Competition &mdash; Past Winners',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1208,'2011-04-20 01:31:13.331502',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1209,'2011-04-20 01:31:50.310726',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1210,'2011-04-20 01:33:26.996399',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1211,'2011-04-20 01:33:44.506694',5,9,'37','/composer_competition/guidelines/ -- 2011 American Composer Competition',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1212,'2011-04-20 01:35:18.173139',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1213,'2011-04-20 01:37:18.736179',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1214,'2011-04-20 01:37:37.315076',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1215,'2011-04-20 01:41:23.145021',5,9,'37','/composer_competition/guidelines/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1216,'2011-04-20 01:46:02.582361',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1217,'2011-04-20 01:46:45.844168',5,9,'8','/composer_competition/ -- Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1218,'2011-04-20 01:48:47.419610',5,9,'37','/composer_competition/guidelines/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1219,'2011-04-27 14:01:36.240556',2,9,'25','/about_the_orchestra/ -- About The Orchestra',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1220,'2011-04-27 17:44:06.083765',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1221,'2011-04-30 06:55:52.961877',5,9,'33','/test/raffle/ -- Columbia Orchestra Spring Raffle',3,'');
+INSERT INTO "django_admin_log" VALUES(1222,'2011-04-30 07:03:41.490092',5,9,'39','/test/raffle/ -- Test Raffle Order Form',1,'');
+INSERT INTO "django_admin_log" VALUES(1223,'2011-04-30 07:05:34.520197',5,9,'39','/test/raffle/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1224,'2011-04-30 07:06:11.775140',5,9,'39','/test/raffle/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1225,'2011-04-30 07:35:00.824152',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1226,'2011-05-01 17:22:01.129198',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1227,'2011-05-01 17:22:37.875224',3,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1228,'2011-05-01 17:23:12.349016',3,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1229,'2011-05-01 21:59:12.411487',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1230,'2011-05-01 22:01:58.951841',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1231,'2011-05-01 22:02:21.300314',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1232,'2011-05-01 22:04:16.491745',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1233,'2011-05-01 22:07:08.519990',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1234,'2011-05-01 22:08:30.429769',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1235,'2011-05-01 22:08:56.797125',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1236,'2011-05-01 22:10:39.236900',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1237,'2011-05-01 22:10:53.322664',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1238,'2011-05-01 22:11:23.001422',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1239,'2011-05-01 22:14:05.739330',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1240,'2011-05-01 22:20:48.754020',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1241,'2011-05-01 22:21:32.855185',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1242,'2011-05-01 22:28:06.535093',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1243,'2011-05-01 22:28:36.038112',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1244,'2011-05-01 22:30:08.462870',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1245,'2011-05-01 22:30:30.286940',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1246,'2011-05-01 22:32:26.252695',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1247,'2011-05-01 22:32:52.419154',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1248,'2011-05-01 22:35:27.056358',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1249,'2011-05-01 22:47:42.286308',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1250,'2011-05-01 22:48:43.536858',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1251,'2011-05-01 22:50:25.607136',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1252,'2011-05-01 22:51:16.168974',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1253,'2011-05-01 22:55:27.441972',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1254,'2011-05-01 23:01:37.288158',5,9,'39','/test/raffle/order/ -- Test Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1255,'2011-05-01 23:04:49.750495',5,9,'39','/test/raffle/order/ -- Test Combined Order Form',2,'Changed title.');
+INSERT INTO "django_admin_log" VALUES(1256,'2011-05-01 23:13:30.299960',5,9,'39','/test/raffle/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1257,'2011-05-01 23:24:09.519118',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1258,'2011-05-02 08:22:10.647326',5,9,'40','/test/donate -- test donate page',1,'');
+INSERT INTO "django_admin_log" VALUES(1259,'2011-05-02 08:22:32.583842',5,9,'40','/test/donate/ -- test donate page',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1260,'2011-05-02 08:23:49.665857',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1261,'2011-05-02 08:24:51.823394',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1262,'2011-05-02 08:29:27.411161',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1263,'2011-05-02 08:34:45.492773',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1264,'2011-05-02 08:35:20.212788',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1265,'2011-05-02 08:36:12.278390',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1266,'2011-05-02 08:39:11.659141',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1267,'2011-05-02 08:39:52.230747',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1268,'2011-05-02 08:42:06.304576',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1269,'2011-05-02 08:42:51.381611',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1270,'2011-05-02 08:43:29.049522',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1271,'2011-05-02 08:45:46.982065',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1272,'2011-05-02 08:46:07.339044',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1273,'2011-05-02 08:46:32.416391',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1274,'2011-05-02 08:46:50.261595',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1275,'2011-05-02 08:46:58.822330',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1276,'2011-05-02 08:48:02.684040',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1277,'2011-05-02 08:48:23.414533',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1278,'2011-05-02 08:50:47.751729',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1279,'2011-05-02 08:54:27.780393',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1280,'2011-05-02 08:56:58.600016',5,9,'39','/test/order/ -- Test Combined Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1281,'2011-05-02 09:02:07.573971',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1282,'2011-05-02 09:06:14.013152',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1283,'2011-05-02 09:07:14.690504',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1284,'2011-05-02 09:12:29.524474',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1285,'2011-05-05 07:01:27.056996',5,9,'37','/composer_competition/guidelines/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1286,'2011-05-05 07:23:27.185238',5,9,'37','/composer_competition/guidelines/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1287,'2011-05-05 07:29:29.978965',5,9,'37','/composer_competition/guidelines/ -- 2011 American Composer Competition',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1288,'2011-05-06 01:55:44.160280',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed title and content.');
+INSERT INTO "django_admin_log" VALUES(1289,'2011-05-06 01:56:38.793656',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1290,'2011-05-06 01:57:35.206005',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1291,'2011-05-06 01:58:54.961751',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1292,'2011-05-06 02:01:20.525437',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1293,'2011-05-06 02:02:48.646356',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1294,'2011-05-06 02:03:17.248753',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1295,'2011-05-06 02:06:07.685286',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1296,'2011-05-06 02:11:30.689733',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1297,'2011-05-06 02:11:49.498825',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1298,'2011-05-06 02:14:41.046768',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1299,'2011-05-06 02:16:46.598708',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1300,'2011-05-06 02:17:07.332391',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1301,'2011-05-06 02:18:16.347237',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1302,'2011-05-06 02:20:43.575101',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1303,'2011-05-06 02:21:19.843388',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1304,'2011-05-06 02:23:05.959024',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1305,'2011-05-06 02:25:34.283439',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1306,'2011-05-06 02:25:53.861957',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1307,'2011-05-06 02:26:12.791271',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1308,'2011-05-06 02:26:49.012050',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1309,'2011-05-06 02:27:25.924928',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1310,'2011-05-06 02:28:12.308677',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1311,'2011-05-06 02:32:23.279988',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1312,'2011-05-06 02:34:23.757511',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1313,'2011-05-06 02:35:17.093106',5,9,'39','/test/order/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1314,'2011-05-06 02:35:39.533103',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1315,'2011-05-06 02:36:52.139769',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1316,'2011-05-06 02:37:43.143921',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1317,'2011-05-06 02:39:01.755194',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1318,'2011-05-06 02:39:35.656422',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1319,'2011-05-06 02:42:19.067274',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1320,'2011-05-06 02:42:45.202562',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1321,'2011-05-06 02:44:57.427277',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1322,'2011-05-06 02:45:43.115705',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1323,'2011-05-06 02:45:54.546059',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1324,'2011-05-09 10:26:07.017534',2,12,'177','Radiohead - Harry Patch (In Memory Of)',1,'');
+INSERT INTO "django_admin_log" VALUES(1325,'2011-05-09 10:27:39.644771',2,16,'16','Creation and Destruction',2,'Changed pieces.');
+INSERT INTO "django_admin_log" VALUES(1326,'2011-05-10 07:54:13.812845',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1327,'2011-05-10 07:54:34.934547',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1328,'2011-05-10 07:56:21.629335',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1329,'2011-05-10 07:56:59.312686',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1330,'2011-05-10 08:01:42.092234',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1331,'2011-05-10 08:05:55.895487',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1332,'2011-05-10 08:07:39.360200',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1333,'2011-05-10 08:08:34.826291',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1334,'2011-05-10 08:09:02.973949',5,9,'40','/test/donate/ -- test donate page',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1335,'2011-05-11 01:14:01.030937',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1336,'2011-05-11 01:14:34.703715',5,9,'41','/test/donate/thanks -- Thank You For Your Donation',1,'');
+INSERT INTO "django_admin_log" VALUES(1337,'2011-05-11 01:14:51.521625',5,9,'41','/test/donate/thanks/ -- Thank You For Your Donation',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1338,'2011-05-11 01:15:54.206446',5,9,'42','/test/donate/sorry/ -- Donation Transaction Unsuccessful',1,'');
+INSERT INTO "django_admin_log" VALUES(1339,'2011-05-11 01:16:56.417617',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1340,'2011-05-11 01:17:12.329379',5,9,'42','/donate/sorry/ -- Donation Transaction Unsuccessful',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1341,'2011-05-11 01:17:21.484863',5,9,'41','/donate/thanks/ -- Thank You For Your Donation',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1342,'2011-05-11 01:24:06.583020',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1343,'2011-05-11 01:25:39.763627',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1344,'2011-05-11 01:28:22.021220',5,9,'41','/donate/thanks/ -- Thank You For Your Donation',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1345,'2011-05-11 01:32:02.326799',5,9,'42','/donate/sorry/ -- Donation Transaction Unsuccessful',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1346,'2011-05-11 01:32:34.350547',5,9,'42','/donate/sorry/ -- Donation Transaction Unsuccessful',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1347,'2011-05-11 01:33:16.106880',5,9,'42','/donate/sorry/ -- Donation Transaction Unsuccessful',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1348,'2011-05-11 01:34:38.698317',5,9,'42','/donate/sorry/ -- Donation Transaction Unsuccessful',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1349,'2011-05-11 01:35:05.557585',5,9,'42','/donate/sorry/ -- Donation Transaction Unsuccessful',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1350,'2011-05-11 08:00:43.477636',5,9,'43','/test/tickets/ -- Concert Tickets',1,'');
+INSERT INTO "django_admin_log" VALUES(1351,'2011-05-11 08:02:01.367713',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1352,'2011-05-11 08:02:36.882660',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1353,'2011-05-11 08:06:26.542493',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1354,'2011-05-11 08:06:43.297843',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1355,'2011-05-11 08:07:11.996315',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1356,'2011-05-11 08:09:50.548053',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1357,'2011-05-11 08:10:05.462966',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1358,'2011-05-11 08:11:00.569759',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1359,'2011-05-11 08:12:14.755628',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1360,'2011-05-11 08:13:54.714559',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1361,'2011-05-11 08:15:59.547834',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1362,'2011-05-11 08:16:11.389470',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1363,'2011-05-11 08:18:14.705291',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1364,'2011-05-11 08:18:26.227069',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1365,'2011-05-11 08:19:08.123572',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1366,'2011-05-11 08:19:20.169549',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1367,'2011-05-11 08:20:03.407830',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1368,'2011-05-11 08:21:04.181079',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1369,'2011-05-11 08:27:03.121174',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1370,'2011-05-11 08:28:04.679152',5,9,'43','/test/tickets/ -- Concert Tickets',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1371,'2011-05-11 08:32:10.062444',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1372,'2011-05-11 08:32:55.431703',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed title and content.');
+INSERT INTO "django_admin_log" VALUES(1373,'2011-05-11 08:36:19.835368',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1374,'2011-05-11 08:38:39.497500',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1375,'2011-05-11 08:40:07.597577',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1376,'2011-05-11 08:41:37.711180',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1377,'2011-05-11 08:46:20.856119',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1378,'2011-05-11 08:49:08.403402',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1379,'2011-05-11 08:49:25.598672',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1380,'2011-05-11 08:50:34.869562',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1381,'2011-05-11 20:16:29.222278',5,9,'35','/support/raffle/ -- 2011 Spring Raffle',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1382,'2011-05-11 20:17:32.843469',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1383,'2011-05-11 20:22:45.952346',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1384,'2011-05-11 20:25:08.988272',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1385,'2011-05-11 20:30:45.690561',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1386,'2011-05-11 20:31:06.928663',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1387,'2011-05-11 20:31:22.752243',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1388,'2011-05-11 20:31:44.217033',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1389,'2011-05-11 20:34:03.055585',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1390,'2011-05-11 20:34:26.934590',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1391,'2011-05-11 20:42:14.274058',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1392,'2011-05-11 20:45:46.267721',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1393,'2011-05-11 20:46:07.126497',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1394,'2011-05-11 20:46:55.634504',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1395,'2011-05-11 20:47:29.029917',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1396,'2011-05-11 20:48:32.658292',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1397,'2011-05-11 20:48:58.331008',5,9,'34','/support/raffle/order/ -- 2011 Spring Raffle Order Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1398,'2011-05-11 20:49:11.330822',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1399,'2011-05-11 20:50:54.166929',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1400,'2011-05-11 21:04:23.842588',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1401,'2011-05-11 21:05:47.599593',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1402,'2011-05-11 21:09:26.585314',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1403,'2011-05-11 21:11:11.294964',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1404,'2011-05-11 21:11:36.709320',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1405,'2011-05-11 21:15:23.051477',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1406,'2011-05-11 21:16:16.432602',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1407,'2011-05-11 21:17:00.408966',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1408,'2011-05-11 21:20:08.897511',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1409,'2011-05-11 21:23:53.477376',5,9,'43','/test/tickets/ -- Concert Tickets (Draft page)',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1410,'2011-05-11 21:29:06.006823',5,9,'39','/test/donate/form/ -- Online Donation Form',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1411,'2011-05-11 21:31:21.170504',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed title and content.');
+INSERT INTO "django_admin_log" VALUES(1412,'2011-05-11 21:33:19.601493',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1413,'2011-05-11 21:33:49.488354',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1414,'2011-05-11 21:34:41.294818',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1415,'2011-05-11 21:35:53.225006',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1416,'2011-05-11 21:37:16.787399',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1417,'2011-05-11 21:38:22.733732',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1418,'2011-05-11 22:23:28.338214',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1419,'2011-05-11 22:26:23.969578',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1420,'2011-05-11 22:29:52.458886',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1421,'2011-05-11 22:31:56.339664',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1422,'2011-05-11 22:33:14.550908',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1423,'2011-05-11 22:36:05.765128',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1424,'2011-05-11 22:43:43.139793',5,9,'44','/tickets/thanks/ -- Thank You',1,'');
+INSERT INTO "django_admin_log" VALUES(1425,'2011-05-11 22:44:00.489716',5,9,'44','/tickets/thanks/ -- Thank You',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1426,'2011-05-11 22:44:40.699622',5,9,'43','/test/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1427,'2011-05-11 22:49:15.049372',5,9,'45','/tickets/sorry/ -- Ticket purchase not successful',1,'');
+INSERT INTO "django_admin_log" VALUES(1428,'2011-05-11 22:51:17.595419',5,9,'15','/old/tickets/ -- Tickets',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1429,'2011-05-11 22:51:37.393342',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1430,'2011-05-11 22:56:05.865136',5,9,'5','/old/donate/ -- Donate',2,'Changed url.');
+INSERT INTO "django_admin_log" VALUES(1431,'2011-05-11 22:56:38.654192',5,9,'40','/donate/ -- Donations',2,'Changed url and title.');
+INSERT INTO "django_admin_log" VALUES(1432,'2011-05-11 22:56:54.674140',5,9,'40','/donate/ -- Donations',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1433,'2011-05-11 22:57:29.263485',5,9,'39','/donate/form/ -- Online Donation Form',2,'Changed url and content.');
+INSERT INTO "django_admin_log" VALUES(1434,'2011-05-11 23:19:11.955858',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1435,'2011-05-11 23:50:05.022813',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1436,'2011-05-11 23:50:22.198209',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1437,'2011-05-11 23:53:26.261682',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1438,'2011-05-11 23:53:52.558891',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1439,'2011-05-11 23:54:15.934669',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1440,'2011-05-12 00:03:15.760600',5,9,'43','/tickets/ -- Concert Tickets',2,'Changed content.');
 CREATE TABLE "django_flatpage_sites" (
     "id" integer NOT NULL PRIMARY KEY,
     "flatpage_id" integer NOT NULL,
@@ -1560,16 +2132,13 @@ CREATE TABLE "django_flatpage_sites" (
 INSERT INTO "django_flatpage_sites" VALUES(12,1,1);
 INSERT INTO "django_flatpage_sites" VALUES(19,7,1);
 INSERT INTO "django_flatpage_sites" VALUES(21,10,1);
-INSERT INTO "django_flatpage_sites" VALUES(24,5,1);
 INSERT INTO "django_flatpage_sites" VALUES(26,4,1);
-INSERT INTO "django_flatpage_sites" VALUES(28,8,1);
 INSERT INTO "django_flatpage_sites" VALUES(31,3,1);
 INSERT INTO "django_flatpage_sites" VALUES(33,12,1);
 INSERT INTO "django_flatpage_sites" VALUES(35,13,1);
 INSERT INTO "django_flatpage_sites" VALUES(47,22,1);
 INSERT INTO "django_flatpage_sites" VALUES(51,23,1);
 INSERT INTO "django_flatpage_sites" VALUES(56,21,1);
-INSERT INTO "django_flatpage_sites" VALUES(57,17,1);
 INSERT INTO "django_flatpage_sites" VALUES(58,9,1);
 INSERT INTO "django_flatpage_sites" VALUES(61,11,1);
 INSERT INTO "django_flatpage_sites" VALUES(66,14,1);
@@ -1577,14 +2146,31 @@ INSERT INTO "django_flatpage_sites" VALUES(71,16,1);
 INSERT INTO "django_flatpage_sites" VALUES(72,26,1);
 INSERT INTO "django_flatpage_sites" VALUES(74,27,1);
 INSERT INTO "django_flatpage_sites" VALUES(75,6,1);
-INSERT INTO "django_flatpage_sites" VALUES(82,15,1);
 INSERT INTO "django_flatpage_sites" VALUES(84,19,1);
 INSERT INTO "django_flatpage_sites" VALUES(86,28,1);
 INSERT INTO "django_flatpage_sites" VALUES(87,24,1);
-INSERT INTO "django_flatpage_sites" VALUES(88,25,1);
 INSERT INTO "django_flatpage_sites" VALUES(90,20,1);
-INSERT INTO "django_flatpage_sites" VALUES(91,18,1);
 INSERT INTO "django_flatpage_sites" VALUES(92,2,1);
+INSERT INTO "django_flatpage_sites" VALUES(108,17,1);
+INSERT INTO "django_flatpage_sites" VALUES(115,32,1);
+INSERT INTO "django_flatpage_sites" VALUES(133,18,1);
+INSERT INTO "django_flatpage_sites" VALUES(136,31,1);
+INSERT INTO "django_flatpage_sites" VALUES(137,36,1);
+INSERT INTO "django_flatpage_sites" VALUES(140,38,1);
+INSERT INTO "django_flatpage_sites" VALUES(145,8,1);
+INSERT INTO "django_flatpage_sites" VALUES(147,25,1);
+INSERT INTO "django_flatpage_sites" VALUES(158,37,1);
+INSERT INTO "django_flatpage_sites" VALUES(173,41,1);
+INSERT INTO "django_flatpage_sites" VALUES(174,42,1);
+INSERT INTO "django_flatpage_sites" VALUES(176,35,1);
+INSERT INTO "django_flatpage_sites" VALUES(180,34,1);
+INSERT INTO "django_flatpage_sites" VALUES(184,44,1);
+INSERT INTO "django_flatpage_sites" VALUES(186,45,1);
+INSERT INTO "django_flatpage_sites" VALUES(187,15,1);
+INSERT INTO "django_flatpage_sites" VALUES(189,5,1);
+INSERT INTO "django_flatpage_sites" VALUES(190,40,1);
+INSERT INTO "django_flatpage_sites" VALUES(191,39,1);
+INSERT INTO "django_flatpage_sites" VALUES(192,43,1);
 CREATE TABLE "django_flatpage" (
     "id" integer NOT NULL PRIMARY KEY,
     "url" varchar(100) NOT NULL,
@@ -1661,7 +2247,7 @@ INSERT INTO "django_flatpage" VALUES(4,'/amazon/','Amazon','<h2>Shop AMAZON</h2>
   <iframe src="http://rcm.amazon.com/e/cm?t=columbiaorche-20&o=1&p=27&l=qs1&f=ifr" width="180" height="150" frameborder="0" scrolling="no" align="right"></iframe> Make your visit to AMAZON more efficient by specifying search criteria and clicking on the gold GO button.
 </p>
 ',0,'',0);
-INSERT INTO "django_flatpage" VALUES(5,'/donate/','Donate','<h2>Make a Donation</h2>
+INSERT INTO "django_flatpage" VALUES(5,'/old/donate/','Donate','<h2>Make a Donation</h2>
 <p>
   <a href="https://www.paypal.com/cart/add=1&business=tickets%40columbiaorchestra.org&item_name=Donation+-+under+quantity%2C+enter+multiple+of+%2410+%28e.g.+Qty%3D5+for+a+%2450+donation%29+and+click+on+UPDATE+CART&amount=10.00" target="paypal"><img src="/images/button-donation.gif" border="0" width="110" height="23" alt="Pop-up: Make a Donation" align="right" /></a> 
 </p>
@@ -1788,166 +2374,27 @@ INSERT INTO "django_flatpage" VALUES(7,'/volunteer/','Volunteer','<h2>Volunteer 
 We''d love to have you!
 </p>
 ',0,'',0);
-INSERT INTO "django_flatpage" VALUES(8,'/composer_competition/','Composer Competition','<h2>American Composer Competition</h2>
+INSERT INTO "django_flatpage" VALUES(8,'/composer_competition/','Composer Competition','<h2>2011 American Composer Competition</h2>
 
-<p>The Columbia Orchestra began its American Composer Competition in 2003 to help promote new American works both locally and across the United States. The winning work receives its first, second, or third public performance, thereby expanding the performance history for music worthy to be heard again and again. The winner also receives a cash prize and a additional stipend if attendance at the concert and rehearsals is possible. </p>
+<p>We are announcing the 2011 American Composer Competition.  The postmark deadline for submissions is <b>June 3, 2011</b>.</p>
 
-<p>The next American Composer Competition is scheduled for 2011. </p>
+<p>The Columbia Orchestra began its American Composer Competition in 2003 to help promote new American works both locally and across the United States. The winning work receives its first, second, or third public performance, thereby expanding the performance history for music worthy to be heard again and again. The winner also receives a cash prize and an additional stipend if attendance at the concert and rehearsals is possible. </p>
 
-<h3>The winning work of the 2009 American Composer Competition was the Third Movement of Symphony No. 1 “Remembrance” by Albert Hurwit. The orchestra performed the work on December 5, 2009 with the composer in attendance. </h3>
-
-
-<p>
-  The orchestra received 124 submissions from throughout the United States. In addition to the winning work, seven finalists were selected (listed in alphabetic order):
-</p>
 <ul>
-  <li>Brian Fennelly: Reflections/Metamorphosis
-  </li>
-  <li>Anthony Iannaccone: Dancing on Vesuvius
-  </li>
-  <li>Mark Lackey: Convergence
-  </li>
-  <li>Elizabeth Lim: Paranoia
-  </li>
-  <li>Justin Merritt: River of Blood
-  </li>
-  <li>Philip Rothman: Arc of Visibility
-  </li>
-  <li>David Schneider: Automation
-  </li>
+<li>
+<a href="/composer_competition/guidelines">competition guidelines</a> (<a href="/uploads/2011/compcomp/AmComposerComp.pdf">PDF</a>)
+</li>
+<li>
+application form (<a href="/uploads/2011/compcomp/compcompapp.pdf">PDF</a>)
+</li>
+<li>
+<a href="/composer_competition/faq">frequently-asked questions</a>
+</li>
+<li>
+<a href="/composer_competition/past_winners">past winners</a>
+</li>
 </ul>
-<p>
-  Congratulations to Dr. Hurwit, the finalists, and all who entered the competition. We are extremely grateful for your participation!
-</p>
-<p>
-  Read more about the winning work and the competition in this <a class="bodylink" href="/uploads/2010/091205-ACC.pdf" target="co_link" title="Pop-up: PDF">Press Release.</a>
-</p>
-<p>
-  <a id="hurwit"><strong>About Albert Hurwit</strong> <img src="/images/cc-hurwit.jpg" title="Albert Hurwit, composer" width="125" height="160" border="0" align="right" vspace="10" hspace="10" /></a>
-</p>
-<p>
-  The composing career of Albert Hurwit began relatively late in his life. He was born in Hartford, Connecticut in 1931. After graduating from Harvard College and Tufts Medical School, he remained in Boston for four years of postgraduate radiology training. He returned to Hartford and practiced radiology until his retirement in 1986.
-</p>
-<p>
-  Through most of his life, Hurwit had been casually involved with music and composing in an unstructured manner. Since 1986 he has dedicated all of his energies to composing music. He has had no formal training, but has received informal mentoring form Robert Carl, Chairman of the Composition Department of the Hartt School of Music at the University of Hartford, and Michael Lankester, the former Music Director of the Hartford Symphony Orchestra.
-</p>
-<p>
-  In 1997 the Adaskin String Trio performed Hurwit&rsquo;s &ldquo;Adagio&rdquo; at the University of Hartford. It was then expanded into an &ldquo;Adagio for Orchestra,&rdquo; which was performed later that year by the Hartford Symphony Orchestra with Michael Lankester conducting at the Bushnell Center for Performing Arts.
-</p>
-<p>
-  After three more years of self instruction, experimentation and musical exploration Hurwit began to compose a symphony. He completed the composition of Symphony No. 1 &ldquo;Remembrance&rdquo; in 2002.
-</p>
-<p>
-  On November 8, 9 and 10, 2002, Movement III of the symphony (electronic rendition) was choreographed by Peggy Lyman and performed by the Hartt School of Music Dancers at the Lincoln Theater of the University of Hartford.
-</p>
-<p>
-  On February 13 and 14, 2003, the third movement of this symphony was performed in a concert world premiere by the Hartford Symphony Orchestra under the direction of Edward Cumming at the Bushnell Center for Performing Arts.
-</p>
-<p>
-  In July of 2004, the symphony was recorded by the Bulgarian National Radio Symphony Orchestra with Michael Lankester conducting. Hurwit spent eight days in Sofia and participated in the rehearsing, revisions, recording, mixing and finalizing process of the CD production. The CD of the symphony was released by MSR Classics in March of 2005, and it is being distributed by Albany Records.
-</p>
-<p>
-  The West Hartford Symphony Orchestra under the baton of Richard Chiarappa presented world premiere concert performance of the entire Symphony No.1 &ldquo;Remembrance&rdquo; on March 5, 2006.
-</p>
-<p>
-  <br />
-  <strong>The Results of Previous Competitions</strong>
-</p>
-<p>
-  <strong>2007</strong>
-</p>
-<div class="c1">
-  <p>
-    <strong>Winner:</strong> David Heuser: A Screaming Comes Across the Sky
-  </p>
-  <p>
-    <strong>Finalists:</strong>
-  </p>
-  <ul>
-    <li>Randolph Partain: Blood Rite
-    </li>
-    <li>David Sartor: Concerto for Orchestra
-    </li>
-    <li>Arthur Gottschalk: Amelia
-    </li>
-    <li>Laurence Bitensky: A Perfect Rest
-    </li>
-    <li>Mark Lortz: Deus Ex Machina
-    </li>
-    <li>Anthony Iannaccone: The Colors of Dream
-    </li>
-    <li>Kevin Walczyk: Capriccio
-    </li>
-    <li>Takuma Itoh: Concerto for Orchestra
-    </li>
-    <li>Lee Actor: Variations and Fugue
-    </li>
-  </ul>
-</div>
-<p>
-  <strong>2005</strong>
-</p>
-<div class="c1">
-  <p>
-    <strong>Winner:</strong> David Dzubay: Shadow Dance
-  </p>
-  <p>
-    <strong>Finalists:</strong>
-  </p>
-  <ul>
-    <li>Lee Actor: Prelude to a Tragedy
-    </li>
-    <li>Arthur Gottschalk: Amelia
-    </li>
-    <li>Anthony Iannaccone: The Colors of Dream
-    </li>
-    <li>Rob Smith: Push
-    </li>
-    <li>Antonio Carlos DeFeo: What''s That I Hear?
-    </li>
-    <li>Charles Bestor: Variations for Orchestra
-    </li>
-    <li>Joshua Penman: Songs the Plants Taught Us
-    </li>
-    <li>Ernst Bacon: Smokey Mountain Scherzo
-    </li>
-  </ul>
-</div>
-<p>
-  <strong>2003</strong>
-</p>
-<div class="c1">
-  <p>
-    <strong>Winner:</strong> Thomas Shnauber: Indigo Street
-  </p>
-  <p>
-    <strong>Finalists:</strong>
-  </p>
-  <ul>
-    <li>Yuanlin Chen: Overture - Rhapsody
-    </li>
-    <li>Paul Richards: Trip Hammer
-    </li>
-    <li>Stephan Prock: Garden Varieties
-    </li>
-    <li>Cynthia Miller: Frequent Flier
-    </li>
-    <li>Jeff Manookian: NEXUS
-    </li>
-    <li>Erich Stern: Escape
-    </li>
-    <li>Allen Menton: Shape-Note Fantasy
-    </li>
-    <li>Daniel Powers: The Starry Messenger
-    </li>
-    <li>James Ra: Awakened Spirit
-    </li>
-    <li>Christopher Pierce: Aquarelle
-    </li>
-    <li>Garrett Byrnes: The Flames of Imbolc
-    </li>
-  </ul>
-</div>',0,'',0);
+',0,'',0);
 INSERT INTO "django_flatpage" VALUES(9,'/contact_us/','Contact Us','<h2>Contact Information</h2>
 
 <p>
@@ -2252,7 +2699,7 @@ INSERT INTO "django_flatpage" VALUES(14,'/about_the_orchestra_pre20101213/','Abo
 <p><a href="/mission/">Mission Statement</a></p>
 
 ',0,'',0);
-INSERT INTO "django_flatpage" VALUES(15,'/tickets/','Tickets','<h2>Ticket Information</h2>
+INSERT INTO "django_flatpage" VALUES(15,'/old/tickets/','Tickets','<h2>Ticket Information</h2>
  
 
 </font><p><font size="2" face="verdana"> 
@@ -2519,23 +2966,23 @@ To order by mail, please download a <A CLASS="bodylink" HREF="ticketorder.pdf">t
   </font></td>
   <td><font size="2" face="verdana">Adult @ $20 each
   </font></td> 
-  <td><a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Adult+tickets+to+Classical+Concert+3+@JRT+March+26&amp;amount=20.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal">
-   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a> 
+  <td><!--<a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Adult+tickets+to+Classical+Concert+3+@JRT+March+26&amp;amount=20.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal">
+   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a> -->
 </td></tr>  
 <tr><td><font size="2" face="verdana">Senior @ $16 each
    </font></td>
-   <td><a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Senior+tickets+to+Classical+Concert+3+@JRT+March+26&amp;amount=16.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal">
-   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a> 
+   <td><!-- <a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Senior+tickets+to+Classical+Concert+3+@JRT+March+26&amp;amount=16.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal"> 
+   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a> -->
 </td></tr>  
 <tr><td><font size="2" face="verdana">Student @ $10 each
    </font></td>
-   <td><a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Student+tickets+to+Classical+Concert+3+@JRT+March+26&amp;amount=10.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal">
-   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a> 
+   <td><!-- <a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Student+tickets+to+Classical+Concert+3+@JRT+March+26&amp;amount=10.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal"> 
+   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a> -->
 </td></tr>   
 <tr><td><font size="2" face="verdana">Group Rate @ $16 each<br>You must buy at least 10
    </font></td>
-   <td><a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Group+Rate+tickets+to+Classical+Concert+3+@JRT+March+26.+Change+QUANTITY+to+10+or+more.&amp;amount=16.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal">
-   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a>
+   <td><!-- <a href="https://www.paypal.com/cart/add=1&amp;business=tickets%40columbiaorchestra.org&amp;item_name=Group+Rate+tickets+to+Classical+Concert+3+@JRT+March+26.+Change+QUANTITY+to+10+or+more.&amp;amount=16.00&amp;return=http%3A//www.columbiaorchestra.org/paymentsuccess.shtml&amp;cancel_return=http%3A//www.columbiaorchestra.org/paymentcancel.shtml" target="paypal">
+   <img src="/images/button-addtocart.gif" alt="Pop-up: Add to Cart" height="23" width="90" border="0"></a>-->
 </td></tr>   
 
 
@@ -2921,16 +3368,37 @@ INSERT INTO "django_flatpage" VALUES(17,'/member_schedule/','Member Schedule','<
     <p>Mon, Apr 25 Rehearsal 3 <strong>Sectionals</strong> 7:30 – 10 PM  Gathering Place</p>
     <p>Mon, May 2 Rehearsal 4 7:30 – 10 PM  Gathering Place</p>
     <p>Mon, May 9 Rehearsal 5 (split reh) 7:30 – 10 PM  Gathering Place</p>
-    <p>Sat, May 14 Woodwind, Brass &amp;Percussion 12:30-4:30 PM McDaniel Big Baker</p>
-    <p><strong>Sun, May 15</strong> Woodwind, Brass &amp;Percussion <strong>7:00 PM CONCERT</strong> McDaniel Big Baker</p>
+    <p>Sat, May 14 Woodwind/Brass/Timpani 12:30-4:30 PM McDaniel Big Baker</p>
+    <p><strong>Sun, May 15</strong> Woodwind/Brass/Timpani <strong>7:00 PM CONCERT</strong> McDaniel Big Baker</p>
     <p>Mon, May 16 Rehearsal 6 7:30 – 10 PM  Gathering Place</p>
     <p><strong>Sat, May 21 Chamber Concert 7:30 Christ Episcopal</strong></p>
     <p>Mon, May 23 Rehearsal 7 7:30 – 10 PM  Gathering Place</p>
     <p>Mon, May 30 No Rehearsal (Memorial Day)</p>
     <p>Thu, Jun 2 Extra Rehearsal 8 w/Chorus 7:30 – 10:15 PM  Jim Rouse Theatre </p>
     <p><strong>Fri, Jun 3 Dress Rehearsal </strong>w/Chorus<strong> 7:30 – 10:15 PM  Jim Rouse Theatre</strong></p>
-    <p><strong>Sat, Jun 4 CLASSICAL CONCERT #4 7:30 PM Jim Rouse Theatre</strong></p>',0,'',0);
+    <p><strong>Sat, Jun 4 CLASSICAL CONCERT #4 7:30 PM Jim Rouse Theatre</strong></p>
+    <p>Mon, Jun 6 NO REHEARSAL </p>
+    <p>Mon, Jun 13 NO REHEARSAL </p>
+    <p>Mon, Jun 20 Rehearsal 7 7:30 – 10 PM  Gathering Place</p>
+    <p>Mon, Jun 27 Rehearsal 7 7:30 – 10 PM  Gathering Place</p>
+    <p><strong>Weds, Jun 29 CENTENNIAL PARK CONCERT: 6:00 Sound Check, 7:00 Concert</strong></p>
+',0,'',0);
 INSERT INTO "django_flatpage" VALUES(18,'/stuff_from_jason/','Stuff From Jason','<h2>Stuff from Jason</h2>
+
+<h3>June Concerts Rehearsal Schedule</h3>
+<p>Here''s the <a class="bodylink" href="/uploads/2011/Jason_Stuff/Col_Orch_Reh_Sched_Jun_2011_(rev041111).doc" target="co_link" title="Pop-up">rehearsal schedule</a> with corrected movement numbers in MS Word format</p>
+
+
+<h3>June Concert </h3>
+
+<p>The Creation - for Strings! </p>
+ <p><a class="bodylink" href="/uploads/2011/HaydnCreation_VlnI.pdf" target="co_link" title="Pop-up">Violin I</a><br>
+<p><a class="bodylink" href="/uploads/2011/HaydnCreation_VlnII.pdf" target="co_link" title="Pop-up">Violin II</a><br>
+<p><a class="bodylink" href="/uploads/2011/HaydnCreation_Viola.pdf" target="co_link" title="Pop-up">Violas</a><br>
+<p><a class="bodylink" href="/uploads/2011/HaydnCreation_Cello.pdf" target="co_link" title="Pop-up">Cellos</a><br>
+<p><a class="bodylink" href="/uploads/2011/HaydnCreation_Bass.pdf" target="co_link" title="Pop-up">Bass</a><br>
+
+<!--
 
 <h3>March Rehearsal Schedule</h3>
 <p>Here''s the <a class="bodylink" href="/uploads/2010/Jason_Stuff/Col_Orch_Reh_Sched_Mar_2011_(rev022711).doc" target="co_link" title="Pop-up">revised rehearsal schedule</a> in MS Word format</p>
@@ -2953,7 +3421,6 @@ INSERT INTO "django_flatpage" VALUES(18,'/stuff_from_jason/','Stuff From Jason',
 
 * some bowings were changed at the sectional</p>
 
-
 <h3>...and this</h3>
 <p>
 <a class="bodylink" href="/uploads/2010/20110326/var_v1.pdf" target="co_link" title="Pop-up">Violin 1</a><br>
@@ -2962,7 +3429,7 @@ INSERT INTO "django_flatpage" VALUES(18,'/stuff_from_jason/','Stuff From Jason',
 <a class="bodylink" href="/uploads/2010/20110326/var_c.pdf" target="co_link" title="Pop-up">Cello</a><br>
 <a class="bodylink" href="/uploads/2010/20110326/var_b.pdf" target="co_link" title="Pop-up">Bass</a><br>
 </p>
-
+-->
 
 <h3>Member Handbook</h3>
 
@@ -3666,6 +4133,8 @@ INSERT INTO "django_flatpage" VALUES(25,'/about_the_orchestra/','About The Orche
 
 <p><a href="/history/">History of the Columbia Orchestra</a></p>
 
+<p><a href="/uploads/2011/Col_Orch_FY10_Annual_Report.pdf">The Columbia Orchestra 2009-2010 Season Annual Report</a></p>
+
 <p><a href="/uploads/2010/CO_Annual_Report_FY09.pdf">The Columbia Orchestra 2008-2009 Season Annual Report</a></p>
 
 <p><a href="/mission/">Mission Statement</a></p>
@@ -3919,6 +4388,1940 @@ Premiered: London, 1920
 
 <p>In <i>Neptune</i>, the music comes, in one sense, full circle, with a return to 5/4, this time noodling quietly around Holst’s trademark fourths in bare wisps of melody that drift and weave, ebb and flow until we realize that one of the notes that gleam in and out of the texture is, in fact, a female choir, somehow sounding anything but merely human in the celestial wash of sound. Holst had some difficulty deciding how to end the piece—and the work—until he hit on the idea of <i>not</i> ending it. In music’s first fade-out ending, the women’s voices lock onto an endlessly looping statement of the “<i>Planets</i> chords” which is instructed to simply fade away until, as Holst’s daughter put it, “we can no longer tell the difference between sound and silence.” </p>
 ',0,'',0);
+INSERT INTO "django_flatpage" VALUES(31,'/support/raffle/thanks/','Thank You For Your Support','<h3>Thank you</h3>
+
+<p>Your raffle tickets will be entered into the drawing, and the ticket stubs mailed to your shipping address.  Thank you for supporting the Columbia Orchestra.  Click <a href="/">here</a> to return to our main page.</p>',0,'',0);
+INSERT INTO "django_flatpage" VALUES(32,'/support/raffle/sorry/','Online Raffle Order Not Successful','<h3>Sorry...</h3>
+
+<p>We were unable to complete your purchase.  You can still purchase our raffle tickets at any of our upcoming concerts or by any of the methods listed on our <a href="/tickets/">Ticket Information page</a>.</p>',0,'',0);
+INSERT INTO "django_flatpage" VALUES(34,'/support/raffle/order/','2011 Spring Raffle Order Form','<head>
+	<style type="text/css">
+        table.raffletable td*{
+                        padding: 0px;
+         }
+		table.raffletable th{
+			background: #006699;
+                        color: white;
+		}
+		table.raffletable tr.alt td{
+			background: #ecf6fc;
+		}
+		table.raffletable tr.over td{
+			background: #bcd4ec;
+                        color: #000066;
+		}	
+
+		span#TotalPrice{
+			color: green;
+			font-weight: bold;
+		}
+		span.descr{
+			background:#99FF66;
+            border: 1px dashed #006666;
+            padding: 5px;		
+		}
+
+		p.descr{
+			background:#99FF66;
+            border: 1px dashed #006666;
+            padding: 5px;	
+			font: 10px verdana,sans-serif;			
+		}
+                          
+
+ 	</style>
+<script type="text/javascript">
+
+var descs = {
+    ''sports'': "\
+	<p class=\"descr\"><b>Sports and Leisure</b><br/>\
+	Waverly Woods Golf Club - 4 Guest Rounds of Golf with Cart <i>($260)</i><br/>\
+	Quest Fitness - One Month Membership <i>($75)</i><br/>\
+	OBA Bank - Gift Certificate to Princeton Sports <i>($100)</i> and a Dozen Golf Balls <i>($25)</i><br/>\
+	Daedalus Books - 14 DVD Set \"The Great Composers\" <i>($140)</i><br/>\
+	Ram''s Head Tavern - Gift Certificate<i>($50)</i><br/> <\p>",
+    ''pamper'': "\
+    <p class=\"descr\"><b>Pamper Yourself</b><br/>\
+	The Pearl Spa - Blue Grotto for 2 Gift Certificate <i>($160)</i><br/>\
+	Sergio''s Fine Jewelry - Pearl Bracelet<i>($70)</i><br/>\
+	Jewelry by Cathy Kuehne - Handcrafted Creations <i>($125)</i><br/>\
+	The King''s Contrivance - Wine Gift Certificate<i>($50)</i><br/>\
+	Victoria and Albert Hair Salon - Hair Products<i>($60)</i><br/>\
+	Cheesecake Factory - Gift Certificate<i>($25)</i><br/>\
+	River Hill Garden Center - Vera Bradley Bag and Wallet<i>($84)</i><br/><\p>",
+    ''musician'': "\
+    <p class=\"descr\"><b>Musician''s Musings</b><br/>\
+	Gailes'' Violin Shop <br />\
+	- Hand-carved Wooden Music Stand <i>($200)</i><br/>\
+	- Tuning Fork with Wooden Resonator Box <i>($99)</i><br/>\
+	- Whitner Penguin Metronome<i>($90)</i><br/>\
+	- Metronome / Stand Light<i>($54)</i><br/>\
+	Music & Art Centers - Musical Merchandise and Gift Card <i>($100)</i><br/>\
+	Ram''s Head Tavern - Gift Certificate<i>($50)</i><br/>\
+	Eggspectations Restaurant - Gift Certificate <i>($50)</i><br/>\
+	Smyth Jewelers - Pandora Bracelet with musical note charms<i>($100)</i><br/><\p>",
+    ''home'': "\
+	<p class=\"descr\"><b>Home, Sweet Home</b><br/>\
+	Gallery 44 - Gift Certificate <i>($200)</i><br/>\
+	Chris'' Crafts Han - Painted Adirondack Chair<i>($200)</i><br/>\
+	Oak Tree Furniture - Gift Certificate<i>($50)</i><br/>\
+	Wilhide''s Flowers - Gift Certificate<i>($50)</i><br/><\p>",
+    ''fitness'': "\
+	<p class=\"descr\"><b>Fitness is Fun</b><br/>\
+	Colosseum Gym - (6) Personal Training Sessions <i>($378)</i><br/>\
+	Colosseum Gym - 2 Month Membership<i>($110)</i><br/>\
+	Columbia Triathlon - Chesapeake Sport Bag with 2 Golf Shirts, Training DVD<i>($125)</i><br/>\
+	PNC Bank - Dozen Titleist Golf Balls, Umbrella, Duffle Bag<i>($100)</i><br/>\
+	Clyde''s Restaurant of Columbia - Gift Certificate<i>($50)</i><br/><\p>",
+    ''family'': "\
+	<p class=\"descr\"><b>A Family Affair</b><br/>\
+	PNC Bank - 4 Club Level Seats for the Baltimoe Orioles Game July 24 <i>($210)</i><br/>\
+	Candlelight Concerts - 2 Family Series Subscriptions for 2011-2012<i>($150)</i><br/>\
+	James Ferry Photography - Gift Certificate for a Sitting and Portrait<i>($300)</i><br/>\
+	Howard County Arts Council - Family Membership and Shift<i>($50)</i><br/>\
+	Maryland Zoo in Baltimore - 1 Year Family Membership<i>($99)</i><br/>\
+	Luna Bella Ristorante - Gift Certificate<i>($50)</i><br/><\p>",
+    ''arts1'': "\
+	<p class=\"descr\"><b>Taste of the Arts #1</b><br/>\
+	REP Stage - 2 Subscriptions for the 2011 - 2012 Season <i>($280)</i><br/>\
+	Columbia Festival of the Arts - 2 Tickets for \"Manhattan Transfer\" on June 14<i>($100)</i><br/>\
+	Toby''s Dinner Theatre - 2 Tickets to a Production<i>($98)</i><br/>\
+	Cafe de Paris - Gift Certificate<i>($50)</i><br/><\p>",
+    ''arts2'': "\
+	<p class=\"descr\"><b>Taste of the Arts #2</b><br/>\
+	Candlelight Concert Series - 2 Season Subscriptions for 2011-2012 <i>($300)</i><br/>\
+	Chesapeake Shakespeare Company - 4 Tickets to a Summer 2011 Event<i>($120)</i><br/>\
+	Greystone Grill - Gift Certificate<i>($100)</i><br/><\p>",
+    ''remember'': "\
+	<p class=\"descr\"><b>An Event to Remember</b><br/>\
+	Jason Love and Company - 1 Hour Performance in Your Home <i>($300)</i><br/>\
+	Elkridge Furnace Inn - Gift Certificate<i>($25)</i><br/>\
+	Howard County Tourism - Private Ghost Tour of Historic Ellicott City for 13 Guests<i>($150)</i><br/>\
+	The Wineseller - Gift Certificate<i>($150)</i><br/>\
+	Wilhide''s Flowers - Gift Certificate<i>($25)</i><br/>\
+	Decanter Fine Wines - Gift Certifcate<i>($25)</i><br/><\p>"
+};
+
+function copy_info() {
+    var ids = [''name'', ''addr1'', ''addr2'', ''city'', ''state'', ''zip''];
+    for (var i=0; i<ids.length; i++) {
+        document.getElementById(''s''+ids[i]).value = document.getElementById(''b''+ids[i]).value;
+    }
+}
+
+
+function show_desc(basket) {
+    document.getElementById(''description'').innerHTML = 	descs[basket];
+}
+
+function reset_contact() {
+    var ids = [''name'', ''addr1'', ''addr2'', ''city'', ''state'', ''zip''];
+    for (var i=0; i<ids.length; i++) {
+        document.getElementById(''s''+ids[i]).value = '''';
+        document.getElementById(''b''+ids[i]).value = '''';
+    }
+    document.getElementById(''phone'').value = '''';
+    document.getElementById(''email'').value = '''';
+    document.getElementById(''mailinglist'').checked = true;
+}
+
+		$(document).ready(function() {
+			reset_raffle();
+                        reset_contact();
+		$(".raffletable tr").mouseover(function() {
+			$(this).addClass("over");
+		});
+		$(".raffletable tr").mouseout(function() {
+			$(this).removeClass("over");
+		});
+		$(".raffletable tr:even").addClass("alt");
+		});
+
+                var fields = [ "sports", "pamper", "musician", "home", "fitness", "family", "arts1", "arts2", "remember" ];
+
+    	        var nonnegint = /^\s*\d*\s*$/;
+    	        function isNonnegInt(val) { return nonnegint.test(val); }
+
+                var whitespace = /^\s*$/;
+                function getBasketAmt(basket) {
+                        val = document.getElementById(basket).value;
+                        if (whitespace.test(val)) { return 0; }
+                        return parseInt(val);
+                }
+
+		function getTicketAmt() {
+			var chosen = document.getElementById("TicketAmt");
+			if (chosen.value!="nada") {
+				return parseInt(chosen.value);
+			} else {
+				return 0;
+			}
+		
+		}
+
+		function getPrice() {
+		        return 4*getTicketAmt();
+		}
+		
+		function showPrice(){
+		        document.getElementById("TotalPrice").innerHTML = "$" + getPrice();
+				document.getElementById("NumTix").innerHTML = getTicketAmt();
+		}
+
+		function makeCommentString() {
+		        str = "Raffle tickets:";
+                        for (var i=0; i<fields.length; i++) {
+			       str += " " + fields[i] + "=" + getBasketAmt(fields[i]) + ";";
+                        }
+                        if (document.getElementById("mailinglist").checked) {
+                                str += "add customer to mailing list.";
+                        }
+		        return str;
+		}
+		
+		function orderTickets(){
+                        var totaltix, numtickets;
+
+		        numtickets = getTicketAmt();
+		        if (numtickets <= 0) {
+			        alert("You have not specified a total number of tickets.");
+				return false;
+                        }
+
+                        totaltix = 0;
+                        for (var i=0; i<fields.length; i++) {
+                               if ( ! isNonnegInt(document.getElementById(fields[i]).value) ) {
+                                       alert("You have entered an invalid number of tickets.");
+                                       return false;
+                               }
+                               totaltix += getBasketAmt(fields[i]);
+                        }
+
+			if (numtickets != totaltix) {
+				alert("Total tickets you selected (" + numtickets + ") does not correspond to the amount of tickets you ordered (" + totaltix + "). Please order the same number of tickets as you selected");
+		                return false;
+			}
+
+		        document.getElementById("chargetotal").value = getPrice();
+			document.getElementById("comments").value = makeCommentString()
+		        return true;
+		}		
+		
+		function reset_raffle(){
+			document.getElementById("TicketAmt").value="nada";
+                        document.getElementById("NumTix").innerHTML = "--";	
+			document.getElementById("TotalPrice").innerHTML = "$0"; 
+			for (var i=0; i<fields.length; i++) {
+                                document.getElementById(fields[i]).value = "0";
+                        }
+		}			
+
+
+
+</script>
+</head>
+
+<h2> 2011 Spring Basket Raffle</h2>
+<h4>Tickets 5 for $20 <br/>
+	<i>Drawing June 4, 2011</i>
+</h4>
+<p>Please complete the following information to order your tickets. We will enter your tickets into the baskets you selected and mail the ticket stubs to your address.</p>
+
+<form id="RaffleForm" action="https://www.linkpointcentral.com/lpc/servlet/lppay" method="post" onsubmit="return orderTickets()">
+
+<p>I would like to buy
+<select id="TicketAmt" onchange="javascript:showPrice()" onload="javascript:showPrice()">
+	<option value="nada" selected="selected">Select</option>
+	<option value="5">5</option>
+	<option value="10">10</option>
+	<option value="15">15</option>
+	<option value="20">20</option>
+	<option value="25">25</option>
+</select>
+tickets. Total Price: <span id="TotalPrice">$0</span> </p>
+
+
+
+<p>Please select <b><span id="NumTix">--</span></b> tickets below. (<i>click the "?" for more information on each package</i>)</p>
+
+<table class="raffletable" style="float: left; display: inline">
+
+<tr>
+    <th>Package </th>
+	<th></th>
+	<th>Quantity</th>
+</tr>
+<tr>
+	<td><b>Sports and Leisure</b></td>
+	<td><span class="descr" onclick="javscript:show_desc(''sports'')">?</span></td>
+	<td align="center"><input id="sports" type="text" size="5" value="0" /></td>
+</tr>
+<tr>
+	<td><b>Pamper Yourself</b></td>
+    <td><span class="descr" onclick="javscript:show_desc(''pamper'')">?</span></td>
+	<td align="center"><input id="pamper" type="text" size="5" value="0" /></td>
+</tr>
+<tr>
+    <td><b>Musician''s Musings</b></td>
+	<td><span class="descr" onclick="javscript:show_desc(''musician'')">?</span></td>
+	<td align="center"><input id="musician" type="text" size="5" value="0" /></td>
+</tr>
+<tr>
+    <td><b>Home, Sweet Home</b></td>
+	<td><span class="descr" onclick="javscript:show_desc(''home'')">?</span></td>
+	<td align="center"><input id="home" type="text" size="5" value="0" /></td>
+</tr>
+<tr> 
+	<td><b>Fitness is Fun</b></td>
+	 <td><span class="descr" onclick="javscript:show_desc(''fitness'')">?</span></td>
+	 <td align="center"><input id="fitness" type="text" size="5" value="0" /></td>
+</tr>
+<tr>
+	<td><b>A Family Affair</b></td>
+	<td><span class="descr" onclick="javscript:show_desc(''family'')">?</span></td>	
+	<td align="center"><input id="family" type="text" size="5" value="0" /></td>
+</tr>
+<tr>    
+	<td><b>Taste of the Arts #1</b></td>
+	 <td><span class="descr" onclick="javscript:show_desc(''arts1'')">?</span>
+	 </td><td align="center"><input id="arts1" type="text" size="5" value="0" /></td>
+</tr>
+<tr> 
+	<td><b>Taste of the Arts #2</b></td>
+	<td><span class="descr" onclick="javscript:show_desc(''arts2'')">?</span></td>
+	<td align="center"><input id="arts2" type="text" size="5" value="0" /></td>
+</tr>
+<tr>
+	<td><b>An Event to Remember</b></td>
+	<td><span class="descr" onclick="javscript:show_desc(''remember'')">?</span></td>	
+	<td align="center"><input id="remember" type="text" size="5" value="0" /></td>
+</tr>
+
+</table>
+
+<div style="float: left" id="description">
+</div>
+
+<div>
+
+<div style="float: left; clear: left">
+<h4>Billing Information</h4>
+<table>
+<tr><td>Name</td> <td><input type="text" id="bname" name="bname" /></td></tr>
+<tr><td>Street</td> <td><input type="text" id="baddr1" name="baddr1" size="30" maxlength="30" /></td></tr>
+<tr><td></td> <td><input type="text" id="baddr2" name="baddr2" size="30" maxlength="30" /></td></tr>
+<tr><td>City</td> <td><input type="text" id="bcity" name="bcity" size="30" maxlength="30" /></td></tr>
+<tr><td>State</td> <td><select id="bstate" name="bstate" size="1">
+<option value=""> ... </option>
+<option value="AK"> AK </option>
+<option value="AL"> AL </option>
+<option value="AR"> AR </option>
+<option value="AZ"> AZ </option>
+<option value="CA"> CA </option>
+<option value="CO"> CO </option>
+<option value="CT"> CT </option>
+<option value="DC"> DC </option>
+<option value="DE"> DE </option>
+<option value="FL"> FL </option>
+<option value="GA"> GA </option>
+<option value="HI"> HI </option>
+<option value="IA"> IA </option>
+<option value="ID"> ID </option>
+<option value="IL"> IL </option>
+<option value="IN"> IN </option>
+<option value="KS"> KS </option>
+<option value="KY"> KY </option>
+<option value="LA"> LA </option>
+<option value="MA"> MA </option>
+<option value="MD"> MD </option>
+<option value="ME"> ME </option>
+<option value="MI"> MI </option>
+<option value="MN"> MN </option>
+<option value="MO"> MO </option>
+<option value="MS"> MS </option>
+<option value="MT"> MT </option>
+<option value="NC"> NC </option>
+<option value="ND"> ND </option>
+<option value="NE"> NE </option>
+<option value="NH"> NH </option>
+<option value="NJ"> NJ </option>
+<option value="NM"> NM </option>
+<option value="NV"> NV </option>
+<option value="NY"> NY </option>
+<option value="OH"> OH </option>
+<option value="OK"> OK </option>
+<option value="OR"> OR </option>
+<option value="PA"> PA </option>
+<option value="PR"> PR </option>
+<option value="RI"> RI </option>
+<option value="SC"> SC </option>
+<option value="SD"> SD </option>
+<option value="TN"> TN </option>
+<option value="TX"> TX </option>
+<option value="UT"> UT </option>
+<option value="VA"> VA </option>
+<option value="VI"> VI </option>
+<option value="VT"> VT </option>
+<option value="WA"> WA </option>
+<option value="WI"> WI </option>
+<option value="WV"> WV </option>
+<option value="WY"> WY </option>
+</select></td></tr>
+<tr><td>ZIP</td> <td><input type="text" id="bzip" name="bzip" size="5" maxlength="10" /></td></tr>
+</table>
+<input type="hidden" id="bcountry" name="bcountry" value="US" /></ul>
+</div>
+
+<div style="float: left; display: inline; padding-left: 5em">
+<h4>Shipping Information</h4>
+<table>
+<tr><td>Name</td> <td><input type="text" id="sname" name="sname" /></td></tr>
+<tr><td>Street</td> <td><input type="text" id="saddr1" name="saddr1" size="30" maxlength="30" /></td></tr>
+<tr><td></td> <td><input type="text" id="saddr2" name="saddr2" size="30" maxlength="30" /></td></tr>
+<tr><td>City</td> <td><input type="text" id="scity" name="scity" size="30" maxlength="30" /></td></tr>
+<tr><td>State</td> <td><select id="sstate" name="sstate" size="1">
+<option value=""> ... </option>
+<option value="AK"> AK </option>
+<option value="AL"> AL </option>
+<option value="AR"> AR </option>
+<option value="AZ"> AZ </option>
+<option value="CA"> CA </option>
+<option value="CO"> CO </option>
+<option value="CT"> CT </option>
+<option value="DC"> DC </option>
+<option value="DE"> DE </option>
+<option value="FL"> FL </option>
+<option value="GA"> GA </option>
+<option value="HI"> HI </option>
+<option value="IA"> IA </option>
+<option value="ID"> ID </option>
+<option value="IL"> IL </option>
+<option value="IN"> IN </option>
+<option value="KS"> KS </option>
+<option value="KY"> KY </option>
+<option value="LA"> LA </option>
+<option value="MA"> MA </option>
+<option value="MD"> MD </option>
+<option value="ME"> ME </option>
+<option value="MI"> MI </option>
+<option value="MN"> MN </option>
+<option value="MO"> MO </option>
+<option value="MS"> MS </option>
+<option value="MT"> MT </option>
+<option value="NC"> NC </option>
+<option value="ND"> ND </option>
+<option value="NE"> NE </option>
+<option value="NH"> NH </option>
+<option value="NJ"> NJ </option>
+<option value="NM"> NM </option>
+<option value="NV"> NV </option>
+<option value="NY"> NY </option>
+<option value="OH"> OH </option>
+<option value="OK"> OK </option>
+<option value="OR"> OR </option>
+<option value="PA"> PA </option>
+<option value="PR"> PR </option>
+<option value="RI"> RI </option>
+<option value="SC"> SC </option>
+<option value="SD"> SD </option>
+<option value="TN"> TN </option>
+<option value="TX"> TX </option>
+<option value="UT"> UT </option>
+<option value="VA"> VA </option>
+<option value="VI"> VI </option>
+<option value="VT"> VT </option>
+<option value="WA"> WA </option>
+<option value="WI"> WI </option>
+<option value="WV"> WV </option>
+<option value="WY"> WY </option>
+</select></td></tr>
+<tr><td>ZIP</td> <td><input type="text" id="szip" name="szip" size="5" maxlength="10" /></td></tr>
+</table>
+<button type="button" onclick="javascript:copy_info()">Copy from billing information</button>
+<input type="hidden" id="scountry" name="scountry" value="US" /></ul>
+</div>
+
+</div>
+
+<div style="clear: left">
+<table>
+<tr><td>Phone</td> <td><input type="text" id="phone" name="phone" size="15" maxlength="20" /></td></tr>
+<tr><td>Email</td> <td><input type="text" id="email" name="email" size="30" maxlength="45" /></td></tr>
+</table>
+</div>
+Add me to your mailing list!  <input type="checkbox" id="mailinglist" name="mailinglist" checked="yes" />
+
+<input style="display: block" type="submit" value="proceed to credit card payment" />
+
+<input type="hidden" id="chargetotal" name="chargetotal" value="0.0" />
+<input type="hidden" name="mode" value="Payplus" />
+<input type="hidden" name="txntype" value="sale" />
+<input type="hidden" name="storename" value="1001258007" />
+<input type="hidden" id="comments" name="comments" value="" />
+<input type="hidden" name="responseSuccessURL" value="http://columbiaorchestra.org/ticket/thanks" />
+<input type="hidden" name="responseFailURL" value="http://columbiaorchestra.org/support/raffle/sorry" />
+
+</form>',0,'',0);
+INSERT INTO "django_flatpage" VALUES(35,'/support/raffle/','2011 Spring Raffle','<head>
+	<style type="text/css">
+		table.raffletable tr, th, td
+		{
+		       border-bottom: 1px solid #3366FF;
+                       border-bottom: 1px solid #3366FF;
+		}
+                table.raffletable td*{
+                        padding: 0px;
+                }
+		table.raffletable th{
+			background: #006699;
+                        color: white;
+		}
+		table.raffletable tr.alt td{
+			background: #ecf6fc;
+		}
+		table.raffletable tr.over td{
+			background: #bcd4ec;
+                        color: #000066;
+		}	
+
+		span#TotalPrice{
+			color: green;
+			font-weight: bold;
+		}
+
+ 	</style>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		$(".raffletable tr:even").addClass("alt");
+		
+	});
+	</script>
+</head>
+
+<h2> 2011 Spring Basket Raffle</h2>
+<h4>Tickets 5 for $20 <br/>
+	<i>Drawing June 4, 2011</i>
+</h4>
+
+<p>The Columbia Orchestra presents the 2011 Spring Basket Raffle. All of our prize packages are worth a minimum of <b>$500!</b> Picture yourself playing golf at the Waverly Woods Golf Club, luxuriating at The Pearl Spa, getting fit at the Colosseum Gym with your own personal trainer, enjoying the Maryland Zoo with your whole family, or being entertained by our own Jason Love and Company in your home! It''s a <b>bargain at five chances for $20</b>! Buy your raffle tickets now through our <a href="http://columbiaorchestra.org/support/raffle/order/">online form</a>.
+</p>
+
+<p>You can also purchase raffle tickets by mail, phone, or e-mail, or in person at our next performance.
+</p>
+
+<p>Here is the list of prizes in PDF format: <a href="/uploads/2011/2011 SPRING RAFFLE list.pdf">pdf</a></p>
+
+<!--
+<h4>Prizes</h4>
+-->
+<table class="raffletable">
+<tr>
+	<th>Raffle Package</th>
+	<th>Contents</th>
+</tr>
+<tr>
+	<td><b>Sports and Leisure</b></td>
+	<td>
+	Waverly Woods Golf Club - 4 Guest Rounds of Golf with Cart <i>($260)</i><br/>
+	Quest Fitness - One Month Membership <i>($75)</i><br/>
+	OBA Bank - Gift Certificate to Princeton Sports <i>($100)</i> and a Dozen Golf Balls <i>($25)</i><br/>
+	Daedalus Books - 14 DVD Set "The Great Composers" <i>($140)</i><br/>
+	Ram''s Head Tavern - Gift Certificate<i>($50)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>Pamper Yourself</b></td>
+	<td>
+	The Pearl Spa - Blue Grotto for 2 Gift Certificate <i>($160)</i><br/>
+	Sergio''s Fine Jewelry - Pearl Bracelet<i>($70)</i><br/>
+	Jewelry by Cathy Kuehne - Handcrafted Creations <i>($125)</i><br/>
+	The King''s Contrivance - Wine Gift Certificate<i>($50)</i><br/>
+	Victoria and Albert Hair Salon - Hair Products<i>($60)</i><br/>
+	Cheesecake Factory - Gift Certificate<i>($25)</i><br/>
+	River Hill Garden Center - Vera Bradley Bag and Wallet<i>($84)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>Musician''s Musings</b></td>
+	<td>
+	Gailes'' Violin Shop <br />
+	- Hand-carved Wooden Music Stand <i>($200)</i><br/>
+	- Tuning Fork with Wooden Resonator Box <i>($99)</i><br/>
+	- Whitner Penguin Metronome<i>($90)</i><br/>
+	- Metronome / Stand Light<i>($54)</i><br/>
+	Music & Art Centers - Musical Merchandise and Gift Card <i>($100)</i><br/>
+	Ram''s Head Tavern - Gift Certificate<i>($50)</i><br/>
+	Eggspectations Restaurant - Gift Certificate <i>($50)</i><br/>
+	Smyth Jewelers - Pandora Bracelet with musical note charms<i>($100)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>Home, Sweet Home</b></td>
+	<td>
+	Gallery 44 - Gift Certificate <i>($200)</i><br/>
+	Chris'' Crafts Han - Painted Adirondack Chair<i>($200)</i><br/>
+	Oak Tree Furniture - Gift Certificate<i>($50)</i><br/>
+	Wilhide''s Flowers - Gift Certificate<i>($50)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>Fitness is Fun</b></td>
+	<td>
+	Colosseum Gym - (6) Personal Training Sessions <i>($378)</i><br/>
+	Colosseum Gym - 2 Month Membership<i>($110)</i><br/>
+	Columbia Triathlon - Chesapeake Sport Bag with 2 Golf Shirts, Training DVD<i>($125)</i><br/>
+	PNC Bank - Dozen Titleist Golf Balls, Umbrella, Duffle Bag<i>($100)</i><br/>
+	Clyde''s Restaurant of Columbia - Gift Certificate<i>($50)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>A Family Affair</b></td>
+	<td>
+	PNC Bank - 4 Club Level Seats for the Baltimoe Orioles Game July 24 <i>($210)</i><br/>
+	Candlelight Concerts - 2 Family Series Subscriptions for 2011-2012<i>($150)</i><br/>
+	James Ferry Photography - Gift Certificate for a Sitting and Portrait<i>($300)</i><br/>
+	Howard County Arts Council - Family Membership and Shift<i>($50)</i><br/>
+	Maryland Zoo in Baltimore - 1 Year Family Membership<i>($99)</i><br/>
+	Luna Bella Ristorante - Gift Certificate<i>($50)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>Taste of the Arts #1</b></td>
+	<td>
+	REP Stage - 2 Subscriptions for the 2011 - 2012 Season <i>($280)</i><br/>
+	Columbia Festival of the Arts - 2 Tickets for "Manhattan Transfer" on June 14<i>($100)</i><br/>
+	Toby''s Dinner Theatre - 2 Tickets to a Production<i>($98)</i><br/>
+	Cafe de Paris - Gift Certificate<i>($50)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>Taste of the Arts #2</b></td>
+	<td>
+	Candlelight Concert Series - 2 Season Subscriptions for 2011-2012 <i>($300)</i><br/>
+	Chesapeake Shakespeare Company - 4 Tickets to a Summer 2011 Event<i>($120)</i><br/>
+	Greystone Grill - Gift Certificate<i>($100)</i><br/>
+	</td>
+</tr>
+<tr>
+	<td><b>An Event to Remember</b></td>
+	<td>
+	Jason Love and Company - 1 Hour Performance in Your Home <i>($300)</i><br/>
+	Elkridge Furnace Inn - Gift Certificate<i>($25)</i><br/>
+	Howard County Tourism - Private Ghost Tour of Historic Ellicott City for 13 Guests<i>($150)</i><br/>
+	The Wineseller - Gift Certificate<i>($150)</i><br/>
+	Wilhide''s Flowers - Gift Certificate<i>($25)</i><br/>
+	Decanter Fine Wines - Gift Certifcate<i>($25)</i><br/>
+	</td>
+</td>
+</tr>
+
+</table>
+
+
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(36,'/composer_competition/faq/','Composer Competition FAQ','<h2>
+                      FAQ for the Columbia Orchestra’s<br>
+                        American Composer Competition
+</h2>
+
+
+<p>
+The following is a list of frequently asked questions regarding the competition. If your
+question is not answered, please contact the Competition Coordinator at
+<a href="mailto:compcomp@columbiaorchestra.org">compcomp@columbiaorchestra.org</a>
+or by the address and phone number at the bottom of the page.
+</p>
+<ol>
+<li><p><b>
+        I have a really, really, really good reason why I was not able to get my entry
+        postmarked by the postmark deadline. May I still submit a work?
+</b></p><p>
+        In order to maintain fairness and adhere to our timetable, we are unable to accept
+        works postmarked after the postmark deadline. We are also unable to accept works
+        delivered in person, by courier, or by any other means. If you missed the deadline,
+        we invite you to bookmark our site and watch for future competitions that we hope
+        to hold in upcoming seasons.
+</p></li>
+
+<li><p><b>
+        How many works may I submit?
+</b></p><p>
+        Each composer may submit one composition. If you have several suitable works and
+        would like assistance deciding which one to submit, feel free to contact
+        <a href="mailto:compcomp@columbiaorchestra.org">compcomp@columbiaorchestra.org</a>.
+</p></li>
+
+<li><p><b>
+        I cannot figure out how to print out the application form. Help!
+</b></p><p>
+        If you are unable to print a copy of the application form, please contact
+        <a href="mailto:compcomp@columbiaorchestra.org">compcomp@columbiaorchestra.org</a>
+        and we will mail one. If you have no access to the internet,
+        write or call (address and phone at the bottom of this page)
+        and we will mail you a form.
+</p></li>
+
+<li><p><b>
+        What will happen if I fill out the application form incorrectly or incompletely
+        (for instance, by not answering questions 1, 2 or 4)?
+</b></p><p>
+        The application won''t be considered unless a complete application form is received. If
+        it is incomplete, the Competition Coordinator will contact you and ask you to fax or
+        mail us a completed one. The application form is the document in which you attest
+        that your submission is eligible for this competition, so we really need to have all the
+        information.
+</p></li>
+
+<li><p><b>
+        Do you have a preference for computer-generated scores over hand-written
+        manuscripts, or vice versa?
+</b></p><p>
+        We really have no preference. We understand that not everyone has access to Finale
+        or Sibelius, or to expert copyists. We do have a preference for scores that are legible
+        and comprehensible. Neatness counts! Be aware that it is as easy to create an
+        incomprehensible score with a computer as with pen and paper.
+</p></li>
+
+<li><p><b>
+    Recordings used to be optional, but now they''re required. What happened?
+</b></p><p>
+    Experience from the first two American Composer Competitions taught us that the
+    recordings, even the electronic realizations, are extremely helpful to the judges. We
+    expect at least 175 applications. Our judges donate their time. They will need every
+    possible resource to help them perform their task in a timely manner.
+<li><p><b>
+    You say that a curriculum vitae is optional. Don''t you want a CV or
+    biography?
+</p></li>
+
+</b></p><p>
+    The judges will see nothing but the anonymous scores, so submitting biographical
+    information will not affect your chances of winning. All CVs and biographies will be
+    separated from the scores and used solely to help us understand what sort of
+    applicants we attract and improve planning for future competitions. Of course if you
+    win, we would love to display your photo and biography on our web site.
+</p></li>
+
+<li><p><b>
+    Must I have a degree in composition to win this competition?
+</b></p><p>
+    No. The judges won''t know who you are, so all that matters is the quality of the work
+    you submit.
+</p></li>
+
+<li><p><b>
+    What sort of orchestra is The Columbia Orchestra?
+</b></p><p>
+    The Columbia Orchestra is a well-established community orchestra which began in
+    the fall of 1977. It is a full-sized orchestra (typically 80-96 players onstage)
+    comprised of talented musicians, many of whom are free-lance professionals, who
+    volunteer their time in exchange for the opportunity to play outstanding literature
+    under an inspiring conductor. To get a sense of the level of difficulty of music that
+    the orchestra performs, look at the programs for the current season by clicking the
+    <a class="bodylink" href="/season/" target="co_link"
+    title="Pop-up">Current Season</a> link here or on the
+    "Concerts & Tickets" tab at the top of this page.  Season
+    schedules dating back to 2001 are available by clicking on
+    <a class="bodylink" href="/seasons/" target="co_link"
+    title="Pop-up">Historical Seasons</a> here or on the "Concerts &
+    Tickets" tab. Please peruse the entire website to get a better
+    sense of the organization as a whole.
+</p></li>
+
+<li><p><b>
+    My work calls for a non-standard instrument. Is that instrument allowed?
+</b></p><p>
+    The following instruments have been asked about and are
+    acceptable: bass trombone, piccolo trumpet, saxophone. If you have
+    a question about another instrument, please
+    contact <a href="mailto:compcomp@columbiaorchestra.org">compcomp@columbiaorchestra.org</a>
+    (see below).
+</p></li>
+
+<li><p><b>
+    My work was performed by the same orchestra multiple times during a
+    single weekend? Does this count as one performance?
+</b></p><p>
+    For our purposes, a work performed multiple times in a short period of time by the
+    same ensemble counts as one performance.
+</p></li>
+
+<li><p><b>
+    You specify 4 percussion plus timpani. Does that mean one timpanist plus
+    four in the battery?
+</b></p><p>
+    We have five percussionists, including at most one timpanist. The timpanist can be
+    asked to play other instruments when not playing timpani.
+</p></li>
+
+<li><p><b>
+    What do you mean by hard-copy of the score?
+</b></p><p>
+    A hard-copy is a physical copy of the score on paper that we can hold in our hands
+    and look at. Electronic versions of the score in any format, sent via email, floppy disk
+    or data CD are not acceptable.
+</p></li>
+
+<li><p><b>
+    What do you mean by ten-year resident of the U.S.?
+</b></p><p>
+    This is a person who has lived legally in the United States as his or her primary place
+    of residence, regardless of type of visa, since June 2001 and who will still be living in
+    the United States at the time of the postmark deadline. You do not have to have
+    established legal permanent residency (e.g. a Green Card).
+</p></li>
+
+<li><p><b>
+    My work has been performed publicly twice and has been recorded by a
+    different ensemble. Does the recording session count as a performance?
+</b></p><p>
+    For our purposes, a recording session does not count as a performance.
+</p></li>
+
+<li><p><b>
+    My work has been performed publicly more than twice, but one of the
+    performances took place outside of the United States. Is this work eligible?
+</b></p><p>
+    The location of the performances doesn''t matter. If the work has been performed
+    publicly more than twice, it is not eligible for this competition.
+</p></li>
+
+<li><p><b>
+    Must the composition be unpublished?
+</b></p><p>
+    We cannot afford to pay rental or any other fees in association with the performance
+    of the winning composition on top of the expense of sponsoring the competition. If
+    you have self-published your work, or if you have an arrangement with your
+    publisher by which you can waive all fees, we can work with you on this issue.
+</p></li>
+
+<li><p><b>
+    I want to submit a work on behalf of a deceased composer. The work meets
+    your criteria in every way, except for the implied assumption that the
+    person making the application is the same as the composer of the submitted
+    work. Can I do this?
+</b></p><p>
+    In 2004 we were honored to receive an application from the widow of an
+    undeservedly neglected American composer. If you are considering such an
+    application you must show us that you are authorized to allow performances of the
+    work and you must demonstrate that you are engaged in a substantial, long-term
+    effort to promote the works of the composer.
+</p></li>
+
+<li><p><b>
+    I still have questions. Whom do I contact to ask questions, get
+    clarifications, or make comments about the competition?
+</b></p><p>
+    For any questions regarding the competition, please contact our
+    Competition Coordinator
+    at <a href="mailto:compcomp@columbiaorchestra.org">compcomp@columbiaorchestra.org</a>. E-mail
+    is by far the fastest way to get a response. He may also be
+    reached by phone or U.S. mail at the orchestra''s phone number or
+    address (both at the bottom of this page).
+</p></li>
+
+  
+</ol>
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(37,'/composer_competition/guidelines/','2011 American Composer Competition','<head>
+<style type="text/css">
+blockquote.mailingaddress {
+font-size: 1.3em
+}
+
+.orch {
+font-size: 1.3em;
+font: 62.5%/1.4 verdana,sans-serif;
+}
+</style>
+</head>
+
+<h2>
+<center>
+                        THE COLUMBIA ORCHESTRA<br>
+              2011 American Composer Competition
+</center>
+</h2>
+<center>
+<p><b>
+             Win $1,000 and a performance of your work<br>
+                           by The Columbia Orchestra<br>
+                                  in Spring 2012
+</b></p>
+<p>
+                         Postmark Deadline: <b>June 3, 2011</b><br>
+                           <a href="/uploads/2011/compcomp/compcompapp.pdf">Download an Application Form</a><br>
+                  <a href="/uploads/2011/compcomp/AmComposerComp.pdf">Download a PDF version of these Guidelines</a>
+</p>
+</center>
+
+<br>
+<p>
+Dear American Composer,<br><br>
+
+Welcome to the official guidelines page
+for the Columbia Orchestra''s American Composer Competition. It is our
+intention to foster the creation and performance of orchestral music
+by American composers. We hope that this competition will encourage
+and support your work, and that you will enter the competition. Please
+read these guidelines carefully to maximize your chances of
+winning. Please also consult our <a class="bodylink"
+href="/composer_competition/faq/" target="co_link">FAQ</a>, which will be expanded as questions arise.
+</p>
+
+<h3>Composer Eligibility:</h3>
+<ul>
+<li>
+       The composer must be a U.S. citizen or a ten-year resident of the United
+       States.
+</li>
+<li>
+       There is no age limit.
+</li>
+<li>
+       The competition is not open to staff, board members, or members of the
+       Columbia Orchestra or to members of their families.
+</li>
+</ul>
+<h3>Composition Guidelines:</h3>
+<ul>
+<li>
+       The work must be unpublished or self-published. The Columbia Orchestra will
+       not pay rental, performance, or any other fee in association with the
+       performance of the winning work in Spring 2012.
+</li>
+<li>
+       The work should not exceed 15 minutes in duration.
+</li>
+<li>
+       Scoring should include, at a minimum, strings plus a significant number of
+       instruments from other sections. Orchestration is limited to:
+<blockquote>
+               *3*.*3.*3.*3--4.3.3.1--<br>
+               4perc + timp--hp--pno/cel/synth--str.<br>
+	       <ul>
+		 <li><span class="orch">3 flutes may include piccolo and/or alto flute.</span></li>
+                 <li><span class="orch">3 oboes may include English Horn.</span></li>
+                 <li><span class="orch">3 clarinets may include e-flat clarinet and/or bass clarinet.</span></li>
+                 <li><span class="orch">3 bassoons may include contrabassoon.</span></li>
+
+                 <li><span class="orch">4 French horns</span></li>
+                 <li><span class="orch">3 trumpets</span></li>
+                 <li><span class="orch">3 trombones</span></li>
+                 <li><span class="orch">1 tuba</span></li>
+
+                 <li><span class="orch">Timpani may require up to five drums of standard sizes.</span></li>
+                 <li><span class="orch">1 harp</span></li>
+                 <li><span class="orch">Keyboard may include piano, celesta or harpsichord, but only one
+                   player.</span></li>
+                 <li><span class="orch">Percussion may include any battery and mallet instruments. The
+                   composer must provide any specialized equipment required (at no
+                   expense to the orchestra)</span></li>
+                 <li><span class="orch">Custom-made instruments are permissible but must be supplied by
+                  the composer.</span></li>
+                 <li><span class="orch">Works that require electronic playback of a tape or CD (provided by
+                  the composer) are permissible. Works with interactive electronics
+                  or other media that require specialized equipment or personnel will
+                  not be considered.</span></li>
+                 <li><span class="orch">There should be no choral or vocal parts, no organ part, and no
+                  concerto soloist.</span></li>
+		 </ul>
+      If you have any questions about acceptable instrumentation, we strongly
+      encourage you to contact us before submitting your work (or deciding not to
+      submit your work).
+</blockquote>
+</li>
+<li>
+      The work need not have been composed recently.
+</li>
+<li>
+      The work must not have had more than two public performances as of June 3,
+      2011.
+</li>
+</ul>
+
+<h3>Manuscript Guidelines:</h3>
+<ul>
+<li>
+      Scores must be submitted in hard-copy. Hand-inked manuscripts and
+      computer-generated scores are both acceptable. No preference will be given
+      to either form. Preference will be given to scores that are legible and
+      comprehensible.
+</li>
+<li>
+      If the work requires any non-standard performance techniques, they should
+      be clearly notated and accompanied by a written explanation.
+      No markings may appear on the score that reveal or suggest the identity of
+      the composer. A title may appear on the score.
+</li>
+<li>
+      In addition to the hard copy of the score, applicants may also submit a pdf
+      image file of the score. This soft copy is not required but will be helpful to the
+      judges. The content and file names of the pdf image file must be anonymous,
+      that is, they must not include the applicant’s name. You may provide this file
+      on a data CD or some other standard digital medium, or you may provide a
+      URL pointing to the file for download.
+</li>
+</ul>
+
+<h3>Timetable:</h3>
+<ul>
+<li>
+      June 3, 2011 - Postmark deadline for application materials.
+</li>
+<li>
+      August 8, 2011 - Announcement of the winner.
+</li>
+<li>
+      November 15, 2011 - Deadline for receipt of orchestra parts supplied by the
+      winning composer.
+</li>
+<li>
+      Spring 2012 (specific Saturday to be announced) – Performance of the
+      winning work by the Columbia Orchestra in Columbia, Maryland. The dress
+      rehearsal will be held the Friday prior to the concert.
+</li>
+</ul>
+
+<h3>Award:</h3>
+<p>
+      The winner will receive a $1,000 prize. Additional local travel expense
+      compensation will be paid if the winning composer agrees to work with the
+      orchestra at the dress rehearsal and attend the concert (see below).
+</p>
+
+<h3>Additional Details:</h3>
+<ul>
+<li>
+      One of goals of the Columbia Orchestra in holding the competition is to have
+      the composer of the winning composition work with the orchestra during the
+      dress rehearsal on the evening prior to the concert and attend the orchestra’s
+      performance of the winning work in Spring 2012. To encourage such
+      participation, the Columbia Orchestra will provide the winning composer with
+      an additional $250 payment toward travel expenses associated with
+      participation in the dress rehearsal and concert. The $250 payment is fixed
+      and will not be adjusted if associated travel expenses are greater or less than
+      that amount.
+</li>
+<li>
+      The Columbia Orchestra will not reimburse expenses for preparation of scores
+      and orchestra parts. The Columbia Orchestra will not provide any
+      compensation to any competition entrant other than the $1000 prize and the
+      $250 travel expense allowance. The travel expense payment will be provided
+      only if the winning composer participates in the dress rehearsal and
+      December 2011 concert.
+</li>
+<li>
+      All Columbia Orchestra performances are professionally recorded. The winner
+      will receive a CD recording of the performance. This recording may be used or
+      copied for personal and promotional purposes, but may not be sold or
+      distributed commercially.
+</li>
+<li>
+      There is no entrance fee for the competition.
+</li>
+</ul>
+
+<h3>Required Materials:</h3>
+<ul>
+<li>
+      An anonymous score (a title may appear on the score).
+</li>
+<li>
+      A completed application form, which can be downloaded in PDF format for
+      printing from the Columbia Orchestra web page at
+      http://columbiaorchestra.org/composer_competition/compcompapp.pdf.
+      Entries with incomplete application forms will not be considered.
+</li>
+<li>
+      A recording (orchestral, piano, or electronic realization) of the work on CD. No
+      markings may appear on the recording that reveal or suggest the identity of
+      the composer. A title may appear on the recording.
+</li>
+<li>
+      A curriculum vitae or biography may be included, but is optional. See <a class="bodylink"
+href="/composer_competition/faq/" target="co_link">FAQ</a> #7.
+</li>
+<li>
+      An anonymous pdf image file of the score on a standard digital medium or
+      available for download from a specified URL may be included, but it is
+      optional.
+</li>
+<li>
+      Please include a postage-paid, self-addressed return envelope with your
+      application if you want your application materials returned to you.
+</li>
+</ul>
+
+<p>
+<b>Please send materials postmarked no later than June 3, 2011, to:</b>
+<blockquote class="mailingaddress">
+      The Columbia Orchestra<br>
+      ATTN: Composition Competition<br>
+      Howard County Center for the Arts<br>
+      8510 High Ridge Road<br>
+      Ellicott City, MD 21043
+</blockquote>
+</p>
+
+<p>
+<u><b>The Postmark Deadline is June 3, 2011. No exceptions!</b></u>
+</p>
+
+<p>
+For any questions regarding the competition, please start by reading
+our <a class="bodylink" href="/composer_competition/faq/"
+target="co_link">FAQ</a> . If your question is not
+answered there, please contact the Competition Coordinator at
+<a href="mailto:compcomp@columbiaorchestra.org">
+compcomp@columbiaorchestra.org</a>.
+</p>
+
+
+
+<center>
+<p>
+                                 <b>READ THE <a class="bodylink"
+	       href="/composer_competition/faq"
+	       target="co_link">FAQ</a>!</b>
+</p>
+<p>
+                           The URL for this guidelines page is<br>
+
+            <a class="bodylink"
+	       href="/composer_competition/guidelines"
+	       target="co_link">http://columbiaorchestra.org/composer_competition/guidelines</a>
+
+</p>
+<p>
+                                The URL for the FAQ is<br>
+            <a class="bodylink"
+	       href="/composer_competition/faq"
+	       target="co_link">http://columbiaorchestra.org/composer_competition/faq</a>
+</p>
+</center>
+
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(38,'/composer_competition/past_winners/','American Composer Competition &mdash; Past Winners','<h2>
+American Composer Competition<br>
+Past Winners
+</h2>
+
+<h3>The winning work of the 2009 American Composer Competition was the Third Movement of Symphony No. 1 “Remembrance” by Albert Hurwit. The orchestra performed the work on December 5, 2009 with the composer in attendance. </h3>
+
+
+<p>
+  The orchestra received 124 submissions from throughout the United States. In addition to the winning work, seven finalists were selected (listed in alphabetic order):
+</p>
+<ul>
+  <li>Brian Fennelly: Reflections/Metamorphosis
+  </li>
+  <li>Anthony Iannaccone: Dancing on Vesuvius
+  </li>
+  <li>Mark Lackey: Convergence
+  </li>
+  <li>Elizabeth Lim: Paranoia
+  </li>
+  <li>Justin Merritt: River of Blood
+  </li>
+  <li>Philip Rothman: Arc of Visibility
+  </li>
+  <li>David Schneider: Automation
+  </li>
+</ul>
+<p>
+  Congratulations to Dr. Hurwit, the finalists, and all who entered the competition. We are extremely grateful for your participation!
+</p>
+<p>
+  Read more about the winning work and the competition in this <a class="bodylink" href="/uploads/2010/091205-ACC.pdf" target="co_link" title="Pop-up: PDF">Press Release.</a>
+</p>
+<p>
+  <a id="hurwit"><strong>About Albert Hurwit</strong> <img src="/images/cc-hurwit.jpg" title="Albert Hurwit, composer" width="125" height="160" border="0" align="right" vspace="10" hspace="10" /></a>
+</p>
+<p>
+  The composing career of Albert Hurwit began relatively late in his life. He was born in Hartford, Connecticut in 1931. After graduating from Harvard College and Tufts Medical School, he remained in Boston for four years of postgraduate radiology training. He returned to Hartford and practiced radiology until his retirement in 1986.
+</p>
+<p>
+  Through most of his life, Hurwit had been casually involved with music and composing in an unstructured manner. Since 1986 he has dedicated all of his energies to composing music. He has had no formal training, but has received informal mentoring form Robert Carl, Chairman of the Composition Department of the Hartt School of Music at the University of Hartford, and Michael Lankester, the former Music Director of the Hartford Symphony Orchestra.
+</p>
+<p>
+  In 1997 the Adaskin String Trio performed Hurwit&rsquo;s &ldquo;Adagio&rdquo; at the University of Hartford. It was then expanded into an &ldquo;Adagio for Orchestra,&rdquo; which was performed later that year by the Hartford Symphony Orchestra with Michael Lankester conducting at the Bushnell Center for Performing Arts.
+</p>
+<p>
+  After three more years of self instruction, experimentation and musical exploration Hurwit began to compose a symphony. He completed the composition of Symphony No. 1 &ldquo;Remembrance&rdquo; in 2002.
+</p>
+<p>
+  On November 8, 9 and 10, 2002, Movement III of the symphony (electronic rendition) was choreographed by Peggy Lyman and performed by the Hartt School of Music Dancers at the Lincoln Theater of the University of Hartford.
+</p>
+<p>
+  On February 13 and 14, 2003, the third movement of this symphony was performed in a concert world premiere by the Hartford Symphony Orchestra under the direction of Edward Cumming at the Bushnell Center for Performing Arts.
+</p>
+<p>
+  In July of 2004, the symphony was recorded by the Bulgarian National Radio Symphony Orchestra with Michael Lankester conducting. Hurwit spent eight days in Sofia and participated in the rehearsing, revisions, recording, mixing and finalizing process of the CD production. The CD of the symphony was released by MSR Classics in March of 2005, and it is being distributed by Albany Records.
+</p>
+<p>
+  The West Hartford Symphony Orchestra under the baton of Richard Chiarappa presented world premiere concert performance of the entire Symphony No.1 &ldquo;Remembrance&rdquo; on March 5, 2006.
+</p>
+<p>
+  <br />
+  <strong>The Results of Previous Competitions</strong>
+</p>
+<p>
+  <strong>2007</strong>
+</p>
+<div class="c1">
+  <p>
+    <strong>Winner:</strong> David Heuser: A Screaming Comes Across the Sky
+  </p>
+  <p>
+    <strong>Finalists:</strong>
+  </p>
+  <ul>
+    <li>Randolph Partain: Blood Rite
+    </li>
+    <li>David Sartor: Concerto for Orchestra
+    </li>
+    <li>Arthur Gottschalk: Amelia
+    </li>
+    <li>Laurence Bitensky: A Perfect Rest
+    </li>
+    <li>Mark Lortz: Deus Ex Machina
+    </li>
+    <li>Anthony Iannaccone: The Colors of Dream
+    </li>
+    <li>Kevin Walczyk: Capriccio
+    </li>
+    <li>Takuma Itoh: Concerto for Orchestra
+    </li>
+    <li>Lee Actor: Variations and Fugue
+    </li>
+  </ul>
+</div>
+<p>
+  <strong>2005</strong>
+</p>
+<div class="c1">
+  <p>
+    <strong>Winner:</strong> David Dzubay: Shadow Dance
+  </p>
+  <p>
+    <strong>Finalists:</strong>
+  </p>
+  <ul>
+    <li>Lee Actor: Prelude to a Tragedy
+    </li>
+    <li>Arthur Gottschalk: Amelia
+    </li>
+    <li>Anthony Iannaccone: The Colors of Dream
+    </li>
+    <li>Rob Smith: Push
+    </li>
+    <li>Antonio Carlos DeFeo: What''s That I Hear?
+    </li>
+    <li>Charles Bestor: Variations for Orchestra
+    </li>
+    <li>Joshua Penman: Songs the Plants Taught Us
+    </li>
+    <li>Ernst Bacon: Smokey Mountain Scherzo
+    </li>
+  </ul>
+</div>
+<p>
+  <strong>2003</strong>
+</p>
+<div class="c1">
+  <p>
+    <strong>Winner:</strong> Thomas Shnauber: Indigo Street
+  </p>
+  <p>
+    <strong>Finalists:</strong>
+  </p>
+  <ul>
+    <li>Yuanlin Chen: Overture - Rhapsody
+    </li>
+    <li>Paul Richards: Trip Hammer
+    </li>
+    <li>Stephan Prock: Garden Varieties
+    </li>
+    <li>Cynthia Miller: Frequent Flier
+    </li>
+    <li>Jeff Manookian: NEXUS
+    </li>
+    <li>Erich Stern: Escape
+    </li>
+    <li>Allen Menton: Shape-Note Fantasy
+    </li>
+    <li>Daniel Powers: The Starry Messenger
+    </li>
+    <li>James Ra: Awakened Spirit
+    </li>
+    <li>Christopher Pierce: Aquarelle
+    </li>
+    <li>Garrett Byrnes: The Flames of Imbolc
+    </li>
+  </ul>
+</div>',0,'',0);
+INSERT INTO "django_flatpage" VALUES(39,'/donate/form/','Online Donation Form','<head>
+<script type="text/javascript">
+
+function copy_info() {
+    var ids = [''name'', ''addr1'', ''addr2'', ''city'', ''state'', ''zip''];
+    for (var i=0; i<ids.length; i++) {
+        document.getElementById(''s''+ids[i]).value = document.getElementById(''b''+ids[i]).value;
+    }
+}
+
+function reset_contact() {
+    var ids = [''name'', ''addr1'', ''addr2'', ''city'', ''state'', ''zip''];
+    for (var i=0; i<ids.length; i++) {
+        document.getElementById(''s''+ids[i]).value = '''';
+        document.getElementById(''b''+ids[i]).value = '''';
+    }
+    document.getElementById(''phone'').value = '''';
+    document.getElementById(''email'').value = '''';
+}
+
+		$(document).ready(function() {
+                        reset_donation();
+                        reset_contact();
+               });
+
+                function getDonationAmt() {  return parseFloat(document.getElementById("donation").value);  }
+
+		function makeCommentString() {
+                        str = "Donations: " + getDonationAmt();
+                        str += "Donor comments: " + document.getElementById("donor_comment").value;
+		        return str;
+		}
+
+               function donationCheck() {
+                       var f = getDonationAmt();
+                       if (isNaN(f) || f < 0.1) { alert("You have not entered a valid donation amount."); return false; }
+                       return true;
+               }
+
+               function reset_donation() {  document.getElementById("donation").value = "0";  }
+
+                function submitCheck() {
+                        if (!donationCheck()) return false;
+                        var total = getDonationAmt();
+                        document.getElementById("chargetotal").value = total;
+			document.getElementById("comments").value = makeCommentString()
+                        return true;
+                }
+
+</script>
+</head>
+
+<h2>Online Donation Form</h2>
+
+<p>All donations to the Columbia Orchestra are tax-deductible.  For more information, please revisit our <a href="/donate" target="info">donations page</a>.
+</p>
+
+<p>Thank you for your support!</p>
+
+<br />
+<!-- <form id="DonationForm" action="http://www.example.com" method="post" onsubmit="return submitCheck()"> -->
+<form id="DonationForm" action="https://www.linkpointcentral.com/lpc/servlet/lppay" method="post" onsubmit="return submitCheck()">
+
+<p><b>Donation amount:</b>  $<input id="donation" type="text" size="5" value="0" /></p>
+
+<p><b>How would you like your donation acknowledged in our concert program?</b><br>
+(e.g., Mr & Mrs. John Smith, In memory of...,   In honor of...,  Anonymous)<br>
+<textarea name="donor_comment" rows="3" cols="60"></textarea>
+</p>
+
+<div>
+
+<div style="float: left; clear: left">
+<h4>Credit Card Billing Address</h4>
+<table>
+<tr><td>Name</td> <td><input type="text" id="bname" name="bname" /></td></tr>
+<tr><td>Street</td> <td><input type="text" id="baddr1" name="baddr1" size="30" maxlength="30" /></td></tr>
+<tr><td></td> <td><input type="text" id="baddr2" name="baddr2" size="30" maxlength="30" /></td></tr>
+<tr><td>City</td> <td><input type="text" id="bcity" name="bcity" size="30" maxlength="30" /></td></tr>
+<tr><td>State</td> <td><select id="bstate" name="bstate" size="1">
+<option value=""> ... </option>
+<option value="AK"> AK </option>
+<option value="AL"> AL </option>
+<option value="AR"> AR </option>
+<option value="AZ"> AZ </option>
+<option value="CA"> CA </option>
+<option value="CO"> CO </option>
+<option value="CT"> CT </option>
+<option value="DC"> DC </option>
+<option value="DE"> DE </option>
+<option value="FL"> FL </option>
+<option value="GA"> GA </option>
+<option value="HI"> HI </option>
+<option value="IA"> IA </option>
+<option value="ID"> ID </option>
+<option value="IL"> IL </option>
+<option value="IN"> IN </option>
+<option value="KS"> KS </option>
+<option value="KY"> KY </option>
+<option value="LA"> LA </option>
+<option value="MA"> MA </option>
+<option value="MD"> MD </option>
+<option value="ME"> ME </option>
+<option value="MI"> MI </option>
+<option value="MN"> MN </option>
+<option value="MO"> MO </option>
+<option value="MS"> MS </option>
+<option value="MT"> MT </option>
+<option value="NC"> NC </option>
+<option value="ND"> ND </option>
+<option value="NE"> NE </option>
+<option value="NH"> NH </option>
+<option value="NJ"> NJ </option>
+<option value="NM"> NM </option>
+<option value="NV"> NV </option>
+<option value="NY"> NY </option>
+<option value="OH"> OH </option>
+<option value="OK"> OK </option>
+<option value="OR"> OR </option>
+<option value="PA"> PA </option>
+<option value="PR"> PR </option>
+<option value="RI"> RI </option>
+<option value="SC"> SC </option>
+<option value="SD"> SD </option>
+<option value="TN"> TN </option>
+<option value="TX"> TX </option>
+<option value="UT"> UT </option>
+<option value="VA"> VA </option>
+<option value="VI"> VI </option>
+<option value="VT"> VT </option>
+<option value="WA"> WA </option>
+<option value="WI"> WI </option>
+<option value="WV"> WV </option>
+<option value="WY"> WY </option>
+</select></td></tr>
+<tr><td>ZIP</td> <td><input type="text" id="bzip" name="bzip" size="5" maxlength="10" /></td></tr>
+</table>
+<input type="hidden" id="bcountry" name="bcountry" value="US" /></ul>
+</div>
+
+<div style="float: left; display: inline; padding-left:5em">
+<h4>Mailing Address (for our acknowledgment letter)</h4>
+<table>
+<tr><td>Name</td> <td><input type="text" id="sname" name="sname" /></td></tr>
+<tr><td>Street</td> <td><input type="text" id="saddr1" name="saddr1" size="30" maxlength="30" /></td></tr>
+<tr><td></td> <td><input type="text" id="saddr2" name="saddr2" size="30" maxlength="30" /></td></tr>
+<tr><td>City</td> <td><input type="text" id="scity" name="scity" size="30" maxlength="30" /></td></tr>
+<tr><td>State</td> <td><select id="sstate" name="sstate" size="1">
+<option value=""> ... </option>
+<option value="AK"> AK </option>
+<option value="AL"> AL </option>
+<option value="AR"> AR </option>
+<option value="AZ"> AZ </option>
+<option value="CA"> CA </option>
+<option value="CO"> CO </option>
+<option value="CT"> CT </option>
+<option value="DC"> DC </option>
+<option value="DE"> DE </option>
+<option value="FL"> FL </option>
+<option value="GA"> GA </option>
+<option value="HI"> HI </option>
+<option value="IA"> IA </option>
+<option value="ID"> ID </option>
+<option value="IL"> IL </option>
+<option value="IN"> IN </option>
+<option value="KS"> KS </option>
+<option value="KY"> KY </option>
+<option value="LA"> LA </option>
+<option value="MA"> MA </option>
+<option value="MD"> MD </option>
+<option value="ME"> ME </option>
+<option value="MI"> MI </option>
+<option value="MN"> MN </option>
+<option value="MO"> MO </option>
+<option value="MS"> MS </option>
+<option value="MT"> MT </option>
+<option value="NC"> NC </option>
+<option value="ND"> ND </option>
+<option value="NE"> NE </option>
+<option value="NH"> NH </option>
+<option value="NJ"> NJ </option>
+<option value="NM"> NM </option>
+<option value="NV"> NV </option>
+<option value="NY"> NY </option>
+<option value="OH"> OH </option>
+<option value="OK"> OK </option>
+<option value="OR"> OR </option>
+<option value="PA"> PA </option>
+<option value="PR"> PR </option>
+<option value="RI"> RI </option>
+<option value="SC"> SC </option>
+<option value="SD"> SD </option>
+<option value="TN"> TN </option>
+<option value="TX"> TX </option>
+<option value="UT"> UT </option>
+<option value="VA"> VA </option>
+<option value="VI"> VI </option>
+<option value="VT"> VT </option>
+<option value="WA"> WA </option>
+<option value="WI"> WI </option>
+<option value="WV"> WV </option>
+<option value="WY"> WY </option>
+</select></td></tr>
+<tr><td>ZIP</td> <td><input type="text" id="szip" name="szip" size="5" maxlength="10" /></td></tr>
+</table>
+<button type="button" onclick="javascript:copy_info()">Copy from billing address</button>
+<input type="hidden" id="scountry" name="scountry" value="US" /></ul>
+</div>
+
+</div>
+
+<div style="clear: left">
+<table>
+<tr><td>Phone</td> <td><input type="text" id="phone" name="phone" size="15" maxlength="20" /></td></tr>
+<tr><td>Email</td> <td><input type="text" id="email" name="email" size="30" maxlength="45" /></td></tr>
+</table>
+</div>
+
+<br>
+<input style="display: block" type="submit" value="Proceed to Payment" />
+
+
+<input type="hidden" id="chargetotal" name="chargetotal" value="0.0" />
+<!-- <input type="hidden" name="mode" value="Fullpay" /> -->
+<input type="hidden" name="mode" value="Payplus" />
+<input type="hidden" name="txntype" value="sale" />
+<input type="hidden" name="storename" value="1001258007" />
+<input type="hidden" id="comments" name="comments" value="" />
+<input type="hidden" name="responseSuccessURL" value="http://columbiaorchestra.org/donate/thanks" />
+<input type="hidden" name="responseFailURL" value="http://columbiaorchestra.org/donate/sorry" />
+
+</form>
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(40,'/donate/','Donations','<h2>Make a Donation</h2>
+<!--
+<p>
+  <a href="/donate/form"><img src="/images/button-donation.gif" border="0" width="110" height="23" alt="Pop-up: Make a Donation" align="right" /></a> 
+</p>
+-->
+<p>
+  We are grateful to our many loyal supporters, and hope you too will support the orchestra. Ticket sales cover only 25% of our expenses. Your donation helps make it possible for us to rent concert and rehearsal space, contract outstanding soloists, rent and purchase music, and keep the community informed of our activities. By contributing to the orchestra, you help to enrich our community and to sustain the priceless cultural heritage of classical music. Please help the Columbia Orchestra keep making <em>Your Community''s Music.</em>
+</p>
+<p>
+  Contributors will be acknowledged in our programs grouped into these giving levels:
+</p>
+<ul>
+  <li>FRIEND (up to $99)</li>
+  <li>DONOR ($100-$249)</li>
+  <li>PATRON ($250-$499)</li>
+  <li>BENEFACTOR ($500-$999)</li>
+  <li>SPONSOR ($1,000-$1,999)</li>
+  <li>CONDUCTOR''S CIRCLE ($2,000 and greater)</li>
+</ul>
+<p>
+  Thank you for your support. The Columbia Orchestra is incorporated in Maryland as a 501(c)(3) nonprofit corporation. All donations are tax-deductible. 
+</p>
+
+<h3>How to donate</h3>
+
+<h4>Online</h4>  
+
+<p>
+Use our <a href="/donate/form" target="form">online donation form</a>.
+</p>
+
+<p>Your donation will be confirmed by e-mail, and you will receive a written acknowledgement and thank-you by mail.
+</p>
+
+<h4>By mail</h4>
+<p>
+First complete our <a class="boldlink" href="/uploads/2010/donationform.pdf" target="co_link" title="PDF Pop-up">donation form</a>. Viewing and printing this form requires Adobe Acrobat Reader; if you don''t have Acrobat Reader, you can <a class="bodylink" href="http://www.adobe.com/products/acrobat/readstep.html" target="co_link" title="Pop-up">download a free copy</a>. Then mail the form along with a check to The Columbia Orchestra, sending it to the address at the bottom of this web page.
+</p>
+<p>
+  If you would like to make a non-cash donation to the orchestra, please contact the orchestra office at 410-465-8777. We will be happy to discuss other gifts with you.
+</p>
+<p>
+  If you would prefer that your donation remain anonymous, just let us know and we will honor your wishes.
+</p>
+
+<h3>About us</h3>
+
+<p>
+  The Columbia Orchestra is a 501(c)(3) organization&mdash;donations to which are tax deductible to the fullest extent allowed by law. A copy of our current financial statement is available upon request by calling our office. Documents submitted to the State of Maryland Charitable Solicitations Act are available from the Secretary of State, State House, Annapolis, MD 21401, for the cost of copying and mailing.
+</p>
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(41,'/donate/thanks/','Thank You For Your Donation','<h2>Thank You</h2>
+
+<p>
+The transaction completed successfully.  An acknowledgement letter will be sent to your mailing address.  Thank you for your support!
+</p>',0,'',0);
+INSERT INTO "django_flatpage" VALUES(42,'/donate/sorry/','Donation Transaction Unsuccessful','<h2>Transaction not successful</h2>
+
+<p>
+Unfortunately we could not complete the transaction.  Please return to our <a href="/test/donate">donations page</a> or visit our website''s <a href="/">main page</a>.
+</p>
+
+<p>
+Thank you for your interest in supporting the orchestra.
+</p>
+
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(43,'/tickets/','Concert Tickets','<head>
+<style type="text/css"> span#TotalPrice{ color: green; font-weight: bold; }</style>
+<script type="text/javascript">
+function copy_info() {
+    var ids = [''name'', ''addr1'', ''addr2'', ''city'', ''state'', ''zip''];
+    for (var i=0; i<ids.length; i++) {
+        document.getElementById(''s''+ids[i]).value = document.getElementById(''b''+ids[i]).value;
+    }
+}
+function reset_contact() {
+    var ids = [''name'', ''addr1'', ''addr2'', ''city'', ''state'', ''zip''];
+    for (var i=0; i<ids.length; i++) {
+        document.getElementById(''s''+ids[i]).value = '''';
+        document.getElementById(''b''+ids[i]).value = '''';
+    }
+    document.getElementById(''phone'').value = '''';
+    document.getElementById(''email'').value = '''';
+}
+
+		$(document).ready(function() {
+			reset_tickets();
+                        reset_contact();
+                });
+
+                var type_names = [ "adult", "senior", "student", "group_rate" ];
+                var type_rates = [ 20, 16, 10, 16 ];
+
+    	        var nonnegint = /^\s*\d*\s*$/;
+    	        function isNonnegInt(val) { return nonnegint.test(val); }
+
+                var whitespace = /^\s*$/;
+                function getQuantity(type_name) {
+                        val = document.getElementById(type_name).value;
+                        if (whitespace.test(val)) { return 0; }
+                        return parseInt(val);
+                }
+
+		function getTotalPrice() {
+                        var total = 0;
+                        for (var i=0; i<type_names.length; i++) {
+                                total += getQuantity(type_names[i]) * type_rates[i];
+                        }
+		        return total;
+		}
+		
+		function showPrice(){
+		        document.getElementById("TotalPrice").innerHTML = "$" + getTotalPrice();
+		}
+
+		function makeCommentString() {
+		        str = "Concert tickets:";
+                        for (var i=0; i<type_names.length; i++) {
+			       str += " " + type_names[i] + "=" + getQuantity(type_names[i]) + " tickets;";
+                        }
+		        return str;
+		}
+		
+		function orderTickets(){
+                        var price, group_rate_qty;
+                        for (var i=0; i<type_names.length; i++) {
+                               if ( ! isNonnegInt(document.getElementById(type_names[i]).value) ) {
+                                       alert("You have entered an invalid number of tickets.");
+                                       return false;
+                               }
+                        }
+                        price = getTotalPrice();
+                        if (price <= 0) {
+                                alert("You have not ordered a valid number of tickets.");
+                                return false;
+                        }
+                        group_rate_qty = getQuantity("group_rate");
+                        if ( 1 <= group_rate_qty && group_rate_qty < 10) {
+                                 alert("The group rate only applies to ten or more tickets.");
+                                 return false;
+                        }
+		        document.getElementById("chargetotal").value = getTotalPrice();
+			document.getElementById("comments").value = makeCommentString()
+		        return true;
+		}		
+		
+		function reset_tickets(){
+			document.getElementById("TotalPrice").innerHTML = "$0"; 
+			for (var i=0; i<type_names.length; i++) {
+                                document.getElementById(type_names[i]).value = "0";
+                        }
+		}			
+
+</script>
+</head>
+
+
+<h2>Concert Tickets</h2>
+ 
+<h3>Prices</h3>
+<p>Single-ticket prices for our remaining (June 4, 2011) Classical Concert:</p>
+<blockquote><p>
+Adult $20<br> 
+Seniors (60 and up) $16<br> 
+Fulltime Students (To age 24) $10 <br>
+Group Rates (10 or more) $16
+</p></blockquote>
+
+<h3>Ordering tickets</h3>
+
+<p>
+Concert tickets may be ordered in advance in several ways:  online, by mail, by phone, or in person (at several locations).  Details for each method are given below. If the performance is not sold out, tickets may also be purchased by cash, check, or credit card at the performance.
+</p>
+
+<p>
+All advance ticket orders placed within six days of a performance will be held at the concert''s will-call window, and will be available for pick-up after 6:15 p.m. on the evening of the performance. 
+</p>
+
+<h4>Online</h4>
+<a name="online"></a>
+<p>Use the <a class="bodylink" href="#form">order form</a> at the bottom of this page.  When you click on "Proceed to Payment", you will be directed to a secure payment site hosted by First Data Corporation where you will be prompted for your credit card number. Your order will be confirmed by e-mail, and your tickets will be mailed to you (or held for you at will-call, for orders placed within six days of the concert). Online orders will be accepted up until the morning of each concert.  However, we encourage you to order early, as we tend to be quite busy on concert day.  
+</p>
+
+<h4>By mail</h4>
+<a name="mail"></a>
+<p>
+Be sure to tell us the concert date and the number of tickets of each type (senior, adult, student) that you would like to purchase.  Send this information along with a check to "The Columbia Orchestra" to our address:
+<blockquote><p>
+The Columbia Orchestra<br>
+Howard County Center for the Arts<br>
+8510 High Ridge Road<br>
+Ellicott City, MD 21043 
+</p></blockquote>
+</p>
+
+<h4>By phone or e-mail</h4>
+<a name="phone"></a>
+
+<p>We strongly encourage online payment in order to minimize your delay in the lobby prior to being seated. If you do not wish to pay online and prefer to reserve tickets to purchase at will-call, please contact our Executive Director at (410) 465-8777, extension 2, or e-mail <a href="mailto:ticketinfo@columbiaorchestra.org">ticketinfo@columbiaorchestra.org</a>.
+</p>
+
+<h4>In person</h4>
+<a name="person"></a>
+
+<p>Tickets may be purchased in person at the Music & Arts Center at the Chatham Station Shopping Center, the Music & Arts Center in Laurel, or the Columbia Association office on Wincopin Circle. Music & Arts will accept payment by cash or check. Credit cards may be used at the Columbia Association office. Tickets are available at these locations shortly before each concert.
+</p>
+
+
+
+
+<hr />
+
+<h3><a name="form"></a>Online order form</h3>
+
+<p><i>
+Creation and Destruction, June 4, 2011<br>
+7:30 p.m., Jim Rouse Theatre
+</i></p>
+
+<form id="TicketForm" action="https://www.linkpointcentral.com/lpc/servlet/lppay" method="post" onsubmit="return orderTickets()">
+
+<!--
+<form id="TicketForm" action="http://www.example.com" method="post" onsubmit="return orderTickets()">
+-->
+
+<p>
+How many tickets of each type?  Total Price: <span id="TotalPrice">$0</span>
+</p>
+
+<table>
+<tr>
+<td>Adults</td>
+<td><input type="text" size="3" id="adult" onchange="javascript:showPrice()" /> tickets @ $20 each</td>
+</tr>
+<tr>
+<td>Seniors (60 and up)</td>
+<td><input type="text" size="3" id="senior" onchange="javascript:showPrice()" /> tickets @ $16 each</td>
+</tr>
+<tr>
+<td>Full-time students (up to age 24)</td>
+<td><input type="text" size="3" id="student" onchange="javascript:showPrice()" /> tickets @ $10 each</td>
+</tr>
+<tr>
+<td>Group rates (10 or more tickets only)</td>
+<td><input type="text" size="3" id="group_rate" onchange="javascript:showPrice()" /> tickets @ $16 each</td>
+</tr>
+</table>
+
+</p>
+
+<div style="float: left; clear: left">
+<h4>Billing Information</h4>
+<table>
+<tr><td>Name</td> <td><input type="text" id="bname" name="bname" /></td></tr>
+<tr><td>Street</td> <td><input type="text" id="baddr1" name="baddr1" size="30" maxlength="30" /></td></tr>
+<tr><td></td> <td><input type="text" id="baddr2" name="baddr2" size="30" maxlength="30" /></td></tr>
+<tr><td>City</td> <td><input type="text" id="bcity" name="bcity" size="30" maxlength="30" /></td></tr>
+<tr><td>State</td> <td><select id="bstate" name="bstate" size="1">
+<option value=""> ... </option>
+<option value="AK"> AK </option>
+<option value="AL"> AL </option>
+<option value="AR"> AR </option>
+<option value="AZ"> AZ </option>
+<option value="CA"> CA </option>
+<option value="CO"> CO </option>
+<option value="CT"> CT </option>
+<option value="DC"> DC </option>
+<option value="DE"> DE </option>
+<option value="FL"> FL </option>
+<option value="GA"> GA </option>
+<option value="HI"> HI </option>
+<option value="IA"> IA </option>
+<option value="ID"> ID </option>
+<option value="IL"> IL </option>
+<option value="IN"> IN </option>
+<option value="KS"> KS </option>
+<option value="KY"> KY </option>
+<option value="LA"> LA </option>
+<option value="MA"> MA </option>
+<option value="MD"> MD </option>
+<option value="ME"> ME </option>
+<option value="MI"> MI </option>
+<option value="MN"> MN </option>
+<option value="MO"> MO </option>
+<option value="MS"> MS </option>
+<option value="MT"> MT </option>
+<option value="NC"> NC </option>
+<option value="ND"> ND </option>
+<option value="NE"> NE </option>
+<option value="NH"> NH </option>
+<option value="NJ"> NJ </option>
+<option value="NM"> NM </option>
+<option value="NV"> NV </option>
+<option value="NY"> NY </option>
+<option value="OH"> OH </option>
+<option value="OK"> OK </option>
+<option value="OR"> OR </option>
+<option value="PA"> PA </option>
+<option value="PR"> PR </option>
+<option value="RI"> RI </option>
+<option value="SC"> SC </option>
+<option value="SD"> SD </option>
+<option value="TN"> TN </option>
+<option value="TX"> TX </option>
+<option value="UT"> UT </option>
+<option value="VA"> VA </option>
+<option value="VI"> VI </option>
+<option value="VT"> VT </option>
+<option value="WA"> WA </option>
+<option value="WI"> WI </option>
+<option value="WV"> WV </option>
+<option value="WY"> WY </option>
+</select></td></tr>
+<tr><td>ZIP</td> <td><input type="text" id="bzip" name="bzip" size="5" maxlength="10" /></td></tr>
+</table>
+<input type="hidden" id="bcountry" name="bcountry" value="US" /></ul>
+</div>
+
+<div style="float: left; display: inline; padding-left: 5em">
+<h4>Shipping Information</h4>
+<table>
+<tr><td>Name</td> <td><input type="text" id="sname" name="sname" /></td></tr>
+<tr><td>Street</td> <td><input type="text" id="saddr1" name="saddr1" size="30" maxlength="30" /></td></tr>
+<tr><td></td> <td><input type="text" id="saddr2" name="saddr2" size="30" maxlength="30" /></td></tr>
+<tr><td>City</td> <td><input type="text" id="scity" name="scity" size="30" maxlength="30" /></td></tr>
+<tr><td>State</td> <td><select id="sstate" name="sstate" size="1">
+<option value=""> ... </option>
+<option value="AK"> AK </option>
+<option value="AL"> AL </option>
+<option value="AR"> AR </option>
+<option value="AZ"> AZ </option>
+<option value="CA"> CA </option>
+<option value="CO"> CO </option>
+<option value="CT"> CT </option>
+<option value="DC"> DC </option>
+<option value="DE"> DE </option>
+<option value="FL"> FL </option>
+<option value="GA"> GA </option>
+<option value="HI"> HI </option>
+<option value="IA"> IA </option>
+<option value="ID"> ID </option>
+<option value="IL"> IL </option>
+<option value="IN"> IN </option>
+<option value="KS"> KS </option>
+<option value="KY"> KY </option>
+<option value="LA"> LA </option>
+<option value="MA"> MA </option>
+<option value="MD"> MD </option>
+<option value="ME"> ME </option>
+<option value="MI"> MI </option>
+<option value="MN"> MN </option>
+<option value="MO"> MO </option>
+<option value="MS"> MS </option>
+<option value="MT"> MT </option>
+<option value="NC"> NC </option>
+<option value="ND"> ND </option>
+<option value="NE"> NE </option>
+<option value="NH"> NH </option>
+<option value="NJ"> NJ </option>
+<option value="NM"> NM </option>
+<option value="NV"> NV </option>
+<option value="NY"> NY </option>
+<option value="OH"> OH </option>
+<option value="OK"> OK </option>
+<option value="OR"> OR </option>
+<option value="PA"> PA </option>
+<option value="PR"> PR </option>
+<option value="RI"> RI </option>
+<option value="SC"> SC </option>
+<option value="SD"> SD </option>
+<option value="TN"> TN </option>
+<option value="TX"> TX </option>
+<option value="UT"> UT </option>
+<option value="VA"> VA </option>
+<option value="VI"> VI </option>
+<option value="VT"> VT </option>
+<option value="WA"> WA </option>
+<option value="WI"> WI </option>
+<option value="WV"> WV </option>
+<option value="WY"> WY </option>
+</select></td></tr>
+<tr><td>ZIP</td> <td><input type="text" id="szip" name="szip" size="5" maxlength="10" /></td></tr>
+</table>
+<button type="button" onclick="javascript:copy_info()">Copy from billing information</button>
+<input type="hidden" id="scountry" name="scountry" value="US" /></ul>
+</div>
+
+<div style="clear: left">
+<table>
+<tr><td>Phone</td> <td><input type="text" id="phone" name="phone" size="15" maxlength="20" /></td></tr>
+<tr><td>Email</td> <td><input type="text" id="email" name="email" size="30" maxlength="45" /></td></tr>
+</table>
+</div>
+
+<p>
+<input style="display: block" type="submit" value="proceed to payment" />
+</p>
+
+<input type="hidden" id="chargetotal" name="chargetotal" value="0.0" />
+<input type="hidden" name="mode" value="Payplus" />
+<input type="hidden" name="txntype" value="sale" />
+<input type="hidden" name="storename" value="1001258007" />
+<input type="hidden" id="comments" name="comments" value="" />
+<input type="hidden" name="responseSuccessURL" value="http://columbiaorchestra.org/tickets/thanks" />
+<input type="hidden" name="responseFailURL" value="http://columbiaorchestra.org/tickets/sorry" />
+
+
+</form>
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(44,'/tickets/thanks/','Thank You','<h2>Thank You</h2>
+
+<p>
+Thank you for your ticket order.  Your tickets will either be mailed to your address or, if your order is within six days of the performance, will be held at will-call for you.
+</p>
+',0,'',0);
+INSERT INTO "django_flatpage" VALUES(45,'/tickets/sorry/','Ticket purchase not successful','<h2>Purchase Not Successful</h2>
+
+<p>
+Unfortunately your ticket purchase could not be completed.  Please consider revisiting our <a class="bodylink" href="/tickets">ticket information page</a> for other ways to order tickets.
+</p>
+
+<p>
+We hope to see you at our next performance!
+</p>',0,'',0);
 CREATE TABLE "sponsors_sponsor" (
     "id" integer NOT NULL PRIMARY KEY,
     "name" varchar(200) NOT NULL,
@@ -3942,19 +6345,19 @@ INSERT INTO "soloists_soloist" VALUES(1,'Hsiu-Hui Wang','piano','<p>Dr. Hsiu-Hui
 
 <p>Dr. Wang received her bachelor''s degree (summa cum laude) from the Hartt School of Music, master''s degree from the University of Southern California, and her doctoral degree in piano performance from the University of Maryland, College Park. She has studied with international artists such as Raymond Hanson, Anne Koscielny, Gabriel Chodos, Stewart Gordon, and Thomas Schumacher. Dr. Wang has also received chamber music coachings from Menahem Pressler, Cecile Licad, Cho-Liang Lin, Ida Kavafian, David Finckel, and Wu Han. Her published doctoral dissertation, “Tracing the Development of the French Piano Trio” has been recognized by Maurice Hinson and Wesley Roberts’s newest edition of The Piano in Chamber Ensemble: An Annotated Guide as well as by John H. Baron’s Chamber Music: A Research and Information Guide.</p>
 
-<p>Dr. Wang has been a dedicated teacher for over twenty-five years, and her students have won first prizes in various competitions. She has also been invited to chair and adjudicate many piano competitions and festivals. She is currently a music faculty member at Goucher College and Howard Community College where she has been selected as the 2003-2004 Arts and Humanities Division Outstanding Adjunct Faculty Member and as a co-founder /director of the Gemini Piano Trio Summer Chamber Music Workshop for the past five years. She also received the Honorary Citizenship from the City of Dallas, Office of Culture Affairs for her 2005 performances with the Gemini Piano Trio at the Southern Methodist University. Dr. Wang completed a three-city concert tour in Taiwan to great acclaim with the Gemini Piano Trio, including a sold-out debut concert at the Taipei National Concert Recital Hall in January of 2008. The trio is scheduled to appear on the Weill Recital Hall Chamber Music Series at Carnegie Hall in the fall of 2010. </p>','hsiu-hui-wang','src_imgs/soloists/Hsiu-Hui_Wang.jpg',759);
+<p>Dr. Wang has been a dedicated teacher for over twenty-five years, and her students have won first prizes in various competitions. She has also been invited to chair and adjudicate many piano competitions and festivals. She is currently a music faculty member at Goucher College and Howard Community College where she has been selected as the 2003-2004 Arts and Humanities Division Outstanding Adjunct Faculty Member and as a co-founder /director of the Gemini Piano Trio Summer Chamber Music Workshop for the past five years. She also received the Honorary Citizenship from the City of Dallas, Office of Culture Affairs for her 2005 performances with the Gemini Piano Trio at the Southern Methodist University. Dr. Wang completed a three-city concert tour in Taiwan to great acclaim with the Gemini Piano Trio, including a sold-out debut concert at the Taipei National Concert Recital Hall in January of 2008. The trio is scheduled to appear on the Weill Recital Hall Chamber Music Series at Carnegie Hall in the fall of 2010. </p>','hsiu-hui-wang','src_imgs/soloists/Hsiu-Hui_Wang.jpg',879);
 INSERT INTO "soloists_soloist" VALUES(2,'Jonathan Carney','violin','<p>Jonathan Carney was appointed concertmaster of the Baltimore Symphony Orchestra in 2001 after twelve seasons in the same position with London’s Royal Philharmonic Orchestra. He also held the concertmaster post with the Basque National Orchestra in Spain. Born in New Jersey, Jonathan Carney hails from a musical family with all six members of his family having graduated from the Juilliard School in New York. After completing his studies with Ivan Galamian and Christine Dethier, he was awarded a Leverhulme Fellowship to continue his studies in London at the Royal College of Music.</p>
 
 <p>After enjoying critically acclaimed international tours as both concertmaster and soloist with numerous ensembles, Mr. Carney was invited by Vladimir Ashkenazy to become concertmaster of the Royal Philharmonic Orchestra in 1991. He was also appointed concertmaster of the Bournemouth Symphony Orchestra in 1994.</p>
 
 <p>Recent solo performances have included concertos by Bruch, Nielsen, and Khatchaturian, the Brahms Double Concerto and Vaughan William’s <i>The Lark Ascending</i>, which was featured as a live BBC broadcast from London’s Barbican Hall. He has made a number of recordings, including concertos by Mozart, Vivaldi, and Nielsen, sonatas by Brahms, Beethoven, and Franck, and a disc of virtuoso works by Sarasate and Kreisler.</p>
 
-<p>Mr. Carney lives in Maryland with his wife Ruthie and their three children, Hannah, Luke, and Gracie. He is a Connolly and Co. artist, exclusively playing Vision strings by Thomastik-Infeld. His violin is a 1687 Stradivarius, the Mercur-Avery.</p>','jonathan-carney','src_imgs/soloists/s-carney.jpg',711);
+<p>Mr. Carney lives in Maryland with his wife Ruthie and their three children, Hannah, Luke, and Gracie. He is a Connolly and Co. artist, exclusively playing Vision strings by Thomastik-Infeld. His violin is a 1687 Stradivarius, the Mercur-Avery.</p>','jonathan-carney','src_imgs/soloists/s-carney.jpg',826);
 INSERT INTO "soloists_soloist" VALUES(3,'Ronald Mutchnik','violin','<p>Violinist Ronald Mutchnik graduated from the University of Maryland <i>summa cum laude</i>, where he studied with Robert Gerle. While there, he won the Baltimore Music Club’s and Baltimore Musicians’ competitions. He earned his Master’s degree from the New England Conservatory, where he studied with Joseph Gingold and Masuko Ushioda. He continued post-graduate studies at Tel Aviv University in Israel.</p>
 
 <p>Mr. Mutchnik is active as an orchestral violinist, chamber musician, recitalist, and soloist. He has served as Concertmaster and Assistant Concertmaster with the Maryland Symphony, National Chamber Orchestra, Handel Choir and Columbia Pro Cantare Festival Orchestras, and the Baltimore Chamber Orchestra. He has appeared as a soloist with numerous orchestras in Maryland, as well as orchestras in Louisiana, Pennsylvania, South Carolina, and Minnesota. He appeared in the film <i>Washington Square</i>, performing his own composition. He was a featured soloist for the Maryland Ballet Theater and performed in Maryland and Alabama in a special recital, “Music of the Jewish Soul.”</p>
 
-<p>Mr. Mutchnik has taught in several universities and colleges and currently teaches privately. He was President of the American String Teacher’s Association’s Maryland/DC Chapter and produced a video for violinists and violists entitled “Posture & Balance: The Dynamic Duo.” He has toured Korea, coaching and performing chamber music. Mr. Mutchnik is a founding member of and performer with the chamber music series based in Columbia, Maryland “ Sundays At Three” and is Chair of its artistic committee. Most recently, he performed in the United States State Department''s concert series and also formed Howard County''s first all professional chamber orchestra, The Orchestra of St. John''s. Upcoming concerts include performances of Bloch''s <i>Three Pictures of Chasidic Life</i> with the Columbia Orchestra and the Bruch <i>Scottish Fantasy</i> with the Frederick Symphony. </p>','ronald-mutchnik','src_imgs/soloists/s-mutchnik.jpg',765);
+<p>Mr. Mutchnik has taught in several universities and colleges and currently teaches privately. He was President of the American String Teacher’s Association’s Maryland/DC Chapter and produced a video for violinists and violists entitled “Posture & Balance: The Dynamic Duo.” He has toured Korea, coaching and performing chamber music. Mr. Mutchnik is a founding member of and performer with the chamber music series based in Columbia, Maryland “ Sundays At Three” and is Chair of its artistic committee. Most recently, he performed in the United States State Department''s concert series and also formed Howard County''s first all professional chamber orchestra, The Orchestra of St. John''s. Upcoming concerts include performances of Bloch''s <i>Three Pictures of Chasidic Life</i> with the Columbia Orchestra and the Bruch <i>Scottish Fantasy</i> with the Frederick Symphony. </p>','ronald-mutchnik','src_imgs/soloists/s-mutchnik.jpg',900);
 INSERT INTO "soloists_soloist" VALUES(4,'Theresa Bickham','soprano','<p>Soprano Theresa Bickham has been praised for her “fine piano nuances” and “expressive legato line.” She made her European concert debut in 2007 singing scenes from <i>La Traviata</i> under the direction of Maestro Eduardo Müller. Most recently, Ms. Bickham has been seen on the operatic stage as Adina in <i>L’Elisir d’Amore</i> with the Loudon Lyric Opera and Opera Camerata of Washington. In January 2009, she performed the role of the Princess in <i>A Bird in Your Ear</i> and Terenia in <i>The Beautiful Bridegroom</i> at the National Opera Association Convention in Washington, DC. Other roles include Rosalinde in <i>Die Fledermaus,</i> Musetta in <i>La Bohéme,</i> Arminda in <i>La finta giardiniera,</i> Constanza Piccolatura in <i>Impresario,</i> Frasquita in <i>Carmen,</i> Monica in <i>The Medium,</i> and Bessie in <i>Mahagonny Songspiel.</i>  No stranger to the musical theatre stage, Ms. Bickham has also performed the roles of The Baker’s Wife in <i>Into the Woods,</i> Tess in <i>Crazy for You,</i> Nancy in <i>Oliver,</i> and Mrs. Macafee in <i>Bye, Bye Birdie</i> among others.</p>
 
 <p>A native of Maryland, Ms. Bickham has been a frequent guest artist throughout the Baltimore-Washington area.  Concert appearances include, Handel’s <i>Messiah,</i> Fauré’s <i>Requiem,</i> Vaughn Williams’ <i>Serenade to Music,</i> Bach’s <i>Cantata 25</i> and <i>Magnificat,</i> and Vivaldi’s <i>Gloria</i> and <i>Magnificat.</i>  She has also been the winner of many competitions including the Metropolitan Opera National Council Auditions—Mid-Atlantic Regional Finalist 2009, Palm Beach Opera 2008 Advanced Division Semi-Finalist, Shreveport Opera Singer of the Year Finalist 2008, MD/DC National Association of Teacher’s of Singing, Henry Sanborn Competition, Peggy Friedman-Gordon Competition, Moore’s Opera Center Concerto Competition, and the Gilbert and Sullivan Society of Houston.</p>
@@ -3964,8 +6367,8 @@ INSERT INTO "soloists_soloist" VALUES(5,'Neil Ewachiw','baritone','<p>Baritone N
 
 <p>Neil is featured on the compact disc release, “Come to Me: Love Songs for Chorus by American Composers” by the American Repertory Singers on Arsis Audio. As a member of The United States Army Chorus, performances have included the arrival ceremony of Pope Benedict XVI at the White House, the State Dinner honoring Queen Elizabeth II, and the interments of former Presidents Ronald Reagan and Gerald R. Ford.</p>
 
-<p>Mr. Ewachiw has appeared at concert venues including Carnegie Hall, Avery Fisher Hall, D.A.R. Constitution Hall and the John F. Kennedy Center for the Performing Arts. He also teaches sacred music at Georgetown University, where he lectures on musical traditions as diverse as Native American ceremonial chant, West African Agbekor, Javanese gamelan and the evolution of the Roman Catholic mass as both a liturgical and musical form. </p>','neil-ewachiw','src_imgs/soloists/Neil_Ewachiw.jpg',852);
-INSERT INTO "soloists_soloist" VALUES(6,'Jason Shafer','clarinet','<p>Clarinetist Jason Shafer just completed his first season as a member of the New World Symphony in Miami Beach, FL.  He graduated in May 2009 from the Eastman School of Music in Rochester, NY, receiving a Bachelor of Music degree (Highest Distinction) studying with Kenneth Grant.  He has previously performed as concerto soloist with the Round Top Festival Orchestra in June 2009, the Eastman Philharmonia in 2008, the Transylvania Symphony Orchestra at the 2006 Brevard Music Center, the Greater Baltimore Youth Orchestra in 2005, and the Columbia Orchestra in 2002.  Jason has also had the pleasure of working with Mr. Steven Cohen at the Brevard Music Center and with Dr. Kyle Coughlin in his hometown of Columbia, Maryland.  In addition to the clarinet, Jason is also a pianist, and loves to accompany other musicians. </p>','jason-shafer','src_imgs/soloists/Shafer.jpg',13860);
+<p>Mr. Ewachiw has appeared at concert venues including Carnegie Hall, Avery Fisher Hall, D.A.R. Constitution Hall and the John F. Kennedy Center for the Performing Arts. He also teaches sacred music at Georgetown University, where he lectures on musical traditions as diverse as Native American ceremonial chant, West African Agbekor, Javanese gamelan and the evolution of the Roman Catholic mass as both a liturgical and musical form. </p>','neil-ewachiw','src_imgs/soloists/Neil_Ewachiw.jpg',9806);
+INSERT INTO "soloists_soloist" VALUES(6,'Jason Shafer','clarinet','<p>Clarinetist Jason Shafer just completed his first season as a member of the New World Symphony in Miami Beach, FL.  He graduated in May 2009 from the Eastman School of Music in Rochester, NY, receiving a Bachelor of Music degree (Highest Distinction) studying with Kenneth Grant.  He has previously performed as concerto soloist with the Round Top Festival Orchestra in June 2009, the Eastman Philharmonia in 2008, the Transylvania Symphony Orchestra at the 2006 Brevard Music Center, the Greater Baltimore Youth Orchestra in 2005, and the Columbia Orchestra in 2002.  Jason has also had the pleasure of working with Mr. Steven Cohen at the Brevard Music Center and with Dr. Kyle Coughlin in his hometown of Columbia, Maryland.  In addition to the clarinet, Jason is also a pianist, and loves to accompany other musicians. </p>','jason-shafer','src_imgs/soloists/Shafer.jpg',14064);
 INSERT INTO "soloists_soloist" VALUES(7,'Qing Li','violin','<p>Astonishing in her musical versatility, violinist <strong>Qing Li</strong> brings great warmth, poise, and insight to her music making. Solo performances have garnered such critical praise as, “the highest level musically” (conductor David Zinman), “unsurpassed technical brilliance” (German newspaper <em>Hohenlohe</em>), and “as the soloist, Qing was flawless... particularly in a stunning cadenza near the end of the first movement in the Haydn violin concerto. Her style was impeccable...” (<em>Richmond Times</em>). At the same time, she is a sought after chamber musician, having collaborated with such luminaries as Pinchas Zukerman, Eugenia Zukerman, Hilary Hahn, and Leon Fleischer. She is also admired as one of the country’s most accomplished orchestral players as the appointed Principal Second by Yuri Temirkanov.</p>
 
 <p>Qing Li was born in Beijing, China. At age four, she began violin studies with her father, Zhen-Kun Li. At age 12, Qing Li won her acceptance to the Central Conservatory, where she began her study with Wei-Jian Zhao. There she was discovered at a master class by Berl Senofsky, who enthusiastically brought her to Peabody Conservatory with a fellowship scholarship. She won fellowships to many major music festivals, including Tanglewood, Meadowmount, Aspen, Grand Tetons, and Alexander Schneider’s New York String Seminar. Her teachers include Berl Senofsky, legendary Joseph Gingold, and Dorothy Delay.</p>
@@ -3974,10 +6377,10 @@ INSERT INTO "soloists_soloist" VALUES(7,'Qing Li','violin','<p>Astonishing in he
 
 <p>In 1993, Ms. Li became a member of the Baltimore Symphony under David Zinman. Her first of many concerto appearances with BSO followed rapidly. Since then, Qing Li has served as Assistant Concertmaster, and won her current chair of Principal Second Violin in 2001 under Yuri Temirkanov. In November 2008, Ms. Li performed the <em>Butterfly Lovers Concerto</em> at the Kimmel Center in Philadelphia. In 2005, Hilary Hahn invited Qing Li to play the Bach Double Concerto in a benefit concert to a glowing press.</p>
 
-<p>Ms. Li performs on a Nicolo Gagliano violin crafted in 1736 in Naples, Italy.</p>','qing-li','src_imgs/soloists/QingLi.jpg',5342);
+<p>Ms. Li performs on a Nicolo Gagliano violin crafted in 1736 in Naples, Italy.</p>','qing-li','src_imgs/soloists/QingLi.jpg',5567);
 INSERT INTO "soloists_soloist" VALUES(8,'Masterworks Chorale of Carroll County, Margaret Boudreaux, Director','','<p>The Masterworks Chorale of Carroll County, known formerly as the Carroll County Choral Arts Society, was founded in 1977 under the direction of conductor David Kreider. Since its founding, the group has brought the community the works of Mozart, Brahms, Haydn, Handel, and Mendelssohn, as well as contemporary composers. The group has performed in Baltimore at the Cathedral of Saint Mary Our Queen, and with the Johns Hopkins Medical Institutions Choir. It has performed with the Baltimore Symphony Orchestra and has jointly hosted several concerts in Washington, D.C. with the Georgetown University Orchestra and Choir at the National Building Museum and at Georgetown University. The Carroll Festival Chorus, which combined members of both the Masterworks Chorale and the McDaniel College Choir, was selected in July 2005 to participate in Festival 500, “Sharing the Voices,” held in St. Johns, Newfoundland. In 2006, members of Masterworks Chorale formed the nucleus of the choir that premiered Lorraine Whittlesey''s "Einstein''s Dreams (it’s about time . . .),” based on the novel Einstein''s Dreams by Alan Lightman.</p>
 
-<p>Dr. Margaret Boudreaux is the Artistic Director of the Masterworks Chorale of Carroll County and the Director of Choral Activities at McDaniel College. She has edited, arranged and performed choral music from the Renaissance and Baroque periods as well as folk-song, popular music, vocal jazz and musical theatre. She has published numerous articles and translations in the professional journals of the American Choral Directors Association, Chorus America and the International Federation of Choral Music. Currently, she has recently served as President of the Colleges and Universities division of the Maryland Music Educators Association and was the Maryland/DC Repertoire and Standards Chair for Ethnic and Multicultural Music for the American Choral Directors Association MD/DC Chapter for several years. A frequent clinician and conductor throughout the region, Dr. Boudreaux has performed with her choirs at conferences and for special presentations at the Kennedy Center, the Discovery Channel and other major Baltimore-Washington venues. In 2005, she conducted a choir at the Festival 500, “Sharing the Voices” International Choral Festival in St. John’s, Newfoundland. Her publishing company, Voices of Training, carries a number of scores combining a variety of voice levels and styles. Voices of Training will soon release Lorraine Whittlesey’s new choral work Einstein’s Dreams (its about time . . .) based on the Alan Lightman novel Einstein’s Dreams, which Dr. Boudreaux conducted in its 2006 premiere. She studied conducting with Helmuth Rilling and Donald Neuen. She holds degrees in music from the Universities of Arizona in Tucson, Oregon in Eugene, and Colorado in Boulder.  In May 2008 Dr. Boudreaux was awarded the Ira Zepp Excellence in Teaching Award by McDaniel College.</p>','masterworks-chorale','src_imgs/soloists/chorus.jpg',1169);
+<p>Dr. Margaret Boudreaux is the Artistic Director of the Masterworks Chorale of Carroll County and the Director of Choral Activities at McDaniel College. She has edited, arranged and performed choral music from the Renaissance and Baroque periods as well as folk-song, popular music, vocal jazz and musical theatre. She has published numerous articles and translations in the professional journals of the American Choral Directors Association, Chorus America and the International Federation of Choral Music. Currently, she has recently served as President of the Colleges and Universities division of the Maryland Music Educators Association and was the Maryland/DC Repertoire and Standards Chair for Ethnic and Multicultural Music for the American Choral Directors Association MD/DC Chapter for several years. A frequent clinician and conductor throughout the region, Dr. Boudreaux has performed with her choirs at conferences and for special presentations at the Kennedy Center, the Discovery Channel and other major Baltimore-Washington venues. In 2005, she conducted a choir at the Festival 500, “Sharing the Voices” International Choral Festival in St. John’s, Newfoundland. Her publishing company, Voices of Training, carries a number of scores combining a variety of voice levels and styles. Voices of Training will soon release Lorraine Whittlesey’s new choral work Einstein’s Dreams (its about time . . .) based on the Alan Lightman novel Einstein’s Dreams, which Dr. Boudreaux conducted in its 2006 premiere. She studied conducting with Helmuth Rilling and Donald Neuen. She holds degrees in music from the Universities of Arizona in Tucson, Oregon in Eugene, and Colorado in Boulder.  In May 2008 Dr. Boudreaux was awarded the Ira Zepp Excellence in Teaching Award by McDaniel College.</p>','masterworks-chorale','src_imgs/soloists/chorus.jpg',10050);
 INSERT INTO "soloists_soloist" VALUES(9,'Stan Gilmer','vocalist','<p>Born March 2, 1948, Stan Gilmer grew up “down neck” in the Ironbound section of Newark, New Jersey. Life was tough, sho’nuff, but Stan certainly saw and heard enough to fill a jazz and blues singer''s repertoire for life. He acquired an early ear for the great crooners and performers of the day like Roy Hamilton, Harry Belafonte and Johnny Mathis. The words were one thing, but Stan’s instincts were drawn to the arrangements that supported the melodies, and gave the music passion... feeling.</p>
  
 <p>In 1975, Stan moved to Northern California’s Bay area and teamed with Harvey Scales as a sometimes chauffeur and developing songwriter at Super Disc Productions. While there, he composed “Atlantic City: That Big-Time Town” with Harvey, and later recorded it with legendary bandleader Frank Foster. Shortly thereafter, Stan signed on as a staff writer with April Blackwood Music, a subsidiary of CBS Records.</p>
@@ -3993,20 +6396,20 @@ INSERT INTO "soloists_soloist" VALUES(9,'Stan Gilmer','vocalist','<p>Born March 
 <p>In 2003, Stan founded the Colonnade Of Music record label. The label’s first effort is “Stan Gilmer Sings Sammy,” with John Mosca leading the Vanguard Orchestra, recorded at Bennett studios in Englewood, NJ. Stan and Mosca “turned out” the 2003 Hartford Jazz Festival, with Jim Argiro conducting, straw boss Dave Glasser and Canadian Warren Chiasson on vibraphone. Look for more from Stan and Warren in the future.</p>
  
 <p>~ Excerpted from Walter Allen’s biographical note</p>
-','stan-gilmer','src_imgs/soloists/Stan_Gilmer.jpg',10245);
+','stan-gilmer','src_imgs/soloists/Stan_Gilmer.jpg',10445);
 INSERT INTO "soloists_soloist" VALUES(10,'Colin Eaton','vocalist','<p>Colin Eaton has been lauded by The Washington Post as “a commanding tenor that sings with great aplomb” and by the <em>Baltimore Sun</em> as “a young tenor whose name you shall not soon forget” and “possessing the ability to dazzle audiences with ease.”</p>
 
 <p>Mr. Eaton was most recently featured as the tenor soloist for the 38th Annual Kennedy Center <em>Messiah</em> Sing-Along.  Other oratorio solo performances include <em>Mendelssohn’s <em>St. Paul</em> (National Philharmonic), Orff’s <em>Carmina Burana,</em> the Rossini <em>Stabat Mater,</em> the <em>Bruckner Te Deum,</em> and the Mozart <em>Requiem</em> (Oratorio Society of Charlottesville/Albemarle).  His opera credits include appearances as Mingo (Tulsa Opera), Robbins and Sportin’ Life in <em>Porgy and Bess,</em> Don Basilio and Don Curzio in <em>Le Nozze di Figaro,</em> Nika Magadoff in <em>The Consul,</em> and as Nemorino in <em>L’Elisir d’Amore.</em>  He is pleased to have collaborated as a featured soloist in master classes with Martina Arroyo and Curtis Rayam at the National Opera Association convention at the Kennedy Center.</p>
 
 <p>As a member of the world-renowned United States Army Chorus, SFC Eaton frequently performs solos before our nation’s highest ranking government and military officials, as well as visiting dignitaries from around the globe.  He was honored to serve as a featured soloist for the interment ceremony for President Ronald Reagan in Simi Valley, California, and to be specially selected to perform for the last five consecutive years for U.S. and Allied Forces deployed in areas of combat including Kuwait, Iraq, and Afghanistan.</p>
-','colin-eaton','src_imgs/soloists/Colin_Eaton.gif',9855);
+','colin-eaton','src_imgs/soloists/Colin_Eaton.gif',10070);
 INSERT INTO "soloists_soloist" VALUES(11,'Meghan McCall','vocalist','<p>Praised for her “bell-like clarity and fine control” and “radiant full-bodied voice” by <em>The Washington Post,</em> American soprano Meghan McCall is establishing herself as a fine young artist of opera today. She has been hailed for possessing a “beautifully and flawlessly operatic voice” in The West Highland Press. She most recently made her Carnegie Hall Stern Auditorium debut in a world premiere where she created the role of Mary Magdalene in Marcos Galvany’s opera <em>Oh My Son.</p>
 
 <p>Ms. McCall’s career has taken her to stages both in the United States and Europe. She has performed the roles of Fiordiligi in <em>Cosi Fan Tutte, Lauretta in <em>Gianni Schicchi,</em> Musetta in <em>La Bohème,</em> Adina in <em>L''Elisir d''Amore,</em> Gilda in <em>Rigoletto, Gretel in <em>Hansel and Gretel,</em> Marie in <em>La Fille du Régiment,</em> Giulietta in <em>I Capuleti e i Montecchi,</em> Donna Anna in <em>Don Giovanni,</em> Susanna in <em>Le Nozze di Figaro,</em> Princess (#1) in <em>Transformations,</em> Lucia in <em>Lucia di Lammermoor,</em> Miss Jessel in <em>The Turn of the Screw,</em> Blondchen in <em>Die Entfuhrung aus dem Serail,</em> and Norina in <em>Don Pasquale.</em></p>
 
 <p>Miss McCall has earned her BA in Music Literature from Northeastern University and her MM from The University of Maryland Opera Studio where she worked with world-renowned bass Francois Loup. Directly after her graduation she was invited to join the Opera Lafayette Young Artist Program which specializes in 17th and 18th century French repertoire.</p>
 
-<p>Future appearances in 2010 will include Laurette and Ernestine in two French comic operas by Bizet and Offenbach with Bel Cantanti (May 2010), and Juliette and La Bergere in Sancho Panza by Philidor with Opera Lafayette at the Kennedy Center (May 2010).</p>','meghan-mccall','src_imgs/soloists/Meghan_McCall.jpg',9855);
+<p>Future appearances in 2010 will include Laurette and Ernestine in two French comic operas by Bizet and Offenbach with Bel Cantanti (May 2010), and Juliette and La Bergere in Sancho Panza by Philidor with Opera Lafayette at the Kennedy Center (May 2010).</p>','meghan-mccall','src_imgs/soloists/Meghan_McCall.jpg',10058);
 INSERT INTO "soloists_soloist" VALUES(12,'Jonathan Bailey Holland','guest composer','<img src="/images/mtc_logo.jpg"/>
 
 <p><strong>Be sure to check out <a href="/holland_videos/">video interviews</a> with Jonathan Bailey Holland about his work.</strong></p>
@@ -4017,7 +6420,7 @@ INSERT INTO "soloists_soloist" VALUES(12,'Jonathan Bailey Holland','guest compos
 
 <p>Holland is a two-time winner of the Indianapolis Symphony''s Marian K. Glick Young Composer''s Showcase, the Charles Ives Scholarship, as well as other awards from ASCAP, the Presser Foundation, Boston Conservatory, Austin Peay State University, and Harvard University.</p>
 
-<p><strong><em>Mr. Holland''s appearance is funded in part through Meet the Composer''s MetLife Creative Connections program.</em></strong></p>','jonathan-bailey-holland','src_imgs/soloists/Jonathan_Bailey_Holland.jpg',11298);
+<p><strong><em>Mr. Holland''s appearance is funded in part through Meet the Composer''s MetLife Creative Connections program.</em></strong></p>','jonathan-bailey-holland','src_imgs/soloists/Jonathan_Bailey_Holland.jpg',11492);
 INSERT INTO "soloists_soloist" VALUES(13,'Ah Hong','soprano','<p>Soprano Ah Young Hong has been praised by the <em>New York Times</em> for her “lovely voice with round, soft low notes and a sugar-sweet top,” and the <em>Washington Post</em> described her voice as “glistening and resilient.”  Her concert work has included performances with the Baltimore Symphony Orchestra, Opera Lafayette, Folger Consort, Concert Artists of Baltimore, Annapolis Opera, Bay-Atlantic Symphony, Lincoln Symphony Orchestra, Magnolia Baroque Festival, and Harmonious Blacksmith.  This is her second appearance with the Columbia Orchestra.</p>
 
 <p>In the summer of 2005, Ms. Hong made an American premiere recording of Johann Sebastian Bach’s newly discovered aria, "Alles mit Gott und nichts ohn’ ihn," BWV 1127, for National Public Radio’s <em>Performance Today</em> with harpsichordist Joseph Gascho, director of Harmonious Blacksmith.  This recording has been broadcast throughout the world.</p>
@@ -4026,7 +6429,7 @@ INSERT INTO "soloists_soloist" VALUES(13,'Ah Hong','soprano','<p>Soprano Ah Youn
 
 <p>The <em>Baltimore Sun</em> acclaimed her “a triumph as the subtly conniving Poppea. The soprano’s tonal gleam filled the hall beautifully, and her phrasing was always richly detailed. Her acting, too, proved appealing.”  IONARTS described her performance as Morgana having  “the most persuasive singing by merging musical wit with strong acting and facial expressions, all while showcasing superbly clear text and vocal agility.”  In England, she was Papagena in <em>Die Zauberflöte</em> under the direction of Benjamin Luxon, Fortuna and Minerva in Monteverdi’s <em>Il ritorno d''Ulisse in patria</em> under the musical direction of Michael Chance and director Tim Carroll for the Snape Proms and Shakespeare''s Globe Theatre.</p>
 
-<p>Ms. Hong received her Bachelor’s and Master’s of Music degrees from the Peabody Conservatory of Music where she studied with Ruth Drucker and Mark Markham.  She was honored to have studied German Lieder and French mélodie with Elly Ameling and oratorio with Kurt Equiluz at the Britten-Pears Programme in England.  Ms. Hong is currently a member of the voice faculty at the Peabody Conservatory of Music of the Johns Hopkins University and Towson University.</p>','ah-hong','src_imgs/soloists/Ah_Hong.jpg',828);
+<p>Ms. Hong received her Bachelor’s and Master’s of Music degrees from the Peabody Conservatory of Music where she studied with Ruth Drucker and Mark Markham.  She was honored to have studied German Lieder and French mélodie with Elly Ameling and oratorio with Kurt Equiluz at the Britten-Pears Programme in England.  Ms. Hong is currently a member of the voice faculty at the Peabody Conservatory of Music of the Johns Hopkins University and Towson University.</p>','ah-hong','src_imgs/soloists/Ah_Hong.jpg',9771);
 INSERT INTO "soloists_soloist" VALUES(14,'Rolando Sanz','tenor','<p>Tenor Rolando Sanz is quickly gaining recognition for his “sensitive” and “luminous” portrayals of the romantic, lyric tenor repertoire. While he specializes in such standard roles as Rodolfo, Tamino, Nemorino, Alfredo, Pinkerton and the Duca di Mantua, Rolando has also debuted many opera premieres including Peter Doyle in <em>Miss Lonelyhearts,</em> for which the <em>Los Angeles Times</em> reported, “Rolando Sanz, as Doyle, gave the best hint of the score''s expressive possibilities” and covering Stiva in <em>Anna Karenina.</em> Most recently, he made his Carnegie Hall debut singing the role of Kostik in the world premiere of Prokofiev’s lost opera <em>To The Distant Seas.</em></p>
 
 <p>In the 2008-2009 season, Rolando debuted with Palm Beach Opera as Rodolfo in <em>La Boheme</em> and Flavio in <em>Norma,</em> as well as covering Duca di Mantua in <em>Rigoletto.</em> Upcoming engagements include a debut with Baltimore Concert Opera in “A Flight of Verdi,” as well as debuts with Opera Costa Rica and Syracuse Opera. Mr. Sanz will also debut a world premiere song cycle by renowned composer Ezra Laderman and former U.S. Poet Laureate, Robert Pinsky.</p>
@@ -4039,25 +6442,25 @@ INSERT INTO "soloists_soloist" VALUES(14,'Rolando Sanz','tenor','<p>Tenor Roland
 
 <p>Rolando has been a prize winner in numerous international competitions including the Florida Grand Opera/Young Patronesses of the Opera Voice Competition, the Metropolitan Opera National Council Auditions, the Aspen Music Festival Vocal Concerto Competition, and the XIII International Voice Competition in Trujillo, Peru. Most recently, he won First Place at the Florida Suncoast Opera Guild Competition and was awarded the Grand Prize as well as the Conductor Award and the Audience Choice Award at the Annapolis Opera Vocal Competition. He has appeared as a resident artist with the Songfest program, collaborating with such esteemed artists as Martin Katz, Graham Johnson and composer John Harbison. Mr. Sanz also served as assistant conductor for Long Beach Opera’s production of <em>Die Schweigsame Frau</em> under Andreas Mitisek.</p>
 
-<p>Rolando is a graduate of the Yale University School of Music.</p>','rolando-sanz','src_imgs/soloists/Rolando_Sanz.jpg',788);
-INSERT INTO "soloists_soloist" VALUES(15,'Kinetics Dance Theatre, Priscilla Kaufhold, Artistic Director','','','kinetics-sance-theatre-priscilla-kaufholdartistic-','src_imgs/soloists/Kinetics_Peter.jpg',8471);
+<p>Rolando is a graduate of the Yale University School of Music.</p>','rolando-sanz','src_imgs/soloists/Rolando_Sanz.jpg',9707);
+INSERT INTO "soloists_soloist" VALUES(15,'Kinetics Dance Theatre, Priscilla Kaufhold, Artistic Director','','','kinetics-sance-theatre-priscilla-kaufholdartistic-','src_imgs/soloists/Kinetics_Peter.jpg',8668);
 INSERT INTO "soloists_soloist" VALUES(16,'actors from the Chesapeake Shakespeare Company','','','actors-chesapeake-shakespeare-company','',1);
-INSERT INTO "soloists_soloist" VALUES(17,'Brenda Anna','Violin','','brenda-anna','',321);
+INSERT INTO "soloists_soloist" VALUES(17,'Brenda Anna','Violin','','brenda-anna','',426);
 INSERT INTO "soloists_soloist" VALUES(18,'Monica DeLeon','Bassoon','','monica-deleon','',0);
 INSERT INTO "soloists_soloist" VALUES(19,'Jason Love','Cello','','jason-love','',0);
 INSERT INTO "soloists_soloist" VALUES(20,'Columbia Orchestra Piano Trio','','<p>With a diverse repertoire spanning three centuries, Concertmaster <a href="/members/brenda_anna/"> Brenda Anna,</a> violin, Music Director <a href="/members/jason_love/">Jason Love,</a> cello, and Columbia Orchestra pianist <a href="/members/nancy_smith/">Nancy Smith</a> perform on both the orchestra''s chamber series in addition to concertizing throughout the region and taking outreach performances to audiences in non-traditional venues.</p>
-','columbia-orchestra-piano-trio','src_imgs/soloists/CO_Piano_Trio2.jpg',1472);
-INSERT INTO "soloists_soloist" VALUES(21,'Paul Moeller','guitar','','paul-moeller','',320);
-INSERT INTO "soloists_soloist" VALUES(22,'Elaine Newhall','flute','','elaine-newhall','',314);
-INSERT INTO "soloists_soloist" VALUES(23,'Lindsey Spear','oboe','','lindsey-spear','',314);
-INSERT INTO "soloists_soloist" VALUES(24,'Carl Reynolds','trumpet','','carl-reynolds','',317);
-INSERT INTO "soloists_soloist" VALUES(25,'John Locke','percussion','','john-locke','',318);
-INSERT INTO "soloists_soloist" VALUES(26,'Francis Scully','conductor','','francis-scully','',313);
-INSERT INTO "soloists_soloist" VALUES(27,'Patricia Wnek','violin','','patricia-wnek','',313);
-INSERT INTO "soloists_soloist" VALUES(28,'Jennifer Leung','violin','','jennifer-leung','',314);
-INSERT INTO "soloists_soloist" VALUES(29,'Eric Zuber','piano','','eric-zuber','',312);
-INSERT INTO "soloists_soloist" VALUES(30,'Larry Williams','horn','','larry-williams','',309);
-INSERT INTO "soloists_soloist" VALUES(31,'Brian Ganz','piano','','brian-ganz','',318);
+','columbia-orchestra-piano-trio','src_imgs/soloists/CO_Piano_Trio2.jpg',8818);
+INSERT INTO "soloists_soloist" VALUES(21,'Paul Moeller','guitar','','paul-moeller','',420);
+INSERT INTO "soloists_soloist" VALUES(22,'Elaine Newhall','flute','','elaine-newhall','',412);
+INSERT INTO "soloists_soloist" VALUES(23,'Lindsey Spear','oboe','','lindsey-spear','',411);
+INSERT INTO "soloists_soloist" VALUES(24,'Carl Reynolds','trumpet','','carl-reynolds','',415);
+INSERT INTO "soloists_soloist" VALUES(25,'John Locke','percussion','','john-locke','',422);
+INSERT INTO "soloists_soloist" VALUES(26,'Francis Scully','conductor','','francis-scully','',412);
+INSERT INTO "soloists_soloist" VALUES(27,'Patricia Wnek','violin','','patricia-wnek','',411);
+INSERT INTO "soloists_soloist" VALUES(28,'Jennifer Leung','violin','','jennifer-leung','',412);
+INSERT INTO "soloists_soloist" VALUES(29,'Eric Zuber','piano','','eric-zuber','',411);
+INSERT INTO "soloists_soloist" VALUES(30,'Larry Williams','horn','','larry-williams','',410);
+INSERT INTO "soloists_soloist" VALUES(31,'Brian Ganz','piano','','brian-ganz','',424);
 INSERT INTO "soloists_soloist" VALUES(32,'Theresa Bickham and Stephen Cramer','voice','','theresa-bickham-and-stephen-cramer','',0);
 INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','<p>ALAN ZHANG, a sophomore in the AP/GT programs at Mt. Hebron High School, has been playing violin since the age of five and is currently studying with Rebecca Henry at the Peabody Preparatory of the Johns Hopkins University. At the age of 9, he performed with Baltimore Symphony Orchestra at Strathmore and Meyerhoff Symphony Halls. </p>
 
@@ -4067,32 +6470,32 @@ INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','<p>ALAN ZHANG, a
 
 <p>His hobbies include tennis, golf, listening to music, enjoying social life, and traveling. He is an avid reader and also interested in science.</p>
 
-<p>Zhang was selected as the Senior Division String Winner of the 2011 Young Artist Competition. He previously won the Junior Division in 2008.</p>','alan-zhang','src_imgs/soloists/Alan_Zhang_2.JPG',7531);
-INSERT INTO "soloists_soloist" VALUES(34,'Brian Kim','violin','','brian-kim','',352);
-INSERT INTO "soloists_soloist" VALUES(35,'Peabody Violin Choir, Christian Tremblay, Director','','','peabody-violin-choir-christian-tremblay-director','',311);
-INSERT INTO "soloists_soloist" VALUES(36,'Peter Minkler','viola','','peter-minkler','',307);
-INSERT INTO "soloists_soloist" VALUES(37,'Ryan de Ryke','baritone','','ryan-de-ryke','',310);
-INSERT INTO "soloists_soloist" VALUES(38,'Rebecca McLaughlin','french horn','','rebecca-mclaughlin','',307);
-INSERT INTO "soloists_soloist" VALUES(39,'Eric Beach','marimba','','eric-beach','',302);
-INSERT INTO "soloists_soloist" VALUES(40,'Dariusz Skoraczewski','cello','','dariusz-skoraczewski','',309);
-INSERT INTO "soloists_soloist" VALUES(41,'Winnie Au','violin','','winnie-au','',303);
-INSERT INTO "soloists_soloist" VALUES(42,'Kevin Qin','violin','','kevin-qin','',306);
-INSERT INTO "soloists_soloist" VALUES(43,'Igor Yuzefovich','violin','','igor-yuzefovich','',308);
-INSERT INTO "soloists_soloist" VALUES(44,'Herbert Greenberg','violin','','herbert-greenberg','',315);
-INSERT INTO "soloists_soloist" VALUES(45,'Laura Hung','violin','','laura-hung','',310);
-INSERT INTO "soloists_soloist" VALUES(46,'Kyle Engler','mezzo-soprano','','kyle-engler','',310);
-INSERT INTO "soloists_soloist" VALUES(47,'Tobias Picker','narrator','','tobias-picker','',298);
-INSERT INTO "soloists_soloist" VALUES(48,'Anne Marie Ahn-Petersen','viola','','anne-marie-ahn-petersen','',310);
-INSERT INTO "soloists_soloist" VALUES(49,'Lee Jeon','violin','','lee-jeon','',312);
-INSERT INTO "soloists_soloist" VALUES(50,'Julien Benichou','guest conductor','','julien-benichou','',309);
-INSERT INTO "soloists_soloist" VALUES(51,'Yong Ku Ahn','guest conductor','','yong-ku-ahn','',323);
-INSERT INTO "soloists_soloist" VALUES(52,'Hou Fei Yang','piano','','hou-fei-yang','',320);
-INSERT INTO "soloists_soloist" VALUES(53,'Mark Lanz Weiser','piano','','mark-lanz-weiser','',310);
-INSERT INTO "soloists_soloist" VALUES(54,'Ferebee Thulman','voice','','ferebee-thulman','',313);
-INSERT INTO "soloists_soloist" VALUES(55,'Alice Lee','cello','','alice-lee','',224);
-INSERT INTO "soloists_soloist" VALUES(56,'Ahreum Kim','violin','','ahreum-kim','',226);
-INSERT INTO "soloists_soloist" VALUES(57,'Rebecca Henry','viola','','rebecca-henry','',217);
-INSERT INTO "soloists_soloist" VALUES(58,'Western Maryland College Choir, Margaret Boudreaux, Director','','','western-maryland-college-choir-margaret-boudreaux-','',220);
+<p>Zhang was selected as the Senior Division String Winner of the 2011 Young Artist Competition. He previously won the Junior Division in 2008.</p>','alan-zhang','src_imgs/soloists/Alan_Zhang_2.JPG',7968);
+INSERT INTO "soloists_soloist" VALUES(34,'Brian Kim','violin','','brian-kim','',469);
+INSERT INTO "soloists_soloist" VALUES(35,'Peabody Violin Choir, Christian Tremblay, Director','','','peabody-violin-choir-christian-tremblay-director','',421);
+INSERT INTO "soloists_soloist" VALUES(36,'Peter Minkler','viola','','peter-minkler','',407);
+INSERT INTO "soloists_soloist" VALUES(37,'Ryan de Ryke','baritone','','ryan-de-ryke','',411);
+INSERT INTO "soloists_soloist" VALUES(38,'Rebecca McLaughlin','french horn','','rebecca-mclaughlin','',414);
+INSERT INTO "soloists_soloist" VALUES(39,'Eric Beach','marimba','','eric-beach','',402);
+INSERT INTO "soloists_soloist" VALUES(40,'Dariusz Skoraczewski','cello','','dariusz-skoraczewski','',412);
+INSERT INTO "soloists_soloist" VALUES(41,'Winnie Au','violin','','winnie-au','',401);
+INSERT INTO "soloists_soloist" VALUES(42,'Kevin Qin','violin','','kevin-qin','',406);
+INSERT INTO "soloists_soloist" VALUES(43,'Igor Yuzefovich','violin','','igor-yuzefovich','',407);
+INSERT INTO "soloists_soloist" VALUES(44,'Herbert Greenberg','violin','','herbert-greenberg','',416);
+INSERT INTO "soloists_soloist" VALUES(45,'Laura Hung','violin','','laura-hung','',411);
+INSERT INTO "soloists_soloist" VALUES(46,'Kyle Engler','mezzo-soprano','','kyle-engler','',406);
+INSERT INTO "soloists_soloist" VALUES(47,'Tobias Picker','narrator','','tobias-picker','',395);
+INSERT INTO "soloists_soloist" VALUES(48,'Anne Marie Ahn-Petersen','viola','','anne-marie-ahn-petersen','',412);
+INSERT INTO "soloists_soloist" VALUES(49,'Lee Jeon','violin','','lee-jeon','',414);
+INSERT INTO "soloists_soloist" VALUES(50,'Julien Benichou','guest conductor','','julien-benichou','',408);
+INSERT INTO "soloists_soloist" VALUES(51,'Yong Ku Ahn','guest conductor','','yong-ku-ahn','',427);
+INSERT INTO "soloists_soloist" VALUES(52,'Hou Fei Yang','piano','','hou-fei-yang','',423);
+INSERT INTO "soloists_soloist" VALUES(53,'Mark Lanz Weiser','piano','','mark-lanz-weiser','',407);
+INSERT INTO "soloists_soloist" VALUES(54,'Ferebee Thulman','voice','','ferebee-thulman','',419);
+INSERT INTO "soloists_soloist" VALUES(55,'Alice Lee','cello','','alice-lee','',320);
+INSERT INTO "soloists_soloist" VALUES(56,'Ahreum Kim','violin','','ahreum-kim','',322);
+INSERT INTO "soloists_soloist" VALUES(57,'Rebecca Henry','viola','','rebecca-henry','',314);
+INSERT INTO "soloists_soloist" VALUES(58,'Western Maryland College Choir, Margaret Boudreaux, Director','','','western-maryland-college-choir-margaret-boudreaux-','',316);
 INSERT INTO "soloists_soloist" VALUES(59,'Sarah Kim','violin','<p>Sarah Kim, a sixth grader at Burleigh Manor Middle School, has been playing
 the violin since she was five years old, studying with Dr. Christian
 Tremblay at the Peabody Preparatory of the John Hopkins University.
@@ -4112,12 +6515,12 @@ Violin Competition and finished second in the 2009 Asian American Music
 Society String Competition, Peewee Division.</p>
  
 <p>Sarah is an avid book reader and enjoys watching science fiction movies.</p>
-','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',7481);
+','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',7894);
 INSERT INTO "soloists_soloist" VALUES(60,'Yaeji Shin','flute','<p>Yaeji Shin is a sophomore at Atholton High School, where she is a member of the Symphonic Wind Ensemble and has participated in the Howard County High School GT Orchestra for 2 years. She is also a member of the Korean Presbyterian Church Hosanna Orchestra. Yaeji was first introduced to music when she began piano at age six. In fifth grade, she started to play flute and decided that it was something she wanted to pursue. She has studied flute privately with Elaine Newhall since seventh grade and is an accomplished pianist, accompanying students for Howard County Solo and Ensemble.  </p>
 
 <p>Yaeji won first place in the 2010 Maryland Division of Music Teachers National Association wind solo competition, first place in the 2011 Greater Columbia Music Teachers Chamber Music Competition, and has also participated in the Howard County Middle School GT Band and the Maryland All State Junior Band.  She has attended the Oberlin Summer Flute Institute and has just been accepted to attend the Interlochen Arts Camp this summer.</p>
 
-<p>Yaeji loves reading, drawing, designing clothes, and making jewelry. She even had a wild dream of becoming a fashion designer but now, with her many interests and talents, she is not sure where the future may take her.</p>','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',7282);
+<p>Yaeji loves reading, drawing, designing clothes, and making jewelry. She even had a wild dream of becoming a fashion designer but now, with her many interests and talents, she is not sure where the future may take her.</p>','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',7676);
 CREATE TABLE "pieces_piece_soloist" (
     "id" integer NOT NULL PRIMARY KEY,
     "piece_id" integer NOT NULL,
@@ -4359,6 +6762,7 @@ INSERT INTO "pieces_piece" VALUES(173,'Concerto No. 5 in A Minor','',92);
 INSERT INTO "pieces_piece" VALUES(174,'Fantaisie Pastorale Hongroise','',93);
 INSERT INTO "pieces_piece" VALUES(175,'Sonata for Violin, Op. posth.','',10);
 INSERT INTO "pieces_piece" VALUES(176,'Cello Sonata, Op. 40','',8);
+INSERT INTO "pieces_piece" VALUES(177,'Harry Patch (In Memory Of)','',13);
 CREATE TABLE "pieces_composer" (
     "id" integer NOT NULL PRIMARY KEY,
     "first_name" varchar(100),
@@ -4521,9 +6925,6 @@ INSERT INTO "events_event_pieces" VALUES(27,8,28,26);
 INSERT INTO "events_event_pieces" VALUES(28,8,29,27);
 INSERT INTO "events_event_pieces" VALUES(29,2,30,28);
 INSERT INTO "events_event_pieces" VALUES(30,2,31,29);
-INSERT INTO "events_event_pieces" VALUES(37,16,12,27);
-INSERT INTO "events_event_pieces" VALUES(38,16,14,28);
-INSERT INTO "events_event_pieces" VALUES(39,16,15,29);
 INSERT INTO "events_event_pieces" VALUES(40,4,16,27);
 INSERT INTO "events_event_pieces" VALUES(58,28,40,40);
 INSERT INTO "events_event_pieces" VALUES(59,28,41,41);
@@ -4677,15 +7078,16 @@ INSERT INTO "events_event_pieces" VALUES(239,13,8,171);
 INSERT INTO "events_event_pieces" VALUES(240,19,175,169);
 INSERT INTO "events_event_pieces" VALUES(241,19,176,170);
 INSERT INTO "events_event_pieces" VALUES(242,19,50,171);
+INSERT INTO "events_event_pieces" VALUES(243,16,12,169);
+INSERT INTO "events_event_pieces" VALUES(244,16,177,170);
+INSERT INTO "events_event_pieces" VALUES(245,16,14,171);
+INSERT INTO "events_event_pieces" VALUES(246,16,15,172);
 CREATE TABLE "events_event_soloists" (
     "id" integer NOT NULL PRIMARY KEY,
     "event_id" integer NOT NULL,
     "soloist_id" integer NOT NULL REFERENCES "soloists_soloist" ("id"),
     UNIQUE ("event_id", "soloist_id")
 );
-INSERT INTO "events_event_soloists" VALUES(11,16,13);
-INSERT INTO "events_event_soloists" VALUES(12,16,5);
-INSERT INTO "events_event_soloists" VALUES(13,16,14);
 INSERT INTO "events_event_soloists" VALUES(15,67,31);
 INSERT INTO "events_event_soloists" VALUES(16,71,48);
 INSERT INTO "events_event_soloists" VALUES(17,71,50);
@@ -4696,6 +7098,9 @@ INSERT INTO "events_event_soloists" VALUES(21,15,10);
 INSERT INTO "events_event_soloists" VALUES(22,15,11);
 INSERT INTO "events_event_soloists" VALUES(23,82,20);
 INSERT INTO "events_event_soloists" VALUES(24,19,20);
+INSERT INTO "events_event_soloists" VALUES(25,16,5);
+INSERT INTO "events_event_soloists" VALUES(26,16,14);
+INSERT INTO "events_event_soloists" VALUES(27,16,13);
 CREATE TABLE "events_event" (
     "id" integer NOT NULL PRIMARY KEY,
     "name" varchar(100) NOT NULL,
@@ -4753,19 +7158,24 @@ INSERT INTO "events_event" VALUES(13,'Young and Eclectic','2011-03-26 19:30:00',
 <div class="iconblock">
 	<div class="icnblk_img"><a href="http://www.bwfa.com/" target="co_link"><img src="/images/logo-bwfa.jpg" alt="Baltimore Washington Financial Advisors" style="" border="0" height="39" width="132"></a></div>
 	<div class="icnblk_cntnt">Join us at 6:30pm for a "<a href="http://columbiaorchestra.org/preludes/">Prelude</a>," a fun, fascinating pre-concert discussion with Bill Scanlan Murphy brought to you by Baltimore-Washington Financial Advisors.</div>
-</div>','young-and-eclectic',NULL,'src_imgs/events/YoungEcl.jpg',2536,1);
+</div>','young-and-eclectic',NULL,'src_imgs/events/YoungEcl.jpg',2583,1);
 INSERT INTO "events_event" VALUES(14,'Peter and the Wolf ... and Friends','2011-01-08 12:30:00','15:00:00',NULL,1,'',2,'<p>Not only is this a great introduction to the instruments of orchestra for younger students, older kids will enjoy learning more in a fun environment about how music is put together. The orchestra is joined by the marvelous performers of Kinetics Dance Theatre for Prokofiev’s immortal Peter and the Wolf, and kids will love a chance to try out many musical instruments at our Petting Zoo sponsored by Music & Arts held between our two concerts.</p>
 
 <p>[Photo: Kitty R Photography]</p>','peter-and-wolf-and-friends',NULL,'',0,1);
 INSERT INTO "events_event" VALUES(15,'Symphonic Pops','2011-02-12 19:30:00',NULL,NULL,1,'',2,'<p>Join us for an exciting evening of blockbusters from Hollywood, Broadway, and legendary pop artists! Meghan McCall and Colin Eaton sing selections from <em>My Fair Lady, Brigadoon, Miss Saigon,</em> and <em>Phantom of the Opera</em>. Stan Gilmer recreates "Candy Man," "What Kind of Fool Am I?" and "Sing a Song" in a <em>Salute to Sammy</em>. Round out the program with a <em>Beach Boys Medley</em> and film music from <em>Up</em> and <em>Superman</em> and you can see why this concert is fun for the whole family!</p>','symphonic-pops-2011',NULL,'',0,1);
-INSERT INTO "events_event" VALUES(16,'Creation and Destruction','2011-06-04 19:30:00',NULL,NULL,1,'',2,'<p>Our season finale takes an ecstatic look at the heights and depths of the human spirit. The Masterworks Chorale of Carroll County joins us for Haydn’s exploration of the numinous in highlights from his celebrated oratorio. First, great artists of our time explore how humankind balances its creative impulse against its destructive tendencies. </p>','creation-and-destruction',NULL,'',0,1);
+INSERT INTO "events_event" VALUES(16,'Creation and Destruction','2011-06-04 19:30:00',NULL,NULL,1,'',2,'<p>Our season finale takes an ecstatic look at the heights and depths of the human spirit. The Masterworks Chorale of Carroll County joins us for Haydn’s exploration of the numinous in highlights from his celebrated oratorio. First, great artists of our time explore how humankind balances its creative impulse against its destructive tendencies. </p>
+
+<div class="iconblock">
+	<div class="icnblk_img"><a href="http://www.bwfa.com/" target="co_link"><img src="/images/logo-bwfa.jpg" alt="Baltimore Washington Financial Advisors" style="" border="0" height="39" width="132"></a></div>
+	<div class="icnblk_cntnt">Join us at 6:30pm for a "<a href="http://columbiaorchestra.org/preludes/">Prelude</a>," a fun, fascinating pre-concert discussion with Bill Scanlan Murphy brought to you by Baltimore-Washington Financial Advisors.</div>
+</div>','creation-and-destruction',NULL,'',0,1);
 INSERT INTO "events_event" VALUES(17,'Chamber Concert One: Spotlight on Strings','2010-11-20 19:30:00',NULL,NULL,2,'',2,'<p>This intimate but thrilling concert showcases remarkable music for some of our violins, violas, and cellos. You''ll hear orchestra members up close in a string sampler including music from Mozart''s G Minor String Quintet, Dvorak''s American Quartet, and Kodaly''s Solo Cello Sonata. It''s a FREE concert in a lovely setting.</p>
 
 <p><em>This concert will last approximately one hour with no intermission. Free admission; donations accepted.</em></p>','chamber-concert-one',NULL,'src_imgs/events/Str_Qtet_1.jpg',837,1);
-INSERT INTO "events_event" VALUES(18,'Chamber Concert Two','2011-04-02 19:30:00',NULL,NULL,2,'',2,'<p>A beautiful and varied program featuring highlights from Beethoven''s String Trios and "Rasumovsky" Quartets, Borodin''s Second Quartet, woodwind and brass works by Madeliene Dring and Francesco Rosetti, plus Bruch''s marvelous Octet. This FREE concert is a wonderful way to hear orchestra members up close in the lovely setting of Christ Episcopal Church.</p>','chamber-concert-two',NULL,'src_imgs/events/Str_Qtet_4.jpg',0,2);
+INSERT INTO "events_event" VALUES(18,'Chamber Concert Two','2011-04-02 19:30:00',NULL,NULL,2,'',2,'<p>A beautiful and varied program featuring highlights from Beethoven''s String Trios and "Rasumovsky" Quartets, Borodin''s Second Quartet, woodwind and brass works by Madeliene Dring and Francesco Rosetti, plus Bruch''s marvelous Octet. This FREE concert is a wonderful way to hear orchestra members up close in the lovely setting of Christ Episcopal Church.</p>','chamber-concert-two',NULL,'src_imgs/events/Str_Qtet_4.jpg',494,2);
 INSERT INTO "events_event" VALUES(19,'Chamber Concert Three: The Light and the Dark','2011-05-21 19:30:00',NULL,NULL,2,'',2,'<p>The enchanting lyricism of Ravel''s First Violin Sonata -- discovered long after his death -- opens a program whose emotions range from the tragic to the ebullient! Written shortly before the Fifth Symphony, Shostakovich''s Cello Sonata explores dark, intense terrains alongside whimsical dancing in this virtuosic masterpiece. Finally, orchestra members Paul Li, violin, and Robin Strempek, viola, join the <a href="/artists/columbia-orchestra-piano-trio/"> Columbia Orchestra Piano Trio</a> – Concertmaster <a href="/members/brenda_anna/"> Brenda Anna,</a> violin, Music Director <a href="/members/jason_love/">Jason Love,</a> cello, and orchestra pianist <a href="/members/nancy_smith/">Nancy Smith</a> – for one of the great chamber works of all time, Schumann''s Piano Quintet.</p>
 
-<p><em>This performance will last approximately one-and-a-half hours with one 15-minute intermission. Free admission; donations accepted.</em></p>','chamber-concert-three',NULL,'src_imgs/events/trio2.jpg',0,2);
+<p><em>This performance will last approximately one-and-a-half hours with one 15-minute intermission. Free admission; donations accepted.</em></p>','chamber-concert-three',NULL,'src_imgs/events/trio2.jpg',2308,2);
 INSERT INTO "events_event" VALUES(20,'Romeo and Juliet','2008-10-18 19:30:00',NULL,NULL,1,'',3,'<p> Darkness meets light in this magical program! Whether it''s a Bohemian overture that says life is a bustling carnival, an Argentinean composer probing weighty poems in Spanish, Yiddish, and by Emily Dickinson, or a 20th-Century Russian composer''s take on the 17th century''s most famous English play, this concert brings together many of the diverse voices that sing together to tell the human story: our overarching goal for this season. </p>
 
 <p> Featuring: actors from the Chesapeake Shakespeare Company</p>','romeo-and-juliet',NULL,'',0,1);
@@ -4978,7 +7388,7 @@ Orchestra''s biennial American Composer Competition and serve on the
 board of directors.  In real life, I hold a Ph.D. in Computer Science 
 from the University of Maryland, and I work as a research scientist in 
 the field of Computational Linguistics at the University of Maryland 
-Center for Advanced Study of Language.</p>','src_imgs/members/Zajic.jpg',2762,0,NULL);
+Center for Advanced Study of Language.</p>','src_imgs/members/Zajic.jpg',3222,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(2,'Andrea','','Aldrich',3,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(3,'Edward','Jean','Welker',4,1,0,0,'<p>OOOooooOOO, I have my own biography? Who let that happen???</p>
 
@@ -4990,14 +7400,14 @@ INSERT INTO "roster_orchestramember" VALUES(3,'Edward','Jean','Welker',4,1,0,0,'
 
 <p>As Clark Kent, I am a nerd.  My day job is writing websites, specifically <a href="http://www.pubmed.gov">PubMed</a>.  In my spare time I revel in any hobby I can concoct, be that music, photography, cycling, or... other <a href="http://eddiewelker.com" rel="me">nerd things</a>.</p>
 
-<p>Since there is literally nothing else about me... time for music shout-outs! Big props to my old quartet (Peggy, Mollie & Ariel!), my cello friends (Kacy, Kristen), my music friends [yes, IN order!] (Andrea, Ashleigh, Cameo, Celia, Enoch, Jerome, Robin [the oldest], and Val [the newest]), my orchestras, GBYO & UMD, and Jason, my sisters, and... everyone else I missed and cause trouble with!</p>','src_imgs/members/EddieWelker.jpg',3556,0,NULL);
+<p>Since there is literally nothing else about me... time for music shout-outs! Big props to my old quartet (Peggy, Mollie & Ariel!), my cello friends (Kacy, Kristen), my music friends [yes, IN order!] (Andrea, Ashleigh, Cameo, Celia, Enoch, Jerome, Robin [the oldest], and Val [the newest]), my orchestras, GBYO & UMD, and Jason, my sisters, and... everyone else I missed and cause trouble with!</p>','src_imgs/members/EddieWelker.jpg',4093,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(4,'Brenda','','Anna',1,0,0,1,'<p>Brenda Anna, violinist, attended the Peabody Conservatory of Johns Hopkins University, where she studied with Yong Ku Ahn, Charles Libove, and David Geber of the American String Quartet. She has also studied and participated in workshops with Elisabeth Adkins and Arnold Steinhart.</p>
 
 <p>She currently serves as concertmaster of the Columbia Orchestra and is a member of the National Philharmonic. In addition, Brenda is a busy freelance performer in the Baltimore/Washington area. A member of the Quinten String Quartet, Ms. Anna has also performed with the Dickinson Piano Quartet, the Gallery Quartet, and the Riversdale Chamber Ensemble.</p>
 
-<p>Ms. Anna has performed as soloist with the Mid-Atlantic Symphony, the Annapolis Chamber Orchestra, the Chamber Orchestra of Southern Maryland, the Prince Georges Philharmonic, the Prince Georges Symphony, the Arundel Summer Orchestra, the Messiah College Orchestra, and the Columbia Orchestra. She teaches in her private studio, and is a member of the faculty of Princeton Chamber Music Playweek in Lexington, VA, a summer program for adult amateur chamber musicians. </p>','src_imgs/members/Brenda_Anna_8x10.jpg',3576,0,NULL);
+<p>Ms. Anna has performed as soloist with the Mid-Atlantic Symphony, the Annapolis Chamber Orchestra, the Chamber Orchestra of Southern Maryland, the Prince Georges Philharmonic, the Prince Georges Symphony, the Arundel Summer Orchestra, the Messiah College Orchestra, and the Columbia Orchestra. She teaches in her private studio, and is a member of the faculty of Princeton Chamber Music Playweek in Lexington, VA, a summer program for adult amateur chamber musicians. </p>','src_imgs/members/Brenda_Anna_8x10.jpg',4218,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(5,'Sarah','','Prindiville',4,0,0,0,'','',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(6,'Arthur','','Fleming',4,0,0,0,'<p>A graduate of Centennial High School and the University of Maryland, I have been playing cello in the Columbia Orchestra since 2002.  I have also played with the UMBC Orchestra, the St. Paul''s Summer String Orchestra, and the Howard County Ballet Orchestra.  I work for Constellation Energy (Print and Digital Media Division), and I live in Mount Washington with my girlfriend, CO violinist Casey Kraft, our dog Darby, and our cat Fiona.</p>','src_imgs/members/Arthur_Fleming.JPG',1154,1,NULL);
+INSERT INTO "roster_orchestramember" VALUES(6,'Arthur','','Fleming',4,0,0,0,'<p>A graduate of Centennial High School and the University of Maryland, I have been playing cello in the Columbia Orchestra since 2002.  I have also played with the UMBC Orchestra, the St. Paul''s Summer String Orchestra, and the Howard County Ballet Orchestra.  I work for Constellation Energy (Print and Digital Media Division), and I live in Mount Washington with my girlfriend, CO violinist Casey Kraft, our dog Darby, and our cat Fiona.</p>','src_imgs/members/Arthur_Fleming.JPG',1170,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(7,'Jason','','Love',27,0,0,0,'<p>Praised for his "intelligent and innovative programming," Jason Love has brought his inspiring demeanor and enormous energy to several of Maryland''s great cultural institutions. Under his leadership, the <em>Baltimore Sun</em> has called The Columbia Orchestra "Howard County''s premier ensemble for instrumental music," noting that "Love has the musicians playing not only with verve and passion, but with an awareness to enter into the emotional core of the works they perform."</p>
 
 <p>Love’s twelve-year tenure as Artistic Director and Conductor of the Greater Baltimore Youth Orchestra Association was marked by continuous growth in the success and prestige of this organization. He commissioned new works, forged partnerships with other arts organizations, extended the orchestra’s community outreach programs and conducted highly successful tours of Austria, Japan, and Russia.</p>
@@ -5008,7 +7418,7 @@ INSERT INTO "roster_orchestramember" VALUES(7,'Jason','','Love',27,0,0,0,'<p>Pra
 
 <p>Recent and upcoming guest appearances find him conducting a variety of ensembles such as the Baltimore Symphony, Washington Sinfonietta (DC), Bismarck Symphony, and RUCKUS, a contemporary music ensemble at the University of Maryland, Baltimore County where he also teaches conducting. Aside from classical music he performs with singer-songwriter Angela Taylor and can be heard on singer-songwriter Sahffi''s upcoming album <em>Turning Tides</em>.</p>
 
-<p>Born in Burlington, North Carolina, Love studied violoncello with Ronald Thomas and conducting with Frederik Prausnitz at the Peabody Conservatory. He is Past President of the Peabody Alumni Association.</p>','src_imgs/members/Jason_Love.jpg',3983,0,NULL);
+<p>Born in Burlington, North Carolina, Love studied violoncello with Ronald Thomas and conducting with Frederik Prausnitz at the Peabody Conservatory. He is Past President of the Peabody Alumni Association.</p>','src_imgs/members/Jason_Love.jpg',4619,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(8,'Alison','','Candela',1,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(9,'Mike','','Catelinet',1,0,0,0,'<p>Columbia Orchestra member since: 2004</p>
 
@@ -5044,8 +7454,8 @@ _Physics of the Impossible_, by Michio Kaku</p>
 "Good Eats", "Mythbusters", and "Ace of Cakes"</p>
 
 <p>Other surprising facts about you?
-I earned a private pilot''s license (airplane, single-engine, land) in 2002. I have also been teaching myself computer science and have contributed to several online open-source software projects.</p>','src_imgs/members/MikeCatelinet.jpg',2809,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(10,'Naomi','','Chang-Zajic',1,0,0,0,'<p>Naomi Chang Zajic, violin, has been a member of the Columbia Orchestra since 2001 and a member of the Board of Directors since 2004. Coming from a non-musical family, she began learning the violin at age 8 and continued learning through the public school system while growing up in Salt Lake City, Utah. Her previous teachers include John Englund, formerly of the Boston Symphony, and José Miguel Cueto, currently of the Concert Artists of Baltimore. Naomi holds a bachelor’s degree in Biological Sciences and a master’s degree in Professional Writing. She is a technical writer and editor for an engineering firm in the Baltimore-Washington area.</p>','src_imgs/members/NZajic.jpg',2911,0,NULL);
+I earned a private pilot''s license (airplane, single-engine, land) in 2002. I have also been teaching myself computer science and have contributed to several online open-source software projects.</p>','src_imgs/members/MikeCatelinet.jpg',3217,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(10,'Naomi','','Chang-Zajic',1,0,0,0,'<p>Naomi Chang Zajic, violin, has been a member of the Columbia Orchestra since 2001 and a member of the Board of Directors since 2004. Coming from a non-musical family, she began learning the violin at age 8 and continued learning through the public school system while growing up in Salt Lake City, Utah. Her previous teachers include John Englund, formerly of the Boston Symphony, and José Miguel Cueto, currently of the Concert Artists of Baltimore. Naomi holds a bachelor’s degree in Biological Sciences and a master’s degree in Professional Writing. She is a technical writer and editor for an engineering firm in the Baltimore-Washington area.</p>','src_imgs/members/NZajic.jpg',3347,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(11,'Erin','','Chester',1,0,0,0,'<p>I received a Bachelor''s of Music Education from Ithaca College School of Music in 2002.  I received a Masters of Arts degree from University of Maryland College Park in 2008.  I have been teaching instrumental music at Old Mill Middle School South in Millersville, MD since 2002.  I have been playing violin for over 20 years and enjoy playing with the orchestra.</p>','',337,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(12,'Matthew','','DeBeal',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(13,'Susan','','Dudley',1,0,0,0,'<p>Columbia Orchestra Member Since: 2002 </p>
@@ -5061,7 +7471,7 @@ INSERT INTO "roster_orchestramember" VALUES(13,'Susan','','Dudley',1,0,0,0,'<p>C
 
 <p>Fun Fact #2 = I like to travel. So far I’ve been to Asia, Europe, the Caribbean and N. Africa.</p>
 
-<p>Fun Fact #3 = I love going to rock concerts on my free time. I have been to a rock concert each month since October 2008.</p>','',1189,0,NULL);
+<p>Fun Fact #3 = I love going to rock concerts on my free time. I have been to a rock concert each month since October 2008.</p>','',1328,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(14,'Casey','','Kraft',1,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(15,'Bruce','','Kuehne',1,0,0,0,'<p>Columbia Orchestra Member Since:  1978</p>
 
@@ -5069,11 +7479,11 @@ INSERT INTO "roster_orchestramember" VALUES(15,'Bruce','','Kuehne',1,0,0,0,'<p>C
 
 <p>I enjoy all types of classical music, but my real joy is music of the 20th (and now 21st) Century, especially the Russians (Shostakovich, Schnittke), Americans (Corigliano, Rouse, Glass), and Scandinavians (Sibelius, Nielsen, Sallinen).  I also occasionally listen to so-called popular music (Joe Jackson, Pat Metheny, and yes, the Beatles), but I return to classical music because the complexity holds my interest.</p>
 
-<p>My day job involves way too many hours each week doing program management at the Johns Hopkins University Applied Physics Lab.  When not working or playing/listening to music, I watch movies (Blood Simple, 12 Monkeys, Apocalypse Now, and more recently Up in the Air).  My wife (of 33 years) and I also like to hike (we just spent a long weekend at Shenandoah National Park) and watch TV (Modern Family, Better off Ted, The Good Wife).  In addition, as president of the Columbia Orchestra and Chairman of the Finance Committee, I spend time on orchestra-related administrative activities.  And every so often, we visit with our daughter Valerie, who is trying to succeed as a freelance cellist playing classical, popular, experimental music on the New York Scene.</p>','src_imgs/members/BruceKuehne.jpg',2738,0,NULL);
+<p>My day job involves way too many hours each week doing program management at the Johns Hopkins University Applied Physics Lab.  When not working or playing/listening to music, I watch movies (Blood Simple, 12 Monkeys, Apocalypse Now, and more recently Up in the Air).  My wife (of 33 years) and I also like to hike (we just spent a long weekend at Shenandoah National Park) and watch TV (Modern Family, Better off Ted, The Good Wife).  In addition, as president of the Columbia Orchestra and Chairman of the Finance Committee, I spend time on orchestra-related administrative activities.  And every so often, we visit with our daughter Valerie, who is trying to succeed as a freelance cellist playing classical, popular, experimental music on the New York Scene.</p>','src_imgs/members/BruceKuehne.jpg',3129,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(16,'Paul','','Li',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(17,'Sara','','Reimers',1,0,0,0,'<p>I have played the violin since I was 8 years old (with a 10 year break that coincided with my military service) and this is my 3rd full season with the Columbia Orchestra. The most unique violin experience I ever had was when I studied abroad during college. I was enrolled in a French Service-Learning program in Montpellier, France. Montpellier is a beautiful and very old town in the South of France that still boasts a medieval city centre with cobbled stone streets. Halfway through my semester, I realized I had run out of money (Yipes!) so I decided to play on the street to raise travel cash. I played almost every day for about a month and ended up with enough money to go to Paris.</p>
  
-<p>When I am not playing with the Columbia Orchestra or busy with my day job, I am perfectly content to spend a quiet evening at home with my husband and 7-year old Black Lab. Otherwise, I am very active in the Laurel Church of Christ, love to scrapbook and make cards, and try to travel as much as our family budget and vacation days will allow.</p>','src_imgs/members/Sara_Reimers.jpg',2031,0,NULL);
+<p>When I am not playing with the Columbia Orchestra or busy with my day job, I am perfectly content to spend a quiet evening at home with my husband and 7-year old Black Lab. Otherwise, I am very active in the Laurel Church of Christ, love to scrapbook and make cards, and try to travel as much as our family budget and vacation days will allow.</p>','src_imgs/members/Sara_Reimers.jpg',2432,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(18,'Helen','','Rohleder',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(19,'Robin','','Strempek',1,0,0,0,'<p>Columbia Orchestra Member Since: 2003</p>
 
@@ -5095,7 +7505,7 @@ INSERT INTO "roster_orchestramember" VALUES(19,'Robin','','Strempek',1,0,0,0,'<p
 
 <p>Interesting Fact #2: I earned a black belt in Tae Kwon Do when I was in middle school.</p>
 
-<p>Interesting Fact #3: I have traveled to South Korea, Iceland, England, Wales, Scotland, Czech Republic, Bratislava, and Austria.</p>','src_imgs/members/Robin_Strempek.jpg',2234,0,NULL);
+<p>Interesting Fact #3: I have traveled to South Korea, Iceland, England, Wales, Scotland, Czech Republic, Bratislava, and Austria.</p>','src_imgs/members/Robin_Strempek.jpg',2647,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(20,'Annette','','Szawan',1,0,0,0,'<p>Grew up in Canton, Ohio and attended Baldwin-Wallace Conservatory of Music earning a Bachelor of Music Education degree. Went on to graduate school to receive a Masters of Music Education from Kent State University.</p>
 
 <p>Presently an Orchestra Director in Howard County Schools for 22 years. Was director of Elementary Enrichment G/T Orchestra for 20 years. Was selected for Who''s Who Among America''s Teachers in 2004.</p>
@@ -5104,7 +7514,7 @@ INSERT INTO "roster_orchestramember" VALUES(20,'Annette','','Szawan',1,0,0,0,'<p
 
 <p>Has played first violin in the Columbia Orchestra for 20 years and still loves every minute of it!!</p>
 
-<p>Loves to relax with a good Sci-Fi movie/tv series. Resides in Ellicott City with husband, bernie, and has a daughter living in Florida.</p>','src_imgs/members/Annette_Szawan2.jpg',2062,0,NULL);
+<p>Loves to relax with a good Sci-Fi movie/tv series. Resides in Ellicott City with husband, bernie, and has a daughter living in Florida.</p>','src_imgs/members/Annette_Szawan2.jpg',2486,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(21,'Jon','','Teske',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(22,'Tim','','Topoleski',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(23,'Chris ','','Nibali',2,1,0,0,'','',0,0,NULL);
@@ -5114,7 +7524,7 @@ After a few years of being relegated to the garage behind soundproof walls, my s
 
 <p>Since then, I continued playing throughout high school and at the University of Pennsylvania in various orchestral and chamber groups. I was lucky enough to receive instruction by Ghislaine Fleshman, a member of the Philadelphia Orchestra. After college, I played in the Mainline Symphony Orchestra before moving from Philadelphia to the Columbia area and joined the Columbia Orchestra in 2009.</p>
 
-<p>I am grateful for the opportunities a musical education provided me and believe music was a key factor in keeping me from falling into the pitfalls of an urban environment as an adolescent.</p>','',873,0,NULL);
+<p>I am grateful for the opportunities a musical education provided me and believe music was a key factor in keeping me from falling into the pitfalls of an urban environment as an adolescent.</p>','',1020,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(25,'Jonathan','','Chang',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(26,'Jacquelyn','','DeBella',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(27,'Meg','','Glenn',2,0,0,0,'','',0,0,NULL);
@@ -5132,7 +7542,7 @@ INSERT INTO "roster_orchestramember" VALUES(30,'Sheila','','Hrapchak',2,0,0,0,'<
 
 <p>Originally from Pennsylvania, I currently live in Columbia with my husband John, and work at Travelers Insurance Company.</p>
 
-<p>I also direct our church choir, and give piano lessons.</p>','src_imgs/members/SheilaHrapchak.jpg',2658,0,NULL);
+<p>I also direct our church choir, and give piano lessons.</p>','src_imgs/members/SheilaHrapchak.jpg',3064,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(31,'Jeeyun','','Kim',2,0,0,0,'<p>I started playing the violin in 5th grade through my elementary school''s program.  Mr. Jan Turkiewicz taught me many things about music and math during private violin lessons from 8th through 11th grade.  Then, I studied violin for a year with Dr. Ronald Francois who taught me to always find a story in the music.</p>
 
 <p>After high school, I put the violin on the back burner while getting my degree in electrical engineering.  I''m happy to be playing regularly again, after a long 14 year hiatus, with this orchestra.  I particularly appreciate the arrhythmic modern music we play, because it has forced me to learn to count my music better.</p>
@@ -5142,7 +7552,7 @@ INSERT INTO "roster_orchestramember" VALUES(31,'Jeeyun','','Kim',2,0,0,0,'<p>I s
 
 <p>music likes: Andrew Bird, Bach, Bizet, Ida, Jack Johnson, Prokofiev, Rachmaninoff, Radiohead, Schubert, Shostakovich.</p>
 <p>music hates: Andrew Lloyd Webber and polka.</p>
-<p>favorite music played: Ravel''s Mother Goose Suite, Kabalevsky''s Colas Breugnon overture.</p>','src_imgs/members/Jeeyun_Kim.JPG',2104,0,NULL);
+<p>favorite music played: Ravel''s Mother Goose Suite, Kabalevsky''s Colas Breugnon overture.</p>','src_imgs/members/Jeeyun_Kim.JPG',2503,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(32,'Tanesha','','Mitchell',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(33,'Stuart','','Silver',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(34,'Dorothy','','Elkin',3,0,0,0,'','',0,0,NULL);
@@ -5154,13 +7564,13 @@ INSERT INTO "roster_orchestramember" VALUES(35,'J.','Patrick','Femiano',3,0,0,0,
 
 <p>Many of my summers were spent in music camps that specialized in playing the chamber music of great composers from Haydn to Schubert.</p>
 
-<p>After years of playing these different genres of music, I have to say that playing the full orchestral works of the great compers such as Mozart, Beethoven, Tchaikovsky is a source of great satisfaction and I am glad that the Columbia Orchestra makes this music available to our community.</p>','src_imgs/members/PatrickFemiano.jpg',2920,0,NULL);
+<p>After years of playing these different genres of music, I have to say that playing the full orchestral works of the great compers such as Mozart, Beethoven, Tchaikovsky is a source of great satisfaction and I am glad that the Columbia Orchestra makes this music available to our community.</p>','src_imgs/members/PatrickFemiano.jpg',3394,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(36,'Chris','','Gosper',3,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(37,'Susan','','Laessig',3,0,0,0,'','',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(38,'Bruce','','Newhall',3,0,0,0,'<p>In the fall of 1980 I joined the Columbia Chamber Orchestra, which was the string orchestra predecessor to the Columbia Orchestra.  Unlike most violists, I never played violin; I started on viola in 5th grade.  I have a PhD in Applied Mathematics from Rensselaer Polytechnic, and played in their orchestra during my undergraduate years.  I am employed at the Johns Hopkins Applied Physics Lab, where I am the Chief Scientist for the Maritime Security and Technology Program Area.  That means that I conduct research and development of Navy sonar systems and countermeasures against foreign sonars.  My wife, Elaine, is the principal flutist for the Columbia Orchestra, and my daughter, Katie, played cello in the orchestra when she was in high school.  When I’m not working or practicing music, I enjoy outdoor activities, especially fossil collecting, canoeing, and hiking.</p>','src_imgs/members/BruceNewhall.JPG',2652,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(38,'Bruce','','Newhall',3,0,0,0,'<p>In the fall of 1980 I joined the Columbia Chamber Orchestra, which was the string orchestra predecessor to the Columbia Orchestra.  Unlike most violists, I never played violin; I started on viola in 5th grade.  I have a PhD in Applied Mathematics from Rensselaer Polytechnic, and played in their orchestra during my undergraduate years.  I am employed at the Johns Hopkins Applied Physics Lab, where I am the Chief Scientist for the Maritime Security and Technology Program Area.  That means that I conduct research and development of Navy sonar systems and countermeasures against foreign sonars.  My wife, Elaine, is the principal flutist for the Columbia Orchestra, and my daughter, Katie, played cello in the orchestra when she was in high school.  When I’m not working or practicing music, I enjoy outdoor activities, especially fossil collecting, canoeing, and hiking.</p>','src_imgs/members/BruceNewhall.JPG',3043,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(39,'Alison','','Pack',3,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(40,'Margaret','','Pooler',3,0,0,0,'','',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(41,'Julie','','Schwartz',3,0,0,0,'<p>Julie loves classical music and takes great joy in being one small part of a large orchestra.</p>','',614,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(41,'Julie','','Schwartz',3,0,0,0,'<p>Julie loves classical music and takes great joy in being one small part of a large orchestra.</p>','',753,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(42,'Annemarie','','Scimonelli',3,0,0,0,'<p>Annemarie Scimonelli</p>
 
 <p>Columbia Orchestra Member Since: 2002, I think? </p>
@@ -5175,7 +7585,7 @@ INSERT INTO "roster_orchestramember" VALUES(42,'Annemarie','','Scimonelli',3,0,0
 
 <p>My favorite composer is Antonin Dvorak because he played the viola, and he wrote music inspired by the common man of his home country.  My favorite symphony is Tchaikovsky''s Pathetique Symphony #6.</p>
 
-<p>I cherish Monday nights with the Columbia Orchestra.  I can get away from my real life as a Human Resources Manager and do what I really love.  It feeds my soul.</p>','src_imgs/members/AnnemarieScimonelli.jpg',2856,0,NULL);
+<p>I cherish Monday nights with the Columbia Orchestra.  I can get away from my real life as a Human Resources Manager and do what I really love.  It feeds my soul.</p>','src_imgs/members/AnnemarieScimonelli.jpg',3260,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(43,'Pamela','','Truitt',3,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(44,'Dottie','','Wayne',3,0,0,0,'<p>Columbia Orchestra member since 1998.</p>
 
@@ -5185,24 +7595,24 @@ INSERT INTO "roster_orchestramember" VALUES(44,'Dottie','','Wayne',3,0,0,0,'<p>C
 
 <p>Memorable musical experience:  It was when she and her husband were living in Zagreb, Croatia.  She played regularly in a quartet with a flutist (Argentinean), violinist (German), cellist (Croatian), and herself.  It was quite a challenge trying to communicate - using English and Croatian as the common denominators - plus learning the different European musical notations and expressions!</p>
 
-<p>Fun fact you may not know:  Dottie made the viola that she plays in the Columbia Orchestra.  She topped it in 1976.  It is now older than many of the young orchestra members!</p>','src_imgs/members/Dottie_Wayne.jpg',1757,0,NULL);
+<p>Fun fact you may not know:  Dottie made the viola that she plays in the Columbia Orchestra.  She topped it in 1976.  It is now older than many of the young orchestra members!</p>','src_imgs/members/Dottie_Wayne.jpg',2145,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(45,'Penny','','Zahn',3,0,0,0,'<p>I began playing the viola in 1968 and continued through High School.  I lived on Long Island at the time in an area with outstanding public school music programs.  My HS orchestra had several students studying at Julliard prep, and we were a pretty hot orchestra.  I only took the free 30 minute/once a week lessons offered in school, and the game was to get the music director so busy talking about other interests that we blew through the lesson without having to play!  So here I am today, still playing.  I guess the lack of pressure allowed me to enjoy playing, so I''ve continued on, just learning as I went.  Not one private lesson ever...</p>
 
 <p>Joined the Columbia Orchestra in 1986 when the group was still rehearsing in Yong Ku Ahn''s basement.  I hadn''t been playing for over 8 years by this point, so when I showed up at the first rehearsal I just slipped into the last seat in the section and hoped for the best.</p>
 
 <p>I love the challenge of playing in a group.  You try to deliver what the conductor is asking for.  This takes great peripheral vision, and the ability to read body language as well as squints, threatening brows and the dreaded finger point.  To work with up to 80 other people trying to become "one" for an extended period of time takes incredible concentration and listening skills.  I often cannot sleep for hours after intense rehearsals.</p>
 
-<p>Most of my off time is spent racing our sailboat out of Annapolis.  Last year we logged more than 500 miles under her keel in one race season!  I serve on several other organizations'' boards of directors, and was the Columbia Orchestra Treasurer when we voted to move from a chamber group to Full Symphony.  I am so thankful for the opportunity to play with this caliber of musicians, and of course our outstanding Music Director, Jason Love.</p>','src_imgs/members/PennyZahn.JPG',2558,0,NULL);
+<p>Most of my off time is spent racing our sailboat out of Annapolis.  Last year we logged more than 500 miles under her keel in one race season!  I serve on several other organizations'' boards of directors, and was the Columbia Orchestra Treasurer when we voted to move from a chamber group to Full Symphony.  I am so thankful for the opportunity to play with this caliber of musicians, and of course our outstanding Music Director, Jason Love.</p>','src_imgs/members/PennyZahn.JPG',2937,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(46,'Bryan','','Barrett',4,0,0,0,'<p>I was born and brought up in England and started playing the cello at school. I spent 23 years as an officer in the Royal Navy, without many opportunities to play the cello, and played classical guitar for many years – easier to carry onboard a ship! I immigrated to the States in 1989 and we live in Annapolis.  I was so pleased to find a wealth of community music in Maryland and auditioned for the Columbia orchestra. I joined 7 years ago and have been thrilled to be able to play so much of the great orchestral repertoire that I have loved all my live, and also to be introduced to a lot of contemporary works that I would not otherwise have discovered. I have studied the cello here with Kerena Mueller and Gita Ladd. I am sort of retired, consulting in subsea engineering part time for the company I used to work for, and hope, as I turn 70 this year, to be able to continue to play for this wonderful orchestra for many years. </p>
 
-<p>Member of Columbia Orchestra since 2003</p>','src_imgs/members/Bryan.jpg',2756,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(47,'John','','Carter',4,0,0,0,'<p>John B. Carter is completing his second season with the Columbia Orchestra as a member of the cello section.  John, a Pennsylvania native, was introduced to the cello as a junior-high student by Donald E. Sutter who was the lead violinist for a string quartet in which John took part at Trinity Lutheran Church in Coatesville, PA.  John, originally a trumpeter, switched to the French horn and held the first chair horn position in the Coatesville Area Senior High School Symphonic Band.  As the first chair cellist in the Coatesville Area Senior High Orchestra, John placed to sit third chair at the Mid-East All Star Orchestra during his junior year, and played the Grieg Piano Concerto and the Great Gate of Kiev from Mussorgsky’s Pictures at an Exhibition at the festival concert.  He attended the string workshops at West Chester University each summer as a teenager.  John studied Psychology at Waynesburg University, Waynesburg, Pennsylvania and graduated in 1973 with a Bachelor’s Degree.  At Waynesburg, he was a member of the fledgling Waynesburg Marching Band and its orchestra under the direction of Allen C Emerick.  John attended graduate school at Roosevelt University in Chicago, Illinois where he earned a Master’s Degree in Public Administration and played with the Chatham Symphony, the DePaul University Orchestra (Leon Stein) and the Lewis University Orchestra.  John continues to enjoy playing chamber music, and is a volunteer musician at St Mark’s Evangelical Lutheran Church in Baltimore where he is a member.  One of John’s favorite remembrances is of a comment made by his father, Lee, during  intermission at a Mid-East orchestra performance in Schwenksville, PA that featured the Beethoven 1st Symphony:  ‘Man, I thought that song would never end!’ quipped his Dad.  John chooses Brahms, Rachmaninoff and Chopin among his favorite composers and enjoys listening to music and reading in his spare time.</p>','src_imgs/members/JohnCarter.jpg',1741,1,NULL);
+<p>Member of Columbia Orchestra since 2003</p>','src_imgs/members/Bryan.jpg',3152,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(47,'John','','Carter',4,0,0,0,'<p>John B. Carter is completing his second season with the Columbia Orchestra as a member of the cello section.  John, a Pennsylvania native, was introduced to the cello as a junior-high student by Donald E. Sutter who was the lead violinist for a string quartet in which John took part at Trinity Lutheran Church in Coatesville, PA.  John, originally a trumpeter, switched to the French horn and held the first chair horn position in the Coatesville Area Senior High School Symphonic Band.  As the first chair cellist in the Coatesville Area Senior High Orchestra, John placed to sit third chair at the Mid-East All Star Orchestra during his junior year, and played the Grieg Piano Concerto and the Great Gate of Kiev from Mussorgsky’s Pictures at an Exhibition at the festival concert.  He attended the string workshops at West Chester University each summer as a teenager.  John studied Psychology at Waynesburg University, Waynesburg, Pennsylvania and graduated in 1973 with a Bachelor’s Degree.  At Waynesburg, he was a member of the fledgling Waynesburg Marching Band and its orchestra under the direction of Allen C Emerick.  John attended graduate school at Roosevelt University in Chicago, Illinois where he earned a Master’s Degree in Public Administration and played with the Chatham Symphony, the DePaul University Orchestra (Leon Stein) and the Lewis University Orchestra.  John continues to enjoy playing chamber music, and is a volunteer musician at St Mark’s Evangelical Lutheran Church in Baltimore where he is a member.  One of John’s favorite remembrances is of a comment made by his father, Lee, during  intermission at a Mid-East orchestra performance in Schwenksville, PA that featured the Beethoven 1st Symphony:  ‘Man, I thought that song would never end!’ quipped his Dad.  John chooses Brahms, Rachmaninoff and Chopin among his favorite composers and enjoys listening to music and reading in his spare time.</p>','src_imgs/members/JohnCarter.jpg',1779,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(48,'Sarah','','Cotterill',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(49,'Carolyn','','Ginnever',4,0,0,0,'<p>Moving to Columbia, Maryland with my husband, Richard, 4 children, 4 dogs, 7 cats and 1 boa constrictor was quite the adventure in June of 2001. In August of 2001 I auditioned for the Columbia Symphony Orchestra and have been enjoying music with them on a weekly basis for 9 years.  Several years ago I joined Classical Encounter String Quartet. The quartet has been going to Summer String-In for many years and I joined in that adventure!  How delightful to have the opportunity to play every day for a week, with no other responsibility!</p>
 
 <p>I began playing the cello in the 4th grade on Long Island, New York. After a hiatus of several years, on a dare, I began taking lessons to “brush up” and in 1980 began playing with the Nassau Symphony (Symphony of Long Island). Since that time, there has never been a time when I have not been involved with a symphony, quartet and various other playing opportunities.</p>
 
-<p>Before moving to Columbia from Monroe, Louisiana, I played with the Monroe Symphony Orchestra, one season as the principal cellist, the DiJullian Quartet, and several churches. All, in all, with great thanks to my Dad, playing the cello has been one of the constants in the adventure called my life.</p>','src_imgs/members/Carolyn_Ginnever.jpg',1067,0,NULL);
+<p>Before moving to Columbia from Monroe, Louisiana, I played with the Monroe Symphony Orchestra, one season as the principal cellist, the DiJullian Quartet, and several churches. All, in all, with great thanks to my Dad, playing the cello has been one of the constants in the adventure called my life.</p>','src_imgs/members/Carolyn_Ginnever.jpg',1463,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(50,'Kathy','','Hughes',4,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(51,'Dave','','Pumplin',4,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(52,'Hannah','','Oliver',4,0,0,0,'<p>Hannah Oliver</p>
@@ -5219,13 +7629,13 @@ INSERT INTO "roster_orchestramember" VALUES(52,'Hannah','','Oliver',4,0,0,0,'<p>
 <li>Favorite Movie: Harold and Maude</li>
 <li>Favorite TV Shows: I watch Glee and Bones nowadays.</li>
 <li>What you love about the Columbia Orchestra: Being able to play cello with a group every week, and being involved in the musical community I teach in.</li>
-</ul>','src_imgs/members/HannahOliver.jpg',2876,0,NULL);
+</ul>','src_imgs/members/HannahOliver.jpg',3295,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(53,'Jonathan','','Terry',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(54,'Al','','McLaine',5,1,0,0,'<p>Al is shown here with his now 100 year old mother. This picture was taken after a concert, and you can see we are both pretty happy. Mom plays the piano and encouraged me to take up the bass so we could have a family band. My brother was the drummer, my sister played the marimba, and I learned how to pluck the bass strings. I played in the high school orchestra and was part of several small jazz groups during that time (we called ourselves The Marlboros because we were so cool). I played for one year in the Annapolis Symphony when it was a community orchestra in the early 1960s. In college, I played for several years until protesting the Vietnam War took up most of my time. After college, I lived with some ‘friends’ on a ranch in Colorado; I managed to learn a few notes on the tuba so I could play in the local fire department band. I also played the bass in a few gigs with a small group at a local bar.</p>
 
 <p>Many years passed when the bass was just another piece of furniture. But when I ended up in Columbia in the late 1980s, the Columbia Orchestra beckoned, and I have been a member since 1989.</p>
 
-<p>I have always preferred orchestral music, but recently I have taken up jazz again, folk/blue grass, and chamber music. Music will continue to play a major role in my life as I enter retirement years.</p>','src_imgs/members/AlMcLaine.JPG',2847,0,NULL);
+<p>I have always preferred orchestral music, but recently I have taken up jazz again, folk/blue grass, and chamber music. Music will continue to play a major role in my life as I enter retirement years.</p>','src_imgs/members/AlMcLaine.JPG',3222,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(55,'Matthew','','Carroll',5,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(56,'Yoshiaki','','Horiguchi',5,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(57,'Colin','','O''Bryan',5,0,0,0,'','',0,1,NULL);
@@ -5238,22 +7648,22 @@ since 1980. She earned her B.S. in Music Education from
 College of St. Rose, Albany, NY, and M.M. in Music
 Education from SUNY Potsdam, NY, Crane School of Music.
 She was honored with the Howard County Arts Council
-Howie Award, Outstanding Artist 2001.</p>','',1073,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(60,'Kathrin','','Kucharski',29,0,0,0,'<p>Kathrin Kucharski has played flute since she was ten years old and studied flute under Kathleen Trahan from the University of Maryland College Park School of Music.  She has played in a number of community church groups, performed with the Prince Georges County Orchestra and currently serves as second flute/piccolo for the Columbia Orchestra in Columbia Maryland.  In her “real” life, she is a wife, mom of two boys and a medical liaison pharmacist for sanofi-aventis pharmaceuticals.</p>','src_imgs/members/KathrinKucharski.jpg',2701,0,NULL);
+Howie Award, Outstanding Artist 2001.</p>','',1224,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(60,'Kathrin','','Kucharski',29,0,0,0,'<p>Kathrin Kucharski has played flute since she was ten years old and studied flute under Kathleen Trahan from the University of Maryland College Park School of Music.  She has played in a number of community church groups, performed with the Prince Georges County Orchestra and currently serves as second flute/piccolo for the Columbia Orchestra in Columbia Maryland.  In her “real” life, she is a wife, mom of two boys and a medical liaison pharmacist for sanofi-aventis pharmaceuticals.</p>','src_imgs/members/KathrinKucharski.jpg',3104,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(61,'Devona','Lee','Schiller',29,0,0,0,'<p>Devona Schiller, a native of Baltimore County, Maryland, joined the Columbia Orchestra as piccoloist in 2006.  She also currently serves as Principal Flutist of the U. S. Naval Academy Band.  She was formerly Principal Flutist of the U. S. ATLANTIC Fleet Band and has held positions with the Virginia Beach and Annapolis Wind Symphonies.</p>
 
 <p>Mrs. Schiller received Bachelor of Music degrees in education and performance in 1998 from James Madison University, where she studied with Carol Kniebusch Noe. Under the tutelage of Anthony Maiello, she received a Master of Music in conducting from George Mason University in 2003. </p>
 
 <p>An experienced soloist, Mrs. Schiller has been the first prize winner of the James Madison University Concerto Competition, Virginia Music Teacher’s Association Concerto Competition and the Sigma Alpha Iota Scholarship Competition.  She can be heard on the James Madison University Flute Choir feature compact disc Sounds and Colors. </p>
 
-<p>A dedicated educator and advocate of the arts, Mrs. Schiller frequently teaches and serves as a clinician and adjudicator in Baltimore and Anne Arundel County schools.  Mrs. Schiller currently resides in Annapolis, MD and enjoys spending time with her husband, John and family.  Other interests include serving in church ministries, women’s lacrosse, weight training, cooking, biking, and interior design.</p>','src_imgs/members/DevonaSchiller.jpg',2063,0,31);
+<p>A dedicated educator and advocate of the arts, Mrs. Schiller frequently teaches and serves as a clinician and adjudicator in Baltimore and Anne Arundel County schools.  Mrs. Schiller currently resides in Annapolis, MD and enjoys spending time with her husband, John and family.  Other interests include serving in church ministries, women’s lacrosse, weight training, cooking, biking, and interior design.</p>','src_imgs/members/DevonaSchiller.jpg',2468,0,31);
 INSERT INTO "roster_orchestramember" VALUES(62,'Cassandra','Miranda','Valladares',29,0,0,0,'<p>Cassandra was born in San Juan, Puerto Rico. She started piano lessons when she was four years old and later picked up the violin and the flute. When the time came to start college she decided to major in flute, graduating summa cum laude with a Bachelor of Music in Flute Performance from the Conservatory of Music of Puerto Rico where she also received the Woodwind Department Achievement Medal awarded to the most outstanding overall student in the woodwind department.</p>
 
 <p>Cassandra relocated to Maryland to pursue graduate studies at the Peabody Conservatory of the Johns Hopkins University. She graduated with a Masters in Music Education in 2007.</p>
 
 <p>Currently, Cassandra is the band director at Harper''s Choice Middle School in Columbia and teaches flute privately. She is also a member of the Columbia Chamber Winds woodwind quintet. In 2010, Cassandra will begin studies at the University of Maryland School of Law.</p>
 
-<p>In her spare time, Cassandra enjoys learning languages, traveling, and taking care of her Mini-Schnauzer mix, Beauty.</p>','src_imgs/members/Cassandra_Miranda_Valladares.jpg',390,1,NULL);
+<p>In her spare time, Cassandra enjoys learning languages, traveling, and taking care of her Mini-Schnauzer mix, Beauty.</p>','src_imgs/members/Cassandra_Miranda_Valladares.jpg',424,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(63,'Susan','','Schultz',23,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(64,'Lindsey','','Spear',7,1,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(65,'Barbra','','Girdler',7,0,0,0,'','',0,0,NULL);
@@ -5276,7 +7686,7 @@ INSERT INTO "roster_orchestramember" VALUES(73,'Matthew','','Gunderson',9,0,0,0,
 
 <p>He joined the Columbia Orchestra in August of 2009, playing both clarinet and bass clarinet, and has embraced the joys of sharing music with the enthusiastic and hungry audiences that have graced the concert hall.</p>
 
-<p>Matt currently lives in Linthicum Heights, MD, with his wife, Erin, his two young daughters, Abigail and Hannah, and their cat, Rachmaninoff (Rachy for short!).</p>','src_imgs/members/Matt_Gunderson.jpg',2186,0,NULL);
+<p>Matt currently lives in Linthicum Heights, MD, with his wife, Erin, his two young daughters, Abigail and Hannah, and their cat, Rachmaninoff (Rachy for short!).</p>','src_imgs/members/Matt_Gunderson.jpg',2596,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(74,'Edna','','Huang',10,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(75,'Lori','','Fowser',9,0,0,0,'','',0,0,30);
 INSERT INTO "roster_orchestramember" VALUES(76,'Monica','','Schwartz',12,1,0,0,'<p>Monica Schwartz</p>
@@ -5292,7 +7702,7 @@ INSERT INTO "roster_orchestramember" VALUES(76,'Monica','','Schwartz',12,1,0,0,'
 
 <p>Monica has been a band director in Howard County Public Schools since 2001 and has been twice nominated for ‘Music Teacher of the Year for Howard County.’ She currently teaches all woodwinds, brass, and percussion instruments at Manor Woods Elementary School. </p>
 
-<p>Monica spends a lot time playing bassoon, teaching, and composing--but she also takes time to enjoy cooking delicious locally grown food, running, and oil painting.  She loves to travel and thinks Iceland and the Ice Hotel in Canada are the coolest places she has ever been (no pun intended).  She also loves walking her two crazy pugs-- Dizzy (Gillespie) and Miles (Davis).</p>','src_imgs/members/Monica.JPG',2858,0,NULL);
+<p>Monica spends a lot time playing bassoon, teaching, and composing--but she also takes time to enjoy cooking delicious locally grown food, running, and oil painting.  She loves to travel and thinks Iceland and the Ice Hotel in Canada are the coolest places she has ever been (no pun intended).  She also loves walking her two crazy pugs-- Dizzy (Gillespie) and Miles (Davis).</p>','src_imgs/members/Monica.JPG',3292,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(77,'Norma','','Hooks',12,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(78,'Stacy','','Hultzman',12,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(79,'Chris','','Holtzem',12,0,0,0,'','',0,1,NULL);
@@ -5302,14 +7712,14 @@ INSERT INTO "roster_orchestramember" VALUES(82,'Andrew','','Delclos',13,0,0,0,''
 INSERT INTO "roster_orchestramember" VALUES(83,'James','','Rodak',25,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(84,'Carl','','Reynolds',15,1,0,0,'<p>Carl Reynolds is the principal trumpet player with the Columbia Orchestra and has been serving in that capacity since 1994.  Throughout his music career he has performed with accomplished groups including both The McLean Orchestra and The Arlington Symphony.</p>
 
-<p>Carl continues to freelance with many other musical ensembles in the Baltimore-Washington area, including the Ellicott Brass Quintet.  He is grateful for the support he receives from his family and is indebted to his teachers, Elisa Koehler, Alan Bachelder, and Dennis Edelbrock.</p>','',638,0,NULL);
+<p>Carl continues to freelance with many other musical ensembles in the Baltimore-Washington area, including the Ellicott Brass Quintet.  He is grateful for the support he receives from his family and is indebted to his teachers, Elisa Koehler, Alan Bachelder, and Dennis Edelbrock.</p>','',788,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(85,'Roy','','Leierzapf',15,0,0,0,'<p>A Pittsburgh native, Roy has been playing with the Columbia Orchestra since 1999.  Prior appointments since moving to Maryland have been Assistant Principal Trumpet of the Rockville Concert Band and trumpet with the Columbia Concert Band.  While still in Pittsburgh, Roy was the Principal Trumpet of the Pittsburgh Civic Orchestra under the baton of Keith Lockhart, now Music Director of the Boston Pops.  Roy is a graduate of Duquesne University where he received a B.S Degree in Music Education.  He studied trumpet under Charles Hois, Jack McKee and Frank Woodbury, all members in the trumpet section of the Pittsburgh Symphony of the sixties through eighties.</p>
 
-<p>Roy is a tax systems and software specialist within the Tax Operations group of USTrust, Bank of America Private Wealth Management.  In addition to providing technical support and leadership of several tax vendors systems, Roy has developed several custom software applications in use by the Tax Departments for specialized tax processing and tracking systems.</p>','src_imgs/members/Roy_Leierzapf_1.jpg',2011,0,NULL);
+<p>Roy is a tax systems and software specialist within the Tax Operations group of USTrust, Bank of America Private Wealth Management.  In addition to providing technical support and leadership of several tax vendors systems, Roy has developed several custom software applications in use by the Tax Departments for specialized tax processing and tracking systems.</p>','src_imgs/members/Roy_Leierzapf_1.jpg',2412,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(86,'Paul','','Lindenmann',15,0,0,0,'<p>Paul has enjoyed playing trumpet for over 35 years.  After high school, he spent three years in the Marine Corps. Band while stationed in North Carolina, once performing for President Reagan during the 100 year anniversary of the Statue of Liberty.  He graduated with a degree in music composition from the University of Maryland, and now works for the Capitol Police in Washington D.C. </p>
 
 <p>He plays Taps in the Capitol Police Ceremonial Unit for funerals or special occasions that honor federal police officers from the D.C. metropolitan area. Paul also enjoys playing trumpet for his church and in a Dixieland band that provides free concerts for senior citizens in the Howard County area.</p>
-','src_imgs/members/Paul_Lindemann.jpg',1262,0,NULL);
+','src_imgs/members/Paul_Lindemann.jpg',1663,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(87,'Andrew','','Strempek',15,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(88,'Mario','','Fuentes',17,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(90,'Anne','','Ward',14,1,0,0,'<ul>
@@ -5333,8 +7743,8 @@ INSERT INTO "roster_orchestramember" VALUES(90,'Anne','','Ward',14,1,0,0,'<ul>
 <li>Favorite TV Shows:  Who has time?</li>
 <li>What you love about the Columbia Orchestra:  Jason and staff, the orchestra members (we’re a TEAM), the repertoire</li>
 </ul>
-','src_imgs/members/AnneWard.jpg',3013,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(91,'Sarah','','Dorrance',14,0,0,0,'<p>Rev. Sarah Babylon Dorrance&ndash;2nd Horn.  The Columbia Orchestra and my life have intertwined ever since this group became a full orchestra, for over 21 years! My first child was born after the end of our first season together. This is a place where I can come make music with others, where we can become one unit as we work together to perform a particular piece of music. Through my own personal life journey the orchestra has been part of who I am. I am grateful for the opportunity to continue playing French Horn over the long haul. It is an honor and a privilege to be a part of these fine musicians. I am a graduate of Gettysburg College and Wesley Theological Seminary. On Monday nights, I belong to the orchestra, the rest of the time I am a Mom of two wonderful college age young women and a pastor at Taylorsville United Methodist Church. I am grateful to God for the gift of music, and as for me, I pray that all the music that I am a part of gives glory to God my Savior.</p>','src_imgs/members/SarahDorrance.jpg',2748,0,NULL);
+','src_imgs/members/AnneWard.jpg',3426,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(91,'Sarah','','Dorrance',14,0,0,0,'<p>Rev. Sarah Babylon Dorrance&ndash;2nd Horn.  The Columbia Orchestra and my life have intertwined ever since this group became a full orchestra, for over 21 years! My first child was born after the end of our first season together. This is a place where I can come make music with others, where we can become one unit as we work together to perform a particular piece of music. Through my own personal life journey the orchestra has been part of who I am. I am grateful for the opportunity to continue playing French Horn over the long haul. It is an honor and a privilege to be a part of these fine musicians. I am a graduate of Gettysburg College and Wesley Theological Seminary. On Monday nights, I belong to the orchestra, the rest of the time I am a Mom of two wonderful college age young women and a pastor at Taylorsville United Methodist Church. I am grateful to God for the gift of music, and as for me, I pray that all the music that I am a part of gives glory to God my Savior.</p>','src_imgs/members/SarahDorrance.jpg',3147,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(92,'Cally','','Messick',14,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(93,'Rebecca','','Lantz',14,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(94,'Jeffrey','','Girdler',14,0,0,0,'<p>A former member of the prestigious United States Navy Band, Jeff Girdler joined the Columbia Orchestra horn section with the 2008-2009 Season. A native of Farmingdale, New York, he began his horn studies at the age of 12. His teachers include Harry and Arthur Berv, former members of the NBC Symphony under Arturo Toscanini; Samuel Ramsay, former member of the National Symphony Orchestra and the Kennedy Center Opera House Orchestra; Forrest Standley, former principal horn of the Pittsburgh Symphony Orchestra; and Philip Myers, principal horn of the New York Philharmonic.</p>
@@ -5347,7 +7757,7 @@ INSERT INTO "roster_orchestramember" VALUES(94,'Jeffrey','','Girdler',14,0,0,0,'
 
 <p>Jeff devotes much of his time to teaching privately and coaching student chamber ensembles. Many of his former students perform professionally with ensembles such as the Baltimore Symphony Orchestra, the National Symphony Orchestra, the Maryland Symphony, the National Philharmonic, major armed services bands, and as successful music educators all over the United States. He has been on the faculty of Prince Georges’ Community College, Howard County Community College, and The Catholic University of America. From 1996 through 2000, he was the adjunct professor of horn at the University of Maryland School of Music, College Park where he taught private studio lessons and conducted the horn ensemble and brass ensemble. While at the University, he was the coordinator of the very popular University of Maryland “Horn Fest” which drew such artists as Barry Tuckwell, Erick Ruske, David Jolly and Peter Landgren.</p>
 
-<p>Jeff lives in Columbia, Maryland with his wife Barbara who plays English horn with the Columbia Orchestra. He is an Educational Specialist/Artist for the C. G. Conn Company. Jeff Girdler performs exclusively on the Conn 8-D French horn.</p>','src_imgs/members/Jeff_Girdler.jpg',1846,0,NULL);
+<p>Jeff lives in Columbia, Maryland with his wife Barbara who plays English horn with the Columbia Orchestra. He is an Educational Specialist/Artist for the C. G. Conn Company. Jeff Girdler performs exclusively on the Conn 8-D French horn.</p>','src_imgs/members/Jeff_Girdler.jpg',2307,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(95,'Nancy','','Corporon',14,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(96,'Jessica','','Hughes',14,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(97,'Pamela','','Scheuermann',14,0,0,0,'','',0,1,NULL);
@@ -5370,7 +7780,7 @@ INSERT INTO "roster_orchestramember" VALUES(99,'Randy','','Malm',17,0,0,0,'<p>Co
 
 <p>I also play in a trombone choir which is (usually) 12 trombones, playing under the direction of David Fetter, a former Principal Trombone in the Baltimore Symphony Orchestra. </p>
 
-<p>If you are in the market for any home improvements, please check my ad in the Orchestra Programs.</p>','src_imgs/members/Randy2.jpg',2555,0,NULL);
+<p>If you are in the market for any home improvements, please check my ad in the Orchestra Programs.</p>','src_imgs/members/Randy2.jpg',2959,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(100,'Randolph','','Capone',18,0,0,0,'<p>Columbia Orchestra Member Since: 2005</p>
 
 <p>Bass trombonist Randy Capone was born in Syracuse, NY and switched from piano to trombone at age 9 after watching Bob Havens perform on the Lawrence Welk Show.  His early teachers included Al Balestra, Jerry Natoli, John Besten, and Bill Harris.  He won the NY State School Music Association solo competition for bass trombone in 1985 while playing with the Syracuse Symphony Youth Orchestra.  He later studied with Harold Van Schaik and George Osborne at The Eastman School of Music. He’s played with the Syracuse Symphony Orchestra, the Utica Symphony Orchestra, the Syracuse Summer Festival Orchestra, the University of Rochester Symphony Orchestra, the Emory Atlanta Orchestra, and the Regal Brass Quintet.  He plays a 1986 Bach Stradivarius 50 B3L with a custom Schilke mouthpiece.</p>
@@ -5379,7 +7789,7 @@ INSERT INTO "roster_orchestramember" VALUES(100,'Randolph','','Capone',18,0,0,0,
 
 
 
-','src_imgs/members/Randy_Capone2.jpg',1897,0,NULL);
+','src_imgs/members/Randy_Capone2.jpg',2275,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(101,'Douglas','','Lee',19,1,0,0,'<p>Columbia Orchestra member since: 1996 </p>
 
 <p>What do you do for a living?  I’m an attorney with the federal court system. </p>
@@ -5402,9 +7812,9 @@ INSERT INTO "roster_orchestramember" VALUES(101,'Douglas','','Lee',19,1,0,0,'<p>
 
 <p>Favorite TV shows?  “Friday Night Lights” </p>
 
-<p>Other surprising facts about you?  I was born in North Dakota.  I’m married to Lynn Halverson, a former cello player in the orchestra (see dress rehearsal story above).  We collect many, many books, especially cookbooks.  I also collect an insane number of CDs.  I was a park ranger at Natural Bridges National Monument, Utah in 1976, the summer after my freshman year in college.  I was a trial lawyer in Philadelphia before moving to the D.C. area in 1989 (in another life...)   </p>','src_imgs/members/DougLee.JPG',2539,0,NULL);
+<p>Other surprising facts about you?  I was born in North Dakota.  I’m married to Lynn Halverson, a former cello player in the orchestra (see dress rehearsal story above).  We collect many, many books, especially cookbooks.  I also collect an insane number of CDs.  I was a park ranger at Natural Bridges National Monument, Utah in 1976, the summer after my freshman year in college.  I was a trial lawyer in Philadelphia before moving to the D.C. area in 1989 (in another life...)   </p>','src_imgs/members/DougLee.JPG',2945,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(102,'Sarah','','Knapp',19,0,0,0,'','',0,1,NULL);
-INSERT INTO "roster_orchestramember" VALUES(103,'Nancy','','Smith',22,0,0,0,'<p>Nancy Smith holds bachelors and masters degrees in Piano Performance from the Eastman School of Music and the Florida State University School of Music, respectively.  Since 2002, she has been Pianist of the Columbia Orchestra.  Previously, Nancy performed with the Florida State University Symphony Orchestra, and as pianist with numerous choral groups.  Her chamber music experience extends to performances as part of the International Institute for Chamber Music, the Sarasota Music Festival, the Festival of New Music, the Dickinson Piano Quartet, and The Columbia Orchestra Trio.  Over the years, Nancy’s career has morphed from free-lance musician to a career that has included stints in arts administration, non-profit management, and proposal development.  Her career has included tenures as Manager of the Tallahassee Symphony Orchestra, service with the Florida Arts Council, Executive Director of AEMS:  Arts Education in Maryland Schools Alliance, and work for the national consulting company MGT of America.  Currently, Nancy is Director of Grants Development for The Community College of Baltimore County, where she oversees the design of projects in a broad array of disciplines.  In 2010, with her help, the college received more than $10 million in grant funding. </p>','src_imgs/members/Nancy_Smith_Color.JPG',2703,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(103,'Nancy','','Smith',22,0,0,0,'<p>Nancy Smith holds bachelors and masters degrees in Piano Performance from the Eastman School of Music and the Florida State University School of Music, respectively.  Since 2002, she has been Pianist of the Columbia Orchestra.  Previously, Nancy performed with the Florida State University Symphony Orchestra, and as pianist with numerous choral groups.  Her chamber music experience extends to performances as part of the International Institute for Chamber Music, the Sarasota Music Festival, the Festival of New Music, the Dickinson Piano Quartet, and The Columbia Orchestra Trio.  Over the years, Nancy’s career has morphed from free-lance musician to a career that has included stints in arts administration, non-profit management, and proposal development.  Her career has included tenures as Manager of the Tallahassee Symphony Orchestra, service with the Florida Arts Council, Executive Director of AEMS:  Arts Education in Maryland Schools Alliance, and work for the national consulting company MGT of America.  Currently, Nancy is Director of Grants Development for The Community College of Baltimore County, where she oversees the design of projects in a broad array of disciplines.  In 2010, with her help, the college received more than $10 million in grant funding. </p>','src_imgs/members/Nancy_Smith_Color.JPG',3259,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(104,'Meredith','','Mancini',24,0,0,0,'<p>Columbia Orchestra Member since: 1999 
 
 <p>Harpist, Meredith Mancini, is an active free-lance harpist in the Washington/Baltimore metropolitan area. Meredith began playing the harp at age 8. She is a cum Laude graduate of The Benjamin T. Rome School of Music at The Catholic University of America, where she studied with Jeanne Chalifoux. She has also trained under Alice Chalifoux at the Salzedo Summer Harp Colony.  </p>
@@ -5413,7 +7823,7 @@ INSERT INTO "roster_orchestramember" VALUES(104,'Meredith','','Mancini',24,0,0,0
 
 <p>Ms. Mancini is an active harp instructor in the Washington/Baltimore area of all ages and abilities. She has been the harp instructor for the D.C. Youth Orchestra Program for over 15 years. She is currently the harp instructor for Montgomery College, and maintains an active private studio as well. She has previously taught at Catholic University and the Ottley School of Music. </p>
 
-<p>Meredith has been an active harpist for weddings, receptions, and all special events for over 20 years. Ms. Mancini is a published arranger for harp ensembles, solos, and musical scores.</p>','src_imgs/members/MeredithMancini.jpg',2667,0,NULL);
+<p>Meredith has been an active harpist for weddings, receptions, and all special events for over 20 years. Ms. Mancini is a published arranger for harp ensembles, solos, and musical scores.</p>','src_imgs/members/MeredithMancini.jpg',3060,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(105,'Jeffrey ','','Soulen',21,1,0,0,'<p>Columbia Orchestra Member since: 1992</p>
 
 <p>Timpanist Jeff Soulen began playing percussion in 10th grade when his school band director,
@@ -5429,7 +7839,7 @@ orchestras since then and enjoys playing occasional freelance gigs as well.</p>
 full time private practice in Ellicott City.</p>
 
 <p>When not at work or playing music, he is likely be found in the great outdoors with his family
-and friends or hosting meditation at the <a class="bodylink" href="http://www.hocodharmagroup.org" target="co_link" title="Pop-up">Howard County Dharma Group</a>.</p>','src_imgs/members/Jeff_Soulen2.jpg',1748,0,NULL);
+and friends or hosting meditation at the <a class="bodylink" href="http://www.hocodharmagroup.org" target="co_link" title="Pop-up">Howard County Dharma Group</a>.</p>','src_imgs/members/Jeff_Soulen2.jpg',2161,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(106,'Gretchen ','','McCracken',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(107,'Greg','','Herron',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(108,'Ken','','Walton',20,0,0,0,'<p>I started my musical studies with piano lessons when I was 9 years  
@@ -5447,13 +7857,13 @@ played in everything from rock bands to big bands, wedding combos,
 church praise bands, musical theatre and more!</p>
 
 <p>When not performing or going to concerts, I enjoy running, biking and  
-hiking.  I am also a fan of both college and professional sports.</p>','src_imgs/members/Ken.jpg',2463,0,NULL);
+hiking.  I am also a fan of both college and professional sports.</p>','src_imgs/members/Ken.jpg',2853,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(109,'Jane','','Creagan',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(110,'Randall','','Stewart',26,0,0,0,'<p>Randall Stewart was named Assistant Conductor of the Columbia Orchestra in September 2009. Mr. Stewart founded the Baltimore Sinfonietta in 2004 to bring unusual orchestral programming to the region. He has been active as an operatic conductor, having led young artist performances <i>Le Nozze di Figaro, Il barbiere di Siviglia,</i> and <i>Die Zauberflöte</i> in New York and <i>Il Coronazione di Poppea</i> at Catholic University in Washington. In the sphere of Musical Theater, he has conducted performances of <i>The Music Man</i> with the Washington Savoyards and <i>Sweeney Todd</i> at Catholic University. </p>
 
 <p>Mr. Stewart’s has taught instrumental music in Maryland public schools for twelve years, serving as the band director at Catoctin High School in Thurmont from 1998 to 2001 and Eastern Technical High School in Essex from 2001 to 2008. He presently teaches instrumental music at Dundalk Middle School.</p>
 
-<p>Mr. Stewart is a candidate for the Doctor of Musical Arts Degree in Orchestral Conducting at The Catholic University of America in Washington, D.C, where he studies with Maestro David Searle. He has also studied with Kenneth Kiesler and Gustav Meier.</p>','',516,1,NULL);
+<p>Mr. Stewart is a candidate for the Doctor of Musical Arts Degree in Orchestral Conducting at The Catholic University of America in Washington, D.C, where he studies with Maestro David Searle. He has also studied with Kenneth Kiesler and Gustav Meier.</p>','',532,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(111,'Brandi ','','Healey',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(112,'Suzanne','','Sherwood',3,0,0,0,'<p>Columbia Orchestra Member Since: 2010</p>
 
@@ -5467,27 +7877,27 @@ INSERT INTO "roster_orchestramember" VALUES(112,'Suzanne','','Sherwood',3,0,0,0,
 
  
 
-<p>When I''m not working I enjoy sewing, reading and some video games. </p>','',979,0,NULL);
+<p>When I''m not working I enjoy sewing, reading and some video games. </p>','',1116,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(113,'Tedd','','Griepentrog',28,0,0,0,'<p>Tedd Griepentrog served with the U.S. Army Field Band of Washington, DC, the military’s premier touring concert band, for 20 years. As Saxophone Soloist, he performed in all 50 states and 14 countries, premiered 12 new works for saxophone, and was featured in numerous television broadcasts and recordings. As Educational Activities Coordinator, he developed the Field Band’s Legacy CD reference recordings and Instructional Video series, and coordinated clinics and performances that annually reached more than 100,000 students across the nation. During his tenure, he performed for every U.S. President from Ronald Reagan to George W. Bush.</p>
 
 <p>Mr. Griepentrog served as a saxophone clinician for the Leblanc/Yanagisawa Corporation and received the 2003 Outstanding Music Educator Award from MENC—The National Association for Music Education. He has performed with the Boston Pops, Cincinnati Pops, Milwaukee Symphony, and Baltimore Symphony Orchestra. He was featured in a cover story in the internationally-distributed Saxophone Journal magazine. </p>
 
 <p>He has been a presenter at conferences of the Music Educators National Conference, the Network of Visual and Performing Arts Schools, the National Association of Partners in Education, Created to Praise, and the National Association of Secondary School Principals. He holds a Bachelor of Fine Arts in Music Education from the University of Wisconsin-Milwaukee and a Master of Arts in Arts Administration from Goucher College.</p>
 
-<p>Since retiring from the military in 2003, Mr. Griepentrog serves as Executive Director of the Columbia Orchestra and teaches Band and General Music at St. Paul’s Lutheran School in Glen Burnie, MD. He and his wife, Maureen Griepentrog, publish their choral compositions and band arrangements through their company, Treble C Music.</p>','src_imgs/members/Tedd_Griepentrog.jpg',2592,0,NULL);
+<p>Since retiring from the military in 2003, Mr. Griepentrog serves as Executive Director of the Columbia Orchestra and teaches Band and General Music at St. Paul’s Lutheran School in Glen Burnie, MD. He and his wife, Maureen Griepentrog, publish their choral compositions and band arrangements through their company, Treble C Music.</p>','src_imgs/members/Tedd_Griepentrog.jpg',3084,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(114,'Greg','','Tsalikis',20,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(115,'Elizabeth','','Horst',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(116,'Doug','','Dean',5,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(117,'Erin','','Hedden',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(118,'Jessica','','Liberati',2,0,0,0,'','',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(119,'Adam','','Waickman',2,0,0,0,'<p>Adam is a recent transplant to the Columbia area, originally hailing from Northern NY. He completed his bachelor degree in biological sciences at Cornell University in 2008 and is currently pursuing his PhD in immunology at the Johns Hopkins School of Medicine. He has previously played with the Cornell University Symphony Orchestra under the direction of Chris Kim, and with several smaller chamber groups. He currently lives in Elkridge with his wife Kathryn (who is a violist in the Columbia Orchestra).</p>','src_imgs/members/Adam_Waickman.jpg',2096,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(119,'Adam','','Waickman',2,0,0,0,'<p>Adam is a recent transplant to the Columbia area, originally hailing from Northern NY. He completed his bachelor degree in biological sciences at Cornell University in 2008 and is currently pursuing his PhD in immunology at the Johns Hopkins School of Medicine. He has previously played with the Cornell University Symphony Orchestra under the direction of Chris Kim, and with several smaller chamber groups. He currently lives in Elkridge with his wife Kathryn (who is a violist in the Columbia Orchestra).</p>','src_imgs/members/Adam_Waickman.jpg',2520,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(120,'Esther','Wagner','Yuan',2,0,0,0,'<p>Mrs. Esther Wagner-Yuan holds a bachelor''s degree in violin performance from Duquesne University in Pittsburgh, PA.  She began playing violin at the age of 3, studying using Suzuki method, then with Pittsburgh Symphony members.  She performed as a free-lance musician in Pittsburgh for several years, playing in local orchestras and string quartets.</p>
 
 <p>She holds a master''s degree in elementary education from California University of Pennsylvania, and taught sixth grade for the past two years in Virginia.  Before that, she taught private lessons extensively.  She also directed the California University of PA''s string ensemble and taught lessons as an adjunct professor there.</p>
 
 <p>Mrs. Wagner-Yuan plays jazz and other styles with the band, Mandorla, and has played with several other groups: Joy Ike, B & G, Nadina''s Cube, and others.  She has had the opportunity to play jazz at clubs in Pittsburgh, wine festivals in VA, and at Twins in DC.</p>
 
-<p>Currently, after moving to the DC area since this summer, she is enjoying playing violin in the Columbia Orchestra, playing with Mandorla, and babysitting her niece and nephew.  Also, she and her husband are expecting a baby girl this winter.</p>','',494,0,NULL);
+<p>Currently, after moving to the DC area since this summer, she is enjoying playing violin in the Columbia Orchestra, playing with Mandorla, and babysitting her niece and nephew.  Also, she and her husband are expecting a baby girl this winter.</p>','',644,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(121,'Kate','','Kerr',3,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(122,'Dami','','Soh',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(125,'Shari','','Rolnick',1,0,0,0,'','',0,0,NULL);
@@ -5498,7 +7908,7 @@ INSERT INTO "roster_orchestramember" VALUES(129,'Amy','','Sexauer',3,0,0,0,'',''
 INSERT INTO "roster_orchestramember" VALUES(130,'Katie','','Kimble',3,0,0,0,'
 <p>Katie Kimble is a Columbia native, returning to the area after a brief hiatus to upstate NY to earn her bachelor degree in viola performance and music education from Ithaca College where she studied with Debra Moree. Her orchestral experience includes playing with the Cornell Symphony Orchestra under the direction of Chris Kim, and the Ithaca College Chamber and Symphony Orchestras under the direction of Jeff Meyer.</p>
 
-<p>She currently teaches elementary school strings in Anne Arundel County and lives in Elkridge with her husband, and fellow Columbia Orchestra member, Adam and their dog Angua.  When not teaching or playing music, Katie coaches rock climbing at Earth Treks Climbing Center.</p>','src_imgs/members/Katie_Kimble.JPG',1831,0,NULL);
+<p>She currently teaches elementary school strings in Anne Arundel County and lives in Elkridge with her husband, and fellow Columbia Orchestra member, Adam and their dog Angua.  When not teaching or playing music, Katie coaches rock climbing at Earth Treks Climbing Center.</p>','src_imgs/members/Katie_Kimble.JPG',2263,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(131,'Gregory','','Messa',20,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(132,'Christina','','Hernandez',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(133,'Eugene','','Bayer',17,1,0,0,'','',0,0,NULL);
