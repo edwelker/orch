@@ -40,6 +40,7 @@ urlpatterns = patterns('',
     (r'^youngartists\.shtml', lambda request: HttpResponsePermanentRedirect('/young_artist_competition')),
     (r'^index\.shtml', lambda request: HttpResponsePermanentRedirect('/')),
     (r'^compcomp\.shtml', lambda request: HttpResponsePermanentRedirect('/composer_competition')),
+    (r'^donation\.shtml', lambda request: HttpResponsePermanentRedirect('/donate')),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:
