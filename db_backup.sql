@@ -287,11 +287,11 @@ CREATE TABLE "auth_user" (
     "last_login" datetime NOT NULL,
     "date_joined" datetime NOT NULL
 );
-INSERT INTO "auth_user" VALUES(1,'ewelker','','','ewelker@cdepot.com','sha1$17872$ed010e2b63a304878bdddb72fd11df8f6d5dd1cb',1,1,1,'2011-06-28 12:39:12.398558','2010-06-12 00:14:25.526220');
+INSERT INTO "auth_user" VALUES(1,'ewelker','','','ewelker@cdepot.com','sha1$17872$ed010e2b63a304878bdddb72fd11df8f6d5dd1cb',1,1,1,'2011-07-16 18:15:14.978466','2010-06-12 00:14:25.526220');
 INSERT INTO "auth_user" VALUES(2,'jlmus07','','','','sha1$29c82$9ff62190f9086058c7a911baba830c633cb3d81c',1,1,0,'2011-07-04 11:21:10.370245','2010-07-28 15:19:18');
-INSERT INTO "auth_user" VALUES(3,'vacosta','Viviana','Acosta','viviana.acosta@gmail.com','sha1$38960$c084b2329ed3bc01a54aed6157e18e317b50d4f3',1,1,0,'2011-06-04 12:30:26.636455','2010-09-27 11:55:12');
+INSERT INTO "auth_user" VALUES(3,'vacosta','Viviana','Acosta','viviana.acosta@gmail.com','sha1$38960$c084b2329ed3bc01a54aed6157e18e317b50d4f3',1,1,0,'2011-07-12 18:40:14.343895','2010-09-27 11:55:12');
 INSERT INTO "auth_user" VALUES(4,'jason','General','Users','','sha1$aec97$e06b18619fafa8f3a187ef8b1044e32bca06d46a',0,1,0,'2010-10-23 16:18:40','2010-10-23 16:18:40');
-INSERT INTO "auth_user" VALUES(5,'paulli','Paul','Li','','sha1$91bfa$b09be0ef17e91c03b80a91b8885b3d3e88240b70',1,1,0,'2011-07-01 21:42:13.554781','2010-10-28 20:31:44');
+INSERT INTO "auth_user" VALUES(5,'paulli','Paul','Li','','sha1$91bfa$b09be0ef17e91c03b80a91b8885b3d3e88240b70',1,1,0,'2011-07-16 18:16:50.060540','2010-10-28 20:31:44');
 INSERT INTO "auth_user" VALUES(6,'jsoulen','Jeff','Soulen','','sha1$316fe$269d5c7c4efd9519af5ca6b879e2601a2c306bd3',1,1,0,'2010-10-30 15:11:49.290456','2010-10-28 21:33:04');
 INSERT INTO "auth_user" VALUES(7,'fakeuser','','','','sha1$092dd$81ae5c8592b76e3f4d51bc401eb488ec392604d7',1,1,0,'2010-12-28 00:36:53.288009','2010-12-28 00:36:26');
 CREATE TABLE "auth_message" (
@@ -711,6 +711,28 @@ INSERT INTO "django_session" VALUES('db6aee0e67ad808a2f02e89b50028937','gAJ9cQEo
 cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwJ1Ljg2ZjA5ZWZkMWZlN2U3MjYwZGJi
 MWJjMDVmYjA5NjBj
 ','2011-07-18 11:21:10.407353');
+INSERT INTO "django_session" VALUES('1ef98879a37fa1f7d6104a00152245c4','gAJ9cQFVCnRlc3Rjb29raWVxAlUGd29ya2VkcQNzLmY0NGE5MzA4NmNkOWQ3NDY5MWZjZGU3MWM3
+ODcxYWUy
+','2011-07-18 12:01:50.332328');
+INSERT INTO "django_session" VALUES('a5e5609d3b899d47429e8620cb017bc8','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LjlmMjg2Zjg1YjVkMTE3N2Y5ODg0
+NTk4OWJjZTFiNjg4
+','2011-07-22 20:57:38.441274');
+INSERT INTO "django_session" VALUES('36532c16fd2a7c5ae51272d917d17488','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwN1LjI3NGFmOGRlZTRjOTgyMTVlZmRi
+YTQwMWU5NDAxYmEy
+','2011-07-26 18:40:14.355251');
+INSERT INTO "django_session" VALUES('9ec7e47502506bb6e68f02c380267af2','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LjlmMjg2Zjg1YjVkMTE3N2Y5ODg0
+NTk4OWJjZTFiNjg4
+','2011-07-30 18:15:14.995794');
+INSERT INTO "django_session" VALUES('91eafe195e462594bdf0d07db9844e18','gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k
+cy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwV1LjMwYzkzZmI3NDZlYTg1NTdhYzE3
+NmE1N2E2YzQ2Njg0
+','2011-07-30 18:16:50.085783');
+INSERT INTO "django_session" VALUES('4fe2ef39fb4514d00ed39af4a468364f','gAJ9cQFVCnRlc3Rjb29raWVxAlUGd29ya2VkcQNzLmY0NGE5MzA4NmNkOWQ3NDY5MWZjZGU3MWM3
+ODcxYWUy
+','2011-08-03 07:40:56.362282');
 CREATE TABLE "django_site" (
     "id" integer NOT NULL PRIMARY KEY,
     "domain" varchar(100) NOT NULL,
@@ -2376,6 +2398,86 @@ INSERT INTO "django_admin_log" VALUES(1646,'2011-06-28 23:53:08.432182',5,9,'6',
 INSERT INTO "django_admin_log" VALUES(1647,'2011-06-28 23:59:07.144076',5,15,'9','Centennial Park',2,'Changed url.');
 INSERT INTO "django_admin_log" VALUES(1648,'2011-07-01 21:46:39.474932',5,19,'45','Penny  Zahn',2,'Changed bio.');
 INSERT INTO "django_admin_log" VALUES(1649,'2011-07-04 11:22:34.035778',2,16,'90','Orchestral Fireworks',2,'Changed date and pieces.');
+INSERT INTO "django_admin_log" VALUES(1650,'2011-07-04 12:02:59.317958',1,21,'3','News object',2,'Changed body.');
+INSERT INTO "django_admin_log" VALUES(1651,'2011-07-08 20:59:53.402524',1,9,'13','/auditions/ -- Auditions',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1652,'2011-07-08 23:25:02.633889',5,9,'13','/auditions/ -- Auditions',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1653,'2011-07-09 00:17:51.150548',5,9,'13','/auditions/ -- Auditions',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1654,'2011-07-09 00:19:38.375984',5,9,'13','/auditions/ -- Auditions',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1655,'2011-07-09 00:21:43.152763',5,9,'13','/auditions/ -- Auditions',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1656,'2011-07-09 00:23:17.129083',5,9,'13','/auditions/ -- Auditions',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1657,'2011-07-09 00:27:11.371850',5,19,'21','Jon  Teske',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1658,'2011-07-09 00:41:04.100494',5,19,'21','Jon  Teske',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1659,'2011-07-10 19:03:44.007309',2,11,'64','Christopher Rose',1,'');
+INSERT INTO "django_admin_log" VALUES(1660,'2011-07-10 19:10:02.160835',2,12,'179','Higdon, Jennifer  - Percussion Concerto',2,'Changed soloist.');
+INSERT INTO "django_admin_log" VALUES(1661,'2011-07-10 19:13:10.953190',2,19,'25','Jonathan  Chang',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1662,'2011-07-10 21:21:51.983859',5,19,'21','Jon  Teske',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1663,'2011-07-10 21:22:18.075557',5,19,'118','Jessica  Liberati',2,'Changed instrument.');
+INSERT INTO "django_admin_log" VALUES(1664,'2011-07-10 21:22:35.448131',5,19,'28','Heidi  Goldberg',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1665,'2011-07-10 21:22:58.851276',5,19,'29','Ariela  Haber',2,'Changed first_name.');
+INSERT INTO "django_admin_log" VALUES(1666,'2011-07-10 21:23:20.531958',5,19,'120','Esther  Wagner-Yuan',2,'Changed middle_name and last_name.');
+INSERT INTO "django_admin_log" VALUES(1667,'2011-07-10 21:23:32.456887',5,19,'120','Esther  Wagner-Yuan',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1668,'2011-07-10 21:24:19.394031',5,19,'2','Andrea  Aldrich',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1669,'2011-07-10 21:24:42.060285',5,19,'34','Dorothy  Elkin',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1670,'2011-07-10 21:24:54.925273',5,19,'37','Susan  Laessig',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1671,'2011-07-10 21:25:11.308563',5,19,'112','Suzanne  Sherwood',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1672,'2011-07-10 21:25:31.380411',5,19,'53','Jonathan  Terry',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1673,'2011-07-10 21:26:43.534433',5,19,'56','Yoshiaki  Horiguchi',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1674,'2011-07-10 21:27:18.190843',5,19,'66','Peggy   White',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1675,'2011-07-10 21:28:22.161155',5,19,'137','Lynda  Aldana',1,'');
+INSERT INTO "django_admin_log" VALUES(1676,'2011-07-10 21:29:54.609257',5,19,'81','Melissa  Feliciano',2,'Changed instrument, second_instrument and noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1677,'2011-07-10 21:30:49.411228',5,19,'81','Melissa  Feliciano',2,'Changed second_instrument.');
+INSERT INTO "django_admin_log" VALUES(1678,'2011-07-10 21:31:07.266814',5,19,'138','Melissa  Feliciano',1,'');
+INSERT INTO "django_admin_log" VALUES(1679,'2011-07-10 21:32:00.882432',5,19,'80','Andrew  Delclos',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1680,'2011-07-10 21:32:09.583485',5,19,'82','Andrew  Delclos',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1681,'2011-07-11 21:10:56.253262',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1682,'2011-07-11 21:14:57.133456',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1683,'2011-07-11 21:18:31.337937',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1684,'2011-07-11 21:22:20.043385',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1685,'2011-07-11 21:22:50.750429',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1686,'2011-07-11 21:23:10.358832',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1687,'2011-07-11 21:23:43.929748',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1688,'2011-07-11 21:25:05.999341',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1689,'2011-07-11 21:25:29.006178',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1690,'2011-07-11 21:26:46.767615',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1691,'2011-07-11 21:29:07.941160',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1692,'2011-07-11 21:29:31.831710',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1693,'2011-07-11 21:33:24.213756',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1694,'2011-07-11 21:33:54.525992',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1695,'2011-07-11 21:34:53.611242',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1696,'2011-07-11 21:36:48.735230',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1697,'2011-07-11 21:37:41.371711',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1698,'2011-07-11 21:39:45.744520',5,21,'4','News object',1,'');
+INSERT INTO "django_admin_log" VALUES(1699,'2011-07-11 21:40:20.322923',5,21,'4','News object',2,'Changed post_date.');
+INSERT INTO "django_admin_log" VALUES(1700,'2011-07-11 21:43:28.774879',5,21,'4','News object',2,'Changed body.');
+INSERT INTO "django_admin_log" VALUES(1701,'2011-07-11 21:44:37.365359',5,9,'21','/employment/ -- Employment',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1702,'2011-07-12 18:42:54.602812',3,9,'17','/member_schedule/ -- Member Schedule',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1703,'2011-07-12 18:47:39.246992',3,9,'17','/member_schedule/ -- Member Schedule',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1704,'2011-07-12 19:38:03.021334',3,9,'17','/member_schedule/ -- Member Schedule',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1705,'2011-07-12 19:38:24.159978',3,9,'17','/member_schedule/ -- Member Schedule',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1706,'2011-07-12 20:26:35.191796',3,9,'25','/about_the_orchestra/ -- About The Orchestra',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1707,'2011-07-12 20:28:45.688567',3,9,'25','/about_the_orchestra/ -- About The Orchestra',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1708,'2011-07-15 18:10:55.350008',5,21,'3','News object',2,'Changed body.');
+INSERT INTO "django_admin_log" VALUES(1709,'2011-07-16 18:17:40.764353',5,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1710,'2011-07-16 18:17:52.258140',5,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1711,'2011-07-16 18:19:14.776632',5,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1712,'2011-07-16 18:19:36.105683',5,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1713,'2011-07-16 18:19:46.636751',3,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1714,'2011-07-16 18:20:24.897910',5,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1715,'2011-07-16 18:20:43.108494',5,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1716,'2011-07-16 18:49:00.618283',3,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1717,'2011-07-16 18:49:21.262191',3,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1718,'2011-07-16 18:49:42.686720',3,9,'26','/partners/ -- Partners & Sponsors',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1719,'2011-07-16 19:00:33.970971',3,9,'26','/partners/ -- Partners & Sponsors',2,'No fields changed.');
+INSERT INTO "django_admin_log" VALUES(1720,'2011-07-16 21:50:57.225068',5,19,'66','Peggy   White',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1721,'2011-07-16 21:51:32.170370',5,19,'137','Lynda  Aldana',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1722,'2011-07-16 21:53:45.906016',5,19,'56','Yoshiaki  Horiguchi',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1723,'2011-07-16 21:54:07.128149',5,19,'53','Jonathan  Terry',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1724,'2011-07-16 22:03:02.522949',5,19,'112','Suzanne  Sherwood',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1725,'2011-07-16 22:03:42.375097',5,19,'37','Susan  Laessig',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1726,'2011-07-16 22:04:17.327228',5,19,'34','Dorothy  Elkin',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1727,'2011-07-16 22:08:27.548639',5,19,'28','Heidi  Goldberg',2,'Changed noncurrent_member.');
+INSERT INTO "django_admin_log" VALUES(1728,'2011-07-16 23:10:54.641079',5,9,'9','/contact_us/ -- Contact Us',2,'Changed content.');
+INSERT INTO "django_admin_log" VALUES(1729,'2011-07-16 23:13:01.059300',5,9,'9','/contact_us/ -- Contact Us',2,'Changed content.');
 CREATE TABLE "django_flatpage_sites" (
     "id" integer NOT NULL PRIMARY KEY,
     "flatpage_id" integer NOT NULL,
@@ -2388,22 +2490,16 @@ INSERT INTO "django_flatpage_sites" VALUES(21,10,1);
 INSERT INTO "django_flatpage_sites" VALUES(26,4,1);
 INSERT INTO "django_flatpage_sites" VALUES(31,3,1);
 INSERT INTO "django_flatpage_sites" VALUES(33,12,1);
-INSERT INTO "django_flatpage_sites" VALUES(35,13,1);
 INSERT INTO "django_flatpage_sites" VALUES(47,22,1);
 INSERT INTO "django_flatpage_sites" VALUES(51,23,1);
-INSERT INTO "django_flatpage_sites" VALUES(56,21,1);
-INSERT INTO "django_flatpage_sites" VALUES(58,9,1);
 INSERT INTO "django_flatpage_sites" VALUES(61,11,1);
-INSERT INTO "django_flatpage_sites" VALUES(72,26,1);
 INSERT INTO "django_flatpage_sites" VALUES(84,19,1);
 INSERT INTO "django_flatpage_sites" VALUES(86,28,1);
 INSERT INTO "django_flatpage_sites" VALUES(90,20,1);
 INSERT INTO "django_flatpage_sites" VALUES(92,2,1);
-INSERT INTO "django_flatpage_sites" VALUES(108,17,1);
 INSERT INTO "django_flatpage_sites" VALUES(137,36,1);
 INSERT INTO "django_flatpage_sites" VALUES(140,38,1);
 INSERT INTO "django_flatpage_sites" VALUES(145,8,1);
-INSERT INTO "django_flatpage_sites" VALUES(147,25,1);
 INSERT INTO "django_flatpage_sites" VALUES(158,37,1);
 INSERT INTO "django_flatpage_sites" VALUES(173,41,1);
 INSERT INTO "django_flatpage_sites" VALUES(174,42,1);
@@ -2428,6 +2524,12 @@ INSERT INTO "django_flatpage_sites" VALUES(219,48,1);
 INSERT INTO "django_flatpage_sites" VALUES(220,18,1);
 INSERT INTO "django_flatpage_sites" VALUES(221,49,1);
 INSERT INTO "django_flatpage_sites" VALUES(222,6,1);
+INSERT INTO "django_flatpage_sites" VALUES(223,13,1);
+INSERT INTO "django_flatpage_sites" VALUES(224,21,1);
+INSERT INTO "django_flatpage_sites" VALUES(225,17,1);
+INSERT INTO "django_flatpage_sites" VALUES(226,25,1);
+INSERT INTO "django_flatpage_sites" VALUES(227,26,1);
+INSERT INTO "django_flatpage_sites" VALUES(228,9,1);
 CREATE TABLE "django_flatpage" (
     "id" integer NOT NULL PRIMARY KEY,
     "url" varchar(100) NOT NULL,
@@ -2676,10 +2778,10 @@ application form (<a href="/uploads/2011/compcomp/compcompapp.pdf">PDF</a>)
 INSERT INTO "django_flatpage" VALUES(9,'/contact_us/','Contact Us','<h2>Contact Information</h2>
 
 <p>
-  If you would like information about Columbia Orchestra events and activities, <a class="bodylink" href="/mailing_list/">subscribe to our mailing list</a>.
+If you would like to keep up-to-date on Columbia Orchestra events and activities, subscribe to our mailing list.  To subscribe, just send an email to <a href="mailto:mailinglist@columbiaorchestra.org?subject=Columbia Orchestra Mailing List Request">mailinglist@columbiaorchestra.org</a> with your name, address, phone number, and email address.
 </p>
 
-
+<p><strong>Our Privacy Policy</strong>:  We will never share your information with any outside individuals or organizations without your permission. Period! The sole purpose of our mailing list is to provide information about Columbia Orchestra events and activities to those who have expressed interest in the orchestra.</p>
 
   <h3>Address:</h3>
 
@@ -2924,16 +3026,19 @@ INSERT INTO "django_flatpage" VALUES(13,'/auditions/','Auditions','<h2>Join the 
 <p>Please look around our web site to familiarize yourself with our orchestra. Here are some specific items you may be interested in:</p>
 <ul>
 <li>Rehearsal Schedule</li>
-<li><a href="/locations/">Rehearsal Locations</a></li>
+<li><a href="/locations/">Rehearsal Locations</a> (we rehearse on Mondays at the Gathering Place and have dress rehearsals at the Rouse Theater)</li>
 <li><a href="/season/">Concert Season</a></li>
 </ul>
 
-<p>Auditions will be held <b>Sunday, August 15, 2010 1:00 – 5:00 PM</b>
-and <b>Monday, August 16, 2010 7:00 – 10:00 PM</b>
-at Christ Episcopal Church, 6800 Oakland Mills Road, Columbia. for the following:</p>
+<p>Fall 2011 Auditions will be held <b>Sunday, August 14, 2010 1:00 – 5:00 PM</b>
+and <b>Monday, August 15, 2010 7:00 – 10:00 PM</b>
+at Christ Episcopal Church, 6800 Oakland Mills Road, Columbia, for the following:</p>
 
-<ul><li>Permanent positions Second Clarinet, Third/Auxiliary Clarinet (E-Flat, Bass), Section Percussion, and for all strings</li>
-<li>Substitute list for woodwinds, brass, and percussion </li></ul>
+<ul>
+<li>All string instruments</li>
+<li>Permanent position: Contrabassoon</li>
+<li>Substitute list for woodwinds, brass, and percussion </li>
+</ul>
 
 <p>For more information, please contact <a href="mailto:annesward@comcast.net">annesward@comcast.net</a> or 410-465-8777, extension 4.</p>',0,'',0);
 INSERT INTO "django_flatpage" VALUES(14,'/old/about_the_orchestra_pre20101213/','About The Orchestra','<h2>About The Columbia Orchestra</h2>
@@ -3581,6 +3686,436 @@ Medieval Times*</li>
 ',0,'',0);
 INSERT INTO "django_flatpage" VALUES(17,'/member_schedule/','Member Schedule','<h2>Members Schedule</h2>
 
+<p align="left"><b>2011-2012 Rehearsal Schedule (as of June 14, 2011)</b>
+
+<table class="sched">
+<tr>
+	<th>Date</th>
+	<th> Activity</th>
+	<th> Time</th>
+	<th> Location</th>    
+<tr/>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Sun, Aug 14</td>
+	<td> Auditions</td>
+	<td> 1:00 - 5:00 PM</td>
+	<td>Christ Episcopal</td>
+</tr>
+<tr>
+	<td> Mon, Aug 15</td>
+	<td> Auditions</td>
+	<td> 7:00 - 10:00 PM</td>
+	<td>Christ Episcopal</td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Mon, Aug 22</td>
+	<td> Rehearsal 1</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Aug 29</td>
+	<td> Rehearsal 2 (HCPSS begins)</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Sept 5</td>
+	<td> No Rehearsal (Labor Day) </td>
+	<td> </td>
+	<td> </td>
+</tr>
+<tr>
+	<td> Mon, Sept 12</td>
+	<td> Rehearsal 3 - Sectionals </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Sept 19</td>
+	<td> Rehearsal 4 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Sept 26</td>
+	<td> Rehearsal 5 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Oct 3</td>
+	<td> Rehearsal 6 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Oct 10</td>
+	<td> Rehearsal 7 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	
+	<td><b> Fri, Oct 14 </b></td>
+	<td><b> Dress Rehearsal </b></td>
+	<td><b> 7:30 - 10:15 PM</b></td>
+	<td><b> Jim Rouse Theatre</b></td>
+	
+</tr>
+<tr>
+	<b>
+	<td><b> Sat, Oct 15</b></td>
+	<td><b> CLASSICAL CONCERT #1 </b></td>
+	<td><b> 7:30 PM</b></td>
+	<td><b> Jim Rouse Theatre</b></td>
+	</b>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Mon, Oct 17</td>
+	<td> Rehearsal 1 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Oct 24</td>
+	<td> Rehearsal 2 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Oct 31</td>
+	<td> Rehearsal 3 - Sectionals </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td><b> Sat, Nov 5 </b></td>
+	<td><b> GOSPEL GOES CLASSICAL </b></td>
+	<td><b> TBD</b></td>
+	<td><b> Reid Temple AME</b></td>
+</tr>
+<tr>
+	<td> Mon, Nov 7</td>
+	<td> Rehearsal 4 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Nov 14</td>
+	<td> Rehearsal 5 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Nov 21</td>
+	<td> Rehearsal 6 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Nov 28</td>
+	<td> Rehearsal 7 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td><b> Thu, Dec 1 </b></td>
+	<td><b> Extra Rehearsal w/ Chorus</b></td>
+	<td><b> 7:30 - 10:15 PM</b></td>
+	<td><b> TBD (Not Jim Rouse Theatre)</b></td>
+</tr>
+<tr>
+	<td><b> Fri, Dec 2 </b></td>
+	<td><b> Dress Rehearsal</b></td>
+	<td><b> 7:30 - 10:15 PM</b></td>
+	<td><b> TBD (Not Jim Rouse Theatre)</b></td>
+</tr>
+<tr>
+	<td><b> Sat, Dec 3 </b></td>
+	<td><b> CLASSICAL CONCERT #2</b></td>
+	<td><b> 7:30PM</b></td>
+	<td><b> Jim Rouse Theatre</b></td>
+</tr>
+<tr>
+	<td><b> Sun, Dec 4 </b></td>
+	<td><b> Heritage Signature Chorale Concert</b></td>
+	<td><b> 3:00 PM (TBD) </b></td>
+	<td><b> Washington, DC (TBD)</b></td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Mon, Dec 5</td>
+	<td> Rehearsal 1 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Dec 12</td>
+	<td> Rehearsal 2 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Dec 19</td>
+	<td> No Rehearsal (Winter Break)</td>
+	<td> </td>
+	<td> </td>
+</tr>
+<tr>
+	<td> Mon, Dec 26</td>
+	<td> No Rehearsal (Winter Break)</td>
+	<td> </td>
+	<td> </td>
+</tr>
+<tr>
+	<td> Mon, Jan 2</td>
+	<td> Rehearsal 3 (HCPSS back) </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Jan 9</td>
+	<td> Rehearsal 4 </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Jan 16</td>
+	<td> Rehearsal 5 (MLK Day) </td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td><b> Sat, Jan 21 </b></td>
+	<td><b> Young Artist Competition</b></td>
+	<td><b> 9:00AM - 5:00PM </b></td>
+	<td><b> Christ Church </b></td>
+</tr>
+<tr>
+	<td><b> Sun, Jan 22 </b></td>
+	<td><b> Young Artist Competition</b></td>
+	<td><b> 1:00PM - 5:00PM </b></td>
+	<td><b> Christ Church </b></td>
+</tr>
+<tr>
+	<td> Mon, Jan 23</td>
+	<td> Rehearsal 6</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Jan 30</td>
+	<td> Rehearsal 7</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td><b> Fri, Feb 3</b></td>
+	<td><b> Dress Rehearsal</b></td>
+	<td><b> 7:30 - 10:15 PM</b></td>
+	<td><b> Jim Rouse Theatre</b></td>
+</tr>
+<tr>
+	<td><b> Fri, Feb 4</b></td>
+	<td><b> CLASSICAL CONCERT #3</b></td>
+	<td><b> 7:30</b></td>
+	<td><b> Jim Rouse Theatre</b></td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Mon, Feb 6</td>
+	<td> Rehearsal 1</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Feb 13</td>
+	<td> Rehearsal 2</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Feb 20</td>
+	<td> Rehearsal 3 (Presidents Day)</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td><b> Fri, Feb 24</b></td>
+	<td><b> Dress Rehearsal </b></td>
+	<td><b> 7:30 - 10:15 PM</b></td>
+	<td><b> Jim Rouse Theater</b></td>
+</tr>
+<tr>
+	<td><b> Sat, Feb 25</b></td>
+	<td><b> YOUNG PEOPLE''S </b></td>
+	<td><b> 12:30 & 3:00 PM</b></td>
+	<td><b> Jim Rouse Theater</b></td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Mon, Feb 27</td>
+	<td> Rehearsal 1</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Mar 5</td>
+	<td> Rehearsal 2</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Thu, Mar 8</td>
+	<td> Extra Rehearsal 3</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Mar 12</td>
+	<td> Rehearsal 4</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td><b> Fri, Mar 16</b></td>
+	<td><b> Dress Rehearsal</b></td>
+	<td><b> 7:30 - 10:00 PM</b></td>
+	<td><b> Jim Rouse Theatre</b></td>
+</tr>
+<tr>
+	<td><b> Sat, Mar 17</b></td>
+	<td><b> POPS CONCERT (St Pats) </b></td>
+	<td><b> 7:30</b></td>
+	<td><b> Jim Rouse Theatre</b></td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Mon, Mar 19</td>
+	<td> Rehearsal 1</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Mar 26</td>
+	<td> Rehearsal 2</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td><b> Wed, Mar 28(TBD)</b></td>
+	<td><b> HCPSS School Day Concert </b></td>
+	<td><b> AM TBD</b></td>
+	<td><b> TBD</b></td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td> Mon, Apr 2</td>
+	<td> No Rehearsal (Spring Break)</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Apr 9</td>
+	<td> Rehearsal 1 (Easter Monday)</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Apr 16</td>
+	<td> Rehearsal 2</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Apr 23</td>
+	<td> Rehearsal 3 - Sectionals</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, Apr 30</td>
+	<td> Rehearsal 4</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, May 7</td>
+	<td> Rehearsal 5</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, May 14</td>
+	<td> Rehearsal 6</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, May 21</td>
+	<td> Rehearsal 7</td>
+	<td> 7:30 - 10:00 PM</td>
+	<td> Gathering Place</td>
+</tr>
+<tr>
+	<td> Mon, May 28</td>
+	<td> No Rehearsal (Memorial Day)</td>
+	<td> </td>
+	<td> </td>
+</tr>
+<tr>
+	<td><b> Fri, Jun 1</b></td>
+	<td><b> Dress Rehearsal</b></td>
+	<td><b> 7:30 - 10:15 PM</b></td>
+	<td><b> Jim Rouse Theater</b></td>
+</tr>
+<tr>
+	<td><b> Sat, Jun 2</b></td>
+	<td><b> CLASSICAL CONCERT #4</b></td>
+	<td><b> 7:30 </b></td>
+	<td><b> Jim Rouse Theater</b></td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+<tr>
+	<td><b> TBD Jun</b></td>
+	<td><b> ST JOHN BAPTIST CHURCH</b></td>
+	<td><b> TBD </b></td>
+	<td><b> St John Baptist Church</b></td>
+</tr>
+<tr>
+	<td><b> TBD Jun</b></td>
+	<td><b> SUNSET SERENADE</b></td>
+	<td><b> 7:00 PM </b></td>
+	<td><b> Centennial Park</b></td>
+</tr>
+<tr>
+	<td colspan="4"><hr /> </td>
+</tr>
+</table>
+
+<!--
     <p align="center"><strong>2010-2011 Rehearsal Schedule (as of July 25, 2010)</strong> <br />
     </p>
     <p>Sun, Aug 15 Auditions 1:00 – 5:00 PM Christ Episcopal</p>
@@ -3660,6 +4195,8 @@ INSERT INTO "django_flatpage" VALUES(17,'/member_schedule/','Member Schedule','<
     <p>Mon, Jun 20 Rehearsal 7 7:30 – 10 PM  Gathering Place</p>
     <p>Mon, Jun 27 Rehearsal 7 7:30 – 10 PM  Gathering Place</p>
     <p><strong>Weds, Jun 29 CENTENNIAL PARK CONCERT: 6:00 Sound Check, 7:00 Concert</strong></p>
+
+-->
 ',0,'',0);
 INSERT INTO "django_flatpage" VALUES(18,'/stuff_from_jason/','Stuff From Jason','<h2>Stuff from Jason</h2>
 
@@ -4038,92 +4575,105 @@ INSERT INTO "django_flatpage" VALUES(20,'/press_room/','Press Room','<h2>Press R
 <p><strong>Aug 19, 2010:</strong> For our programming at a glance, download the <a class="bodylink" href="/uploads/2010/CO_Season_Overview_2010-11.pdf" target="co_link" title="Pop-up">2010-2011 Season Overview in PDF format.</a></p>',0,'',0);
 INSERT INTO "django_flatpage" VALUES(21,'/employment/','Employment','<h2>Employment Opportunities</h2>
 
-<h3>There are no open positions at this time.</h3>
-
-<!-- 
-
 <h3>ADMINISTRATIVE ASSISTANT VACANCY</h3>
 
-<p><strong>The Columbia Orchestra is seeking a part-time (up to 10 hours per week) Administrative Assistant.</strong> Hours are flexible, but include some business-day tasks and occasional evenings. Availability for all weekend concert dates is required (please see <a href="/season/">our concert schedule</a>). Must be able to provide own transportation to fulfill designated responsibilities throughout Howard County. The Administrative Assistant reports to the Executive Director.</p>
+<p>
+<a class="bodylink"
+href="/uploads/2011-12/CO_Admin_Assistant_Vacancy_2011.pdf"
+target="co_link" title="Pop-up">Click here for a PDF version of this
+vacancy posting.</a></p>
+
+<p><strong>The Columbia Orchestra is seeking a part-time Administrative
+Assistant ($11 per hour for up to 10 hours per week).</strong> Hours
+are flexible, but include some business-day tasks and occasional
+evenings. Availability for all weekend concert dates is required
+(<a href="/season/">click here for the season schedule</a>). Must be able to
+provide own transportation to fulfill designated responsibilities
+throughout Howard County. The Administrative Assistant reports to the
+Executive Director.</p>
 
 <p><strong>SPECIFIC DUTIES include, but are not limited to, the following:</strong></p>
-
 <ul>
-
 <li>
-<strong>Coordinate voicemail messaging,</strong> including setting up voicemail message system, updating announcements, checking voicemail daily, and relaying messages via E-mail to all concerned parties. Telephone individuals whose immediate action is required.
+<strong>Coordinate voicemail messaging,</strong> including setting up
+voicemail message system, updating announcements, checking voicemail
+daily, and relaying messages via E-mail to all concerned parties.
+Telephone individuals whose immediate action is required.
 </li>
-
 <li>
-<strong>Prepare and process all bulk mailings,</strong> including press releases, season brochures, concert announcements, donor campaigns, etc.
+<strong>Prepare and process all bulk mailings,</strong> including
+press releases, season brochures, concert announcements, donor
+campaigns, etc.
 </li>
-
 <li>
-<strong>Distribute flyers and tickets</strong> to ticket outlets, senior centers, and other established business locations.
+<strong>Distribute flyers and tickets</strong> to ticket outlets,
+senior centers, and other established business locations.
 </li>
-
 <li>
-<strong>Process and respond to all ticket requests,</strong> including subscription campaign, mail-in and online orders, and will-call requests.
+<strong>Process and respond to all ticket requests,</strong> including
+annual subscription campaign, mail-in and online orders, and will call
+requests.
 </li>
-
 <li>
-<strong>Manage databases</strong> of mailing lists, ticket purchasers, donors, and members.
+<strong>Manage databases</strong> of mailing lists, ticket purchasers,
+donors, and members.
 </li>
-
 <li>
-<strong>Coordinate volunteers</strong> for office assistance, ushering, and concession sales.
+<strong>Coordinate volunteers</strong> for office assistance,
+ushering, and concession sales.
 </li>
-
 <li>
-<strong>Manage Box Office</strong> for all concert performances, including onsite sale of tickets, reconciliation and reporting of concert receipts, and inventory of concessions and merchandise.
+<strong>Manage Box Office</strong> for all concert performances,
+including onsite sale of tickets, online purchases, credit card
+transactions, reconciliation and reporting of concert receipts, and
+inventory of concessions and merchandise.
 </li>
-
 </ul>
 
 <p><strong>SKILLS AND PREREQUISITES:</strong></p>
-
 <ul>
-
 <li>
 <strong>Self-motivation and ability to work without supervision.</strong>
 </li>
-
 <li>
 <strong>Strong interpersonal and communication skills.</strong>
 </li>
-
 <li>
-<strong>Musical experience is helpful,</strong> but not required.
+<strong>Musical experience</strong> is helpful, but not required.
 </li>
-
 <li>
-<strong>Working knowledge of all Microsoft Office applications.</strong> Familiarity with FileMaker Pro and Adobe Creative Suite (InDesign, Photoshop, Acrobat) or page layout programs a plus.
+<strong>Working knowledge of all Microsoft Office
+applications.</strong> Familiarity with FileMaker Pro and Adobe
+Creative Suite (InDesign, Photoshop, Acrobat) or page layout programs
+a plus.
 </li>
-
 <li>
 <strong>Knowledge of Howard County, especially Columbia and Ellicott City,</strong> considered helpful.
 </li>
-
 <li>
-<strong>Additional experience with bookkeeping (Peachtree) and/or development not required,</strong> but may result in additional hours and higher compensation.
+<strong>Additional experience with bookkeeping (Peachtree) and/or
+development</strong> not required, but may result in additional hours
+and higher compensation.
 </li>
-
 </ul>
 
 <p><strong>FOR FURTHER INFORMATION, please contact:</strong></p>
 
-<p>Tedd Griepentrog, Executive Director<br/>
-Columbia Orchestra<br/>
-Howard County Center for the Arts<br/>
+<blockquote>
+<p>
+Tedd Griepentrog, Executive Director<br/>
+The Columbia Orchestra<br/>
+Howard Co. Center for the Arts<br/>
 8510 High Ridge Road<br/>
 Ellicott City, MD 21043<br/>
-Phone: 410-465-8777<br/>
-Fax: 410-465-8778<br/>
-<a href="mailto:execdir@columbiaorchestra.org">execdir@columbiaorchestra.org</a></p>
+Phone:     (410) 465-8777<br/>
+Fax:       (410) 465-8778<br/>
+Website: <a href="http://www.columbiaorchestra.org">www.columbiaorchestra.org</a><br/>
+E-mail: <a href="mailto:execdir@columbiaorchestra.org">execdir@columbiaorchestra.org</a>
+</p>
+</blockquote>
 
-<p><strong>You can also download a <a class="bodylink" href="/uploads/2010/CO_Admin_Assistant_Vacancy_2010.pdf" target="co_link" title="Pop-up">printer-friendly copy</a> of this posting in PDF format.</strong></p>
-
--->',0,'',0);
+',0,'',0);
 INSERT INTO "django_flatpage" VALUES(22,'/young_artist_comp_2010/','Young Artist Competition 2010','<h2>Young Artist Competition 2009-2010</h2>
 
 <p>The 2009-2010 Young Artist competition took place on January 23 &amp; 24, 2010. The players were outstanding, and we only wish that we could name more of them as winners. We are delighted to announce that the winners are:</p>
@@ -4364,7 +4914,6 @@ INSERT INTO "django_flatpage" VALUES(25,'/about_the_orchestra/','About The Orche
 <li>Norma Hooks - Librarian</li>
 <li>Annette Szawan - Personnel Manager, strings</li>
 <li>Anne Ward - Personnel Manager, winds</li>
-<li>Hannah Frishberg - Intern</li>
 </ul>
 
 
@@ -4372,14 +4921,12 @@ INSERT INTO "django_flatpage" VALUES(25,'/about_the_orchestra/','About The Orche
 <ul>
 <li>Bruce Kuehne - President</li>
 <li>Anne Ward - Vice President</li>
-<li>Naomi Chang Zajic - Secretary</li>
-<li>David Zajic - Treasurer</li>
+<li>David Zajic - Secretary</li>
+<li>Brandi Healey - Treasurer</li>
 <li>Viviana Acosta</li>
 <li>Glenn Caldwell</li>
 <li>Glenn Cline</li>
-<li>Brandi Healey</li>
 <li>Karen Hopkinson</li>
-<li>Roy Leierzapf</li>
 <li>Holly Thomas, Board Member Emerita</li>
 </ul>
 
@@ -4415,7 +4962,7 @@ partnership with the Orchestra, please contact our Executive Director at 410-465
 <a href="http://arts.endow.gov" target="co_link"><img src="/images/logo-nea.gif" title="National Endowment for the Arts" height="50" hspace="5" width="129" border="0"></a> 
 <a href="http://www.musicarts.com" target="co_link"><img src="/images/logo-MA.gif" title="The Music and Arts Centers" height="50" hspace="5" width="167" border="0"></a>
 <a href="http://www.hcgh.org/content/" target="co_link"><img src="/images/logo-HCGH.gif" title="Howard County General Hospital" height="75" hspace="5" width="300" border="0"></a> 
-<a href="http://www.co.ho.md.us/" target="co_link"><img src="/images/logo-HC.gif" title="Howard County Government" height="58" hspace="5" width="170" border="0"></a> 
+<a href="http://www.co.ho.md.us/" target="co_link"><img src="/images/logo-HC.gif" title="Howard County Government" height="58" hspace="15" width="80" border="0"></a> 
 
 
 <h4>Strategic Partners</h4>
@@ -4441,6 +4988,7 @@ partnership with the Orchestra, please contact our Executive Director at 410-465
 <li><a class="bodylink" href="http://www.thegatheringplace.tv" target="co_link" title="Pop-up">The Gathering Place</a>*</li>
 <li><a class="bodylink" href="http://goodsearch.com" target="co_link" title="Pop-up">GoodSearch.com</a></li>
 <li><a class="bodylink" href="http://www.thegreeneturtle.com/" target="co_link" title="Pop-up">The Green Turtle</a>*</li>
+<li><a class="bodylink" href="http://www.howardcc.edu" target="co_link" title="Pop-up">Howard County Community College</a></li>
 <li><a class="bodylink" href="http://www.co.ho.md.us" target="co_link" title="Pop-up">Howard County Government</a></li>
 <li><a class="bodylink" href="http://www.visithowardcounty.com" target="co_link" title="Pop-up">Howard County Tourism Council</a>*</li>
 <li><a class="bodylink" href="http://www.jamesferry.com/" target="co_link" title="Pop-up">James Ferry Photography</a>*</li>
@@ -7135,19 +7683,19 @@ INSERT INTO "soloists_soloist" VALUES(1,'Hsiu-Hui Wang','piano','<p>Dr. Hsiu-Hui
 
 <p>Dr. Wang received her bachelor''s degree (summa cum laude) from the Hartt School of Music, master''s degree from the University of Southern California, and her doctoral degree in piano performance from the University of Maryland, College Park. She has studied with international artists such as Raymond Hanson, Anne Koscielny, Gabriel Chodos, Stewart Gordon, and Thomas Schumacher. Dr. Wang has also received chamber music coachings from Menahem Pressler, Cecile Licad, Cho-Liang Lin, Ida Kavafian, David Finckel, and Wu Han. Her published doctoral dissertation, “Tracing the Development of the French Piano Trio” has been recognized by Maurice Hinson and Wesley Roberts’s newest edition of The Piano in Chamber Ensemble: An Annotated Guide as well as by John H. Baron’s Chamber Music: A Research and Information Guide.</p>
 
-<p>Dr. Wang has been a dedicated teacher for over twenty-five years, and her students have won first prizes in various competitions. She has also been invited to chair and adjudicate many piano competitions and festivals. She is currently a music faculty member at Goucher College and Howard Community College where she has been selected as the 2003-2004 Arts and Humanities Division Outstanding Adjunct Faculty Member and as a co-founder /director of the Gemini Piano Trio Summer Chamber Music Workshop for the past five years. She also received the Honorary Citizenship from the City of Dallas, Office of Culture Affairs for her 2005 performances with the Gemini Piano Trio at the Southern Methodist University. Dr. Wang completed a three-city concert tour in Taiwan to great acclaim with the Gemini Piano Trio, including a sold-out debut concert at the Taipei National Concert Recital Hall in January of 2008. The trio is scheduled to appear on the Weill Recital Hall Chamber Music Series at Carnegie Hall in the fall of 2010. </p>','hsiu-hui-wang','src_imgs/soloists/Hsiu-Hui_Wang.jpg',1030);
+<p>Dr. Wang has been a dedicated teacher for over twenty-five years, and her students have won first prizes in various competitions. She has also been invited to chair and adjudicate many piano competitions and festivals. She is currently a music faculty member at Goucher College and Howard Community College where she has been selected as the 2003-2004 Arts and Humanities Division Outstanding Adjunct Faculty Member and as a co-founder /director of the Gemini Piano Trio Summer Chamber Music Workshop for the past five years. She also received the Honorary Citizenship from the City of Dallas, Office of Culture Affairs for her 2005 performances with the Gemini Piano Trio at the Southern Methodist University. Dr. Wang completed a three-city concert tour in Taiwan to great acclaim with the Gemini Piano Trio, including a sold-out debut concert at the Taipei National Concert Recital Hall in January of 2008. The trio is scheduled to appear on the Weill Recital Hall Chamber Music Series at Carnegie Hall in the fall of 2010. </p>','hsiu-hui-wang','src_imgs/soloists/Hsiu-Hui_Wang.jpg',1085);
 INSERT INTO "soloists_soloist" VALUES(2,'Jonathan Carney','violin','<p>Jonathan Carney was appointed concertmaster of the Baltimore Symphony Orchestra in 2001 after twelve seasons in the same position with London’s Royal Philharmonic Orchestra. He also held the concertmaster post with the Basque National Orchestra in Spain. Born in New Jersey, Jonathan Carney hails from a musical family with all six members of his family having graduated from the Juilliard School in New York. After completing his studies with Ivan Galamian and Christine Dethier, he was awarded a Leverhulme Fellowship to continue his studies in London at the Royal College of Music.</p>
 
 <p>After enjoying critically acclaimed international tours as both concertmaster and soloist with numerous ensembles, Mr. Carney was invited by Vladimir Ashkenazy to become concertmaster of the Royal Philharmonic Orchestra in 1991. He was also appointed concertmaster of the Bournemouth Symphony Orchestra in 1994.</p>
 
 <p>Recent solo performances have included concertos by Bruch, Nielsen, and Khatchaturian, the Brahms Double Concerto and Vaughan William’s <i>The Lark Ascending</i>, which was featured as a live BBC broadcast from London’s Barbican Hall. He has made a number of recordings, including concertos by Mozart, Vivaldi, and Nielsen, sonatas by Brahms, Beethoven, and Franck, and a disc of virtuoso works by Sarasate and Kreisler.</p>
 
-<p>Mr. Carney lives in Maryland with his wife Ruthie and their three children, Hannah, Luke, and Gracie. He is a Connolly and Co. artist, exclusively playing Vision strings by Thomastik-Infeld. His violin is a 1687 Stradivarius, the Mercur-Avery.</p>','jonathan-carney','src_imgs/soloists/s-carney.jpg',965);
+<p>Mr. Carney lives in Maryland with his wife Ruthie and their three children, Hannah, Luke, and Gracie. He is a Connolly and Co. artist, exclusively playing Vision strings by Thomastik-Infeld. His violin is a 1687 Stradivarius, the Mercur-Avery.</p>','jonathan-carney','src_imgs/soloists/s-carney.jpg',1021);
 INSERT INTO "soloists_soloist" VALUES(3,'Ronald Mutchnik','violin','<p>Violinist Ronald Mutchnik graduated from the University of Maryland <i>summa cum laude</i>, where he studied with Robert Gerle. While there, he won the Baltimore Music Club’s and Baltimore Musicians’ competitions. He earned his Master’s degree from the New England Conservatory, where he studied with Joseph Gingold and Masuko Ushioda. He continued post-graduate studies at Tel Aviv University in Israel.</p>
 
 <p>Mr. Mutchnik is active as an orchestral violinist, chamber musician, recitalist, and soloist. He has served as Concertmaster and Assistant Concertmaster with the Maryland Symphony, National Chamber Orchestra, Handel Choir and Columbia Pro Cantare Festival Orchestras, and the Baltimore Chamber Orchestra. He has appeared as a soloist with numerous orchestras in Maryland, as well as orchestras in Louisiana, Pennsylvania, South Carolina, and Minnesota. He appeared in the film <i>Washington Square</i>, performing his own composition. He was a featured soloist for the Maryland Ballet Theater and performed in Maryland and Alabama in a special recital, “Music of the Jewish Soul.”</p>
 
-<p>Mr. Mutchnik has taught in several universities and colleges and currently teaches privately. He was President of the American String Teacher’s Association’s Maryland/DC Chapter and produced a video for violinists and violists entitled “Posture & Balance: The Dynamic Duo.” He has toured Korea, coaching and performing chamber music. Mr. Mutchnik is a founding member of and performer with the chamber music series based in Columbia, Maryland “ Sundays At Three” and is Chair of its artistic committee. Most recently, he performed in the United States State Department''s concert series and also formed Howard County''s first all professional chamber orchestra, The Orchestra of St. John''s. Upcoming concerts include performances of Bloch''s <i>Three Pictures of Chasidic Life</i> with the Columbia Orchestra and the Bruch <i>Scottish Fantasy</i> with the Frederick Symphony. </p>','ronald-mutchnik','src_imgs/soloists/s-mutchnik.jpg',1053);
+<p>Mr. Mutchnik has taught in several universities and colleges and currently teaches privately. He was President of the American String Teacher’s Association’s Maryland/DC Chapter and produced a video for violinists and violists entitled “Posture & Balance: The Dynamic Duo.” He has toured Korea, coaching and performing chamber music. Mr. Mutchnik is a founding member of and performer with the chamber music series based in Columbia, Maryland “ Sundays At Three” and is Chair of its artistic committee. Most recently, he performed in the United States State Department''s concert series and also formed Howard County''s first all professional chamber orchestra, The Orchestra of St. John''s. Upcoming concerts include performances of Bloch''s <i>Three Pictures of Chasidic Life</i> with the Columbia Orchestra and the Bruch <i>Scottish Fantasy</i> with the Frederick Symphony. </p>','ronald-mutchnik','src_imgs/soloists/s-mutchnik.jpg',1110);
 INSERT INTO "soloists_soloist" VALUES(4,'Theresa Bickham','soprano','<p>Soprano Theresa Bickham has been praised for her “fine piano nuances” and “expressive legato line.” She made her European concert debut in 2007 singing scenes from <i>La Traviata</i> under the direction of Maestro Eduardo Müller. Most recently, Ms. Bickham has been seen on the operatic stage as Adina in <i>L’Elisir d’Amore</i> with the Loudon Lyric Opera and Opera Camerata of Washington. In January 2009, she performed the role of the Princess in <i>A Bird in Your Ear</i> and Terenia in <i>The Beautiful Bridegroom</i> at the National Opera Association Convention in Washington, DC. Other roles include Rosalinde in <i>Die Fledermaus,</i> Musetta in <i>La Bohéme,</i> Arminda in <i>La finta giardiniera,</i> Constanza Piccolatura in <i>Impresario,</i> Frasquita in <i>Carmen,</i> Monica in <i>The Medium,</i> and Bessie in <i>Mahagonny Songspiel.</i>  No stranger to the musical theatre stage, Ms. Bickham has also performed the roles of The Baker’s Wife in <i>Into the Woods,</i> Tess in <i>Crazy for You,</i> Nancy in <i>Oliver,</i> and Mrs. Macafee in <i>Bye, Bye Birdie</i> among others.</p>
 
 <p>A native of Maryland, Ms. Bickham has been a frequent guest artist throughout the Baltimore-Washington area.  Concert appearances include, Handel’s <i>Messiah,</i> Fauré’s <i>Requiem,</i> Vaughn Williams’ <i>Serenade to Music,</i> Bach’s <i>Cantata 25</i> and <i>Magnificat,</i> and Vivaldi’s <i>Gloria</i> and <i>Magnificat.</i>  She has also been the winner of many competitions including the Metropolitan Opera National Council Auditions—Mid-Atlantic Regional Finalist 2009, Palm Beach Opera 2008 Advanced Division Semi-Finalist, Shreveport Opera Singer of the Year Finalist 2008, MD/DC National Association of Teacher’s of Singing, Henry Sanborn Competition, Peggy Friedman-Gordon Competition, Moore’s Opera Center Concerto Competition, and the Gilbert and Sullivan Society of Houston.</p>
@@ -7157,8 +7705,8 @@ INSERT INTO "soloists_soloist" VALUES(5,'Neil Ewachiw','baritone','<p>Baritone N
 
 <p>Neil is featured on the compact disc release, “Come to Me: Love Songs for Chorus by American Composers” by the American Repertory Singers on Arsis Audio. As a member of The United States Army Chorus, performances have included the arrival ceremony of Pope Benedict XVI at the White House, the State Dinner honoring Queen Elizabeth II, and the interments of former Presidents Ronald Reagan and Gerald R. Ford.</p>
 
-<p>Mr. Ewachiw has appeared at concert venues including Carnegie Hall, Avery Fisher Hall, D.A.R. Constitution Hall and the John F. Kennedy Center for the Performing Arts. He also teaches sacred music at Georgetown University, where he lectures on musical traditions as diverse as Native American ceremonial chant, West African Agbekor, Javanese gamelan and the evolution of the Roman Catholic mass as both a liturgical and musical form. </p>','neil-ewachiw','src_imgs/soloists/Neil_Ewachiw.jpg',15457);
-INSERT INTO "soloists_soloist" VALUES(6,'Jason Shafer','clarinet','<p>Clarinetist Jason Shafer just completed his first season as a member of the New World Symphony in Miami Beach, FL.  He graduated in May 2009 from the Eastman School of Music in Rochester, NY, receiving a Bachelor of Music degree (Highest Distinction) studying with Kenneth Grant.  He has previously performed as concerto soloist with the Round Top Festival Orchestra in June 2009, the Eastman Philharmonia in 2008, the Transylvania Symphony Orchestra at the 2006 Brevard Music Center, the Greater Baltimore Youth Orchestra in 2005, and the Columbia Orchestra in 2002.  Jason has also had the pleasure of working with Mr. Steven Cohen at the Brevard Music Center and with Dr. Kyle Coughlin in his hometown of Columbia, Maryland.  In addition to the clarinet, Jason is also a pianist, and loves to accompany other musicians. </p>','jason-shafer','src_imgs/soloists/Shafer.jpg',14293);
+<p>Mr. Ewachiw has appeared at concert venues including Carnegie Hall, Avery Fisher Hall, D.A.R. Constitution Hall and the John F. Kennedy Center for the Performing Arts. He also teaches sacred music at Georgetown University, where he lectures on musical traditions as diverse as Native American ceremonial chant, West African Agbekor, Javanese gamelan and the evolution of the Roman Catholic mass as both a liturgical and musical form. </p>','neil-ewachiw','src_imgs/soloists/Neil_Ewachiw.jpg',15522);
+INSERT INTO "soloists_soloist" VALUES(6,'Jason Shafer','clarinet','<p>Clarinetist Jason Shafer just completed his first season as a member of the New World Symphony in Miami Beach, FL.  He graduated in May 2009 from the Eastman School of Music in Rochester, NY, receiving a Bachelor of Music degree (Highest Distinction) studying with Kenneth Grant.  He has previously performed as concerto soloist with the Round Top Festival Orchestra in June 2009, the Eastman Philharmonia in 2008, the Transylvania Symphony Orchestra at the 2006 Brevard Music Center, the Greater Baltimore Youth Orchestra in 2005, and the Columbia Orchestra in 2002.  Jason has also had the pleasure of working with Mr. Steven Cohen at the Brevard Music Center and with Dr. Kyle Coughlin in his hometown of Columbia, Maryland.  In addition to the clarinet, Jason is also a pianist, and loves to accompany other musicians. </p>','jason-shafer','src_imgs/soloists/Shafer.jpg',14351);
 INSERT INTO "soloists_soloist" VALUES(7,'Qing Li','violin','<p>Astonishing in her musical versatility, violinist <strong>Qing Li</strong> brings great warmth, poise, and insight to her music making. Solo performances have garnered such critical praise as, “the highest level musically” (conductor David Zinman), “unsurpassed technical brilliance” (German newspaper <em>Hohenlohe</em>), and “as the soloist, Qing was flawless... particularly in a stunning cadenza near the end of the first movement in the Haydn violin concerto. Her style was impeccable...” (<em>Richmond Times</em>). At the same time, she is a sought after chamber musician, having collaborated with such luminaries as Pinchas Zukerman, Eugenia Zukerman, Hilary Hahn, and Leon Fleischer. She is also admired as one of the country’s most accomplished orchestral players as the appointed Principal Second by Yuri Temirkanov.</p>
 
 <p>Qing Li was born in Beijing, China. At age four, she began violin studies with her father, Zhen-Kun Li. At age 12, Qing Li won her acceptance to the Central Conservatory, where she began her study with Wei-Jian Zhao. There she was discovered at a master class by Berl Senofsky, who enthusiastically brought her to Peabody Conservatory with a fellowship scholarship. She won fellowships to many major music festivals, including Tanglewood, Meadowmount, Aspen, Grand Tetons, and Alexander Schneider’s New York String Seminar. Her teachers include Berl Senofsky, legendary Joseph Gingold, and Dorothy Delay.</p>
@@ -7167,10 +7715,10 @@ INSERT INTO "soloists_soloist" VALUES(7,'Qing Li','violin','<p>Astonishing in he
 
 <p>In 1993, Ms. Li became a member of the Baltimore Symphony under David Zinman. Her first of many concerto appearances with BSO followed rapidly. Since then, Qing Li has served as Assistant Concertmaster, and won her current chair of Principal Second Violin in 2001 under Yuri Temirkanov. In November 2008, Ms. Li performed the <em>Butterfly Lovers Concerto</em> at the Kimmel Center in Philadelphia. In 2005, Hilary Hahn invited Qing Li to play the Bach Double Concerto in a benefit concert to a glowing press.</p>
 
-<p>Ms. Li performs on a Nicolo Gagliano violin crafted in 1736 in Naples, Italy.</p>','qing-li','src_imgs/soloists/QingLi.jpg',5804);
+<p>Ms. Li performs on a Nicolo Gagliano violin crafted in 1736 in Naples, Italy.</p>','qing-li','src_imgs/soloists/QingLi.jpg',5872);
 INSERT INTO "soloists_soloist" VALUES(8,'Masterworks Chorale of Carroll County, Margaret Boudreaux, Director','','<p>The Masterworks Chorale of Carroll County, known formerly as the Carroll County Choral Arts Society, was founded in 1977 under the direction of conductor David Kreider. Since its founding, the group has brought the community the works of Mozart, Brahms, Haydn, Handel, and Mendelssohn, as well as contemporary composers. The group has performed in Baltimore at the Cathedral of Saint Mary Our Queen, and with the Johns Hopkins Medical Institutions Choir. It has performed with the Baltimore Symphony Orchestra and has jointly hosted several concerts in Washington, D.C. with the Georgetown University Orchestra and Choir at the National Building Museum and at Georgetown University. The Carroll Festival Chorus, which combined members of both the Masterworks Chorale and the McDaniel College Choir, was selected in July 2005 to participate in Festival 500, “Sharing the Voices,” held in St. Johns, Newfoundland. In 2006, members of Masterworks Chorale formed the nucleus of the choir that premiered Lorraine Whittlesey''s "Einstein''s Dreams (it’s about time . . .),” based on the novel Einstein''s Dreams by Alan Lightman.</p>
 
-<p>Dr. Margaret Boudreaux is the Artistic Director of the Masterworks Chorale of Carroll County and the Director of Choral Activities at McDaniel College. She has edited, arranged and performed choral music from the Renaissance and Baroque periods as well as folk-song, popular music, vocal jazz and musical theatre. She has published numerous articles and translations in the professional journals of the American Choral Directors Association, Chorus America and the International Federation of Choral Music. Currently, she has recently served as President of the Colleges and Universities division of the Maryland Music Educators Association and was the Maryland/DC Repertoire and Standards Chair for Ethnic and Multicultural Music for the American Choral Directors Association MD/DC Chapter for several years. A frequent clinician and conductor throughout the region, Dr. Boudreaux has performed with her choirs at conferences and for special presentations at the Kennedy Center, the Discovery Channel and other major Baltimore-Washington venues. In 2005, she conducted a choir at the Festival 500, “Sharing the Voices” International Choral Festival in St. John’s, Newfoundland. Her publishing company, Voices of Training, carries a number of scores combining a variety of voice levels and styles. Voices of Training will soon release Lorraine Whittlesey’s new choral work Einstein’s Dreams (its about time . . .) based on the Alan Lightman novel Einstein’s Dreams, which Dr. Boudreaux conducted in its 2006 premiere. She studied conducting with Helmuth Rilling and Donald Neuen. She holds degrees in music from the Universities of Arizona in Tucson, Oregon in Eugene, and Colorado in Boulder.  In May 2008 Dr. Boudreaux was awarded the Ira Zepp Excellence in Teaching Award by McDaniel College.</p>','masterworks-chorale','src_imgs/soloists/chorus.jpg',15710);
+<p>Dr. Margaret Boudreaux is the Artistic Director of the Masterworks Chorale of Carroll County and the Director of Choral Activities at McDaniel College. She has edited, arranged and performed choral music from the Renaissance and Baroque periods as well as folk-song, popular music, vocal jazz and musical theatre. She has published numerous articles and translations in the professional journals of the American Choral Directors Association, Chorus America and the International Federation of Choral Music. Currently, she has recently served as President of the Colleges and Universities division of the Maryland Music Educators Association and was the Maryland/DC Repertoire and Standards Chair for Ethnic and Multicultural Music for the American Choral Directors Association MD/DC Chapter for several years. A frequent clinician and conductor throughout the region, Dr. Boudreaux has performed with her choirs at conferences and for special presentations at the Kennedy Center, the Discovery Channel and other major Baltimore-Washington venues. In 2005, she conducted a choir at the Festival 500, “Sharing the Voices” International Choral Festival in St. John’s, Newfoundland. Her publishing company, Voices of Training, carries a number of scores combining a variety of voice levels and styles. Voices of Training will soon release Lorraine Whittlesey’s new choral work Einstein’s Dreams (its about time . . .) based on the Alan Lightman novel Einstein’s Dreams, which Dr. Boudreaux conducted in its 2006 premiere. She studied conducting with Helmuth Rilling and Donald Neuen. She holds degrees in music from the Universities of Arizona in Tucson, Oregon in Eugene, and Colorado in Boulder.  In May 2008 Dr. Boudreaux was awarded the Ira Zepp Excellence in Teaching Award by McDaniel College.</p>','masterworks-chorale','src_imgs/soloists/chorus.jpg',15785);
 INSERT INTO "soloists_soloist" VALUES(9,'Stan Gilmer','vocalist','<p>Born March 2, 1948, Stan Gilmer grew up “down neck” in the Ironbound section of Newark, New Jersey. Life was tough, sho’nuff, but Stan certainly saw and heard enough to fill a jazz and blues singer''s repertoire for life. He acquired an early ear for the great crooners and performers of the day like Roy Hamilton, Harry Belafonte and Johnny Mathis. The words were one thing, but Stan’s instincts were drawn to the arrangements that supported the melodies, and gave the music passion... feeling.</p>
  
 <p>In 1975, Stan moved to Northern California’s Bay area and teamed with Harvey Scales as a sometimes chauffeur and developing songwriter at Super Disc Productions. While there, he composed “Atlantic City: That Big-Time Town” with Harvey, and later recorded it with legendary bandleader Frank Foster. Shortly thereafter, Stan signed on as a staff writer with April Blackwood Music, a subsidiary of CBS Records.</p>
@@ -7186,20 +7734,20 @@ INSERT INTO "soloists_soloist" VALUES(9,'Stan Gilmer','vocalist','<p>Born March 
 <p>In 2003, Stan founded the Colonnade Of Music record label. The label’s first effort is “Stan Gilmer Sings Sammy,” with John Mosca leading the Vanguard Orchestra, recorded at Bennett studios in Englewood, NJ. Stan and Mosca “turned out” the 2003 Hartford Jazz Festival, with Jim Argiro conducting, straw boss Dave Glasser and Canadian Warren Chiasson on vibraphone. Look for more from Stan and Warren in the future.</p>
  
 <p>~ Excerpted from Walter Allen’s biographical note</p>
-','stan-gilmer','src_imgs/soloists/Stan_Gilmer.jpg',10662);
+','stan-gilmer','src_imgs/soloists/Stan_Gilmer.jpg',10725);
 INSERT INTO "soloists_soloist" VALUES(10,'Colin Eaton','vocalist','<p>Colin Eaton has been lauded by The Washington Post as “a commanding tenor that sings with great aplomb” and by the <em>Baltimore Sun</em> as “a young tenor whose name you shall not soon forget” and “possessing the ability to dazzle audiences with ease.”</p>
 
 <p>Mr. Eaton was most recently featured as the tenor soloist for the 38th Annual Kennedy Center <em>Messiah</em> Sing-Along.  Other oratorio solo performances include <em>Mendelssohn’s <em>St. Paul</em> (National Philharmonic), Orff’s <em>Carmina Burana,</em> the Rossini <em>Stabat Mater,</em> the <em>Bruckner Te Deum,</em> and the Mozart <em>Requiem</em> (Oratorio Society of Charlottesville/Albemarle).  His opera credits include appearances as Mingo (Tulsa Opera), Robbins and Sportin’ Life in <em>Porgy and Bess,</em> Don Basilio and Don Curzio in <em>Le Nozze di Figaro,</em> Nika Magadoff in <em>The Consul,</em> and as Nemorino in <em>L’Elisir d’Amore.</em>  He is pleased to have collaborated as a featured soloist in master classes with Martina Arroyo and Curtis Rayam at the National Opera Association convention at the Kennedy Center.</p>
 
 <p>As a member of the world-renowned United States Army Chorus, SFC Eaton frequently performs solos before our nation’s highest ranking government and military officials, as well as visiting dignitaries from around the globe.  He was honored to serve as a featured soloist for the interment ceremony for President Ronald Reagan in Simi Valley, California, and to be specially selected to perform for the last five consecutive years for U.S. and Allied Forces deployed in areas of combat including Kuwait, Iraq, and Afghanistan.</p>
-','colin-eaton','src_imgs/soloists/Colin_Eaton.gif',10311);
+','colin-eaton','src_imgs/soloists/Colin_Eaton.gif',10378);
 INSERT INTO "soloists_soloist" VALUES(11,'Meghan McCall','vocalist','<p>Praised for her “bell-like clarity and fine control” and “radiant full-bodied voice” by <em>The Washington Post,</em> American soprano Meghan McCall is establishing herself as a fine young artist of opera today. She has been hailed for possessing a “beautifully and flawlessly operatic voice” in The West Highland Press. She most recently made her Carnegie Hall Stern Auditorium debut in a world premiere where she created the role of Mary Magdalene in Marcos Galvany’s opera <em>Oh My Son.</p>
 
 <p>Ms. McCall’s career has taken her to stages both in the United States and Europe. She has performed the roles of Fiordiligi in <em>Cosi Fan Tutte, Lauretta in <em>Gianni Schicchi,</em> Musetta in <em>La Bohème,</em> Adina in <em>L''Elisir d''Amore,</em> Gilda in <em>Rigoletto, Gretel in <em>Hansel and Gretel,</em> Marie in <em>La Fille du Régiment,</em> Giulietta in <em>I Capuleti e i Montecchi,</em> Donna Anna in <em>Don Giovanni,</em> Susanna in <em>Le Nozze di Figaro,</em> Princess (#1) in <em>Transformations,</em> Lucia in <em>Lucia di Lammermoor,</em> Miss Jessel in <em>The Turn of the Screw,</em> Blondchen in <em>Die Entfuhrung aus dem Serail,</em> and Norina in <em>Don Pasquale.</em></p>
 
 <p>Miss McCall has earned her BA in Music Literature from Northeastern University and her MM from The University of Maryland Opera Studio where she worked with world-renowned bass Francois Loup. Directly after her graduation she was invited to join the Opera Lafayette Young Artist Program which specializes in 17th and 18th century French repertoire.</p>
 
-<p>Future appearances in 2010 will include Laurette and Ernestine in two French comic operas by Bizet and Offenbach with Bel Cantanti (May 2010), and Juliette and La Bergere in Sancho Panza by Philidor with Opera Lafayette at the Kennedy Center (May 2010).</p>','meghan-mccall','src_imgs/soloists/Meghan_McCall.jpg',10280);
+<p>Future appearances in 2010 will include Laurette and Ernestine in two French comic operas by Bizet and Offenbach with Bel Cantanti (May 2010), and Juliette and La Bergere in Sancho Panza by Philidor with Opera Lafayette at the Kennedy Center (May 2010).</p>','meghan-mccall','src_imgs/soloists/Meghan_McCall.jpg',10343);
 INSERT INTO "soloists_soloist" VALUES(12,'Jonathan Bailey Holland','guest composer','<img src="/images/mtc_logo.jpg"/>
 
 <p><strong>Be sure to check out <a href="/holland_videos/">video interviews</a> with Jonathan Bailey Holland about his work.</strong></p>
@@ -7210,7 +7758,7 @@ INSERT INTO "soloists_soloist" VALUES(12,'Jonathan Bailey Holland','guest compos
 
 <p>Holland is a two-time winner of the Indianapolis Symphony''s Marian K. Glick Young Composer''s Showcase, the Charles Ives Scholarship, as well as other awards from ASCAP, the Presser Foundation, Boston Conservatory, Austin Peay State University, and Harvard University.</p>
 
-<p><strong><em>Mr. Holland''s appearance is funded in part through Meet the Composer''s MetLife Creative Connections program.</em></strong></p>','jonathan-bailey-holland','src_imgs/soloists/Jonathan_Bailey_Holland.jpg',11706);
+<p><strong><em>Mr. Holland''s appearance is funded in part through Meet the Composer''s MetLife Creative Connections program.</em></strong></p>','jonathan-bailey-holland','src_imgs/soloists/Jonathan_Bailey_Holland.jpg',11764);
 INSERT INTO "soloists_soloist" VALUES(13,'Ah Hong','soprano','<p>Soprano Ah Young Hong has been praised by the <em>New York Times</em> for her “lovely voice with round, soft low notes and a sugar-sweet top,” and the <em>Washington Post</em> described her voice as “glistening and resilient.”  Her concert work has included performances with the Baltimore Symphony Orchestra, Opera Lafayette, Folger Consort, Concert Artists of Baltimore, Annapolis Opera, Bay-Atlantic Symphony, Lincoln Symphony Orchestra, Magnolia Baroque Festival, and Harmonious Blacksmith.  This is her second appearance with the Columbia Orchestra.</p>
 
 <p>In the summer of 2005, Ms. Hong made an American premiere recording of Johann Sebastian Bach’s newly discovered aria, "Alles mit Gott und nichts ohn’ ihn," BWV 1127, for National Public Radio’s <em>Performance Today</em> with harpsichordist Joseph Gascho, director of Harmonious Blacksmith.  This recording has been broadcast throughout the world.</p>
@@ -7219,7 +7767,7 @@ INSERT INTO "soloists_soloist" VALUES(13,'Ah Hong','soprano','<p>Soprano Ah Youn
 
 <p>The <em>Baltimore Sun</em> acclaimed her “a triumph as the subtly conniving Poppea. The soprano’s tonal gleam filled the hall beautifully, and her phrasing was always richly detailed. Her acting, too, proved appealing.”  IONARTS described her performance as Morgana having  “the most persuasive singing by merging musical wit with strong acting and facial expressions, all while showcasing superbly clear text and vocal agility.”  In England, she was Papagena in <em>Die Zauberflöte</em> under the direction of Benjamin Luxon, Fortuna and Minerva in Monteverdi’s <em>Il ritorno d''Ulisse in patria</em> under the musical direction of Michael Chance and director Tim Carroll for the Snape Proms and Shakespeare''s Globe Theatre.</p>
 
-<p>Ms. Hong received her Bachelor’s and Master’s of Music degrees from the Peabody Conservatory of Music where she studied with Ruth Drucker and Mark Markham.  She was honored to have studied German Lieder and French mélodie with Elly Ameling and oratorio with Kurt Equiluz at the Britten-Pears Programme in England.  Ms. Hong is currently a member of the voice faculty at the Peabody Conservatory of Music of the Johns Hopkins University and Towson University.</p>','ah-hong','src_imgs/soloists/Ah_Hong.jpg',15421);
+<p>Ms. Hong received her Bachelor’s and Master’s of Music degrees from the Peabody Conservatory of Music where she studied with Ruth Drucker and Mark Markham.  She was honored to have studied German Lieder and French mélodie with Elly Ameling and oratorio with Kurt Equiluz at the Britten-Pears Programme in England.  Ms. Hong is currently a member of the voice faculty at the Peabody Conservatory of Music of the Johns Hopkins University and Towson University.</p>','ah-hong','src_imgs/soloists/Ah_Hong.jpg',15484);
 INSERT INTO "soloists_soloist" VALUES(14,'Rolando Sanz','tenor','<p>Tenor Rolando Sanz is quickly gaining recognition for his “sensitive” and “luminous” portrayals of the romantic, lyric tenor repertoire. While he specializes in such standard roles as Rodolfo, Tamino, Nemorino, Alfredo, Pinkerton and the Duca di Mantua, Rolando has also debuted many opera premieres including Peter Doyle in <em>Miss Lonelyhearts,</em> for which the <em>Los Angeles Times</em> reported, “Rolando Sanz, as Doyle, gave the best hint of the score''s expressive possibilities” and covering Stiva in <em>Anna Karenina.</em> Most recently, he made his Carnegie Hall debut singing the role of Kostik in the world premiere of Prokofiev’s lost opera <em>To The Distant Seas.</em></p>
 
 <p>In the 2008-2009 season, Rolando debuted with Palm Beach Opera as Rodolfo in <em>La Boheme</em> and Flavio in <em>Norma,</em> as well as covering Duca di Mantua in <em>Rigoletto.</em> Upcoming engagements include a debut with Baltimore Concert Opera in “A Flight of Verdi,” as well as debuts with Opera Costa Rica and Syracuse Opera. Mr. Sanz will also debut a world premiere song cycle by renowned composer Ezra Laderman and former U.S. Poet Laureate, Robert Pinsky.</p>
@@ -7232,25 +7780,25 @@ INSERT INTO "soloists_soloist" VALUES(14,'Rolando Sanz','tenor','<p>Tenor Roland
 
 <p>Rolando has been a prize winner in numerous international competitions including the Florida Grand Opera/Young Patronesses of the Opera Voice Competition, the Metropolitan Opera National Council Auditions, the Aspen Music Festival Vocal Concerto Competition, and the XIII International Voice Competition in Trujillo, Peru. Most recently, he won First Place at the Florida Suncoast Opera Guild Competition and was awarded the Grand Prize as well as the Conductor Award and the Audience Choice Award at the Annapolis Opera Vocal Competition. He has appeared as a resident artist with the Songfest program, collaborating with such esteemed artists as Martin Katz, Graham Johnson and composer John Harbison. Mr. Sanz also served as assistant conductor for Long Beach Opera’s production of <em>Die Schweigsame Frau</em> under Andreas Mitisek.</p>
 
-<p>Rolando is a graduate of the Yale University School of Music.</p>','rolando-sanz','src_imgs/soloists/Rolando_Sanz.jpg',10504);
-INSERT INTO "soloists_soloist" VALUES(15,'Kinetics Dance Theatre, Priscilla Kaufhold, Artistic Director','','','kinetics-sance-theatre-priscilla-kaufholdartistic-','src_imgs/soloists/Kinetics_Peter.jpg',8907);
+<p>Rolando is a graduate of the Yale University School of Music.</p>','rolando-sanz','src_imgs/soloists/Rolando_Sanz.jpg',10522);
+INSERT INTO "soloists_soloist" VALUES(15,'Kinetics Dance Theatre, Priscilla Kaufhold, Artistic Director','','','kinetics-sance-theatre-priscilla-kaufholdartistic-','src_imgs/soloists/Kinetics_Peter.jpg',8996);
 INSERT INTO "soloists_soloist" VALUES(16,'actors from the Chesapeake Shakespeare Company','','','actors-chesapeake-shakespeare-company','',1);
-INSERT INTO "soloists_soloist" VALUES(17,'Brenda Anna','Violin','','brenda-anna','',567);
+INSERT INTO "soloists_soloist" VALUES(17,'Brenda Anna','Violin','','brenda-anna','',619);
 INSERT INTO "soloists_soloist" VALUES(18,'Monica DeLeon','Bassoon','','monica-deleon','',0);
 INSERT INTO "soloists_soloist" VALUES(19,'Jason Love','Cello','','jason-love','',0);
 INSERT INTO "soloists_soloist" VALUES(20,'Columbia Orchestra Piano Trio','','<p>With a diverse repertoire spanning three centuries, Concertmaster <a href="/members/brenda_anna/"> Brenda Anna,</a> violin, Music Director <a href="/members/jason_love/">Jason Love,</a> cello, and Columbia Orchestra pianist <a href="/members/nancy_smith/">Nancy Smith</a> perform on both the orchestra''s chamber series in addition to concertizing throughout the region and taking outreach performances to audiences in non-traditional venues.</p>
-','columbia-orchestra-piano-trio','src_imgs/soloists/CO_Piano_Trio2.jpg',10864);
-INSERT INTO "soloists_soloist" VALUES(21,'Paul Moeller','guitar','','paul-moeller','',551);
-INSERT INTO "soloists_soloist" VALUES(22,'Elaine Newhall','flute','','elaine-newhall','',539);
-INSERT INTO "soloists_soloist" VALUES(23,'Lindsey Spear','oboe','','lindsey-spear','',541);
-INSERT INTO "soloists_soloist" VALUES(24,'Carl Reynolds','trumpet','','carl-reynolds','',545);
-INSERT INTO "soloists_soloist" VALUES(25,'John Locke','percussion','','john-locke','',557);
-INSERT INTO "soloists_soloist" VALUES(26,'Francis Scully','conductor','','francis-scully','',547);
-INSERT INTO "soloists_soloist" VALUES(27,'Patricia Wnek','violin','','patricia-wnek','',546);
-INSERT INTO "soloists_soloist" VALUES(28,'Jennifer Leung','violin','','jennifer-leung','',543);
-INSERT INTO "soloists_soloist" VALUES(29,'Eric Zuber','piano','','eric-zuber','',538);
-INSERT INTO "soloists_soloist" VALUES(30,'Larry Williams','horn','','larry-williams','',546);
-INSERT INTO "soloists_soloist" VALUES(31,'Brian Ganz','piano','','brian-ganz','',557);
+','columbia-orchestra-piano-trio','src_imgs/soloists/CO_Piano_Trio2.jpg',10926);
+INSERT INTO "soloists_soloist" VALUES(21,'Paul Moeller','guitar','','paul-moeller','',600);
+INSERT INTO "soloists_soloist" VALUES(22,'Elaine Newhall','flute','','elaine-newhall','',587);
+INSERT INTO "soloists_soloist" VALUES(23,'Lindsey Spear','oboe','','lindsey-spear','',590);
+INSERT INTO "soloists_soloist" VALUES(24,'Carl Reynolds','trumpet','','carl-reynolds','',592);
+INSERT INTO "soloists_soloist" VALUES(25,'John Locke','percussion','','john-locke','',607);
+INSERT INTO "soloists_soloist" VALUES(26,'Francis Scully','conductor','','francis-scully','',594);
+INSERT INTO "soloists_soloist" VALUES(27,'Patricia Wnek','violin','','patricia-wnek','',595);
+INSERT INTO "soloists_soloist" VALUES(28,'Jennifer Leung','violin','','jennifer-leung','',590);
+INSERT INTO "soloists_soloist" VALUES(29,'Eric Zuber','piano','','eric-zuber','',586);
+INSERT INTO "soloists_soloist" VALUES(30,'Larry Williams','horn','','larry-williams','',593);
+INSERT INTO "soloists_soloist" VALUES(31,'Brian Ganz','piano','','brian-ganz','',603);
 INSERT INTO "soloists_soloist" VALUES(32,'Theresa Bickham and Stephen Cramer','voice','','theresa-bickham-and-stephen-cramer','',0);
 INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','<p>ALAN ZHANG, a sophomore in the AP/GT programs at Mt. Hebron High School, has been playing violin since the age of five and is currently studying with Rebecca Henry at the Peabody Preparatory of the Johns Hopkins University. At the age of 9, he performed with Baltimore Symphony Orchestra at Strathmore and Meyerhoff Symphony Halls. </p>
 
@@ -7260,32 +7808,32 @@ INSERT INTO "soloists_soloist" VALUES(33,'Alan Zhang','violin','<p>ALAN ZHANG, a
 
 <p>His hobbies include tennis, golf, listening to music, enjoying social life, and traveling. He is an avid reader and also interested in science.</p>
 
-<p>Zhang was selected as the Senior Division String Winner of the 2011 Young Artist Competition. He previously won the Junior Division in 2008.</p>','alan-zhang','src_imgs/soloists/Alan_Zhang_2.JPG',8209);
-INSERT INTO "soloists_soloist" VALUES(34,'Brian Kim','violin','','brian-kim','',615);
-INSERT INTO "soloists_soloist" VALUES(35,'Peabody Violin Choir, Christian Tremblay, Director','','','peabody-violin-choir-christian-tremblay-director','',561);
-INSERT INTO "soloists_soloist" VALUES(36,'Peter Minkler','viola','','peter-minkler','',539);
-INSERT INTO "soloists_soloist" VALUES(37,'Ryan de Ryke','baritone','','ryan-de-ryke','',543);
-INSERT INTO "soloists_soloist" VALUES(38,'Rebecca McLaughlin','french horn','','rebecca-mclaughlin','',548);
-INSERT INTO "soloists_soloist" VALUES(39,'Eric Beach','marimba','','eric-beach','',537);
-INSERT INTO "soloists_soloist" VALUES(40,'Dariusz Skoraczewski','cello','','dariusz-skoraczewski','',541);
-INSERT INTO "soloists_soloist" VALUES(41,'Winnie Au','violin','','winnie-au','',529);
-INSERT INTO "soloists_soloist" VALUES(42,'Kevin Qin','violin','','kevin-qin','',537);
-INSERT INTO "soloists_soloist" VALUES(43,'Igor Yuzefovich','violin','','igor-yuzefovich','',536);
-INSERT INTO "soloists_soloist" VALUES(44,'Herbert Greenberg','violin','','herbert-greenberg','',556);
-INSERT INTO "soloists_soloist" VALUES(45,'Laura Hung','violin','','laura-hung','',544);
-INSERT INTO "soloists_soloist" VALUES(46,'Kyle Engler','mezzo-soprano','','kyle-engler','',540);
-INSERT INTO "soloists_soloist" VALUES(47,'Tobias Picker','narrator','','tobias-picker','',526);
-INSERT INTO "soloists_soloist" VALUES(48,'Anne Marie Ahn-Petersen','viola','','anne-marie-ahn-petersen','',544);
-INSERT INTO "soloists_soloist" VALUES(49,'Lee Jeon','violin','','lee-jeon','',550);
-INSERT INTO "soloists_soloist" VALUES(50,'Julien Benichou','guest conductor','','julien-benichou','',542);
-INSERT INTO "soloists_soloist" VALUES(51,'Yong Ku Ahn','guest conductor','','yong-ku-ahn','',558);
-INSERT INTO "soloists_soloist" VALUES(52,'Hou Fei Yang','piano','','hou-fei-yang','',559);
-INSERT INTO "soloists_soloist" VALUES(53,'Mark Lanz Weiser','piano','','mark-lanz-weiser','',539);
-INSERT INTO "soloists_soloist" VALUES(54,'Ferebee Thulman','voice','','ferebee-thulman','',552);
-INSERT INTO "soloists_soloist" VALUES(55,'Alice Lee','cello','','alice-lee','',454);
-INSERT INTO "soloists_soloist" VALUES(56,'Ahreum Kim','violin','','ahreum-kim','',451);
-INSERT INTO "soloists_soloist" VALUES(57,'Rebecca Henry','viola','','rebecca-henry','',448);
-INSERT INTO "soloists_soloist" VALUES(58,'Western Maryland College Choir, Margaret Boudreaux, Director','','','western-maryland-college-choir-margaret-boudreaux-','',445);
+<p>Zhang was selected as the Senior Division String Winner of the 2011 Young Artist Competition. He previously won the Junior Division in 2008.</p>','alan-zhang','src_imgs/soloists/Alan_Zhang_2.JPG',8272);
+INSERT INTO "soloists_soloist" VALUES(34,'Brian Kim','violin','','brian-kim','',666);
+INSERT INTO "soloists_soloist" VALUES(35,'Peabody Violin Choir, Christian Tremblay, Director','','','peabody-violin-choir-christian-tremblay-director','',607);
+INSERT INTO "soloists_soloist" VALUES(36,'Peter Minkler','viola','','peter-minkler','',588);
+INSERT INTO "soloists_soloist" VALUES(37,'Ryan de Ryke','baritone','','ryan-de-ryke','',592);
+INSERT INTO "soloists_soloist" VALUES(38,'Rebecca McLaughlin','french horn','','rebecca-mclaughlin','',598);
+INSERT INTO "soloists_soloist" VALUES(39,'Eric Beach','marimba','','eric-beach','',585);
+INSERT INTO "soloists_soloist" VALUES(40,'Dariusz Skoraczewski','cello','','dariusz-skoraczewski','',584);
+INSERT INTO "soloists_soloist" VALUES(41,'Winnie Au','violin','','winnie-au','',575);
+INSERT INTO "soloists_soloist" VALUES(42,'Kevin Qin','violin','','kevin-qin','',581);
+INSERT INTO "soloists_soloist" VALUES(43,'Igor Yuzefovich','violin','','igor-yuzefovich','',579);
+INSERT INTO "soloists_soloist" VALUES(44,'Herbert Greenberg','violin','','herbert-greenberg','',604);
+INSERT INTO "soloists_soloist" VALUES(45,'Laura Hung','violin','','laura-hung','',594);
+INSERT INTO "soloists_soloist" VALUES(46,'Kyle Engler','mezzo-soprano','','kyle-engler','',588);
+INSERT INTO "soloists_soloist" VALUES(47,'Tobias Picker','narrator','','tobias-picker','',575);
+INSERT INTO "soloists_soloist" VALUES(48,'Anne Marie Ahn-Petersen','viola','','anne-marie-ahn-petersen','',592);
+INSERT INTO "soloists_soloist" VALUES(49,'Lee Jeon','violin','','lee-jeon','',601);
+INSERT INTO "soloists_soloist" VALUES(50,'Julien Benichou','guest conductor','','julien-benichou','',592);
+INSERT INTO "soloists_soloist" VALUES(51,'Yong Ku Ahn','guest conductor','','yong-ku-ahn','',608);
+INSERT INTO "soloists_soloist" VALUES(52,'Hou Fei Yang','piano','','hou-fei-yang','',611);
+INSERT INTO "soloists_soloist" VALUES(53,'Mark Lanz Weiser','piano','','mark-lanz-weiser','',589);
+INSERT INTO "soloists_soloist" VALUES(54,'Ferebee Thulman','voice','','ferebee-thulman','',602);
+INSERT INTO "soloists_soloist" VALUES(55,'Alice Lee','cello','','alice-lee','',501);
+INSERT INTO "soloists_soloist" VALUES(56,'Ahreum Kim','violin','','ahreum-kim','',498);
+INSERT INTO "soloists_soloist" VALUES(57,'Rebecca Henry','viola','','rebecca-henry','',499);
+INSERT INTO "soloists_soloist" VALUES(58,'Western Maryland College Choir, Margaret Boudreaux, Director','','','western-maryland-college-choir-margaret-boudreaux-','',493);
 INSERT INTO "soloists_soloist" VALUES(59,'Sarah Kim','violin','<p>Sarah Kim, a sixth grader at Burleigh Manor Middle School, has been playing
 the violin since she was five years old, studying with Dr. Christian
 Tremblay at the Peabody Preparatory of the John Hopkins University.
@@ -7305,17 +7853,26 @@ Violin Competition and finished second in the 2009 Asian American Music
 Society String Competition, Peewee Division.</p>
  
 <p>Sarah is an avid book reader and enjoys watching science fiction movies.</p>
-','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',8139);
+','sarah-kim','src_imgs/soloists/Sarah_Kim_2.JPG',8205);
 INSERT INTO "soloists_soloist" VALUES(60,'Yaeji Shin','flute','<p>Yaeji Shin is a sophomore at Atholton High School, where she is a member of the Symphonic Wind Ensemble and has participated in the Howard County High School GT Orchestra for 2 years. She is also a member of the Korean Presbyterian Church Hosanna Orchestra. Yaeji was first introduced to music when she began piano at age six. In fifth grade, she started to play flute and decided that it was something she wanted to pursue. She has studied flute privately with Elaine Newhall since seventh grade and is an accomplished pianist, accompanying students for Howard County Solo and Ensemble.  </p>
 
 <p>Yaeji won first place in the 2010 Maryland Division of Music Teachers National Association wind solo competition, first place in the 2011 Greater Columbia Music Teachers Chamber Music Competition, and has also participated in the Howard County Middle School GT Band and the Maryland All State Junior Band.  She has attended the Oberlin Summer Flute Institute and has just been accepted to attend the Interlochen Arts Camp this summer.</p>
 
-<p>Yaeji loves reading, drawing, designing clothes, and making jewelry. She even had a wild dream of becoming a fashion designer but now, with her many interests and talents, she is not sure where the future may take her.</p>','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',7898);
+<p>Yaeji loves reading, drawing, designing clothes, and making jewelry. She even had a wild dream of becoming a fashion designer but now, with her many interests and talents, she is not sure where the future may take her.</p>','yaeji-shin','src_imgs/soloists/Yaeji_Shin.jpg',7968);
 INSERT INTO "soloists_soloist" VALUES(61,'William Davenport','tenor','<p>
 Tenor William Davenport is rapidly garnering attention for his strong yet lyric tenor and Italianate style.  Of his performance in <em>La Traviata</em>, the <em>Baltimore Sun</em> remarked, “He already knows how to shape a Verdi melody quite elegantly.”  A native of Maryland, he is currently in his third and final year at the Peabody Conservatory, in Baltimore, where he studies with Dr. Stanley Cornett.  A frequent performer on the Peabody stage, in both opera and concert, Mr. Davenport has been heard most recently as tenor soloist in Rossini’s <em>Petite messe solennelle</em> with the Peabody Singers.  Also this fall, he was chosen to sing “Che gelida manina,” from <em>La boheme</em>, in concert under conductor Karin Hendrickson.  Previous concert credits include tenor soloist in Puccini’s <em>Messa di Gloria</em>, also with Peabody, <em>Mozart by Candlelight</em> with Annapolis Opera, and a <em>Messiah</em> with the Frederick Chamber Singers and Orchestra.  On the operatic stage, Mr. Davenport has been seen as “Alfredo” in <em>La Traviata</em>, “Tamino” in <em>Die Zauberflöte</em>, “Le théière/La rainette” in <em>L’enfant et les Sortilèges</em>, and in the Spring will tackle “Alfred,” in <em>Die Fledermaus</em>; all with the Peabody Opera Department. In addition to his Peabody training, Mr. Davenport has just finished a summer festival season with Glimmerglass Opera as a member of their prestigious Young American Artists Program in Cooperstown, NY.  While there, he sang in their mainstage productions and gave a public recital at the Otesaga Resort with bass-baritone Adam Fry.  This coming April Mr. Davenport will sing “Rodolfo” in <em>La boheme</em> with Chesapeake Concert Opera.
-</p>','william-davenport','src_imgs/soloists/William_Davenport.jpg',4903);
-INSERT INTO "soloists_soloist" VALUES(62,'Jason Love, conductor','','','jason-love-conductor','src_imgs/soloists/jlove.jpg',4814);
-INSERT INTO "soloists_soloist" VALUES(63,'The Columbia Orchestra','','','columbia-orchestra','src_imgs/soloists/violas.jpg',4808);
+</p>','william-davenport','src_imgs/soloists/William_Davenport.jpg',4964);
+INSERT INTO "soloists_soloist" VALUES(62,'Jason Love, conductor','','','jason-love-conductor','src_imgs/soloists/jlove.jpg',4874);
+INSERT INTO "soloists_soloist" VALUES(63,'The Columbia Orchestra','','','columbia-orchestra','src_imgs/soloists/violas.jpg',4869);
+INSERT INTO "soloists_soloist" VALUES(64,'Christopher Rose','percussion','<p>Christopher Rose has been the principal percussionist with the Harrisburg Symphony since February of 1998. He is also a member of “The President’s Own” United States Marine Band in Washington, DC. He has been a percussionist with the band since 1997 and has held the title of assistant principal percussionist since 2001. He currently holds the rank of Master Sergeant.</p>
+
+<p>Christopher has gained extensive experience as a soloist, to include Concerto for Four Percussionists by William Kraft, Déjà vu by Michael Colgrass and Converging Worlds by Jonathan Leshnoff. He was most recently featured as soloist on William Childs’ Concerto for Percussion and Concert Band and Jennifer Higdon’s Percussion Concerto. As an international soloist, Christopher had an opportunity to perform Joseph Schwantner’s Percussion Concerto in Lucerne, Switzerland, in 2001. One critic described Christopher’s performance as “…virtuosity put at the service of music, not just entertainment, though it certainly achieved that as well.” He performed the Schwantner Concerto again at the 2004 Midwest Band and Orchestra Conference in Chicago, Illinois.</p>
+
+<p>Mr. Rose has performed with symphonies in Houston, Chicago, Kansas City, Annapolis, Hagerstown (MD), Alexandria, Fairfax, and Galveston, as well as the National Symphony, Washington Symphonic Brass, and the New York City Opera. Additionally, he is a returning member of the Grand Teton Music Festival. He also spent five years as percussionist for Andy William at his famous “Moon River Theater” in Branson, Missouri. While with Andy Williams, he toured extensively throughout the United States, Japan, Korea, and Indonesia.</p>
+
+<p>He is fluent in many musical styles including classical, jazz, rock, and Latin jazz, having performed and recorded with such artists as Kimberly Locke, Sheri Lewis, The Three Irish Tenors, Frank Russo, Bob Boguslaw, Ann-Margret, Placido Domingo, Andy Williams, John Williams, and the Summit Brass.</p>
+
+<p>Rose graduated Magna Cum Laude with his Bachelor of Music and Master of Music degrees in percussion performance from the Shepherd School of Music at Rice University in Houston, Texas. Under the tutelage of Richard Brown, he became a founding member of the Continuum Percussion Quartet, whose debut album on New World Records was nominated for a Grammy Award in 1990. The quartet was also the first percussion ensemble to be asked to compete in the Concert Artists Guild International Competition. He currently resides in Alexandria, Virginia, with his wife, Danielle.</p>','christopher-rose','src_imgs/soloists/Christopher_Rose.jpg',57);
 CREATE TABLE "pieces_piece_soloist" (
     "id" integer NOT NULL PRIMARY KEY,
     "piece_id" integer NOT NULL,
@@ -7379,6 +7936,7 @@ INSERT INTO "pieces_piece_soloist" VALUES(61,32,60);
 INSERT INTO "pieces_piece_soloist" VALUES(62,173,33);
 INSERT INTO "pieces_piece_soloist" VALUES(63,174,60);
 INSERT INTO "pieces_piece_soloist" VALUES(64,189,15);
+INSERT INTO "pieces_piece_soloist" VALUES(65,179,64);
 CREATE TABLE "pieces_piece" (
     "id" integer NOT NULL PRIMARY KEY,
     "title" varchar(250) NOT NULL,
@@ -8227,8 +8785,8 @@ Orchestra''s biennial American Composer Competition and serve on the
 board of directors.  In real life, I hold a Ph.D. in Computer Science 
 from the University of Maryland, and I work as a research scientist in 
 the field of Computational Linguistics at the University of Maryland 
-Center for Advanced Study of Language.</p>','src_imgs/members/Zajic.jpg',3779,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(2,'Andrea','','Aldrich',3,0,0,0,'','',0,0,NULL);
+Center for Advanced Study of Language.</p>','src_imgs/members/Zajic.jpg',3991,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(2,'Andrea','','Aldrich',3,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(3,'Edward','Jean','Welker',4,1,0,0,'<p>OOOooooOOO, I have my own biography? Who let that happen???</p>
 
 <p>Hi, my name is listed above, as is my favorite instrument, the oboe.  Ok, that''s not exactly true, I play the cello and it is by far my favorite instrument.  No offense to Saint-Saëns'' Act 3 Scene 2, I still love you oboe!  Must be something about the O''s.</p>
@@ -8239,14 +8797,14 @@ INSERT INTO "roster_orchestramember" VALUES(3,'Edward','Jean','Welker',4,1,0,0,'
 
 <p>As Clark Kent, I am a nerd.  My day job is writing websites, specifically <a href="http://www.pubmed.gov">PubMed</a>.  In my spare time I revel in any hobby I can concoct, be that music, photography, cycling, or... other <a href="http://eddiewelker.com" rel="me">nerd things</a>.</p>
 
-<p>Since there is literally nothing else about me... time for music shout-outs! Big props to my old quartet (Peggy, Mollie & Ariel!), my cello friends (Kacy, Kristen), my music friends [yes, IN order!] (Andrea, Ashleigh, Cameo, Celia, Enoch, Jerome, Robin [the oldest], and Val [the newest]), my orchestras, GBYO & UMD, and Jason, my sisters, and... everyone else I missed and cause trouble with!</p>','src_imgs/members/EddieWelker.jpg',4746,0,NULL);
+<p>Since there is literally nothing else about me... time for music shout-outs! Big props to my old quartet (Peggy, Mollie & Ariel!), my cello friends (Kacy, Kristen), my music friends [yes, IN order!] (Andrea, Ashleigh, Cameo, Celia, Enoch, Jerome, Robin [the oldest], and Val [the newest]), my orchestras, GBYO & UMD, and Jason, my sisters, and... everyone else I missed and cause trouble with!</p>','src_imgs/members/EddieWelker.jpg',5024,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(4,'Brenda','','Anna',1,0,0,1,'<p>Brenda Anna, violinist, attended the Peabody Conservatory of Johns Hopkins University, where she studied with Yong Ku Ahn, Charles Libove, and David Geber of the American String Quartet. She has also studied and participated in workshops with Elisabeth Adkins and Arnold Steinhart.</p>
 
 <p>She currently serves as concertmaster of the Columbia Orchestra and is a member of the National Philharmonic. In addition, Brenda is a busy freelance performer in the Baltimore/Washington area. A member of the Quinten String Quartet, Ms. Anna has also performed with the Dickinson Piano Quartet, the Gallery Quartet, and the Riversdale Chamber Ensemble.</p>
 
-<p>Ms. Anna has performed as soloist with the Mid-Atlantic Symphony, the Annapolis Chamber Orchestra, the Chamber Orchestra of Southern Maryland, the Prince Georges Philharmonic, the Prince Georges Symphony, the Arundel Summer Orchestra, the Messiah College Orchestra, and the Columbia Orchestra. She teaches in her private studio, and is a member of the faculty of Princeton Chamber Music Playweek in Lexington, VA, a summer program for adult amateur chamber musicians. </p>','src_imgs/members/Brenda_Anna_8x10.jpg',4996,0,NULL);
+<p>Ms. Anna has performed as soloist with the Mid-Atlantic Symphony, the Annapolis Chamber Orchestra, the Chamber Orchestra of Southern Maryland, the Prince Georges Philharmonic, the Prince Georges Symphony, the Arundel Summer Orchestra, the Messiah College Orchestra, and the Columbia Orchestra. She teaches in her private studio, and is a member of the faculty of Princeton Chamber Music Playweek in Lexington, VA, a summer program for adult amateur chamber musicians. </p>','src_imgs/members/Brenda_Anna_8x10.jpg',5224,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(5,'Sarah','','Prindiville',4,0,0,0,'','src_imgs/members/Sarah_Prindiville.jpg',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(6,'Arthur','','Fleming',4,0,0,0,'<p>A graduate of Centennial High School and the University of Maryland, I have been playing cello in the Columbia Orchestra since 2002.  I have also played with the UMBC Orchestra, the St. Paul''s Summer String Orchestra, and the Howard County Ballet Orchestra.  I work for Constellation Energy (Print and Digital Media Division), and I live in Mount Washington with my girlfriend, CO violinist Casey Kraft, our dog Darby, and our cat Fiona.</p>','src_imgs/members/Arthur_Fleming.JPG',1188,1,NULL);
+INSERT INTO "roster_orchestramember" VALUES(6,'Arthur','','Fleming',4,0,0,0,'<p>A graduate of Centennial High School and the University of Maryland, I have been playing cello in the Columbia Orchestra since 2002.  I have also played with the UMBC Orchestra, the St. Paul''s Summer String Orchestra, and the Howard County Ballet Orchestra.  I work for Constellation Energy (Print and Digital Media Division), and I live in Mount Washington with my girlfriend, CO violinist Casey Kraft, our dog Darby, and our cat Fiona.</p>','src_imgs/members/Arthur_Fleming.JPG',1196,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(7,'Jason','','Love',27,0,0,0,'<p>Praised for his "intelligent and innovative programming," Jason Love has brought his inspiring demeanor and enormous energy to several of Maryland''s great cultural institutions. Under his leadership, the <em>Baltimore Sun</em> has called The Columbia Orchestra "Howard County''s premier ensemble for instrumental music," noting that "Love has the musicians playing not only with verve and passion, but with an awareness to enter into the emotional core of the works they perform."</p>
 
 <p>Love’s twelve-year tenure as Artistic Director and Conductor of the Greater Baltimore Youth Orchestra Association was marked by continuous growth in the success and prestige of this organization. He commissioned new works, forged partnerships with other arts organizations, extended the orchestra’s community outreach programs and conducted highly successful tours of Austria, Japan, and Russia.</p>
@@ -8257,7 +8815,7 @@ INSERT INTO "roster_orchestramember" VALUES(7,'Jason','','Love',27,0,0,0,'<p>Pra
 
 <p>Recent and upcoming guest appearances find him conducting a variety of ensembles such as the Baltimore Symphony, Washington Sinfonietta (DC), Bismarck Symphony, and RUCKUS, a contemporary music ensemble at the University of Maryland, Baltimore County where he also teaches conducting. Aside from classical music he performs with singer-songwriter Angela Taylor and can be heard on singer-songwriter Sahffi''s upcoming album <em>Turning Tides</em>.</p>
 
-<p>Born in Burlington, North Carolina, Love studied violoncello with Ronald Thomas and conducting with Frederik Prausnitz at the Peabody Conservatory. He is Past President of the Peabody Alumni Association.</p>','src_imgs/members/Jason_Love.jpg',5432,0,NULL);
+<p>Born in Burlington, North Carolina, Love studied violoncello with Ronald Thomas and conducting with Frederik Prausnitz at the Peabody Conservatory. He is Past President of the Peabody Alumni Association.</p>','src_imgs/members/Jason_Love.jpg',5675,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(8,'Alison','','Candela',1,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(9,'Mike','','Catelinet',1,0,0,0,'<p>Columbia Orchestra member since: 2004</p>
 
@@ -8293,9 +8851,9 @@ _Physics of the Impossible_, by Michio Kaku</p>
 "Good Eats", "Mythbusters", and "Ace of Cakes"</p>
 
 <p>Other surprising facts about you?
-I earned a private pilot''s license (airplane, single-engine, land) in 2002. I have also been teaching myself computer science and have contributed to several online open-source software projects.</p>','src_imgs/members/MikeCatelinet.jpg',3714,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(10,'Naomi','','Chang-Zajic',1,0,0,0,'<p>Naomi Chang Zajic, violin, has been a member of the Columbia Orchestra since 2001 and a member of the Board of Directors since 2004. Coming from a non-musical family, she began learning the violin at age 8 and continued learning through the public school system while growing up in Salt Lake City, Utah. Her previous teachers include John Englund, formerly of the Boston Symphony, and José Miguel Cueto, currently of the Concert Artists of Baltimore. Naomi holds a bachelor’s degree in Biological Sciences and a master’s degree in Professional Writing. She is a technical writer and editor for an engineering firm in the Baltimore-Washington area.</p>','src_imgs/members/NZajic.jpg',3897,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(11,'Erin','','Chester',1,0,0,0,'<p>I received a Bachelor''s of Music Education from Ithaca College School of Music in 2002.  I received a Masters of Arts degree from University of Maryland College Park in 2008.  I have been teaching instrumental music at Old Mill Middle School South in Millersville, MD since 2002.  I have been playing violin for over 20 years and enjoy playing with the orchestra.</p>','',342,1,NULL);
+I earned a private pilot''s license (airplane, single-engine, land) in 2002. I have also been teaching myself computer science and have contributed to several online open-source software projects.</p>','src_imgs/members/MikeCatelinet.jpg',3899,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(10,'Naomi','','Chang-Zajic',1,0,0,0,'<p>Naomi Chang Zajic, violin, has been a member of the Columbia Orchestra since 2001 and a member of the Board of Directors since 2004. Coming from a non-musical family, she began learning the violin at age 8 and continued learning through the public school system while growing up in Salt Lake City, Utah. Her previous teachers include John Englund, formerly of the Boston Symphony, and José Miguel Cueto, currently of the Concert Artists of Baltimore. Naomi holds a bachelor’s degree in Biological Sciences and a master’s degree in Professional Writing. She is a technical writer and editor for an engineering firm in the Baltimore-Washington area.</p>','src_imgs/members/NZajic.jpg',4107,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(11,'Erin','','Chester',1,0,0,0,'<p>I received a Bachelor''s of Music Education from Ithaca College School of Music in 2002.  I received a Masters of Arts degree from University of Maryland College Park in 2008.  I have been teaching instrumental music at Old Mill Middle School South in Millersville, MD since 2002.  I have been playing violin for over 20 years and enjoy playing with the orchestra.</p>','',343,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(12,'Matthew','','DeBeal',1,0,0,0,'','src_imgs/members/Matthew_DeBeal.jpg',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(13,'Susan','','Dudley',1,0,0,0,'<p>Columbia Orchestra Member Since: 2002 </p>
 
@@ -8310,7 +8868,7 @@ INSERT INTO "roster_orchestramember" VALUES(13,'Susan','','Dudley',1,0,0,0,'<p>C
 
 <p>Fun Fact #2 = I like to travel. So far I’ve been to Asia, Europe, the Caribbean and N. Africa.</p>
 
-<p>Fun Fact #3 = I love going to rock concerts on my free time. I have been to a rock concert each month since October 2008.</p>','',1516,0,NULL);
+<p>Fun Fact #3 = I love going to rock concerts on my free time. I have been to a rock concert each month since October 2008.</p>','',1589,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(14,'Casey','','Kraft',1,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(15,'Bruce','','Kuehne',1,0,0,0,'<p>Columbia Orchestra Member Since:  1978</p>
 
@@ -8318,11 +8876,11 @@ INSERT INTO "roster_orchestramember" VALUES(15,'Bruce','','Kuehne',1,0,0,0,'<p>C
 
 <p>I enjoy all types of classical music, but my real joy is music of the 20th (and now 21st) Century, especially the Russians (Shostakovich, Schnittke), Americans (Corigliano, Rouse, Glass), and Scandinavians (Sibelius, Nielsen, Sallinen).  I also occasionally listen to so-called popular music (Joe Jackson, Pat Metheny, and yes, the Beatles), but I return to classical music because the complexity holds my interest.</p>
 
-<p>My day job involves way too many hours each week doing program management at the Johns Hopkins University Applied Physics Lab.  When not working or playing/listening to music, I watch movies (Blood Simple, 12 Monkeys, Apocalypse Now, and more recently Up in the Air).  My wife (of 33 years) and I also like to hike (we just spent a long weekend at Shenandoah National Park) and watch TV (Modern Family, Better off Ted, The Good Wife).  In addition, as president of the Columbia Orchestra and Chairman of the Finance Committee, I spend time on orchestra-related administrative activities.  And every so often, we visit with our daughter Valerie, who is trying to succeed as a freelance cellist playing classical, popular, experimental music on the New York Scene.</p>','src_imgs/members/BruceKuehne.jpg',3693,0,NULL);
+<p>My day job involves way too many hours each week doing program management at the Johns Hopkins University Applied Physics Lab.  When not working or playing/listening to music, I watch movies (Blood Simple, 12 Monkeys, Apocalypse Now, and more recently Up in the Air).  My wife (of 33 years) and I also like to hike (we just spent a long weekend at Shenandoah National Park) and watch TV (Modern Family, Better off Ted, The Good Wife).  In addition, as president of the Columbia Orchestra and Chairman of the Finance Committee, I spend time on orchestra-related administrative activities.  And every so often, we visit with our daughter Valerie, who is trying to succeed as a freelance cellist playing classical, popular, experimental music on the New York Scene.</p>','src_imgs/members/BruceKuehne.jpg',3921,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(16,'Paul','','Li',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(17,'Sara','','Reimers',1,0,0,0,'<p>I have played the violin since I was 8 years old (with a 10 year break that coincided with my military service) and this is my 3rd full season with the Columbia Orchestra. The most unique violin experience I ever had was when I studied abroad during college. I was enrolled in a French Service-Learning program in Montpellier, France. Montpellier is a beautiful and very old town in the South of France that still boasts a medieval city centre with cobbled stone streets. Halfway through my semester, I realized I had run out of money (Yipes!) so I decided to play on the street to raise travel cash. I played almost every day for about a month and ended up with enough money to go to Paris.</p>
  
-<p>When I am not playing with the Columbia Orchestra or busy with my day job, I am perfectly content to spend a quiet evening at home with my husband and 7-year old Black Lab. Otherwise, I am very active in the Laurel Church of Christ, love to scrapbook and make cards, and try to travel as much as our family budget and vacation days will allow.</p>','src_imgs/members/Sara_Reimers.jpg',2906,0,NULL);
+<p>When I am not playing with the Columbia Orchestra or busy with my day job, I am perfectly content to spend a quiet evening at home with my husband and 7-year old Black Lab. Otherwise, I am very active in the Laurel Church of Christ, love to scrapbook and make cards, and try to travel as much as our family budget and vacation days will allow.</p>','src_imgs/members/Sara_Reimers.jpg',3071,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(18,'Helen','','Rohleder',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(19,'Robin','','Strempek',1,0,0,0,'<p>Columbia Orchestra Member Since: 2003</p>
 
@@ -8344,7 +8902,7 @@ INSERT INTO "roster_orchestramember" VALUES(19,'Robin','','Strempek',1,0,0,0,'<p
 
 <p>Interesting Fact #2: I earned a black belt in Tae Kwon Do when I was in middle school.</p>
 
-<p>Interesting Fact #3: I have traveled to South Korea, Iceland, England, Wales, Scotland, Czech Republic, Bratislava, and Austria.</p>','src_imgs/members/Robin_Strempek.jpg',3177,0,NULL);
+<p>Interesting Fact #3: I have traveled to South Korea, Iceland, England, Wales, Scotland, Czech Republic, Bratislava, and Austria.</p>','src_imgs/members/Robin_Strempek.jpg',3363,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(20,'Annette','','Szawan',1,0,0,0,'<p>Grew up in Canton, Ohio and attended Baldwin-Wallace Conservatory of Music earning a Bachelor of Music Education degree. Went on to graduate school to receive a Masters of Music Education from Kent State University.</p>
 
 <p>Presently an Orchestra Director in Howard County Schools for 22 years. Was director of Elementary Enrichment G/T Orchestra for 20 years. Was selected for Who''s Who Among America''s Teachers in 2004.</p>
@@ -8353,8 +8911,8 @@ INSERT INTO "roster_orchestramember" VALUES(20,'Annette','','Szawan',1,0,0,0,'<p
 
 <p>Has played first violin in the Columbia Orchestra for 20 years and still loves every minute of it!!</p>
 
-<p>Loves to relax with a good Sci-Fi movie/tv series. Resides in Ellicott City with husband, bernie, and has a daughter living in Florida.</p>','src_imgs/members/Annette_Szawan2.jpg',3062,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(21,'Jon','','Teske',1,0,0,0,'','',0,0,NULL);
+<p>Loves to relax with a good Sci-Fi movie/tv series. Resides in Ellicott City with husband, bernie, and has a daughter living in Florida.</p>','src_imgs/members/Annette_Szawan2.jpg',3259,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(21,'Jon','','Teske',1,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(22,'Tim','','Topoleski',1,0,0,0,'','src_imgs/members/Tim_Topoleski.jpg',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(23,'Chris ','','Nibali',2,1,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(24,'Viviana','','Acosta',2,0,0,0,'<p>After a disastrous attempt at learning piano at age 4 which ended in tears, my father said to me at age 7, "Pick an instrument." I remember watching Sesame Street at the time and Sarah Chang was playing her little prodigy heart out during a commercial break. I thought, she''s my age and it looks easy. Avoiding another argument about my then proven musical inability, I responded, "Violin." The very next day with my rented 1/4 size violin, I arrived at Settlement Music School in Jenkintown, PA, a suburb of Philadelphia. 
@@ -8363,12 +8921,12 @@ After a few years of being relegated to the garage behind soundproof walls, my s
 
 <p>Since then, I continued playing throughout high school and at the University of Pennsylvania in various orchestral and chamber groups. I was lucky enough to receive instruction by Ghislaine Fleshman, a member of the Philadelphia Orchestra. After college, I played in the Mainline Symphony Orchestra before moving from Philadelphia to the Columbia area and joined the Columbia Orchestra in 2009.</p>
 
-<p>I am grateful for the opportunities a musical education provided me and believe music was a key factor in keeping me from falling into the pitfalls of an urban environment as an adolescent.</p>','',1212,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(25,'Jonathan','','Chang',2,0,0,0,'','',0,0,NULL);
+<p>I am grateful for the opportunities a musical education provided me and believe music was a key factor in keeping me from falling into the pitfalls of an urban environment as an adolescent.</p>','',1284,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(25,'Jonathan','','Chang',2,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(26,'Jacquelyn','','DeBella',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(27,'Meg','','Glenn',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(28,'Heidi','','Goldberg',2,0,0,0,'','',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(29,'Ariel','','Haber',2,0,0,0,'','',0,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(29,'Ariela','','Haber',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(30,'Sheila','','Hrapchak',2,0,0,0,'<p>Graduate of Mansfield (PA) University [BS in Music Ed] and Indiana University of PA [MS in Music Ed]</p>
 
 <p>I have played in orchestras, each rehearsing on Monday evenings, every year since college: </p>
@@ -8381,7 +8939,7 @@ INSERT INTO "roster_orchestramember" VALUES(30,'Sheila','','Hrapchak',2,0,0,0,'<
 
 <p>Originally from Pennsylvania, I currently live in Columbia with my husband John, and work at Travelers Insurance Company.</p>
 
-<p>I also direct our church choir, and give piano lessons.</p>','src_imgs/members/SheilaHrapchak.jpg',3595,0,NULL);
+<p>I also direct our church choir, and give piano lessons.</p>','src_imgs/members/SheilaHrapchak.jpg',3785,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(31,'Jeeyun','','Kim',2,0,0,0,'<p>I started playing the violin in 5th grade through my elementary school''s program.  Mr. Jan Turkiewicz taught me many things about music and math during private violin lessons from 8th through 11th grade.  Then, I studied violin for a year with Dr. Ronald Francois who taught me to always find a story in the music.</p>
 
 <p>After high school, I put the violin on the back burner while getting my degree in electrical engineering.  I''m happy to be playing regularly again, after a long 14 year hiatus, with this orchestra.  I particularly appreciate the arrhythmic modern music we play, because it has forced me to learn to count my music better.</p>
@@ -8391,7 +8949,7 @@ INSERT INTO "roster_orchestramember" VALUES(31,'Jeeyun','','Kim',2,0,0,0,'<p>I s
 
 <p>music likes: Andrew Bird, Bach, Bizet, Ida, Jack Johnson, Prokofiev, Rachmaninoff, Radiohead, Schubert, Shostakovich.</p>
 <p>music hates: Andrew Lloyd Webber and polka.</p>
-<p>favorite music played: Ravel''s Mother Goose Suite, Kabalevsky''s Colas Breugnon overture.</p>','src_imgs/members/Jeeyun_Kim.JPG',3010,0,NULL);
+<p>favorite music played: Ravel''s Mother Goose Suite, Kabalevsky''s Colas Breugnon overture.</p>','src_imgs/members/Jeeyun_Kim.JPG',3223,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(32,'Tanesha','','Mitchell',2,0,0,0,'','src_imgs/members/Tanesha_Mitchell.jpg',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(33,'Stuart','','Silver',2,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(34,'Dorothy','','Elkin',3,0,0,0,'','',0,0,NULL);
@@ -8403,13 +8961,13 @@ INSERT INTO "roster_orchestramember" VALUES(35,'J.','Patrick','Femiano',3,0,0,0,
 
 <p>Many of my summers were spent in music camps that specialized in playing the chamber music of great composers from Haydn to Schubert.</p>
 
-<p>After years of playing these different genres of music, I have to say that playing the full orchestral works of the great compers such as Mozart, Beethoven, Tchaikovsky is a source of great satisfaction and I am glad that the Columbia Orchestra makes this music available to our community.</p>','src_imgs/members/PatrickFemiano.jpg',3963,0,NULL);
+<p>After years of playing these different genres of music, I have to say that playing the full orchestral works of the great compers such as Mozart, Beethoven, Tchaikovsky is a source of great satisfaction and I am glad that the Columbia Orchestra makes this music available to our community.</p>','src_imgs/members/PatrickFemiano.jpg',4165,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(36,'Chris','','Gosper',3,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(37,'Susan','','Laessig',3,0,0,0,'','',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(38,'Bruce','','Newhall',3,0,0,0,'<p>In the fall of 1980 I joined the Columbia Chamber Orchestra, which was the string orchestra predecessor to the Columbia Orchestra.  Unlike most violists, I never played violin; I started on viola in 5th grade.  I have a PhD in Applied Mathematics from Rensselaer Polytechnic, and played in their orchestra during my undergraduate years.  I am employed at the Johns Hopkins Applied Physics Lab, where I am the Chief Scientist for the Maritime Security and Technology Program Area.  That means that I conduct research and development of Navy sonar systems and countermeasures against foreign sonars.  My wife, Elaine, is the principal flutist for the Columbia Orchestra, and my daughter, Katie, played cello in the orchestra when she was in high school.  When I’m not working or practicing music, I enjoy outdoor activities, especially fossil collecting, canoeing, and hiking.</p>','src_imgs/members/BruceNewhall.JPG',3558,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(38,'Bruce','','Newhall',3,0,0,0,'<p>In the fall of 1980 I joined the Columbia Chamber Orchestra, which was the string orchestra predecessor to the Columbia Orchestra.  Unlike most violists, I never played violin; I started on viola in 5th grade.  I have a PhD in Applied Mathematics from Rensselaer Polytechnic, and played in their orchestra during my undergraduate years.  I am employed at the Johns Hopkins Applied Physics Lab, where I am the Chief Scientist for the Maritime Security and Technology Program Area.  That means that I conduct research and development of Navy sonar systems and countermeasures against foreign sonars.  My wife, Elaine, is the principal flutist for the Columbia Orchestra, and my daughter, Katie, played cello in the orchestra when she was in high school.  When I’m not working or practicing music, I enjoy outdoor activities, especially fossil collecting, canoeing, and hiking.</p>','src_imgs/members/BruceNewhall.JPG',3755,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(39,'Alison','','Pack',3,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(40,'Margaret','','Pooler',3,0,0,0,'','src_imgs/members/Margaret_Pooler.jpg',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(41,'Julie','','Schwartz',3,0,0,0,'<p>Julie loves classical music and takes great joy in being one small part of a large orchestra.</p>','src_imgs/members/Julie_Schwartz.jpg',1014,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(41,'Julie','','Schwartz',3,0,0,0,'<p>Julie loves classical music and takes great joy in being one small part of a large orchestra.</p>','src_imgs/members/Julie_Schwartz.jpg',1199,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(42,'Annemarie','','Scimonelli',3,0,0,0,'<p>Annemarie Scimonelli</p>
 
 <p>Columbia Orchestra Member Since: 2002, I think? </p>
@@ -8424,7 +8982,7 @@ INSERT INTO "roster_orchestramember" VALUES(42,'Annemarie','','Scimonelli',3,0,0
 
 <p>My favorite composer is Antonin Dvorak because he played the viola, and he wrote music inspired by the common man of his home country.  My favorite symphony is Tchaikovsky''s Pathetique Symphony #6.</p>
 
-<p>I cherish Monday nights with the Columbia Orchestra.  I can get away from my real life as a Human Resources Manager and do what I really love.  It feeds my soul.</p>','src_imgs/members/AnnemarieScimonelli.jpg',3774,0,NULL);
+<p>I cherish Monday nights with the Columbia Orchestra.  I can get away from my real life as a Human Resources Manager and do what I really love.  It feeds my soul.</p>','src_imgs/members/AnnemarieScimonelli.jpg',3972,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(43,'Pamela','','Truitt',3,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(44,'Dottie','','Wayne',3,0,0,0,'<p>Columbia Orchestra member since 1998.</p>
 
@@ -8434,7 +8992,7 @@ INSERT INTO "roster_orchestramember" VALUES(44,'Dottie','','Wayne',3,0,0,0,'<p>C
 
 <p>Memorable musical experience:  It was when she and her husband were living in Zagreb, Croatia.  She played regularly in a quartet with a flutist (Argentinean), violinist (German), cellist (Croatian), and herself.  It was quite a challenge trying to communicate - using English and Croatian as the common denominators - plus learning the different European musical notations and expressions!</p>
 
-<p>Fun fact you may not know:  Dottie made the viola that she plays in the Columbia Orchestra.  She topped it in 1976.  It is now older than many of the young orchestra members!</p>','src_imgs/members/Dottie_Wayne.jpg',2651,0,NULL);
+<p>Fun fact you may not know:  Dottie made the viola that she plays in the Columbia Orchestra.  She topped it in 1976.  It is now older than many of the young orchestra members!</p>','src_imgs/members/Dottie_Wayne.jpg',2856,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(45,'Penny','','Zahn',3,0,0,0,'<p>
 I began playing in Elementary school over 40 years ago with a public school teacher named Mr. Dyer.  I continued playing in the school orchestras until I went off to college where I found that I fit right into the college orchestra, without ever having a private lesson!
 </p>
@@ -8445,17 +9003,17 @@ The viola sat unused for about 5 years before I discovered a small string group 
 
 <p>
 It has been a real pleasure to play with this expanding and continuously improving group.  The joy of playing in a full symphony is a treat for the performers as much as for the audience.  Enjoy!
-</p>','src_imgs/members/PennyZahn.JPG',3422,0,NULL);
+</p>','src_imgs/members/PennyZahn.JPG',3612,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(46,'Bryan','','Barrett',4,0,0,0,'<p>I was born and brought up in England and started playing the cello at school. I spent 23 years as an officer in the Royal Navy, without many opportunities to play the cello, and played classical guitar for many years – easier to carry onboard a ship! I immigrated to the States in 1989 and we live in Annapolis.  I was so pleased to find a wealth of community music in Maryland and auditioned for the Columbia orchestra. I joined 7 years ago and have been thrilled to be able to play so much of the great orchestral repertoire that I have loved all my live, and also to be introduced to a lot of contemporary works that I would not otherwise have discovered. I have studied the cello here with Kerena Mueller and Gita Ladd. I am sort of retired, consulting in subsea engineering part time for the company I used to work for, and hope, as I turn 70 this year, to be able to continue to play for this wonderful orchestra for many years. </p>
 
-<p>Member of Columbia Orchestra since 2003</p>','src_imgs/members/Bryan.jpg',3658,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(47,'John','','Carter',4,0,0,0,'<p>John B. Carter is completing his second season with the Columbia Orchestra as a member of the cello section.  John, a Pennsylvania native, was introduced to the cello as a junior-high student by Donald E. Sutter who was the lead violinist for a string quartet in which John took part at Trinity Lutheran Church in Coatesville, PA.  John, originally a trumpeter, switched to the French horn and held the first chair horn position in the Coatesville Area Senior High School Symphonic Band.  As the first chair cellist in the Coatesville Area Senior High Orchestra, John placed to sit third chair at the Mid-East All Star Orchestra during his junior year, and played the Grieg Piano Concerto and the Great Gate of Kiev from Mussorgsky’s Pictures at an Exhibition at the festival concert.  He attended the string workshops at West Chester University each summer as a teenager.  John studied Psychology at Waynesburg University, Waynesburg, Pennsylvania and graduated in 1973 with a Bachelor’s Degree.  At Waynesburg, he was a member of the fledgling Waynesburg Marching Band and its orchestra under the direction of Allen C Emerick.  John attended graduate school at Roosevelt University in Chicago, Illinois where he earned a Master’s Degree in Public Administration and played with the Chatham Symphony, the DePaul University Orchestra (Leon Stein) and the Lewis University Orchestra.  John continues to enjoy playing chamber music, and is a volunteer musician at St Mark’s Evangelical Lutheran Church in Baltimore where he is a member.  One of John’s favorite remembrances is of a comment made by his father, Lee, during  intermission at a Mid-East orchestra performance in Schwenksville, PA that featured the Beethoven 1st Symphony:  ‘Man, I thought that song would never end!’ quipped his Dad.  John chooses Brahms, Rachmaninoff and Chopin among his favorite composers and enjoys listening to music and reading in his spare time.</p>','src_imgs/members/JohnCarter.jpg',1819,1,NULL);
+<p>Member of Columbia Orchestra since 2003</p>','src_imgs/members/Bryan.jpg',3877,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(47,'John','','Carter',4,0,0,0,'<p>John B. Carter is completing his second season with the Columbia Orchestra as a member of the cello section.  John, a Pennsylvania native, was introduced to the cello as a junior-high student by Donald E. Sutter who was the lead violinist for a string quartet in which John took part at Trinity Lutheran Church in Coatesville, PA.  John, originally a trumpeter, switched to the French horn and held the first chair horn position in the Coatesville Area Senior High School Symphonic Band.  As the first chair cellist in the Coatesville Area Senior High Orchestra, John placed to sit third chair at the Mid-East All Star Orchestra during his junior year, and played the Grieg Piano Concerto and the Great Gate of Kiev from Mussorgsky’s Pictures at an Exhibition at the festival concert.  He attended the string workshops at West Chester University each summer as a teenager.  John studied Psychology at Waynesburg University, Waynesburg, Pennsylvania and graduated in 1973 with a Bachelor’s Degree.  At Waynesburg, he was a member of the fledgling Waynesburg Marching Band and its orchestra under the direction of Allen C Emerick.  John attended graduate school at Roosevelt University in Chicago, Illinois where he earned a Master’s Degree in Public Administration and played with the Chatham Symphony, the DePaul University Orchestra (Leon Stein) and the Lewis University Orchestra.  John continues to enjoy playing chamber music, and is a volunteer musician at St Mark’s Evangelical Lutheran Church in Baltimore where he is a member.  One of John’s favorite remembrances is of a comment made by his father, Lee, during  intermission at a Mid-East orchestra performance in Schwenksville, PA that featured the Beethoven 1st Symphony:  ‘Man, I thought that song would never end!’ quipped his Dad.  John chooses Brahms, Rachmaninoff and Chopin among his favorite composers and enjoys listening to music and reading in his spare time.</p>','src_imgs/members/JohnCarter.jpg',1831,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(48,'Sarah','','Cotterill',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(49,'Carolyn','','Ginnever',4,0,0,0,'<p>Moving to Columbia, Maryland with my husband, Richard, 4 children, 4 dogs, 7 cats and 1 boa constrictor was quite the adventure in June of 2001. In August of 2001 I auditioned for the Columbia Symphony Orchestra and have been enjoying music with them on a weekly basis for 9 years.  Several years ago I joined Classical Encounter String Quartet. The quartet has been going to Summer String-In for many years and I joined in that adventure!  How delightful to have the opportunity to play every day for a week, with no other responsibility!</p>
 
 <p>I began playing the cello in the 4th grade on Long Island, New York. After a hiatus of several years, on a dare, I began taking lessons to “brush up” and in 1980 began playing with the Nassau Symphony (Symphony of Long Island). Since that time, there has never been a time when I have not been involved with a symphony, quartet and various other playing opportunities.</p>
 
-<p>Before moving to Columbia from Monroe, Louisiana, I played with the Monroe Symphony Orchestra, one season as the principal cellist, the DiJullian Quartet, and several churches. All, in all, with great thanks to my Dad, playing the cello has been one of the constants in the adventure called my life.</p>','src_imgs/members/Carolyn_Ginnever.jpg',1974,0,NULL);
+<p>Before moving to Columbia from Monroe, Louisiana, I played with the Monroe Symphony Orchestra, one season as the principal cellist, the DiJullian Quartet, and several churches. All, in all, with great thanks to my Dad, playing the cello has been one of the constants in the adventure called my life.</p>','src_imgs/members/Carolyn_Ginnever.jpg',2171,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(50,'Kathy','','Hughes',4,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(51,'Dave','','Pumplin',4,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(52,'Hannah','','Oliver',4,0,0,0,'<p>Hannah Oliver</p>
@@ -8472,13 +9030,13 @@ INSERT INTO "roster_orchestramember" VALUES(52,'Hannah','','Oliver',4,0,0,0,'<p>
 <li>Favorite Movie: Harold and Maude</li>
 <li>Favorite TV Shows: I watch Glee and Bones nowadays.</li>
 <li>What you love about the Columbia Orchestra: Being able to play cello with a group every week, and being involved in the musical community I teach in.</li>
-</ul>','src_imgs/members/HannahOliver.jpg',3830,0,NULL);
+</ul>','src_imgs/members/HannahOliver.jpg',4041,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(53,'Jonathan','','Terry',4,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(54,'Al','','McLaine',5,1,0,0,'<p>Al is shown here with his now 100 year old mother. This picture was taken after a concert, and you can see we are both pretty happy. Mom plays the piano and encouraged me to take up the bass so we could have a family band. My brother was the drummer, my sister played the marimba, and I learned how to pluck the bass strings. I played in the high school orchestra and was part of several small jazz groups during that time (we called ourselves The Marlboros because we were so cool). I played for one year in the Annapolis Symphony when it was a community orchestra in the early 1960s. In college, I played for several years until protesting the Vietnam War took up most of my time. After college, I lived with some ‘friends’ on a ranch in Colorado; I managed to learn a few notes on the tuba so I could play in the local fire department band. I also played the bass in a few gigs with a small group at a local bar.</p>
 
 <p>Many years passed when the bass was just another piece of furniture. But when I ended up in Columbia in the late 1980s, the Columbia Orchestra beckoned, and I have been a member since 1989.</p>
 
-<p>I have always preferred orchestral music, but recently I have taken up jazz again, folk/blue grass, and chamber music. Music will continue to play a major role in my life as I enter retirement years.</p>','src_imgs/members/AlMcLaine.JPG',3696,0,NULL);
+<p>I have always preferred orchestral music, but recently I have taken up jazz again, folk/blue grass, and chamber music. Music will continue to play a major role in my life as I enter retirement years.</p>','src_imgs/members/AlMcLaine.JPG',3901,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(55,'Matthew','','Carroll',5,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(56,'Yoshiaki','','Horiguchi',5,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(57,'Colin','','O''Bryan',5,0,0,0,'','',0,0,NULL);
@@ -8491,22 +9049,22 @@ since 1980. She earned her B.S. in Music Education from
 College of St. Rose, Albany, NY, and M.M. in Music
 Education from SUNY Potsdam, NY, Crane School of Music.
 She was honored with the Howard County Arts Council
-Howie Award, Outstanding Artist 2001.</p>','',1435,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(60,'Kathrin','','Kucharski',29,0,0,0,'<p>Kathrin Kucharski has played flute since she was ten years old and studied flute under Kathleen Trahan from the University of Maryland College Park School of Music.  She has played in a number of community church groups, performed with the Prince Georges County Orchestra and currently serves as second flute/piccolo for the Columbia Orchestra in Columbia Maryland.  In her “real” life, she is a wife, mom of two boys and a medical liaison pharmacist for sanofi-aventis pharmaceuticals.</p>','src_imgs/members/KathrinKucharski.jpg',3623,0,NULL);
+Howie Award, Outstanding Artist 2001.</p>','',1510,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(60,'Kathrin','','Kucharski',29,0,0,0,'<p>Kathrin Kucharski has played flute since she was ten years old and studied flute under Kathleen Trahan from the University of Maryland College Park School of Music.  She has played in a number of community church groups, performed with the Prince Georges County Orchestra and currently serves as second flute/piccolo for the Columbia Orchestra in Columbia Maryland.  In her “real” life, she is a wife, mom of two boys and a medical liaison pharmacist for sanofi-aventis pharmaceuticals.</p>','src_imgs/members/KathrinKucharski.jpg',3820,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(61,'Devona','Lee','Schiller',29,0,0,0,'<p>Devona Schiller, a native of Baltimore County, Maryland, joined the Columbia Orchestra as piccoloist in 2006.  She also currently serves as Principal Flutist of the U. S. Naval Academy Band.  She was formerly Principal Flutist of the U. S. ATLANTIC Fleet Band and has held positions with the Virginia Beach and Annapolis Wind Symphonies.</p>
 
 <p>Mrs. Schiller received Bachelor of Music degrees in education and performance in 1998 from James Madison University, where she studied with Carol Kniebusch Noe. Under the tutelage of Anthony Maiello, she received a Master of Music in conducting from George Mason University in 2003. </p>
 
 <p>An experienced soloist, Mrs. Schiller has been the first prize winner of the James Madison University Concerto Competition, Virginia Music Teacher’s Association Concerto Competition and the Sigma Alpha Iota Scholarship Competition.  She can be heard on the James Madison University Flute Choir feature compact disc Sounds and Colors. </p>
 
-<p>A dedicated educator and advocate of the arts, Mrs. Schiller frequently teaches and serves as a clinician and adjudicator in Baltimore and Anne Arundel County schools.  Mrs. Schiller currently resides in Annapolis, MD and enjoys spending time with her husband, John and family.  Other interests include serving in church ministries, women’s lacrosse, weight training, cooking, biking, and interior design.</p>','src_imgs/members/DevonaSchiller.jpg',3013,0,31);
+<p>A dedicated educator and advocate of the arts, Mrs. Schiller frequently teaches and serves as a clinician and adjudicator in Baltimore and Anne Arundel County schools.  Mrs. Schiller currently resides in Annapolis, MD and enjoys spending time with her husband, John and family.  Other interests include serving in church ministries, women’s lacrosse, weight training, cooking, biking, and interior design.</p>','src_imgs/members/DevonaSchiller.jpg',3212,0,31);
 INSERT INTO "roster_orchestramember" VALUES(62,'Cassandra','Miranda','Valladares',29,0,0,0,'<p>Cassandra was born in San Juan, Puerto Rico. She started piano lessons when she was four years old and later picked up the violin and the flute. When the time came to start college she decided to major in flute, graduating summa cum laude with a Bachelor of Music in Flute Performance from the Conservatory of Music of Puerto Rico where she also received the Woodwind Department Achievement Medal awarded to the most outstanding overall student in the woodwind department.</p>
 
 <p>Cassandra relocated to Maryland to pursue graduate studies at the Peabody Conservatory of the Johns Hopkins University. She graduated with a Masters in Music Education in 2007.</p>
 
 <p>Currently, Cassandra is the band director at Harper''s Choice Middle School in Columbia and teaches flute privately. She is also a member of the Columbia Chamber Winds woodwind quintet. In 2010, Cassandra will begin studies at the University of Maryland School of Law.</p>
 
-<p>In her spare time, Cassandra enjoys learning languages, traveling, and taking care of her Mini-Schnauzer mix, Beauty.</p>','src_imgs/members/Cassandra_Miranda_Valladares.jpg',476,1,NULL);
+<p>In her spare time, Cassandra enjoys learning languages, traveling, and taking care of her Mini-Schnauzer mix, Beauty.</p>','src_imgs/members/Cassandra_Miranda_Valladares.jpg',496,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(63,'Susan','','Schultz',23,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(64,'Lindsey','','Spear',7,1,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(65,'Barbra','','Girdler',7,0,0,0,'','',0,0,NULL);
@@ -8529,7 +9087,7 @@ INSERT INTO "roster_orchestramember" VALUES(73,'Matthew','','Gunderson',9,0,0,0,
 
 <p>He joined the Columbia Orchestra in August of 2009, playing both clarinet and bass clarinet, and has embraced the joys of sharing music with the enthusiastic and hungry audiences that have graced the concert hall.</p>
 
-<p>Matt currently lives in Linthicum Heights, MD, with his wife, Erin, his two young daughters, Abigail and Hannah, and their cat, Rachmaninoff (Rachy for short!).</p>','src_imgs/members/Matt_Gunderson.jpg',3140,0,NULL);
+<p>Matt currently lives in Linthicum Heights, MD, with his wife, Erin, his two young daughters, Abigail and Hannah, and their cat, Rachmaninoff (Rachy for short!).</p>','src_imgs/members/Matt_Gunderson.jpg',3348,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(74,'Edna','','Huang',10,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(75,'Lori','','Fowser',9,0,0,0,'','',0,0,30);
 INSERT INTO "roster_orchestramember" VALUES(76,'Monica','','Schwartz',12,1,0,0,'<p>Monica Schwartz</p>
@@ -8545,24 +9103,24 @@ INSERT INTO "roster_orchestramember" VALUES(76,'Monica','','Schwartz',12,1,0,0,'
 
 <p>Monica has been a band director in Howard County Public Schools since 2001 and has been twice nominated for ‘Music Teacher of the Year for Howard County.’ She currently teaches all woodwinds, brass, and percussion instruments at Manor Woods Elementary School. </p>
 
-<p>Monica spends a lot time playing bassoon, teaching, and composing--but she also takes time to enjoy cooking delicious locally grown food, running, and oil painting.  She loves to travel and thinks Iceland and the Ice Hotel in Canada are the coolest places she has ever been (no pun intended).  She also loves walking her two crazy pugs-- Dizzy (Gillespie) and Miles (Davis).</p>','src_imgs/members/Monica.JPG',3839,0,NULL);
+<p>Monica spends a lot time playing bassoon, teaching, and composing--but she also takes time to enjoy cooking delicious locally grown food, running, and oil painting.  She loves to travel and thinks Iceland and the Ice Hotel in Canada are the coolest places she has ever been (no pun intended).  She also loves walking her two crazy pugs-- Dizzy (Gillespie) and Miles (Davis).</p>','src_imgs/members/Monica.JPG',4036,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(77,'Norma','','Hooks',12,0,0,0,'','src_imgs/members/Norma_Hooks.jpg',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(78,'Stacy','','Hultzman',12,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(79,'Chris','','Holtzem',12,0,0,0,'','',0,1,NULL);
-INSERT INTO "roster_orchestramember" VALUES(80,'Andrew','','Delclos',12,0,0,0,'','',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(81,'Melissa','','Feliciano',13,0,0,0,'','',0,1,NULL);
-INSERT INTO "roster_orchestramember" VALUES(82,'Andrew','','Delclos',13,0,0,0,'','',0,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(80,'Andrew','','Delclos',12,0,0,0,'','',0,1,NULL);
+INSERT INTO "roster_orchestramember" VALUES(81,'Melissa','','Feliciano',12,0,0,0,'','',0,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(82,'Andrew','','Delclos',13,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(83,'James','','Rodak',25,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(84,'Carl','','Reynolds',15,1,0,0,'<p>Carl Reynolds is the principal trumpet player with the Columbia Orchestra and has been serving in that capacity since 1994.  Throughout his music career he has performed with accomplished groups including both The McLean Orchestra and The Arlington Symphony.</p>
 
-<p>Carl continues to freelance with many other musical ensembles in the Baltimore-Washington area, including the Ellicott Brass Quintet.  He is grateful for the support he receives from his family and is indebted to his teachers, Elisa Koehler, Alan Bachelder, and Dennis Edelbrock.</p>','',992,0,NULL);
+<p>Carl continues to freelance with many other musical ensembles in the Baltimore-Washington area, including the Ellicott Brass Quintet.  He is grateful for the support he receives from his family and is indebted to his teachers, Elisa Koehler, Alan Bachelder, and Dennis Edelbrock.</p>','',1069,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(85,'Roy','','Leierzapf',15,0,0,0,'<p>A Pittsburgh native, Roy has been playing with the Columbia Orchestra since 1999.  Prior appointments since moving to Maryland have been Assistant Principal Trumpet of the Rockville Concert Band and trumpet with the Columbia Concert Band.  While still in Pittsburgh, Roy was the Principal Trumpet of the Pittsburgh Civic Orchestra under the baton of Keith Lockhart, now Music Director of the Boston Pops.  Roy is a graduate of Duquesne University where he received a B.S Degree in Music Education.  He studied trumpet under Charles Hois, Jack McKee and Frank Woodbury, all members in the trumpet section of the Pittsburgh Symphony of the sixties through eighties.</p>
 
-<p>Roy is a tax systems and software specialist within the Tax Operations group of USTrust, Bank of America Private Wealth Management.  In addition to providing technical support and leadership of several tax vendors systems, Roy has developed several custom software applications in use by the Tax Departments for specialized tax processing and tracking systems.</p>','src_imgs/members/Roy_Leierzapf_1.jpg',2905,0,NULL);
+<p>Roy is a tax systems and software specialist within the Tax Operations group of USTrust, Bank of America Private Wealth Management.  In addition to providing technical support and leadership of several tax vendors systems, Roy has developed several custom software applications in use by the Tax Departments for specialized tax processing and tracking systems.</p>','src_imgs/members/Roy_Leierzapf_1.jpg',3083,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(86,'Paul','','Lindenmann',15,0,0,0,'<p>Paul has enjoyed playing trumpet for over 35 years.  After high school, he spent three years in the Marine Corps. Band while stationed in North Carolina, once performing for President Reagan during the 100 year anniversary of the Statue of Liberty.  He graduated with a degree in music composition from the University of Maryland, and now works for the Capitol Police in Washington D.C. </p>
 
 <p>He plays Taps in the Capitol Police Ceremonial Unit for funerals or special occasions that honor federal police officers from the D.C. metropolitan area. Paul also enjoys playing trumpet for his church and in a Dixieland band that provides free concerts for senior citizens in the Howard County area.</p>
-','src_imgs/members/Paul_Lindemann.jpg',2171,0,NULL);
+','src_imgs/members/Paul_Lindemann.jpg',2363,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(87,'Andrew','','Strempek',15,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(88,'Mario','','Fuentes',17,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(90,'Anne','','Ward',14,1,0,0,'<ul>
@@ -8586,8 +9144,8 @@ INSERT INTO "roster_orchestramember" VALUES(90,'Anne','','Ward',14,1,0,0,'<ul>
 <li>Favorite TV Shows:  Who has time?</li>
 <li>What you love about the Columbia Orchestra:  Jason and staff, the orchestra members (we’re a TEAM), the repertoire</li>
 </ul>
-','src_imgs/members/AnneWard.jpg',3997,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(91,'Sarah','','Dorrance',14,0,0,0,'<p>Rev. Sarah Babylon Dorrance&ndash;2nd Horn.  The Columbia Orchestra and my life have intertwined ever since this group became a full orchestra, for over 21 years! My first child was born after the end of our first season together. This is a place where I can come make music with others, where we can become one unit as we work together to perform a particular piece of music. Through my own personal life journey the orchestra has been part of who I am. I am grateful for the opportunity to continue playing French Horn over the long haul. It is an honor and a privilege to be a part of these fine musicians. I am a graduate of Gettysburg College and Wesley Theological Seminary. On Monday nights, I belong to the orchestra, the rest of the time I am a Mom of two wonderful college age young women and a pastor at Taylorsville United Methodist Church. I am grateful to God for the gift of music, and as for me, I pray that all the music that I am a part of gives glory to God my Savior.</p>','src_imgs/members/SarahDorrance.jpg',3617,0,NULL);
+','src_imgs/members/AnneWard.jpg',4219,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(91,'Sarah','','Dorrance',14,0,0,0,'<p>Rev. Sarah Babylon Dorrance&ndash;2nd Horn.  The Columbia Orchestra and my life have intertwined ever since this group became a full orchestra, for over 21 years! My first child was born after the end of our first season together. This is a place where I can come make music with others, where we can become one unit as we work together to perform a particular piece of music. Through my own personal life journey the orchestra has been part of who I am. I am grateful for the opportunity to continue playing French Horn over the long haul. It is an honor and a privilege to be a part of these fine musicians. I am a graduate of Gettysburg College and Wesley Theological Seminary. On Monday nights, I belong to the orchestra, the rest of the time I am a Mom of two wonderful college age young women and a pastor at Taylorsville United Methodist Church. I am grateful to God for the gift of music, and as for me, I pray that all the music that I am a part of gives glory to God my Savior.</p>','src_imgs/members/SarahDorrance.jpg',3773,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(92,'Cally','','Messick',14,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(93,'Rebecca','','Lantz',14,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(94,'Jeffrey','','Girdler',14,0,0,0,'<p>A former member of the prestigious United States Navy Band, Jeff Girdler joined the Columbia Orchestra horn section with the 2008-2009 Season. A native of Farmingdale, New York, he began his horn studies at the age of 12. His teachers include Harry and Arthur Berv, former members of the NBC Symphony under Arturo Toscanini; Samuel Ramsay, former member of the National Symphony Orchestra and the Kennedy Center Opera House Orchestra; Forrest Standley, former principal horn of the Pittsburgh Symphony Orchestra; and Philip Myers, principal horn of the New York Philharmonic.</p>
@@ -8600,7 +9158,7 @@ INSERT INTO "roster_orchestramember" VALUES(94,'Jeffrey','','Girdler',14,0,0,0,'
 
 <p>Jeff devotes much of his time to teaching privately and coaching student chamber ensembles. Many of his former students perform professionally with ensembles such as the Baltimore Symphony Orchestra, the National Symphony Orchestra, the Maryland Symphony, the National Philharmonic, major armed services bands, and as successful music educators all over the United States. He has been on the faculty of Prince Georges’ Community College, Howard County Community College, and The Catholic University of America. From 1996 through 2000, he was the adjunct professor of horn at the University of Maryland School of Music, College Park where he taught private studio lessons and conducted the horn ensemble and brass ensemble. While at the University, he was the coordinator of the very popular University of Maryland “Horn Fest” which drew such artists as Barry Tuckwell, Erick Ruske, David Jolly and Peter Landgren.</p>
 
-<p>Jeff lives in Columbia, Maryland with his wife Barbara who plays English horn with the Columbia Orchestra. He is an Educational Specialist/Artist for the C. G. Conn Company. Jeff Girdler performs exclusively on the Conn 8-D French horn.</p>','src_imgs/members/Jeff_Girdler.jpg',2852,0,NULL);
+<p>Jeff lives in Columbia, Maryland with his wife Barbara who plays English horn with the Columbia Orchestra. He is an Educational Specialist/Artist for the C. G. Conn Company. Jeff Girdler performs exclusively on the Conn 8-D French horn.</p>','src_imgs/members/Jeff_Girdler.jpg',3036,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(95,'Nancy','','Corporon',14,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(96,'Jessica','','Hughes',14,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(97,'Pamela','','Scheuermann',14,0,0,0,'','',0,1,NULL);
@@ -8623,7 +9181,7 @@ INSERT INTO "roster_orchestramember" VALUES(99,'Randy','','Malm',17,0,0,0,'<p>Co
 
 <p>I also play in a trombone choir which is (usually) 12 trombones, playing under the direction of David Fetter, a former Principal Trombone in the Baltimore Symphony Orchestra. </p>
 
-<p>If you are in the market for any home improvements, please check my ad in the Orchestra Programs.</p>','src_imgs/members/Randy2.jpg',3429,0,NULL);
+<p>If you are in the market for any home improvements, please check my ad in the Orchestra Programs.</p>','src_imgs/members/Randy2.jpg',3603,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(100,'Randolph','','Capone',18,0,0,0,'<p>Columbia Orchestra Member Since: 2005</p>
 
 <p>Bass trombonist Randy Capone was born in Syracuse, NY and switched from piano to trombone at age 9 after watching Bob Havens perform on the Lawrence Welk Show.  His early teachers included Al Balestra, Jerry Natoli, John Besten, and Bill Harris.  He won the NY State School Music Association solo competition for bass trombone in 1985 while playing with the Syracuse Symphony Youth Orchestra.  He later studied with Harold Van Schaik and George Osborne at The Eastman School of Music. He’s played with the Syracuse Symphony Orchestra, the Utica Symphony Orchestra, the Syracuse Summer Festival Orchestra, the University of Rochester Symphony Orchestra, the Emory Atlanta Orchestra, and the Regal Brass Quintet.  He plays a 1986 Bach Stradivarius 50 B3L with a custom Schilke mouthpiece.</p>
@@ -8632,7 +9190,7 @@ INSERT INTO "roster_orchestramember" VALUES(100,'Randolph','','Capone',18,0,0,0,
 
 
 
-','src_imgs/members/Randy_Capone2.jpg',2785,0,NULL);
+','src_imgs/members/Randy_Capone2.jpg',2964,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(101,'Douglas','','Lee',19,1,0,0,'<p>Columbia Orchestra member since: 1996 </p>
 
 <p>What do you do for a living?  I’m an attorney with the federal court system. </p>
@@ -8655,9 +9213,9 @@ INSERT INTO "roster_orchestramember" VALUES(101,'Douglas','','Lee',19,1,0,0,'<p>
 
 <p>Favorite TV shows?  “Friday Night Lights” </p>
 
-<p>Other surprising facts about you?  I was born in North Dakota.  I’m married to Lynn Halverson, a former cello player in the orchestra (see dress rehearsal story above).  We collect many, many books, especially cookbooks.  I also collect an insane number of CDs.  I was a park ranger at Natural Bridges National Monument, Utah in 1976, the summer after my freshman year in college.  I was a trial lawyer in Philadelphia before moving to the D.C. area in 1989 (in another life...)   </p>','src_imgs/members/DougLee.JPG',3451,0,NULL);
+<p>Other surprising facts about you?  I was born in North Dakota.  I’m married to Lynn Halverson, a former cello player in the orchestra (see dress rehearsal story above).  We collect many, many books, especially cookbooks.  I also collect an insane number of CDs.  I was a park ranger at Natural Bridges National Monument, Utah in 1976, the summer after my freshman year in college.  I was a trial lawyer in Philadelphia before moving to the D.C. area in 1989 (in another life...)   </p>','src_imgs/members/DougLee.JPG',3636,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(102,'Sarah','','Knapp',19,0,0,0,'','',0,1,NULL);
-INSERT INTO "roster_orchestramember" VALUES(103,'Nancy','','Smith',22,0,0,0,'<p>Nancy Smith holds bachelors and masters degrees in Piano Performance from the Eastman School of Music and the Florida State University School of Music, respectively.  Since 2002, she has been Pianist of the Columbia Orchestra.  Previously, Nancy performed with the Florida State University Symphony Orchestra, and as pianist with numerous choral groups.  Her chamber music experience extends to performances as part of the International Institute for Chamber Music, the Sarasota Music Festival, the Festival of New Music, the Dickinson Piano Quartet, and The Columbia Orchestra Trio.  Over the years, Nancy’s career has morphed from free-lance musician to a career that has included stints in arts administration, non-profit management, and proposal development.  Her career has included tenures as Manager of the Tallahassee Symphony Orchestra, service with the Florida Arts Council, Executive Director of AEMS:  Arts Education in Maryland Schools Alliance, and work for the national consulting company MGT of America.  Currently, Nancy is Director of Grants Development for The Community College of Baltimore County, where she oversees the design of projects in a broad array of disciplines.  In 2010, with her help, the college received more than $10 million in grant funding. </p>','src_imgs/members/Nancy_Smith_Color.JPG',3834,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(103,'Nancy','','Smith',22,0,0,0,'<p>Nancy Smith holds bachelors and masters degrees in Piano Performance from the Eastman School of Music and the Florida State University School of Music, respectively.  Since 2002, she has been Pianist of the Columbia Orchestra.  Previously, Nancy performed with the Florida State University Symphony Orchestra, and as pianist with numerous choral groups.  Her chamber music experience extends to performances as part of the International Institute for Chamber Music, the Sarasota Music Festival, the Festival of New Music, the Dickinson Piano Quartet, and The Columbia Orchestra Trio.  Over the years, Nancy’s career has morphed from free-lance musician to a career that has included stints in arts administration, non-profit management, and proposal development.  Her career has included tenures as Manager of the Tallahassee Symphony Orchestra, service with the Florida Arts Council, Executive Director of AEMS:  Arts Education in Maryland Schools Alliance, and work for the national consulting company MGT of America.  Currently, Nancy is Director of Grants Development for The Community College of Baltimore County, where she oversees the design of projects in a broad array of disciplines.  In 2010, with her help, the college received more than $10 million in grant funding. </p>','src_imgs/members/Nancy_Smith_Color.JPG',4051,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(104,'Meredith','','Mancini',24,0,0,0,'<p>Columbia Orchestra Member since: 1999 
 
 <p>Harpist, Meredith Mancini, is an active free-lance harpist in the Washington/Baltimore metropolitan area. Meredith began playing the harp at age 8. She is a cum Laude graduate of The Benjamin T. Rome School of Music at The Catholic University of America, where she studied with Jeanne Chalifoux. She has also trained under Alice Chalifoux at the Salzedo Summer Harp Colony.  </p>
@@ -8666,7 +9224,7 @@ INSERT INTO "roster_orchestramember" VALUES(104,'Meredith','','Mancini',24,0,0,0
 
 <p>Ms. Mancini is an active harp instructor in the Washington/Baltimore area of all ages and abilities. She has been the harp instructor for the D.C. Youth Orchestra Program for over 15 years. She is currently the harp instructor for Montgomery College, and maintains an active private studio as well. She has previously taught at Catholic University and the Ottley School of Music. </p>
 
-<p>Meredith has been an active harpist for weddings, receptions, and all special events for over 20 years. Ms. Mancini is a published arranger for harp ensembles, solos, and musical scores.</p>','src_imgs/members/MeredithMancini.jpg',3598,0,NULL);
+<p>Meredith has been an active harpist for weddings, receptions, and all special events for over 20 years. Ms. Mancini is a published arranger for harp ensembles, solos, and musical scores.</p>','src_imgs/members/MeredithMancini.jpg',3793,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(105,'Jeffrey ','','Soulen',21,1,0,0,'<p>Columbia Orchestra Member since: 1992</p>
 
 <p>Timpanist Jeff Soulen began playing percussion in 10th grade when his school band director,
@@ -8682,7 +9240,7 @@ orchestras since then and enjoys playing occasional freelance gigs as well.</p>
 full time private practice in Ellicott City.</p>
 
 <p>When not at work or playing music, he is likely be found in the great outdoors with his family
-and friends or hosting meditation at the <a class="bodylink" href="http://www.hocodharmagroup.org" target="co_link" title="Pop-up">Howard County Dharma Group</a>.</p>','src_imgs/members/Jeff_Soulen2.jpg',2644,0,NULL);
+and friends or hosting meditation at the <a class="bodylink" href="http://www.hocodharmagroup.org" target="co_link" title="Pop-up">Howard County Dharma Group</a>.</p>','src_imgs/members/Jeff_Soulen2.jpg',2829,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(106,'Gretchen ','','McCracken',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(107,'Greg','','Herron',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(108,'Ken','','Walton',20,0,0,0,'<p>I started my musical studies with piano lessons when I was 9 years  
@@ -8700,13 +9258,13 @@ played in everything from rock bands to big bands, wedding combos,
 church praise bands, musical theatre and more!</p>
 
 <p>When not performing or going to concerts, I enjoy running, biking and  
-hiking.  I am also a fan of both college and professional sports.</p>','src_imgs/members/Ken.jpg',3354,0,NULL);
+hiking.  I am also a fan of both college and professional sports.</p>','src_imgs/members/Ken.jpg',3543,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(109,'Jane','','Creagan',20,0,0,0,'','',0,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(110,'Randall','','Stewart',26,0,0,0,'<p>Randall Stewart was named Assistant Conductor of the Columbia Orchestra in September 2009. Mr. Stewart founded the Baltimore Sinfonietta in 2004 to bring unusual orchestral programming to the region. He has been active as an operatic conductor, having led young artist performances <i>Le Nozze di Figaro, Il barbiere di Siviglia,</i> and <i>Die Zauberflöte</i> in New York and <i>Il Coronazione di Poppea</i> at Catholic University in Washington. In the sphere of Musical Theater, he has conducted performances of <i>The Music Man</i> with the Washington Savoyards and <i>Sweeney Todd</i> at Catholic University. </p>
 
 <p>Mr. Stewart’s has taught instrumental music in Maryland public schools for twelve years, serving as the band director at Catoctin High School in Thurmont from 1998 to 2001 and Eastern Technical High School in Essex from 2001 to 2008. He presently teaches instrumental music at Dundalk Middle School.</p>
 
-<p>Mr. Stewart is a candidate for the Doctor of Musical Arts Degree in Orchestral Conducting at The Catholic University of America in Washington, D.C, where he studies with Maestro David Searle. He has also studied with Kenneth Kiesler and Gustav Meier.</p>','',552,1,NULL);
+<p>Mr. Stewart is a candidate for the Doctor of Musical Arts Degree in Orchestral Conducting at The Catholic University of America in Washington, D.C, where he studies with Maestro David Searle. He has also studied with Kenneth Kiesler and Gustav Meier.</p>','',563,1,NULL);
 INSERT INTO "roster_orchestramember" VALUES(111,'Brandi ','','Healey',4,0,0,0,'','src_imgs/members/Brandi_Healey.jpg',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(112,'Suzanne','','Sherwood',3,0,0,0,'<p>Columbia Orchestra Member Since: 2010</p>
 
@@ -8720,25 +9278,25 @@ INSERT INTO "roster_orchestramember" VALUES(112,'Suzanne','','Sherwood',3,0,0,0,
 
  
 
-<p>When I''m not working I enjoy sewing, reading and some video games. </p>','',1295,0,NULL);
+<p>When I''m not working I enjoy sewing, reading and some video games. </p>','',1348,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(113,'Tedd','','Griepentrog',28,0,0,0,'<p>Tedd Griepentrog served with the U.S. Army Field Band of Washington, DC, the military’s premier touring concert band, for 20 years. As Saxophone Soloist, he performed in all 50 states and 14 countries, premiered 12 new works for saxophone, and was featured in numerous television broadcasts and recordings. As Educational Activities Coordinator, he developed the Field Band’s Legacy CD reference recordings and Instructional Video series, and coordinated clinics and performances that annually reached more than 100,000 students across the nation. During his tenure, he performed for every U.S. President from Ronald Reagan to George W. Bush.</p>
 
 <p>Mr. Griepentrog served as a saxophone clinician for the Leblanc/Yanagisawa Corporation and received the 2003 Outstanding Music Educator Award from MENC—The National Association for Music Education. He has performed with the Boston Pops, Cincinnati Pops, Milwaukee Symphony, and Baltimore Symphony Orchestra. He was featured in a cover story in the internationally-distributed Saxophone Journal magazine. </p>
 
 <p>He has been a presenter at conferences of the Music Educators National Conference, the Network of Visual and Performing Arts Schools, the National Association of Partners in Education, Created to Praise, and the National Association of Secondary School Principals. He holds a Bachelor of Fine Arts in Music Education from the University of Wisconsin-Milwaukee and a Master of Arts in Arts Administration from Goucher College.</p>
 
-<p>Since retiring from the military in 2003, Mr. Griepentrog serves as Executive Director of the Columbia Orchestra and teaches Band and General Music at St. Paul’s Lutheran School in Glen Burnie, MD. He and his wife, Maureen Griepentrog, publish their choral compositions and band arrangements through their company, Treble C Music.</p>','src_imgs/members/Tedd_Griepentrog.jpg',3681,0,NULL);
+<p>Since retiring from the military in 2003, Mr. Griepentrog serves as Executive Director of the Columbia Orchestra and teaches Band and General Music at St. Paul’s Lutheran School in Glen Burnie, MD. He and his wife, Maureen Griepentrog, publish their choral compositions and band arrangements through their company, Treble C Music.</p>','src_imgs/members/Tedd_Griepentrog.jpg',3875,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(114,'Greg','','Tsalikis',20,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(115,'Elizabeth','','Horst',1,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(116,'Doug','','Dean',5,0,0,0,'','src_imgs/members/Doug_Dean.jpg',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(117,'Erin','','Hedden',1,0,0,0,'','src_imgs/members/Erin_Hedden.jpg',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(118,'Jessica','','Liberati',2,0,0,0,'','src_imgs/members/Jessica_Liberati.jpg',0,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(119,'Adam','','Waickman',2,0,0,0,'<p>Adam is a recent transplant to the Columbia area, originally hailing from Northern NY. He completed his bachelor degree in biological sciences at Cornell University in 2008 and is currently pursuing his PhD in immunology at the Johns Hopkins School of Medicine. He has previously played with the Cornell University Symphony Orchestra under the direction of Chris Kim, and with several smaller chamber groups. He currently lives in Elkridge with his wife Kathryn (who is a violist in the Columbia Orchestra).</p>','src_imgs/members/Adam_Waickman.jpg',3069,0,NULL);
-INSERT INTO "roster_orchestramember" VALUES(120,'Esther','Wagner','Yuan',2,0,0,0,'<p>Mrs. Esther Wagner-Yuan holds a bachelor''s degree in violin performance from Duquesne University in Pittsburgh, PA. She began playing violin at the age of 3, studying using Suzuki method, then with Pittsburgh Symphony members. She performed as a free-lance musician in Pittsburgh for several years, playing in local orchestras and string quartets.</p>
+INSERT INTO "roster_orchestramember" VALUES(118,'Jessica','','Liberati',1,0,0,0,'','src_imgs/members/Jessica_Liberati.jpg',0,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(119,'Adam','','Waickman',2,0,0,0,'<p>Adam is a recent transplant to the Columbia area, originally hailing from Northern NY. He completed his bachelor degree in biological sciences at Cornell University in 2008 and is currently pursuing his PhD in immunology at the Johns Hopkins School of Medicine. He has previously played with the Cornell University Symphony Orchestra under the direction of Chris Kim, and with several smaller chamber groups. He currently lives in Elkridge with his wife Kathryn (who is a violist in the Columbia Orchestra).</p>','src_imgs/members/Adam_Waickman.jpg',3286,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(120,'Esther','','Wagner-Yuan',2,0,0,0,'<p>Mrs. Esther Wagner-Yuan holds a bachelor''s degree in violin performance from Duquesne University in Pittsburgh, PA. She began playing violin at the age of 3, studying using Suzuki method, then with Pittsburgh Symphony members. She performed as a free-lance musician in Pittsburgh for several years, playing in local orchestras and string quartets.</p>
 
 <p>She holds a master''s degree in elementary education from California University of Pennsylvania, and taught sixth grade for the past two years in Virginia. Before that, she taught private lessons extensively. She also directed the California University of PA''s string ensemble and taught lessons as an adjunct professor there.</p>
 
-<p>Mrs. Wagner-Yuan plays jazz, blues, and other styles of music. She has been a member and/or recorded with several bands: Mandorla, Joy Ike, B & G, Nadina''s Cube, and others. She has had the opportunity to play jazz at clubs in Pittsburgh, wine festivals in VA, and at Twins in DC.</p>','src_imgs/members/esther_yuan.jpg',931,0,NULL);
+<p>Mrs. Wagner-Yuan plays jazz, blues, and other styles of music. She has been a member and/or recorded with several bands: Mandorla, Joy Ike, B & G, Nadina''s Cube, and others. She has had the opportunity to play jazz at clubs in Pittsburgh, wine festivals in VA, and at Twins in DC.</p>','src_imgs/members/esther_yuan.jpg',1112,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(121,'Kate','','Kerr',3,0,0,0,'','src_imgs/members/Kate_Kerr.jpg',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(122,'Dami','','Soh',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(125,'Shari','','Rolnick',1,0,0,0,'','',0,0,NULL);
@@ -8749,13 +9307,15 @@ INSERT INTO "roster_orchestramember" VALUES(129,'Amy','','Sexauer',3,0,0,0,'',''
 INSERT INTO "roster_orchestramember" VALUES(130,'Katie','','Kimble',3,0,0,0,'
 <p>Katie Kimble is a Columbia native, returning to the area after a brief hiatus to upstate NY to earn her bachelor degree in viola performance and music education from Ithaca College where she studied with Debra Moree. Her orchestral experience includes playing with the Cornell Symphony Orchestra under the direction of Chris Kim, and the Ithaca College Chamber and Symphony Orchestras under the direction of Jeff Meyer.</p>
 
-<p>She currently teaches elementary school strings in Anne Arundel County and lives in Elkridge with her husband, and fellow Columbia Orchestra member, Adam and their dog Angua.  When not teaching or playing music, Katie coaches rock climbing at Earth Treks Climbing Center.</p>','src_imgs/members/Katie_Kimble.JPG',2813,0,NULL);
+<p>She currently teaches elementary school strings in Anne Arundel County and lives in Elkridge with her husband, and fellow Columbia Orchestra member, Adam and their dog Angua.  When not teaching or playing music, Katie coaches rock climbing at Earth Treks Climbing Center.</p>','src_imgs/members/Katie_Kimble.JPG',3008,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(131,'Gregory','','Messa',20,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(132,'Christina','','Hernandez',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(133,'Eugene','','Bayer',17,1,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(134,'Carey','','Locke',4,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(135,'Jeremy','','Davis',5,0,0,0,'','',0,0,NULL);
 INSERT INTO "roster_orchestramember" VALUES(136,'Brian','','Schuler',5,0,0,0,'','',0,0,NULL);
+INSERT INTO "roster_orchestramember" VALUES(137,'Lynda','','Aldana',12,0,0,0,'','',0,1,NULL);
+INSERT INTO "roster_orchestramember" VALUES(138,'Melissa','','Feliciano',13,0,0,0,'','',0,0,NULL);
 CREATE TABLE "news_news" (
     "id" integer NOT NULL PRIMARY KEY,
     "title" varchar(250) NOT NULL,
@@ -8772,7 +9332,12 @@ INSERT INTO "news_news" VALUES(2,'Weather 2011/02/21',0,'<h3>Monday Feb 21:  We'
 until closer to 11 pm. We''re intending to have rehearsal and keep a 
 close watch on the pavement during the rehearsal.  If the weather in your area is different and you do not feel safe 
 traveling, please just let Jason/Anne/Annette/your section leader know. </h3>','2011-02-21 18:02:20','2011-02-22 00:00:01',2,'2011-02-21 18:02:45.942529','2011-02-22 07:15:27.744825');
-INSERT INTO "news_news" VALUES(3,'Early Bird Subscriptions',0,'<p><h3>Order 2011-2012 subscriptions before July 15 from our <a href="/tickets/">Tickets Page</a> and receive an "early bird" gift of two FREE ticket vouchers to share!</h3></p>','2011-06-20 11:07:55','2011-07-16 00:00:00',3,'2011-06-20 11:09:40.406854','2011-06-20 11:24:19.762743');
+INSERT INTO "news_news" VALUES(3,'Early Bird Subscriptions',0,'<h3>Order 2011-2012 subscriptions by July 15 from our <a href="/tickets/">Tickets Page</a> and receive an "early bird" gift of two FREE ticket vouchers to share!</h3>','2011-06-20 11:07:55','2011-07-16 00:00:00',3,'2011-06-20 11:09:40.406854','2011-07-15 18:10:55.347849');
+INSERT INTO "news_news" VALUES(4,'Administrative Assistant Vacancy',0,'<p><strong>
+The Columbia Orchestra is currently seeking a part-time Administrative
+Assistant. For more information, <a href="/employment/">click here</a>.
+</strong></p>
+','2011-07-11 21:30:00','2012-07-11 21:39:37',4,'2011-07-11 21:39:45.743927','2011-07-11 21:43:28.772788');
 CREATE INDEX "auth_permission_1bb8f392" ON "auth_permission" ("content_type_id");
 CREATE INDEX "auth_group_permissions_425ae3c4" ON "auth_group_permissions" ("group_id");
 CREATE INDEX "auth_group_permissions_1e014c8f" ON "auth_group_permissions" ("permission_id");
