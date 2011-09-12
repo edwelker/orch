@@ -3,3 +3,7 @@
 .exit
 
 .restore filename.sql
+or if that doesn't work
+
+ma dbshell
+.read db_backup.sql
