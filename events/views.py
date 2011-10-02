@@ -32,6 +32,8 @@ def all_seasons(request):
     
 def all_locations(request):
     locations = Location.objects.filter()
+    n, e = get_current_seasonEvents_and_Name()
+    locations = set([event.location for event in e])
     return render_to_response('locations.html', { 'locations': locations })
     
 def single_location(request, slug):
