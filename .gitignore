@@ -4,3 +4,4 @@ orch_index
 *.swp
 orch.db
 db.sql
+site_media/uploads/*
