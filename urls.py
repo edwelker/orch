@@ -35,7 +35,7 @@ urlpatterns = patterns('',
 
     (r'^sponsors/$', 'sponsors.views.all'),
     
-    (r'^search/', include('haystack.urls')),
+#    (r'^search/', include('haystack.urls')),
 
     (r'^youngartists\.shtml', lambda request: HttpResponsePermanentRedirect('/young_artist_competition')),
     (r'^index\.shtml', lambda request: HttpResponsePermanentRedirect('/')),

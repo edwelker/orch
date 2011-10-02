@@ -50,7 +50,7 @@ class Location(models.Model):
 
 class Event(ImageModel):
     name = models.CharField(max_length=100, help_text="Name of the Event. Must be unique, even across seasons (so if you're doing 'Holiday Concert', make it '2009 Holiday Concert', etc.)")
-    date = models.DateTimeField()
+    date = models.DateTimeField(blank=True,null=True)
     alt_time = models.TimeField(blank=True,null=True, verbose_name="Alternate Time", help_text="Optional")
     alt_date = models.DateTimeField(blank=True, null=True, verbose_name="Alternate Date", help_text="Optional")
     location = models.ForeignKey(Location)
