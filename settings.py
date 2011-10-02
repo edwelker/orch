@@ -3,7 +3,7 @@
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
 
-DEBUG = False 
+DEBUG = True 
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -24,6 +24,8 @@ DATABASE_PORT = ''             # Set to empty string for default. Not used with 
 
 TWITTER_USER = "ColumbiaOrch"
 TWITTER_TIMEOUT = 900  #every 15 minutes
+
+STATIC_URL = here('site_media')
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -49,7 +51,7 @@ MEDIA_ROOT = here('site_media')
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
-MEDIA_URL = ''
+MEDIA_URL = '' 
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
@@ -100,7 +102,7 @@ INSTALLED_APPS = (
     'orch.homepage_viewer',
     'django_extensions',
     'debug_toolbar',
-    'haystack',
+#    'haystack',
     'imagekit',
 #    'south',
 #    'django.contrib.databrowse',
