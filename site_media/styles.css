@@ -1,4 +1,4 @@
-body { margin:0;padding:0;background-color:#555; font: 62.5%/1.4 verdana, sans-serif; }
+body { margin:0;padding:0;background-color:#999; font: 62.5%/1.4 verdana, sans-serif; }
 .description h2, .description div, .main h2, .subpage h1, .hp_season h2, .hp_season .concert { font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 .description .iconblock .icnblk_cntnt{font-family:verdana, sans-serif}
 img { border: 0; }
@@ -48,7 +48,7 @@ dd{ margin-left: 19em; }
 
 .header, .main, .next_concert, .footer , .navwrap{ width: 960px; margin:0 auto; padding: 0 20px; }
 
-.header_bg { height: 127px; background-color: #a9d91b; background-image: url(footerbg.png); repeat-x 0 0; }
+.header_bg { height: 127px; background: #70d1fb url(2011_header_2.jpg) no-repeat 133px 0; }
 .header h1, .description h2, .footer h2.footerlogo { margin-top:0;}
 .header a { text-decoration: none; background: transparent url("logo.png") no-repeat 0 0; display: block; width: 343px; height: 98px; position: relative; top: 15px; }
 .header { position: relative; }
@@ -65,7 +65,7 @@ dd{ margin-left: 19em; }
 .nav ul li a { color: #fff;  text-transform: uppercase; text-decoration: none; font-size: 1.3em;}
 .nav ul ul li { display: block; float: none; z-index: 10; margin: .3em 0; }
 .nav ul ul li a { padding: .3em 1em; }
-.nav ul ul li a:hover { background-color: #47cbf5; background-color: rgba(71,203,245,.4); text-shadow: 3px 3px 6px rgba(0,0,0,.9); }
+.nav ul ul li a:hover { background-color: #70d1fb; background-color: rgba(112,209,251,.4); text-shadow: 3px 3px 6px rgba(0,0,0,.9); }
 
 .nav ul ul { z-index: 400; }
 
@@ -75,7 +75,7 @@ dd{ margin-left: 19em; }
 .nav ul ul.menu_about { left: 41.4em; }
 .nav ul ul.menu_competitions { left: 48.7em; }
 
-.next_bg { background-color: #47cbf5; /*margin-bottom: 4em;*/ }
+.next_bg { background-color: #106dd5; /*margin-bottom: 4em;*/ }
 .next_bg_home { margin-bottom: 4em; *margin-bottom: 2em; }
 .next_concert { background-color: #bfeafc; -moz-box-shadow: 5px 8px 8px #111; -webkit-box-shadow: 5px 8px 8px #111; box-shadow: 5px 8px 8px #111; overflow: hidden; padding: 2em; position: relative; top: 15px; *position:static; *top:0; }
 .image { width: 47em; text-align:center; float:left; overflow:visible; height:auto; min-height:40em; }
@@ -120,7 +120,7 @@ dd{ margin-left: 19em; }
 
 
 
-.footer { background: #054f49 url(footerbg.png) repeat-x 0 100%; margin: 0 auto 4em; overflow: auto; *zoom:1; *overflow:visible;}
+.footer { background: #106dd5 repeat-x 0 100%; margin: 0 auto 4em; overflow: auto; *zoom:1; *overflow:visible;}
 .footer .col { color: white; }
 .footer span.offscreen { background: transparent url(footlogo.png) no-repeat 0 0; display: block; width: 241px; height: 71px; margin-top: 1em;  }
 .footer ul { margin:1em 0 0 0;padding:0;list-style-type:none;}
