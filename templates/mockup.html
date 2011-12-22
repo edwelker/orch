@@ -17,10 +17,12 @@
          });
     </script>
     {% include "inc/menu_js.html" %}
+    {% include "inc/gwt.html" %}
 </head>
 <body>
 	{% include "inc/header.html" %}
     {% include "inc/nav.html" %}
+
 	<div class="next_bg next_bg_home">
 		<div class="next_concert">
             {% block concert %}{% endblock %}
@@ -40,15 +42,6 @@
 		</div>
 
 		<div class="col">
-			<h2><a class="social twitter" href="http://twitter.com/ColumbiaOrch/">Twitter</a></h2>
-			{% if tweets %}
-    			{% for tweet in tweets %}
-                    <p>{{ tweet.date|date:"F Y" }}</p>
-                    <p>{{ tweet.text|safe }}</p>
-                {% endfor %}
-            {% else %}
-                <p>Sorry, Twitter seems to have the hiccups!</p>
-            {% endif %}
             
 			<h2><a class="social facebook" href="http://www.facebook.com/pages/Columbia-Orchestra/211864312316/">Facebook</a></h2>
 			{% if fb %}
@@ -59,6 +52,16 @@
 			{% else %}
 			    <p>Sorry, Facebook seems to be having a problem!</p>
 			{% endif %}
+			
+            <h2><a class="social twitter" href="http://twitter.com/ColumbiaOrch/">Twitter</a></h2>
+			{% if tweets %}
+    			{% for tweet in tweets %}
+                    <p>{{ tweet.date|date:"F Y" }}</p>
+                    <p>{{ tweet.text|safe }}</p>
+                {% endfor %}
+            {% else %}
+                <p>Sorry, Twitter seems to have the hiccups!</p>
+            {% endif %}
 		</div>
 		
 		

@@ -8,7 +8,8 @@
 <!-- <object width="470" height="385"><param name="movie" value="http://www.youtube.com/v/SaLku4I9AA0?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/SaLku4I9AA0?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="470" height="385"></embed></object> -->
 
 <!-- <iframe width="470" height="383" src="http://www.youtube.com/embed/2A6KOxqLb-M" frameborder="0" allowfullscreen></iframe> -->
-<iframe width="470" height="383" src="http://www.youtube.com/embed/OHbZpvz3ARY" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="470" height="383" src="http://www.youtube.com/embed/OHbZpvz3ARY" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="470" height="383" src="http://www.youtube.com/embed/QBvDApr6yZs?rel=0" frameborder="0" allowfullscreen></iframe>
 <!-- <iframe title="YouTube video player" width="470" height="383" src="http://www.youtube.com/embed/X8_rrQEITaA" frameborder="0" allowfullscreen></iframe>
 -->
 
@@ -90,6 +91,16 @@
                 
                 <a href="{{primary_event.location.get_absolute_url}}">{{primary_event.location}}</a></div>
                 <div class="conductor">Jason Love, conductor</div>
+                {# paulli 2012/12/12 added pieces listing #}
+{% if 1 %}
+                {% if primary_event.pieces.all %}
+                    <p>
+                    {% for p in primary_event.pieces.all %}
+                        &nbsp;&nbsp;{{p.disp}}<br />
+                    {% endfor %}
+                    </p>
+                {% endif %}
+{% endif %}
                 {{ primary_event.description|safe }}
                
                 <!-- <p>Hsiu-Hui Wang’s appearance is sponsored by <a href="http://www.hcgh.org/content/" target="co_link">Howard County General Hospital</a>.</p> -->
@@ -107,7 +118,7 @@
                 {% endwith %}
                 {% endif %}
 
-				<p class="tickets"><!--Learn more about <a href="/program_notes/">the music for this concert</a>! <br><br>-->For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door.</p>
+				<p class="tickets"><!--Read our <a href="/program_notes/">program notes</a> to learn more about the music for this concert.<br><br>-->For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door.</p>
 
 
             </div>   
@@ -136,9 +147,12 @@
     {% if secondary_event.date %}
         <div class="secondary">
             <div class="description">
-                <h2>{{secondary_event.name}}</h2>
+                {# paulli 2012/12/12 added link to title #}
+                <h2><a href="{{secondary_event.season.get_absolute_url}}#{{secondary_event.slug}}">{{secondary_event.name}}</a></h2>
                 <div>{{ secondary_event.date|date:"l, F j, Y" }}</div>
-                <div>{{ secondary_event.date|date:"g:i a" }}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a></div>
+                {# <div>{{ secondary_event.date|date:"g:i a" }}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a></div> #}
+                {# paulli 2012/12/06 added secondary time #}
+                <div>{{ secondary_event.date|date:"g:i a" }}{% if secondary_event.alt_time %} &amp; {{ secondary_event.alt_time|time:"g:i a" }} {% endif %}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a> </div>
                 {{ secondary_event.description|safe }}
             </div>
 

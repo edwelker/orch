@@ -25,7 +25,9 @@ def home(request):
 #need to fix this:
 #in some cases, you'll be more than 60 days away from the next concert, but in-season. Need to factor in 
 #secondary concerts as well as when the season starts.
+    #paulli 2011/12/05
     if(p and (datetime.datetime.today() + datetime.timedelta(60)) < p.date):
+    #if(p and (datetime.datetime.today() + datetime.timedelta(90)) < p.date):
         season = get_season()
         disp_season = True
 
@@ -95,8 +97,11 @@ def get_secondary():
     if secondary_event:
         return secondary_event
 
-    e = Event.objects.filter(date__gte=datetime.datetime.today()).filter(status=2).order_by('date')
-    secondary_event = e[0] if (len(e) > 0 ) else None
+    #e = Event.objects.filter(date__gte=datetime.datetime.today()).filter(status=2).order_by('date')
+    #secondary_event = e[0] if (len(e) > 0 ) else None
+    #paulli 2011/12/05
+    e = Event.objects.filter(date__gte=datetime.datetime.today()).order_by('date')
+    secondary_event = e[1] if (len(e) > 1 ) else None
 
     cache.set('secondary_event', secondary_event, CACHE_TIME )
     return secondary_event

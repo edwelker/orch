@@ -46,9 +46,19 @@ dd{ margin-left: 19em; }
 .offscreen { text-indent: -9999em; }
 .noborder { border: none; }
 
+.sched{font-size:1.3em;font-family:arial,helvetica,sans-serif}
+.sched tr:nth-of-type(odd) {background-color:#f5f5f5;}
+@media screen and (max-width:400px){
+    .main{width:100%}
+   .sched{font-size:1.6em;background-color:yellow}
+   .sched tr:nth-of-type(odd){background-color:#e5e5e5;}
+   .sched td{margin:.2em 0}
+}
+
+
 .header, .main, .next_concert, .footer , .navwrap{ width: 960px; margin:0 auto; padding: 0 20px; }
 
-.header_bg { height: 127px; background: #70d1fb url(2011_header_2.jpg) no-repeat 133px 0; }
+.header_bg { height: 127px; background: #70d1fb url(2011_header_2.jpg) no-repeat 66% 0; }
 .header h1, .description h2, .footer h2.footerlogo { margin-top:0;}
 .header a { text-decoration: none; background: transparent url("logo.png") no-repeat 0 0; display: block; width: 343px; height: 98px; position: relative; top: 15px; }
 .header { position: relative; }
