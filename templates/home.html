@@ -9,7 +9,9 @@
 
 <!-- <iframe width="470" height="383" src="http://www.youtube.com/embed/2A6KOxqLb-M" frameborder="0" allowfullscreen></iframe> -->
 <!-- <iframe width="470" height="383" src="http://www.youtube.com/embed/OHbZpvz3ARY" frameborder="0" allowfullscreen></iframe> -->
-<iframe width="470" height="383" src="http://www.youtube.com/embed/QBvDApr6yZs?rel=0" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="470" height="383" src="http://www.youtube.com/embed/QBvDApr6yZs?rel=0" frameborder="0" allowfullscreen></iframe> -->
+
+<iframe width="470" height="383" src="http://www.youtube.com/embed/yRXodLaopHA" frameborder="0" allowfullscreen></iframe>
 <!-- <iframe title="YouTube video player" width="470" height="383" src="http://www.youtube.com/embed/X8_rrQEITaA" frameborder="0" allowfullscreen></iframe>
 -->
 
@@ -152,7 +154,7 @@
                 <div>{{ secondary_event.date|date:"l, F j, Y" }}</div>
                 {# <div>{{ secondary_event.date|date:"g:i a" }}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a></div> #}
                 {# paulli 2012/12/06 added secondary time #}
-                <div>{{ secondary_event.date|date:"g:i a" }}{% if secondary_event.alt_time %} &amp; {{ secondary_event.alt_time|time:"g:i a" }} {% endif %}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a> </div>
+                <div>{{ secondary_event.date|date:"g:i a" }}{% if secondary_event.alt_time %} &amp; {{ secondary_event.alt_time|time:"g:i a" }}{% endif %}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a> </div>
                 {{ secondary_event.description|safe }}
             </div>
 
