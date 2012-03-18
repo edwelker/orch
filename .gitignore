@@ -5,3 +5,4 @@ orch_index
 orch.db
 db.sql
 site_media/uploads/*
+*.ini

@@ -7,6 +7,7 @@ import datetime
 import random
 from django.core.cache import cache
 from orch.events.views import get_current_season
+from orch.youtube.models import YouTubeVideo
 
 # Create your views here.
 
@@ -22,6 +23,8 @@ def home(request):
     s = get_secondary()
     n = get_news()
 
+    yt = YouTubeVideo.objects.order_by('-published')[0]
+
 #need to fix this:
 #in some cases, you'll be more than 60 days away from the next concert, but in-season. Need to factor in 
 #secondary concerts as well as when the season starts.
@@ -32,11 +35,11 @@ def home(request):
         disp_season = True
 
     if disp_season:
-        return render_to_response('home.html', {'member': m, 'season': season, 'news': n }, 
+        return render_to_response('home.html', {'member': m, 'season': season, 'news': n, 'yt': yt }, 
                               context_instance=RequestContext(request))
     else:
         return render_to_response('home.html', {'member': m, 'primary_event': p, "secondary_event": s,
-	'news': n }, context_instance=RequestContext(request))
+	'news': n, 'yt': yt }, context_instance=RequestContext(request))
  
 
 def get_season():

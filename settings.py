@@ -3,7 +3,7 @@
 import os
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
 
-DEBUG = False 
+DEBUG = True 
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -100,6 +100,7 @@ INSTALLED_APPS = (
     'orch.pieces',
     'orch.news',
     'orch.homepage_viewer',
+    'orch.youtube',
     'django_extensions',
     'debug_toolbar',
 #    'haystack',

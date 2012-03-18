@@ -6,6 +6,7 @@ django-extensions==0.6
 django-imagekit==0.4.0
 django-sortedm2m==0.3.2
 feedparser==5.0.1
+gdata==2.0.16
 httplib2==0.6.0
 oauth2==1.2.0
 python-dateutil==2.0
