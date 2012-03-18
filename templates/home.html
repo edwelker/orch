@@ -65,7 +65,11 @@
                     {% if primary_event.pieces.all %}
                         {% for p in primary_event.pieces.all %}
                             {% for s in p.soloist.all %}
+                                {# paulli 2012/01/25 -- allow composer in picture rotation #}
+                                {% comment %}
                                 {% if s.display.url and s.instrument != 'composer' %}
+                                {% endcomment %}
+                                {% if s.display.url %}
                                     <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
                                 {% endif %}
                             {% endfor %}
@@ -92,7 +96,28 @@
                 <div>{{ primary_event.date|date:"g:i a" }}{%if primary_event.alt_time%} &amp; {{primary_event.alt_time|time:"g:i a"}}{%endif%}, 
                 
                 <a href="{{primary_event.location.get_absolute_url}}">{{primary_event.location}}</a></div>
-                <div class="conductor">Jason Love, conductor</div>
+                <div class="conductor"><a href="/members/jason_love" alt="Jason Love">Jason Love, conductor</a></div>
+
+                {# paulli 2012/01/25: primary event soloists #}
+                {% if primary_event.pieces.all %}
+                  {% for p in primary_event.pieces.all %}
+                    {% for s in p.soloist.all %}
+                      {# define new class? #}
+                      <div class="conductor"><a href="{{ s.get_absolute_url }}">{{s.with_instrument}}</a></div>
+                    {% endfor %}
+                  {% endfor %}
+                {% endif %}
+                {% if primary_event.soloists.all %}
+                  {% for s in primary_event.soloists.all %}
+                    {# define new class? #}
+                    <div class="conductor"><a href="{{ s.get_absolute_url }}">{{s.with_instrument}}</a></div>
+                  {% endfor %}
+                {% endif %}
+
+{% if 0 %}
+<p> Sponsored by <a href="https://www.pnc.com/" alt="PNC Bank" style="text-decoration: none;"><img src="/images/logo-PNC.gif" style="border: none; vertical-align: middle;"/></a></p>
+{% endif %}
+
                 {# paulli 2012/12/12 added pieces listing #}
 {% if 1 %}
                 {% if primary_event.pieces.all %}
@@ -107,6 +132,8 @@
                
                 <!-- <p>Hsiu-Hui Wang’s appearance is sponsored by <a href="http://www.hcgh.org/content/" target="co_link">Howard County General Hospital</a>.</p> -->
 
+                {% comment %}
+paulli 2012/01/20 temporary hack -- need to fix data model
                 {% if primary_event.preconcert_discussion %}
                 {% with primary_event.preconcert_discussion as e %}
                     <p class="preconcert">Join {{e.speaker}} for a fun, fascinating pre-concert discussion at 
@@ -119,8 +146,16 @@
                     </p>
                 {% endwith %}
                 {% endif %}
+                {% endcomment %}
+                {% comment %}
+                <p class="preconcert">Join Bill Scanlan Murphy at 6:30 for a fun, fascinating <a href="/preludes/">pre-concert discussion</a>. </p>
+                {% endcomment %}
 
-				<p class="tickets">Read our <a href="/program_notes/">program notes</a> to learn more about the music for this concert.<br><br>For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door.</p>
+				<p class="tickets">
+                {% comment %}Read our <a href="/program_notes/">program notes</a> to learn more about the music for this concert.<br><br>{% endcomment %}
+                For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door.
+                {% comment %}A limited number of general admission tickets are still available for our St. Patrick's Day Symphonic Pops.  <a href="/tickets/">Online purchases</a> will only be available through Saturday morning.  Any remaining seats will be sold at the door.<br /><br />Because this concert is expected to sell out, please arrive early!  Doors open to subscribers at 7:00 pm and to all others at 7:10 pm.<br />&nbsp;{% endcomment %}
+                </p>
 
 
             </div>   
@@ -148,6 +183,9 @@
   
     {% if secondary_event.date %}
         <div class="secondary">
+        {% comment %}
+        <div class="secondary" style="height: 375px;">
+        {% endcomment %}
             <div class="description">
                 {# paulli 2012/12/12 added link to title #}
                 <h2><a href="{{secondary_event.season.get_absolute_url}}#{{secondary_event.slug}}">{{secondary_event.name}}</a></h2>

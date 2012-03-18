@@ -19,6 +19,10 @@
 
                 <div class="soloist_imgs">
                     <!-- this is so ugly, have to fix this ASAP!  -->
+                    {% if event.image %}
+                    <img src="/{{event.thumb.url}}" class="event_img" alt="{{event}}"/>
+                    {% endif %}
+
                     {% if event.pieces.all %}
                         {% for p in event.pieces.all %}
                             {% for s in p.soloist.all %}

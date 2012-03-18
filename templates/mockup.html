@@ -23,6 +23,11 @@
 	{% include "inc/header.html" %}
     {% include "inc/nav.html" %}
 
+	<div class="main">
+        {% comment %} paulli 2012/01/21 top-of-page news flash {% endcomment %}
+		{% block news %}{% endblock %}
+    </div>
+
 	<div class="next_bg next_bg_home">
 		<div class="next_concert">
             {% block concert %}{% endblock %}
@@ -32,7 +37,9 @@
 		
 	<div class="main">
             
+        {% comment %}
 		{% block news %}{% endblock %}
+        {% endcomment %}
 
 
 
