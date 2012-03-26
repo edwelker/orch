@@ -23,7 +23,8 @@ def home(request):
     s = get_secondary()
     n = get_news()
 
-    yt = YouTubeVideo.objects.order_by('-published')[0]
+    #yt = YouTubeVideo.objects.order_by('-published')[0]
+    yt = None
 
 #need to fix this:
 #in some cases, you'll be more than 60 days away from the next concert, but in-season. Need to factor in 
@@ -104,7 +105,7 @@ def get_secondary():
     #secondary_event = e[0] if (len(e) > 0 ) else None
     #paulli 2011/12/05
     e = Event.objects.filter(date__gte=datetime.datetime.today()).order_by('date')
-    secondary_event = e[1] if (len(e) > 1 ) else None
+    secondary_event = e[0] if (len(e) > 0 ) else None
 
     cache.set('secondary_event', secondary_event, CACHE_TIME )
     return secondary_event

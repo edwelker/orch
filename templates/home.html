@@ -1,7 +1,10 @@
 {% extends "mockup.html" %}
 
 {% block youtube %}
+    {% comment %}
     {{ yt.embed_code|safe }}
+    {% endcomment %}
+<iframe width="470" height="383" src="http://www.youtube.com/embed/yRXodLaopHA" frameborder="0" allowfullscreen></iframe>
 {% endblock %}
 
 
