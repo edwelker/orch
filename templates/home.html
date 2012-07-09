@@ -4,7 +4,7 @@
     {% comment %}
     {{ yt.embed_code|safe }}
     {% endcomment %}
-<iframe width="470" height="383" src="http://www.youtube.com/embed/yRXodLaopHA" frameborder="0" allowfullscreen></iframe>
+<iframe width="470" height="383" src="http://www.youtube.com/embed/kBPVs6IwHzc" frameborder="0" allowfullscreen></iframe>
 {% endblock %}
 
 
@@ -39,7 +39,11 @@
     {% endif %}
 {% endblock %}
 
+{% comment %}
 {% block concert %}
+{% endblock %}
+{% endcomment %}
+{% block concert_primary %}
     {% if primary_event.date %}
     <div class="primary">
         <div class="image">
@@ -140,11 +144,15 @@ paulli 2012/01/20 temporary hack -- need to fix data model
                 <p class="preconcert">Join Bill Scanlan Murphy at 6:30 for a fun, fascinating <a href="/preludes/">pre-concert discussion</a>. </p>
                 {% endcomment %}
 
+                {% comment %}
 				<p class="tickets">
-                {% comment %}Read our <a href="/program_notes/">program notes</a> to learn more about the music for this concert.<br><br>{% endcomment %}
+                Read our <a href="/program_notes/">program notes</a> to learn more about the music for this concert.<br><br>
                 For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door.
+                {% endcomment %}
                 {% comment %}A limited number of general admission tickets are still available for our St. Patrick's Day Symphonic Pops.  <a href="/tickets/">Online purchases</a> will only be available through Saturday morning.  Any remaining seats will be sold at the door.<br /><br />Because this concert is expected to sell out, please arrive early!  Doors open to subscribers at 7:00 pm and to all others at 7:10 pm.<br />&nbsp;{% endcomment %}
+                {% comment %}
                 </p>
+                {% endcomment %}
 
 
             </div>   
@@ -160,7 +168,12 @@ paulli 2012/01/20 temporary hack -- need to fix data model
             <div class="description">
             <ul class="concert">
             {% for e in season.event_set.all %}
-                <li><a href="{{season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a> &mdash; <em>{{e.date|date:"l, F j, Y"}}</em></li>
+                <li><a href="{{season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a> &mdash;
+                  <em>{{e.date|date:"l, F j, Y"}}</em>
+                  {% if e.alt_date %}
+                  <em>&amp; {{e.alt_date|date:"l, F j, Y"}}</em>
+                  {% endif %}
+                  </li>
             {% endfor %}
             </ul>
             <p>Explore our full <a href="/season/">{{season}}</a> to see all of the exciting details!</p>
@@ -168,8 +181,10 @@ paulli 2012/01/20 temporary hack -- need to fix data model
         </div>
         {% endif %}
     {% endif %}
+{% endblock %}
     
   
+{% block concert_secondary %}
     {% if secondary_event.date %}
         <div class="secondary">
         {% comment %}

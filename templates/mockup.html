@@ -30,7 +30,13 @@
 
 	<div class="next_bg next_bg_home">
 		<div class="next_concert">
+            {% comment %}
             {% block concert %}{% endblock %}
+            {% endcomment %}
+            {% block concert_primary %}{% endblock %}
+            {% comment %}
+            {% block concert_secondary %}{% endblock %}
+            {% endcomment %}
 		</div>
 	</div>
 

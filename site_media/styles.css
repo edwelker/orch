@@ -19,7 +19,7 @@ div.subpage { padding: 20px; }
 .content h4.summary { background-color: #fff; padding: 0; font-size: 1.8em; margin: .8em 0; }
 h4 { font-size: 1.3em; margin: 1em 0 .3em 0; }
 .member_detail img, .event_detail img, .soloist_detail img { float: left; margin: 0 2em 2em 0; }
-.member_detail p:nth-of-type(1):first-letter, .event_detail p:nth-of-type(1):first-letter, .soloist_detail p:nth-of-type(3):first-letter{ font-size: 2.0em; font-weight: normal; line-height: .6; font-family: Georgia, Cambria, "Times New Roman", Times, serif; margin-right: .05em; }
+/*.member_detail p:nth-of-type(1):first-letter, .event_detail p:nth-of-type(1):first-letter, .soloist_detail p:nth-of-type(3):first-letter{ font-size: 2.0em; font-weight: normal; line-height: .6; font-family: Georgia, Cambria, "Times New Roman", Times, serif; margin-right: .05em; }*/
 .member_detail ul { list-style-type: none; }
 .member_list .group { float: left; margin-right: 3em; }
 .member_list ul {list-style-type:none; font-size:1.3em; padding-left:1.5em; margin:.3em 0;}
@@ -131,6 +131,7 @@ dd{ margin-left: 19em; }
 .description a:hover { color: #008; border-bottom: 1px solid #008;}
 .hp_season .concert { list-style-type:none; font-size: 1.6em; padding-left: 1em; }
 .hp_season .concert em { white-space: nowrap; font-size: .85em; }
+.hp_season .concert li { text-indent: -25px; padding-left: 25px; }
 
 .col p, .col ul li a { font-size: 1.3em; }
 
