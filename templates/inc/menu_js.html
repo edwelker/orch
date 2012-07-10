@@ -5,11 +5,22 @@ jQuery(document).ready(function() {
 
     $(".navwrap ul > li").hover(
         function () {
-        $(this).children("ul").show();
-        },function(){
-        $(this).children("ul").hide();
+            var context = $(this);
+            var submenu = $('ul', this);
+            var swidth = submenu.width();
+            var position = $(this).position().left
+            var left = Math.floor( (context.width() - swidth) / 2.0 ) + position 
+            var topdim = $(this).position().top + context.height()
+            submenu.css('left', left);
+            submenu.css('top', topdim);
+            $(this).children("ul").show();
+            },function(){
+            $(this).children("ul").hide();
     });//hover
 
+    $('.main').click(function(){
+        $('.navwrap ul > li > ul').hide();
+    })
 });
 
 </script>
