@@ -18,6 +18,11 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Example:
     # (r'^orch/', include('orch.foo.urls')),
+
+    (r'^beta/$', 'orch.homepage_viewer.views3.home'),
+    (r'^beta/season/$', 'events.views3.view_current_season'),
+    (r'^beta/season/events/(?P<slug>[-\w]+)/$', 'events.views3.view_specific_event'),
+
     (r'^$', 'orch.homepage_viewer.views.home'),
     
     (r'^members/$', 'orch.roster.views.all_members'),

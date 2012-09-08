@@ -7,6 +7,7 @@ class Piece(models.Model):
     movement = models.CharField(blank=True,null=True,max_length=100, help_text="Optional")
     composer = models.ForeignKey("Composer")
     soloist = models.ManyToManyField("soloists.Soloist", blank=True, null=True)
+    notes = models.TextField(blank=True, null=True, help_text="Piece Notes (Optional). Please wrap paragraphs in '&lt;p&gt;....&lt;/p&gt;'.")
     
     def __unicode__(self):
         if self.movement:

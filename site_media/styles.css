@@ -85,13 +85,6 @@ dd{ margin-left: 19em; }
 .nav ul ul li a:hover { background-color: #70d1fb; background-color: rgba(112,209,251,.4); text-shadow: 3px 3px 6px rgba(0,0,0,.9); }
 
 .nav ul ul { z-index: 400; }
-
-.nav ul ul.menu_concerts { left: 4.9em; }
-.nav ul ul.menu_behind { left: 22.9em; }
-.nav ul ul.menu_support { left: 36.7em; }
-.nav ul ul.menu_about { left: 41.4em; }
-.nav ul ul.menu_competitions { left: 48.7em; }
-
 .next_bg { background-color: #106dd5; /*margin-bottom: 4em;*/ }
 /* color scheme 3 */
 /*
@@ -188,3 +181,44 @@ div.resultDiv_gsvb { border: 0 !important; height: auto !important; width: auto 
 .icnblk_cntnt h1,.icnblk_cntnt h2,.icnblk_cntnt h3,.icnblk_cntnt h4{margin:0 0 .6923em}
 
 .raffletable{font-size:1.2em}
+
+
+/* mobile styles */
+@media all and (max-device-width:1024px){
+
+}
+@media all and (max-device-width:960px){
+
+}
+@media all and (max-device-width:768px){
+
+}
+@media all and (max-device-width:480px){
+
+}
+@media all and (max-device-width:320px){ 
+.header,.main,.next_concert,.footer,.next_bg{width:100%}
+.nav,.navwrap{width:100%;padding:0;height:auto;margin:0 auto;border-radius:30px}
+.nav{width:50%;margin-bottom:2em}
+.nav ul{top:0}
+.nav ul li{display:block;float:none;font-size:24px;border-bottom:1px solid #999;padding:3px 0}
+.nav ul ul{font-size:20px;background-color:#333;border-radius:30px;padding:0}
+.nav ul ul li{padding:0;border:0}
+.nav ul li a{margin:0}
+.navwrap > ul > li{margin:0}
+.header{width:50%}
+.header a{background-size:150%}
+.header_bg{background:none}
+.main h2{font-size:2em}
+.nav ul > li:first-child{display:none}
+.nav ul ul li:first-child{display:block}
+.image{display:none}
+.main,.footer,.next_concert .description{width:100%;font-size:2em}
+.col,.twocol{width:100%}
+.main .social{background:none;padding:0}
+.footer .loc{font-size:1em}
+.main .col a img{width:50%}
+.main .member,.address .url{font-size:2em}
+.main,.footer{padding-bottom:1em}
+.footer .col:nth-of-type(1),.footer .col:nth-of-type(3){display:none}
+}
