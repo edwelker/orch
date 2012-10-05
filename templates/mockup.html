@@ -1,92 +1,193 @@
 <!doctype html>
 <html lang="eng">
+
 <head>
-	<title>Columbia Orchestra</title>
-	<meta charset="utf-8"/>
+    <title>{%block title%}{%endblock%} Columbia Orchestra</title>
+    <meta charset="utf-8"/>
     <meta name="google-site-verification" content="3HS_NaDcwPTBzWhRd5crz9tNbe-jrhTAi1OBQszlQcM" />
-    <link rel="stylesheet" href="/site_media/styles.css"/>
+    <link rel="stylesheet" href="/site_media/new/styles.css"/>
     <script type="text/javascript" src="/site_media/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="/site_media/jquery.cycle.lite.min.js"></script>
+{% include "inc/gwt.html"%}
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('.image').cycle({
-                fx: 'fade',
-				containerResize: 1,
-				timeout: 5000
-            });
-         });
+	jQuery(document).ready(function() {
+	    $(".navwrap ul > li > ul").hide(); 
+	    $(".navwrap ul > li").hover(
+		function () {
+		    var context = $(this);
+		    var submenu = $('ul', this);
+		    var swidth = submenu.width();
+		    var position = $(this).position().left
+		    var left = Math.floor( (context.width() - swidth) / 2.0 ) + position 
+		    var topdim = $(this).position().top + context.height()
+		    submenu.css('left', left);
+		    submenu.css('top', topdim);
+		    $(this).children("ul").show();
+		},function(){
+		    $(this).children("ul").hide();
+	    });//hover
+	    $('.main').click(function(){
+		$('.navwrap ul > li > ul').hide();
+	    })
+	});
     </script>
-    {% include "inc/menu_js.html" %}
-    {% include "inc/gwt.html" %}
+{% block header_extra %}{% endblock %}
 </head>
+
 <body>
-	{% include "inc/header.html" %}
-    {% include "inc/nav.html" %}
+<div class="header_bg">
 
-	<div class="main">
-        {% comment %} paulli 2012/01/21 top-of-page news flash {% endcomment %}
-		{% block news %}{% endblock %}
-    </div>
+    <div class="toplinks">
+{% comment %}
+	<a href="/auditions/">Auditions</a>
+        <a href="/donate/">Donate</a>
+        <a href="/tickets/">Tickets</a>
+{% endcomment %}
+    </div>  <!-- toplinks -->
 
-	<div class="next_bg next_bg_home">
-		<div class="next_concert">
-            {% comment %}
-            {% block concert %}{% endblock %}
-            {% endcomment %}
-            {% block concert_primary %}{% endblock %}
-            {% comment %}
-            {% block concert_secondary %}{% endblock %}
-            {% endcomment %}
+    <div class="header_img"> 
+	<a href="/"><div class="COlogo"></div></a>
+	<div class="COlogo35"></div>
+    </div> <!-- header_img -->
+
+    <div class="nav">
+	<div class="navwrap">
+            <ul>
+                <li>
+                    <a href="#">Concerts & Tickets</a>
+                    <ul class="menu_concerts">
+                        <li><a href="/season/">Current Season</a></li>
+<!--                    <li><a href="/artists/">Guest Artists</a></li>-->
+                        <li><a href="/tickets/">Tickets</a></li>
+                        <li><a href="/locations/">Locations</a></li>
+                        <li><a href="/seasons/">Past Seasons</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Behind the Music</a>
+                    <ul class="menu_behind">
+                        <li><a href="/preludes/">Preludes</a></li>
+                        <li><a href="/program_notes/">Program Notes</a></li>
+                        <!--<li><a href="/program_note_archives/">Program Note Archives</a><li>-->
+                        <li><a href="http://www.youtube.com/user/colorch" target="_blank">YouTube</a></li>
+<!--                    <li><a href="/audio/">Audio</a></li>-->
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                    <ul class="menu_support">
+                        <li><a href="/donate/">Donate</a></li>
+                        <li><a href="/advertise/">Advertise</a></li>
+                        <li><a href="/partners/">Partners</a></li>
+                        <li><a href="/amazon/">Amazon</a></li>
+                        <li><a href="/volunteer/">Volunteer</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                    <ul class="menu_about">
+                        <li><a href="/history/">History</a></li>
+                        <li><a href="/about_the_orchestra/">Board and Staff</a></li>
+                        <li><a href="/members/">Orchestra Members</a></li>
+                        <!-- <li><a href="/mission/">Mission</a></li> -->
+                        <li><a href="/auditions/">Auditions</a></li>
+                        <!-- <li><a href="/employment/">Employment</a></li> -->
+                        <li><a href="/press_room/">Press Room</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Competitions</a>
+                    <ul class="menu_competitions">
+                        <li><a href="/composer_competition/">American Composer Competition</a></li>
+                        <li><a href="/young_artist_competition/">Young Artist Competition</a></li>
+                    </ul>
+                </li>
+                <li><a href="/community/">Community</a></li>
+            </ul>
+ 	</div>
+    </div> <!-- nav -->
+
+    <div class="container">
+    <div class="main"> 
+    <div class="content">
+    {% block content %}{% endblock %}
+    </div> <!-- content -->
+    </div> <!-- main -->
+    </div> <!-- container -->
+
+    <div class="footer">
+        <div class="footer_img">
+		
+            <!---FUTURE 
+	    <div class="jason">
+	        <h1> Ask Jason </h1>
+		<div class="line"></div>
+	    </div>
+            --->
+            <div class="colwrap" style="width: 24%;">
+            <div class="address">
+                    <p>
+                            <b>The Columbia Orchestra</b><br />
+                            Howard County Center for the Arts<br />
+                            8510 High Ridge Road<br />
+                            Ellicott City, MD 21043<br />
+                            Phone: 410.465.8777<br />
+                            Fax: 410.465.8778
+                    </p>
+            </div>
+            </div>
+            <div class="colwrap" style="width: 30%;">
+            <div class="col">
+                    <h1>Support us through these links:</h1>
+                     <div class="line"></div>
+                    <div class="amazon"><a href="http://www.amazon.com/exec/obidos/redirect-home/columbiaorche-20">amazon</a></div>
+                    <div class="goodsearch"><a href="http://www.goodsearch.com/?charityid=859691">goodsearch</a></div>
+            </div>
+            </div>
+            
+            <div class="colwrap" style="width: 24%;">
+            <div class="col">
+               	<h1>Connect with Us! </h1>
+               	<div class="line"></div>
+               	<div class="centered">
+                     <div class="social"><a href="http://www.facebook.com/pages/Columbia-Orchestra/211864312316/"><img src="/site_media/new/facebook.png"/></a>Like us on <b>Facebook</b></div>
+                     <div class="social"><a href="http://twitter.com/ColumbiaOrch/"><img src="/site_media/new/twitter.png"/></a>Follow us on <b>Twitter</b></div>
+                     <div class="social"><a href="http://www.youtube.com/user/colorch"><img src="/site_media/new/youtube.png"/></a>Watch us on <b>YouTube</b></div>
+                     <div class="social"><a href="http://www.flickr.com/photos/columbiaorchestra/"><img src="/site_media/new/flickr.png"/></a>See us on <b>Flickr</b></div><br />
+                 </div>
+            </div>
+            </div>
+                        
+            <div class="colwrap" style="width: 18%;">
+            <div class="lastcol">
+                    <h1>For Members </h1>
+                    <div class="line"></div>
+                            <ul>
+                                    <li><a href="/member_schedule/">Schedule</a></li>
+                                    <li><a href="/locations/">Locations</a></li>
+                                    <li><a href="/stuff_from_jason/">Stuff from Jason</a></li>
+                                    <li><a href="http://groups.google.com/group/columbia-orchestra-family">Family</a></li>
+                            </ul>
+                    
+            </div>
+            </div>
+
+            <div class="clear"></div>
+
+{% comment %}			<div class="bottomlinks">
+			<b>For members:</b>
+			    <a href="/member_schedule/">Schedule</a>
+			    <a href="/locations/">Locations</a>
+			    <a href="/stuff_from_jason/">Stuff from Jason</a>
+			    <a href="http://groups.google.com/group/columbia-orchestra-family">Family</a>
+			</div>{% endcomment %}
+
 		</div>
 	</div>
 
-		
-	<div class="main">
-            
-        {% comment %}
-		{% block news %}{% endblock %}
-        {% endcomment %}
+</div> <!-- header_bg -->
 
+<div class="bottom"></div>
 
-
-		<div class="col">
-			<h2>Meet the Orchestra</h2>
-            {% block member %}{% endblock %}
-		</div>
-
-		<div class="col">
-            
-			<h2><a class="social facebook" href="http://www.facebook.com/pages/Columbia-Orchestra/211864312316/">Facebook</a></h2>
-			{% if fb %}
-			    {% for f in fb %}
-			        <p>{{ f.published|date:"F Y" }}</p>
-			        <p>{{ f.title|safe }}</p>
-			    {% endfor %}
-			{% else %}
-			    <p>Sorry, Facebook seems to be having a problem!</p>
-			{% endif %}
-			
-            <h2><a class="social twitter" href="http://twitter.com/ColumbiaOrch/">Twitter</a></h2>
-			{% if tweets %}
-    			{% for tweet in tweets %}
-                    <p>{{ tweet.date|date:"F Y" }}</p>
-                    <p>{{ tweet.text|safe }}</p>
-                {% endfor %}
-            {% else %}
-                <p>Sorry, Twitter seems to have the hiccups!</p>
-            {% endif %}
-		</div>
-		
-		
-		<div class="twocol last">
-			<h2><a class="social youtube" href="http://www.youtube.com/user/colorch">YouTube</a></h2>
-            {% block youtube %}{% endblock %}
-                
-		</div>
-
-	</div>
-	
-	{% include "inc/footer.html" %}
-	{% include "inc/google_analytics.html" %}
+{% include "inc/google_analytics.html" %}
 </body>
 </html>

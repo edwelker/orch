@@ -1,11 +1,18 @@
-{% extends "mockup2.html" %}
+{% extends "mockup.html" %}
 
-{% block title %}
-{{member.withinstrument}}
+{% block title %}{{member.withinstrument}} -{% endblock %}
+
+{% block header_extra %}
+<style type="text/css">
+.content img {
+margin-right: 20px;
+margin-bottom: 20px;
+float: left;
+}
+</style>
 {% endblock %}
 
 {% block content %}
-<div class="content">
     <div class="member_detail">
     	<h2>{{ member.withinstrument }}</h2>
     
@@ -20,5 +27,6 @@
             <a href="/members/">Meet more of the orchestra...</a>
         </p>
 	</div>
-</div>
+
+	<div style="clear: both;">
 {% endblock %}

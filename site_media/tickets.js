@@ -122,6 +122,7 @@ adapted from http://stackoverflow.com/questions/7616461/generate-a-hash-from-str
 */
 function hashCode(s) {
   var hash = 0, i, char;
+  if (!s) return 0;
   if (s.length == 0) return hash;
   for (i = 0; i < s.length; i++) {
     char = s.charCodeAt(i);
@@ -268,6 +269,37 @@ function getDonationAmt() {
   return val;
 }
 
+
+/*********** changes per event **************/
+function isValidDCode(dcode) {
+  var h = hashCode(dcode);
+  return h == -1757660829 || h == 1469988687 || h == 1268714894;
+}
+
+function getDiscountAmt() {
+  var amt = 0;
+  var code = $('#dcode').val();
+  if (isValidDCode(code)) {
+    for (var i in items) {
+      var item = items[i];
+      if (item.prefix == 'oct6') {
+        for (var age in item.prices) {
+	  var qty = getQuantity(item, age);
+	  var linePrice = getLinePrice(item, age);
+	  if (qty > 0 && linePrice > 0) {
+	    amt += 5.0 * qty;
+	  }
+	}
+      }
+    }
+  } else {
+    amt = 0;
+  }
+//alert('getDiscountAmt: code=' + code + ' valid=' + isValidDCode(code) + ' amt=' + amt);
+  return amt;
+}
+/********************************************/
+
 function getTotalPrice() {
   var total = 0;
   var item;
@@ -278,11 +310,13 @@ function getTotalPrice() {
     }
   }
   total += getDonationAmt();
+  total -= getDiscountAmt();
   return total;
 }
 
 function showPrice(){
 //alert('showPrice()');
+//  alert('showPrice:  code = ' + $('#dcode').val() + '  hash = ' + hashCode($('#dcode').val()));
   document.getElementById("TotalPrice").innerHTML = "$" + getTotalPrice();
 //alert('goodbye');
 }
@@ -355,6 +389,16 @@ function orderTickets() {
     comment += 'donation=' + donation + '  ';
   }
 
+  var dcode = $('#dcode').val();
+  if (dcode && !whitespace.test(dcode)) {
+    if (isValidDCode(dcode)) {
+      comment += 'discountcode=' + dcode + '  ';
+    } else {
+      alert ('You have entered an invalid discount code.');
+      return false;
+    }
+  }
+
   var total = getTotalPrice();
   $('#chargetotal').val(total);
   $('#comments').val(comment);
@@ -371,9 +415,7 @@ $(document).ready(function(){
     $("table#thetable").append( tabentry(items[i]) );
     $("table#thetable").append( '<tr><td colspan="4"><hr></td></tr>' );
   }
+  $("table#thetable").append( '<tr><td><p><b>Discount code?  <input type="text" id="dcode" name="dcode" size="10" maxlength="10" onchange="javascript:showPrice()"/></b></p></td></tr>' );
   $("table#thetable").append( '<tr><td><p><b>I would like to make a donation to the Columbia Orchestra:</b><p></td><td><p style="white-space:nowrap;">$<input type="text" id="donation" name="donation" size="3" onchange="javascript:showPrice()"/></p></td></tr>' );
-  /*
-  $("table#thetable").append( '<tr><td><p><b>Discount code?  <input type="text" id="discount_code" name="discount_code" size="10" maxlength="10" /></b></p></td></tr>' );
-  */
 });
 

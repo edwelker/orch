@@ -1,9 +1,17 @@
-{% extends 'mockup2.html' %}
+{% extends 'mockup.html' %}
 
 {% block title %}{{ soloist.with_instrument }} - Guest Artist{% endblock %}
 
+{% block header_extra %}<style type="text/css">
+.content img {
+padding-right: 2em;
+padding-bottom: 1.5em;
+float: left;
+}
+</style>{% endblock %}
+
+
 {% block content %}
-<div class="content soloist_detail">
     <h2>{{ soloist.with_instrument }}</h2>
 
     {% if pieces %}
@@ -37,5 +45,4 @@
     {% endif %}
     
     {{ soloist.bio|safe }}
-</div>
 {% endblock %}

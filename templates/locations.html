@@ -1,11 +1,8 @@
-{% extends 'mockup2.html' %}
+{% extends 'mockup.html' %}
 
-{% block title %}
-Event Locations
-{% endblock %}
+{% block title %}Event Locations -{% endblock %}
 
 {% block content %}
-<div class="content">
 	<h2>Event Locations</h2>
 	{% for location in locations %}
 	<div class="location">
@@ -39,5 +36,4 @@ Event Locations
 			<a href="http://www.thegatheringplace.tv/directions.shtml" target="_blank">Website directions</a>
 		</div>
 	</div>
-</div>
 {% endblock %}

@@ -1,0 +1,88 @@
+.content {
+padding: 0;
+border: 1px dotted #000;
+}
+
+.content_inner {
+position: relative;
+}
+
+.poster img {
+/* remove space at bottom of image */
+vertical-align: middle;
+}
+
+.poster a.clickhere {
+margin: 0;
+position: absolute;
+bottom: 10px;
+right: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #fff;
+/*
+background-color: #920202;
+*/
+height: 30px;
+width: 130px;
+background-image: url(more_details.png);
+background-repeat: no-repeat;
+padding: 0;
+text-decoration: none;
+}
+.poster a.clickhere:hover, .poster a.clickhere:active {
+/*background-color: #b20202;*/
+background-image: url(more_details_hover.png);
+background-repeat: no-repeat;
+text-decoration: none;
+}
+
+.content_inner .image {
+width: 680px;
+}
+
+.COmemberwrap {
+width: 245px;
+position: absolute;
+top: 0;
+left: 690px;
+/*
+padding-left: 20px;
+display: inline-block;
+vertical-align: middle;
+*/
+/*border: 1px solid blue;*/
+}
+
+.COmember{
+/*	width:225px;*/
+margin: 10px;
+/*	border: 1px dotted gray;*/
+font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+.COmember h1{
+text-align: center; 
+font-size: 16px;
+
+}
+.COmember .line{
+width: 90%;
+height: 1px;
+border-bottom: 1px solid gray;
+margin: 0 auto;
+padding: 0px;
+}
+.COmember p{
+font-size: 1em; 
+padding: 8px 0px 0px 8px;
+margin: 0px;
+}
+.COmember .photo{
+height:290px;
+width: 225px;
+margin-top: 3px;
+}
+.COmember .member { 
+font-size: 1em;
+font-weight: bold; 
+}
