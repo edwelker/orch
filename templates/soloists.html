@@ -1,36 +1,56 @@
-{% extends 'mockup2.html' %}
+{% extends 'mockup.html' %}
 
-{% block title %}Guest Artists {%endblock %}
+{% block title %}Guest Artists -{% endblock %}
+
+{% block header_extra %}
+<style type="text/css">
+.swrap {
+width: 500px;
+}
+.soloist {
+/*border: 1px dotted #000;*/
+overflow: auto;
+margin: 0 auto;
+}
+.soloist img {
+float: left;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+</style>
+{% endblock %}
 
 {% block content %}
-<div class="content">
-	<h2>Guest Artists &mdash; {{ season.name }}</h2>
-	{% if soloists %}
-	{% for soloist in soloists %}
-	<div class="soloist">
-	    {% if soloist.image %}
-        <a href="{{soloist.get_absolute_url}}"><img src="/{{ soloist.thumb.url }}" alt="{{ soloist.name }}"/></a>
-        {% endif %}
-        
-        <h3><a href="{{ soloist.get_absolute_url }}">{{ soloist.with_instrument}}</a></h3>
-		<p>
-        
-                {% for p in soloist.piece_set.all %}
-                    {% for e in p.event_set.all %}
 
-                    <a href="{{e.season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a>, {{e.date|date:"l, F j, Y"}}
+<h2>Guest Artists &mdash; {{ season.name }}</h2>
+{% if soloists %}
+{% for soloist in soloists %}
+<div class="swrap">
+<div class="soloist">
+    {% if soloist.image %}
+<a href="{{soloist.get_absolute_url}}"><img src="/{{ soloist.thumb.url }}" alt="{{ soloist.name }}"/></a>
+{% endif %}
 
-                    {% endfor %}
-                {% endfor %} 
+<h3><a href="{{ soloist.get_absolute_url }}">{{ soloist.with_instrument}}</a></h3>
+	<p>
 
-		{% for e in soloist.event_set.all %}
-		   <a href="{{e.season.get_absolute_url}}#{{e.slug}}">{{ e.name }}</a>, {{e.date|date:"l, F j, Y"}} 
-		{% endfor %}
-		</p>
-	</div>
+        {% for p in soloist.piece_set.all %}
+            {% for e in p.event_set.all %}
+
+            <a href="{{e.season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a>, {{e.date|date:"l, F j, Y"}}
+
+            {% endfor %}
+        {% endfor %} 
+
+	{% for e in soloist.event_set.all %}
+	   <a href="{{e.season.get_absolute_url}}#{{e.slug}}">{{ e.name }}</a>, {{e.date|date:"l, F j, Y"}} 
 	{% endfor %}
-	{% else %}
-		<p>No soloists found for the current season.</p>
-	{% endif %}
+	</p>
 </div>
+</div>
+{% endfor %}
+{% else %}
+	<p>No soloists found for the current season.</p>
+{% endif %}
+
 {% endblock %}

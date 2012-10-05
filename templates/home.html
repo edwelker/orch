@@ -1,233 +1,60 @@
-{% extends "mockup.html" %}
+{% extends 'mockup.html' %}
 
-{% block youtube %}
-    {% comment %}
-    {{ yt.embed_code|safe }}
-    {% endcomment %}
-<!--<iframe width="470" height="383" src="http://www.youtube.com/embed/kBPVs6IwHzc" frameborder="0" allowfullscreen></iframe>-->
-<iframe width="470" height="383" src="http://www.youtube.com/embed/H7YhASkIb3I" frameborder="0" allowfullscreen></iframe>
+{% block header_extra %}
+<script type="text/javascript" src="/site_media/jquery.cycle.lite.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.image').cycle({
+            fx: 'fade', containerResize: 1, timeout: 7000
+        });
+     });
+</script>
+<link rel="stylesheet" href="/site_media/new/home.css"/>
 {% endblock %}
 
 
-{% block news %}
-   {% if news %}
-   <div class="news">
-   	<h2>News</h2>
-   	{% for n in news %}
-	    {% if n.display_title %}
-		<h3>{{ n.title }}</h3>
-	    {% endif %}
-	    {{ n.body|safe }}
-	{% endfor %}
-   </div>
-   {% endif %}
-{% endblock %}
+{% block content %}
+<div class="content_inner">
+
+<div class="image">
+
+    <div class="poster">
+    <img src="/site_media/new/Oct2012_PosterAttempt_6.png"/>
+    <a class="clickhere" href="/season/events/bernstein-and-beethoven/"><!--more details--></a>
+    </div>
+    <div class="poster">
+    <img src="/site_media/new/Dec2012_PosterAttempt_3.png"/>
+    <a class="clickhere" href="/season/events/tchaikovsky-and-rachmaninoff/"><!--more details--></a>
+    </div>
+    <div class="poster">
+    <img src="/site_media/new/Chamber Concert 2.png"/>
+    <a class="clickhere" href="/season/events/chamber-concert-one-2012-13/"><!--more details--></a>
+    </div>
+    
+</div> <!-- image -->
 
 
-{% block member %}
+<div class="COmemberwrap">
+<div class="COmember">
+	<h1>Meet the Orchestra</h1>
     {% if member %}
         {% if member.display.url %}
-        <a href="{{member.get_absolute_url}}">
-            <img src="{{member.thumb.url}}" alt="{{member.withinstrument}}"/>
-        </a>
+	<a href="{{member.get_absolute_url}}"><div class="photo">
+        <img src="{{member.thumb.url}}" alt="{{member.withinstrument}}"/>
+    </div></a>
         {% endif %}
-        <p class="member">{{ member.fullmember }}</p>
-        <!--  member.bio|safe|truncatewords_html:120 -->
-        <p><a href="{{ member.get_absolute_url }}">Read more about {{member.first_name}} {{member.middle_name}}...</a></p>
-        <p><a href="/members/">Meet more of the orchestra musicians...</a></p>
+<!--
+	<p class="member"> {{member.fullmember}}</p>
+	<p><a href="{{member.get_absolute_url}}">Read more about {{member.first_name}} {{member.middle_name}}...</a></p>
+-->
+	<p class="member"> <a href="{{member.get_absolute_url}}">{{member.fullmember}}</a></p>
+	<p><a href="/members/">Meet more of the orchestra musicians...</a></p>
     {% else %}
-        <p>No members found. Please add some members.</p>
+    <p>No members found. Please add some members.</p>
     {% endif %}
+</div>
+</div>
+
+</div> <!-- content_inner -->
+
 {% endblock %}
-
-{% comment %}
-{% block concert %}
-{% endblock %}
-{% endcomment %}
-{% block concert_primary %}
-    {% if primary_event.date %}
-    <div class="primary">
-        <div class="image">
-                {%comment%}{% if primary_event.thumb.url %}                
-                    <img src="/{{primary_event.thumb.url}}" class="event_img" alt="event image"/>
-                
-                    {% else %}
-                    {% endcomment %}
-
-
-                    <!-- this is so ugly, have to fix this ASAP!  -->
-                    {% if primary_event.pieces.all %}
-                        {% for p in primary_event.pieces.all %}
-                            {% for s in p.soloist.all %}
-                                {# paulli 2012/01/25 -- allow composer in picture rotation #}
-                                {% comment %}
-                                {% if s.display.url and s.instrument != 'composer' %}
-                                {% endcomment %}
-                                {% if s.display.url %}
-                                    <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
-                                {% endif %}
-                            {% endfor %}
-                        {% endfor %}                     
-                    {% endif %} 
-
-                    {% if primary_event.soloists.all %}
-                        {% for s in primary_event.soloists.all %}
-                            {% if s.display.url and s.instrument != 'composer' %} 
-                                <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>              
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
-
-                    {% if primary_event.image %}
-                        <a href="{{primary_event.season.get_absolute_url}}#{{primary_event.slug}}"><img src="/{{primary_event.display.url}}" class="event_img" alt="{{primary_event}}"/></a>
-                    {% endif %}
-                {%comment%} {% endif %} {% endcomment %}
-            </div>
-            <div class="description">
-                <h2><a href="{{primary_event.season.get_absolute_url}}#{{primary_event.slug}}">{{primary_event.name}}</a></h2>
-                <div>{{ primary_event.date|date:"l, F j, Y" }}</div>
-                
-                <div>{{ primary_event.date|date:"g:i a" }}{%if primary_event.alt_time%} &amp; {{primary_event.alt_time|time:"g:i a"}}{%endif%}, 
-                
-                <a href="{{primary_event.location.get_absolute_url}}">{{primary_event.location}}</a></div>
-                <div class="conductor"><a href="/members/jason_love" alt="Jason Love">Jason Love, conductor</a></div>
-
-                {# paulli 2012/01/25: primary event soloists #}
-                {% if primary_event.pieces.all %}
-                  {% for p in primary_event.pieces.all %}
-                    {% for s in p.soloist.all %}
-                      {# define new class? #}
-                      <div class="conductor"><a href="{{ s.get_absolute_url }}">{{s.with_instrument}}</a></div>
-                    {% endfor %}
-                  {% endfor %}
-                {% endif %}
-                {% if primary_event.soloists.all %}
-                  {% for s in primary_event.soloists.all %}
-                    {# define new class? #}
-                    <div class="conductor"><a href="{{ s.get_absolute_url }}">{{s.with_instrument}}</a></div>
-                  {% endfor %}
-                {% endif %}
-
-{% if 0 %}
-<p> Sponsored by <a href="https://www.pnc.com/" alt="PNC Bank" style="text-decoration: none;"><img src="/images/logo-PNC.gif" style="border: none; vertical-align: middle;"/></a></p>
-{% endif %}
-
-                {# paulli 2012/12/12 added pieces listing #}
-{% if 1 %}
-                {% if primary_event.pieces.all %}
-                    <p>
-                    {% for p in primary_event.pieces.all %}
-                        &nbsp;&nbsp;{{p.disp}}<br />
-                    {% endfor %}
-                    </p>
-                {% endif %}
-{% endif %}
-                {{ primary_event.description|safe }}
-               
-                <!-- <p>Hsiu-Hui Wang’s appearance is sponsored by <a href="http://www.hcgh.org/content/" target="co_link">Howard County General Hospital</a>.</p> -->
-
-                {% comment %}
-paulli 2012/01/20 temporary hack -- need to fix data model
-                {% if primary_event.preconcert_discussion %}
-                {% with primary_event.preconcert_discussion as e %}
-                    <p class="preconcert">Join {{e.speaker}} for a fun, fascinating pre-concert discussion at 
-                    {{e.time|time:"g:i a"}} 
-                    in the 
-                    {{e.talk_location}}.</p>
-                    {% if e.sponsor %}
-                        <p>The <a href="/preludes/">prelude series</a> is brought to you by {{e.sponsor}}.</p>
-                    {% endif %}
-                    </p>
-                {% endwith %}
-                {% endif %}
-                {% endcomment %}
-                {% comment %}
-                <p class="preconcert">Join Bill Scanlan Murphy at 6:30 for a fun, fascinating <a href="/preludes/">pre-concert discussion</a>. </p>
-                {% endcomment %}
-
-				<p class="tickets">
-                Read our <a href="/program_notes/">program notes</a> to learn more about the music for this concert.<br><br>
-                For advance tickets, please <a href="/tickets/">visit our Tickets page</a>. Tickets will also be available at the door.
-                {% comment %}A limited number of general admission tickets are still available for our St. Patrick's Day Symphonic Pops.  <a href="/tickets/">Online purchases</a> will only be available through Saturday morning.  Any remaining seats will be sold at the door.<br /><br />Because this concert is expected to sell out, please arrive early!  Doors open to subscribers at 7:00 pm and to all others at 7:10 pm.<br />&nbsp;{% endcomment %}
-                {% comment %}
-                </p>
-                {% endcomment %}
-
-
-            </div>   
-
-    </div>
-    {% else %}
-        {% if season %}
-        <div class="hp_season">
-            <h2>Presenting the {{season}}</h2>
-            <div class="image">
-                <img src="/model_imgs/src_imgs/soloists/violas_display.jpg"/>
-            </div>
-            <div class="description">
-            <ul class="concert">
-            {% for e in season.event_set.all %}
-                <li><a href="{{season.get_absolute_url}}#{{e.slug}}">{{e.name}}</a> &mdash;
-                  <em>{{e.date|date:"l, F j, Y"}}</em>
-                  {% if e.alt_date %}
-                  <em>&amp; {{e.alt_date|date:"l, F j, Y"}}</em>
-                  {% endif %}
-                  </li>
-            {% endfor %}
-            </ul>
-            <p>Explore our full <a href="/season/">{{season}}</a> to see all of the exciting details!</p>
-            </div>
-        </div>
-        {% endif %}
-    {% endif %}
-{% endblock %}
-    
-  
-{% block concert_secondary %}
-    {% if secondary_event.date %}
-        <div class="secondary">
-        {% comment %}
-        <div class="secondary" style="height: 375px;">
-        {% endcomment %}
-            <div class="description">
-                {# paulli 2012/12/12 added link to title #}
-                <h2><a href="{{secondary_event.season.get_absolute_url}}#{{secondary_event.slug}}">{{secondary_event.name}}</a></h2>
-                <div>{{ secondary_event.date|date:"l, F j, Y" }}</div>
-                {# <div>{{ secondary_event.date|date:"g:i a" }}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a></div> #}
-                {# paulli 2012/12/06 added secondary time #}
-                <div>{{ secondary_event.date|date:"g:i a" }}{% if secondary_event.alt_time %} &amp; {{ secondary_event.alt_time|time:"g:i a" }}{% endif %}, <a href="{{secondary_event.location.get_absolute_url}}">{{secondary_event.location}}</a> </div>
-                {{ secondary_event.description|safe }}
-            </div>
-
-            <div class="image">
-				<!-- this is so ugly, have to fix this ASAP!  -->
-	            {% if secondary_event.pieces.all %}
-	                {% for p in secondary_event.pieces.all %}
-	                    {% for s in p.soloist.all %}
-	                        {% if s.display.url and s.instrument != 'composer' %}
-	                            <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
-	                        {% endif %}
-	                    {% endfor %}
-	                {% endfor %}                     
-	            {% endif %} 
-
-	            {% if secondary_event.soloists.all %}
-	                {% for s in secondary_event.soloists.all %}
-	                    {% if s.display.url and s.instrument != 'composer' %} 
-	                        <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>              
-	                    {% endif %}
-	                {% endfor %}
-	            {% endif %}
-
-	            {% if secondary_event.image %}
-	                <a href="{{secondary_event.season.get_absolute_url}}#{{secondary_event.slug}}"><img src="/{{secondary_event.display.url}}" class="event_img" alt="{{secondary_event}}"/></a>
-	            {% endif %}
-			</div>
-        </div>
-    {% else %}
-        {%comment%}<p>No events found. Please add an event.</p>{%endcomment%}
-    {% endif %}
-    
-
-        
-    {% endblock %}

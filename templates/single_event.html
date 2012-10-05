@@ -1,31 +1,252 @@
-{% extends 'mockup2.html' %}
+{% extends 'mockup.html' %}
 
-{% block title %}{{event.name}}, {{season.name}} {% endblock %}
+{% block title %}{{event.name}} - {% endblock %}
+
+{% block header_extra %}
+{# TODO: fix path #}
+<script type="text/javascript" src="/site_media/jquery.cycle.lite.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.image').cycle({
+            fx: 'fade', containerResize: 1, timeout: 5000
+        });
+     });
+</script>
+<link rel="stylesheet" href="/site_media/new/concert.css"/>
+<script type="text/javascript">
+$(document).ready(function() {
+  jQuery(".toggle_content").hide();
+  jQuery(".toggle_heading").click(function() { jQuery('#note_' + jQuery(this).attr('id')).slideToggle(500); });
+});
+</script>
+{% if event.slug == 'bernstein-and-beethoven' or event.slug == 'tchaikovsky-and-rachmaninoff' or event.slug == 'barber-and-sibelius' or event.slug == 'wagner-and-stravinsky' %}
+<style type="text/css">
+.main {
+width: 750px;
+padding-left: 210px;
+padding-right: 0px;
+min-height: 700px;
+/* TODO: fix path */
+background-image: url(/site_media/new/LeftBorder_Section.png);
+background-repeat: repeat-y;
+}
+</style>
+{% endif %}
+<script type="text/javascript">
+var quotes = [
+  { text: 'The Columbia Orchestra is one of the gems of our community!  To be able to enjoy incredibly wonderful symphonic music performances in your backyard, with no crowds, free parking, and a casual environment makes the Columbia Orchestra a highlight of living in this area.',
+    author: 'John Steinberg, M.D.',
+    affiliation: 'Columbia Orchestra subscriber'
+  },
+  { text: 'The Columbia Orchestra is Howard County\'s premier ensemble for instrumental music.',
+    author: 'Phil Greenfield',
+    affiliation: 'The Baltimore Sun'
+  },
+  { text: 'The Columbia Orchestra is a pillar of the local arts community.',
+    author: 'The Washington Post'
+  },
+  { text: 'Jason Love is an inspiring and a knowledgeable musician... The musicians are motivated by a passion to play, with all concerts a labor of love for members of the orchestra...  Romance and excitement are included in the cost of your ticket.',
+    author: 'Eileen Soskin',
+    affiliation: 'The Baltimore Sun'
+  },
+  { text: 'Some of the most imaginative repertoire choices I\'ve seen...a willingness to leave safe havens, where community orchestras might reasonably be expected to stay, and head out into less traveled territory. That’s good for their musicians, good for their audiences.',
+    author: 'Tim Smith',
+    affiliation: 'The Baltimore Sun'
+  },
+  { text: 'This is OUR orchestra, OUR COUNTY’s orchestra... I understand and appreciate the importance and value of arts programs, and Howard County is fortunate to have the Columbia Orchestra.',
+    author: 'Jim Robey',
+    affiliation: 'Maryland State Senator, Former Howard County Executive'
+  },
+  { text: 'The Columbia Orchestra\'s events are a welcomed, blissful addition to any weekend, especially after a stressful week. Their wonderful musical offerings transport you to a happier place, your soul sings and you will certainly leave smiling. All just minutes away from home, in the heart of Howard County.',
+    author: 'Rachelina Bonacci',
+    affiliation: 'Executive Director, Howard County Tourism'
+  },
+  { text: 'What a privilege and pleasure it has been for me to be surrounded by the sounds of the orchestra, the wonderful talent of its musicians, the regular recreation of some of my favorite music every week. What a delight to experience our grandchildren kindle their own love of music, begin their own instrumental explorations, and to see their excitement at spotting grandpa among the performers.',
+    author: 'Stuart Silver',
+    affiliation: 'Columbia Orchestra Violinist'
+  }
+];
+$(document).ready(function() {
+  var quote = quotes[Math.floor(Math.random()*quotes.length)];
+  $('#quote').append('<em>'+quote['text']+'</em>')
+  if ('affiliation' in quote) {
+    $('#quote').append('<p><b>'+quote['author']+'</b><br />'+quote['affiliation']+'</p>')
+  } else {
+    $('#quote').append('<p><b>'+quote['author']+'</b></p>')
+  }
+  $('#quote').append('</p>')
+});
+</script>
+{% endblock %}
+
 
 {% block content %}
-<div class="content event_detail">
-	<div class="concertDescription">
-		<h2 class="summary">{{ event.name }}, {{ season.name }}</h2>
-		<div class="concertInfo">
-			<span class="date">{{ event.date|date:"l, F j, Y" }} - {{ event.date|date:"g:i a" }}
-		    {% if event.alt_time %}
-                &amp; {{event.alt_time|time:"g:i a"}}
-	        {% endif %}
-			<br>
-			<a href="{{ event.location.get_absolute_url }}">{{ event.location }}</a><br>
-			<a href="behindthemusic/">Read the program notes</a><br>
-			{% if event.ticket_link %}
-			<p><a href="{{ event.ticket_link }}">Click here to purchase tickets</a></p>
-			{% endif %}
-		</div>
+{# TODO: fix path #}
 
-        {% if event.image %}
-            <img src="/{{event.image.url}}" alt="Event promo image"/>
-        {% endif %}
-        
-		{% if event.description %}
-			{{ event.description|safe }}
-		{% endif %}
+{% if event.slug == 'bernstein-and-beethoven' %}
+    <div style="position: absolute; left: 0; top: 0;">
+            <img src="/site_media/new/Oct2012_LeftBorder.jpg"/>
+    </div>
+{% endif %}
+{% if event.slug == 'tchaikovsky-and-rachmaninoff' %}
+    <div style="position: absolute; left: 0; top: 0;">
+        <img src="/site_media/new/Dec2012_LeftBorder.jpg"/>
+    </div>
+{% endif %}
+{% if event.slug == 'barber-and-sibelius' %}
+    <div style="position: absolute; left: 0; top: 0;">
+        <img src="/site_media/new/Feb2013_LeftBorder.jpg"/>
+    </div>
+{% endif %}
+{% if event.slug == 'wagner-and-stravinsky' %}
+    <div style="position: absolute; left: 0; top: 0;">
+        <img src="/site_media/new/June2013_LeftBorder.jpg"/>
+    </div>
+{% endif %}
+
+    <div>
+    <div class="event_detail">
+        <h1>{{ event.name }}</h1>
+	<p>
+
+	    {#  time and date  #}
+	    {{ event.date|date:"l, F j, Y" }} - {{ event.date|date:"g:i a" }}
+	    {% if event.alt_time %} &amp; {{event.alt_time|time:"g:i a"}} {% endif %}
+	    {% if event.alt_date %} <br />{{ event.alt_date|date:"l, F j, Y" }} - {{event.alt_date|date:"g:i a"}} {% endif %}
+	    <br />
+
+	    {#  location  #}
+	    <a href="{{ event.location.get_absolute_url }}">{{ event.location }}</a><br />
+
+	    {#  soloists  #}
+	    {% if event.soloists %}
+                {% for s in event.soloists.all %}
+                    <div><a href="{{s.get_absolute_url}}">{{s.with_instrument}}</a></div>
+                {% endfor %}
+            {% endif %}
+            {% if event.pieces.all %}
+                {% for p in event.pieces.all %}
+                    {% if p.soloist %}
+                        {% for s in p.soloist.all %}
+                            <div><a href="{{s.get_absolute_url}}">{{ s.with_instrument}}</a></div>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+	    {#  conductor  #}
+	    {% if event.conductor %}
+	    <a href="{{event.conductor.get_absolute_url}}">{{event.conductor.name}}, conductor</a> <br />
+	    {% endif %}
+	</p>
+
+	    {#  buy tickets button  #}
+{% if event.ticket_link %}
+        <p>
+{% comment %}  TODO:  remove this hack after the rollout
+	    <p><a class="ticket_button" href="{{event.ticket_link}}">buy tickets</a></p>
+{% endcomment %}
+	    <p><a class="ticket_button" href="/tickets/">buy tickets</a></p>
+	</p>
+{% endif %}
+    </div> <!-- event_detail -->
+
+    <div class="soloist image">
+{# soloist pics #}
+      {% if event.image %}
+{% if 1 %}
+      <img src="/{{event.thumb.url}}" class="event_img" alt="{{event}}"/>
+{% else %}
+      <img src="/{{event.display.url}}" class="event_img" alt="{{event}}"/>
+{% endif %}
+      {% endif %}
+
+      {% if event.pieces.all %}
+          {% for p in event.pieces.all %}
+              {% for s in p.soloist.all %}
+{% if 1 %}
+                  {% if s.thumb.url %}
+                      <a href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
+                  {% endif %}
+{% else %}
+                  {% if s.display.url %}
+                      <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
+                  {% endif %}
+{% endif %}
+              {% endfor %}
+          {% endfor %}                     
+      {% endif %}
+      
+      {% if event.soloists %}
+          {% for s in event.soloists.all %}
+{% if 1 %}
+              <a href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
+{% else %}
+              <a href="{{s.get_absolute_url}}"><img src="/{{s.display.url}}" class="event_img" alt="{{s}}"/></a>
+{% endif %}
+          {% endfor %}
+      {% endif %}
+    </div> <!-- soloiost -->
+    </div>
+
+{% if event.pieces.all %}
+    <div class="pieces">
+        <h1>Pieces </h1>
+
+    {% for p in event.pieces.all %}
+	<div class="onePiece">
+	  <div class="heading">
+	    <div class="title">{{ p.disp }}</div>
+	    <div class="controls"> 
+	        {% if p.notes %}<div class="notes_button about toggle_heading" id="{{ p.id }}">Program Notes</div>{% endif %}
+
+{# TODO: change "test.columbiaorchestra.org" when ready #}
+
+{% for clip_path in p.audioclips %}
+		<object id="myflashobj_{{p.id}}_{{forloop.counter}}" class="playbutton" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="30" height="30"><PARAM NAME=movie VALUE="http://test.columbiaorchestra.org/site_media/audioplay_1.0.0/audioplay.swf?playerid=1&file=http://test.columbiaorchestra.org/{{clip_path}}&auto=no&sendstop=yes&repeat=1&buttondir=http://test.columbiaorchestra.org/site_media/audioplay_1.0.0/buttons/custom&bgcolor=0xffffff&mode=playstop"><PARAM NAME=quality VALUE=high><PARAM NAME=wmode VALUE=transparent><object data="http://test.columbiaorchestra.org/site_media/audioplay_1.0.0/audioplay.swf?playerid=1&file=http://test.columbiaorchestra.org/{{clip_path}}&auto=no&sendstop=yes&repeat=1&buttondir=http://test.columbiaorchestra.org/site_media/audioplay_1.0.0/buttons/custom&bgcolor=0xffffff&mode=playstop" quality=high wmode=transparent width="30" height="30" align="" TYPE="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"><!-- alternative content here --></object></object>
+{% endfor %}
+
+{# TODO: remove #}
+{% comment %}
+	        <img src="/site_media/new/play_control.png" />
+	        <img src="/site_media/new/play_control.png" />
+	        <img src="/site_media/new/play_control.png" />
+{% endcomment %}
+	    </div>
+	  </div>
 	</div>
-</div>
+	    {% if p.notes %}
+	    <div class="note toggle_content" id="note_{{ p.id }}"> {{ p.notes|safe }} </div>
+	    {% endif %}
+    {% endfor %}
+    </div> <!-- pieces -->
+{% endif %}
+
+    <div> <!-- blurb and youtube -->
+    {#  concert "blurb"  #}
+    {% if event.description %}
+    <div class="concert_detail">
+        <h1> About the Concert</h1>
+
+{# TODO: test layout with concert video #}
+{% comment %}
+{% if event.slug == 'bernstein-and-beethoven' %}
+{% endcomment %}
+    {% if event.youtube %}
+    <div id="youtube">
+        <iframe width="350" height="283" src="http://www.youtube.com/embed/{{event.youtube}}" frameborder="0" allowfullscreen></iframe>
+    </div>
+{% endif %}
+	{{ event.description|safe }}
+
+    </div> <!-- concert_detail -->
+    {% endif %}
+
+    </div> <!-- blurb and youtube -->
+
+{# TODO: get quote from model instead of javascript? #}
+    <div id="quote">
+        <div class="quoteImg"></div>
+    </div>
+
 {% endblock %}

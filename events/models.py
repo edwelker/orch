@@ -94,6 +94,17 @@ class Event(ImageModel):
     def type(self):
         return "Concert"
 
+    # hack -- remove once "conductor" has been added to the Event model
+    def conductor(self):
+        if self.id in [161,162,163,166,170,165]:
+            return { 'name':'Jason Love', 'get_absolute_url':'/members/jason_love/'}
+        return None
+
+    # hack -- remove once "youtube" has been added to the Event model
+    def youtube(self):
+        if self.id == 161:
+            return 'H7YhASkIb3I'
+        return None
 
 
 class PreConcertDiscussion(models.Model):

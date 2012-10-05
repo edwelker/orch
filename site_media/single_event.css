@@ -1,0 +1,86 @@
+/*** new single event layout ***/
+#event_wrapper {
+background-image: url(BernsteinBeethovenVerticalBanner.png);
+background-repeat: no-repeat;
+}
+#event_contents {
+margin-left: 100px;
+padding-left: 10px;
+}
+#event_contents .section {
+position: relative;
+clear: both;
+}
+#event_contents #concert {
+width: 350px;
+padding-bottom: 10px;
+}
+#event_contents #concert h3 {
+font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+font-size: 25px;
+}
+
+#event_contents #soloist_pics {
+float: right;
+width: 500px;
+padding-bottom: 10px;
+}
+#event_contents #pieces .heading {
+width: 68%;
+clear: both;
+}
+#event_contents #pieces .title {
+font-weight: bold;
+}
+#event_contents #pieces .controls {
+float: right;
+vertical-align: middle;
+}
+#event_contents #pieces .controls .about {
+font-weight: bold;
+color: white;
+background-color: green;
+padding: 2px 10px;
+vertical-align: top;
+}
+#event_contents #pieces .audio {
+vertical-align: top;
+}
+#event_contents #pieces .note {
+border: 1px dotted #000;
+background-color: #f8f8f8;
+padding-left: 10px;
+padding-right: 10px;
+clear: both;
+}
+#event_contents #featured_composer {
+padding-left: 20px;
+width: 30%;
+float: right;
+clear: both;
+}
+#event_contents #blurb p { padding-bottom: 20px; }
+#event_contents #quote {
+float: right;
+width: 480px;
+font-size: 1.3em;
+/*
+margin-top: auto;
+margin-bottom: auto;
+*/
+}
+#event_contents #youtube {
+width: 350px;
+background: transparent url(youtube.png) no-repeat 0 0;
+padding-bottom: 20px;
+}
+#event_contents a.ticket_button {
+background-color: green;
+color: white;
+font-weight: bold;
+padding: 2px 10px; padding-bottom: 4px;
+}
+#event_contents a.ticket_button:link {
+text-decoration: none;
+}
+/*** end of new single event layout ***/

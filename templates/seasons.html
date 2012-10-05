@@ -1,16 +1,14 @@
-{% extends 'mockup2.html' %}
+{% extends 'mockup.html' %}
 
-{% block title%}Historical Seasons{% endblock %}
+{% block title%}Past Seasons -{% endblock %}
 
 {% block content %}
-<div class="content">
-<h2>Historical Seasons</h2>
-    {% if seasons %}
-        <ul class="seasons">
-        {% for s in seasons %}
-            <li><a href="{{s.get_absolute_url}}">{{s}}</a></li>
-        {% endfor %}
-        </ul>
-    {% endif %}   
-</div>
+<h2>Past Seasons</h2>
+{% if seasons %}
+    <ul class="seasons">
+    {% for s in seasons %}
+        <li><a href="{{s.get_absolute_url}}">{{s}}</a></li>
+    {% endfor %}
+    </ul>
+{% endif %}   
 {% endblock %}

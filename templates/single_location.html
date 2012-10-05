@@ -1,25 +1,20 @@
-{% extends 'mockup2.html' %}
+{% extends 'mockup.html' %}
 
-{% block title %}
-Event Locations - {{ location.name }}
-{% endblock %}
+{% block title %}Event Locations - {{ location.name }} -{% endblock %}
 
 {% block content %}
-<div class="content">
-	<div class="location">
-		<h2>{{ location.name }}</h2>
-		<div class="vcard">
-			<div class="street-address">{{ location.address }}</div>
-			<span class="locality">{{ location.city }}</span> <span class="region">{{ location.state }}</span>, <span class="postal-code">{{ location.zip }}</span>
-			<br/>
-		<a href="{{ location.url }}" target="_blank">Directions to {{ location.name }}</a>
-		{% if location.alt_url %}
-
-                <div>
-                <a href="{{ location.alt_url }}" target="_blank">Alternate directions</a>
-                </div>
-		{% endif %}
-		</div>
-	</div>
+<div class="location">
+    <h2>{{ location.name }}</h2>
+    <div class="vcard">
+        <div class="street-address">{{ location.address }}</div>
+        <span class="locality">{{ location.city }}</span> <span class="region">{{ location.state }}</span>, <span class="postal-code">{{ location.zip }}</span>
+        <br/>
+    <a href="{{ location.url }}" target="_blank">Directions to {{ location.name }}</a>
+    {% if location.alt_url %}
+    <div>
+    <a href="{{ location.alt_url }}" target="_blank">Alternate directions</a>
+    </div>
+    {% endif %}
+    </div>
 </div>
 {% endblock %}

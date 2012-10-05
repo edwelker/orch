@@ -1,0 +1,310 @@
+/* This file should only define styles that are common to all pages. */
+
+body { 
+margin:0;
+padding:0;
+/*	background-color:#646464; */
+font: 62.5%/1.4 verdana, sans-serif; 
+}
+
+.container { 
+clear: both;
+margin: 0 auto;
+/*background-color: #ffffff;*/
+background-color: #f5f5f5;
+}
+.toplinks{
+/*
+background-color: #686869;*/ /*gray*/
+height: 15px;
+width: 960px;
+margin: 0 auto;
+font-size: 10px;
+color: #ffffff;
+text-align: right;
+}
+.toplinks a {
+text-decoration: none;
+color: white;
+margin-left: 10px;
+}
+
+.header_bg { 
+height: 160px; 
+background-image: url(BgTop_10x160b.png);
+background-repeat: repeat-x;
+background-color: #f5f5f5;
+}
+.header_img{
+height: 110px; 
+width: 960px;
+margin: 0 auto;
+background-image: url(Oct2012_TopBanner.png);
+background-repeat: no-repeat;
+background-position: center bottom; 
+margin-bottom: 5px;
+}
+.COlogo{
+height:100px;
+width: 350px;
+background-image: url(COLogo.png);
+float: left;
+}
+.COlogo35{
+height:110px;
+width: 160px;
+background-image: url(COLogo35.png);
+background-repeat: no-repeat;
+background-position: center;
+float: right;
+}
+
+.nav { 
+/*background-color: #ffffff;*/
+background-color: #f5f5f5;
+height: 46px; 
+text-align: center; 
+}
+.navwrap{
+background-color: #555;
+width: 960px;
+height: 46px; 
+margin: 0 auto;
+color: #ffffff; /* may need to remove once real*/
+}
+
+.nav ul { 
+margin:0;
+padding-left: 40px;
+list-style-type:none; 
+position: relative; 
+top: 12px; 
+overflow:visible; 
+}
+.nav ul li { 
+display: inline;  margin-right: 40px; float: left;
+}
+.nav ul ul  { 
+display: none; position: absolute; background-color:#555; top:1.7em; padding:1.3em 0 .5em 0; z-index:1000;
+} 
+.nav ul li a { 
+color: #fff;  
+/*text-transform: uppercase; */
+text-decoration: none; 
+font-size: 1.3em;
+}
+.nav ul ul li { 
+display: block; float: none; z-index: 10; margin: .3em 0; 
+}
+.nav ul ul li a { 
+padding: .3em 1em; 
+}
+.nav ul ul li a:hover { 
+background-color: #70d1fb; background-color: rgba(112,209,251,.4); text-shadow: 3px 3px 6px rgba(0,0,0,.9); 
+}
+.nav ul ul { 
+z-index: 400; 
+}
+
+
+.clear{
+clear: both;
+}
+
+.main {
+width: 960px;
+margin: 0 auto;
+/*background-color: #ffffff;*/
+background-color: #f5f5f5;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.content {
+background-color: #fff;
+padding: 10px 20px;
+font-size: 14px;
+overflow: auto;
+border: 1px dotted #000;
+}
+
+.content p {
+margin-top: 5px;
+}
+.content h1{
+font-family: Trebuchet MS, Helvetica, sans-serif;
+font-size: 20px;
+margin: 5px;
+}
+.content h2{
+border-bottom: 1px solid #000;
+}
+
+.content h3{
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+.content a, .content a:visited{
+color:#229;
+text-decoration:none;
+border-bottom:1px dotted #66b;
+}
+.content a:hover, .content a:active{
+color:#229;
+border-bottom:1px solid #229;
+}
+
+.content img {
+border-style: none;
+}
+
+
+
+
+.footer{
+/*	background-color: #686869;*/ /*gray*/
+	background-color: #f5f5f5;
+	height: 160px; 
+	background-image: url(BgBottom_10x160b.png);
+	background-repeat: repeat;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: #ffffff;
+	/**zoom:1; 
+	*overflow:visible;*/
+}
+
+.footer_img{
+/*	height: 160px; */
+	width: 960px;
+	background-image: url(Oct2012_BottomBanner.png);
+	background-repeat: no-repeat;
+	background-color: #ff9c5f;
+	margin: 0 auto;
+/*	background-position: center top;*/
+	background-position: center bottom;
+vertical-align: middle;
+padding-bottom: 10px;
+overflow: auto;
+}
+.footer h1{
+	font-size: 15px;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: #ffffff;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.footer p{
+	font-size: 12px; 
+	padding: 8px 0px 0px 8px;
+	margin: 0px;
+}
+
+.footer .jason{
+	height: 130px;
+	width: 100px;
+	float: left;
+
+}
+
+.footer .colwrap {
+	display: inline-block;
+	vertical-align: top;
+	border-left: 1px dotted gray;
+
+}
+.footer .address{
+	height: 130px;
+	margin-left: 10px;
+}
+.footer .address p {
+	font-size: 13px;
+}
+ .footer .line{ 
+	width: 90%;
+	height: 1px;
+	border-bottom: 1px solid #FFFFFF;
+	margin: 0 auto;
+	padding: 0px;
+	margin-bottom: 2px;
+}
+.footer .col{
+	font-size: 16px;
+	font-weight: bold;
+	height: 130px;
+	padding-left: 10px;
+}
+.footer .col .centered {
+	margin: 0 auto;
+}
+.footer .lastcol{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	height: 130px;
+	margin: 0 auto;
+}
+.amazon { 
+	height: 30px;
+	width: 200px;
+	background: #ffffff url(amazon.png) no-repeat 0 0; 
+	background-position: center center;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* hyperlink trick */
+.amazon a { display: block; text-indent: -9999px; outline: none; }
+.goodsearch { 
+	background: #ffffff url(goodsearch.png) no-repeat 0 0; 
+	background-position: center center; 
+	margin: 0 auto;
+	height: 30px;
+	width: 200px;
+}
+.goodsearch a { display: block; text-indent: -9999px; outline: none; }
+.social {
+	float: left;
+	clear: left;
+	height: 20px;
+	/*width: 170px;*/
+	padding-left: 0;
+	padding-top: 5px;
+	font-size: 12px; 
+}
+.social a img {
+        border: 0 none;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.social a, .social a:visited, .social a:active {  outline: none; }
+
+.footer ul { 
+	margin:1em 0 0 0;
+	padding:0;
+	list-style-type:none;
+}
+.footer ul li a { 
+	color: #fff; 
+	text-decoration: none; 
+	border-bottom: 1px dotted #fff; 
+}
+.footer a {
+	color:#fff;
+	text-decoration:none;
+}
+.bottomlinks{
+	padding-top: 5px;
+	height: 15px;
+	width: 960px;
+	margin: 0 auto;
+	font-size: 11px;
+	font-family: verdana, sans serif;
+	color: #ffffff;
+	text-align: right;
+}
+.bottomlinks a {
+	margin-left: 10px;
+}

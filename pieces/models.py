@@ -35,6 +35,15 @@ class Piece(models.Model):
         else:
             return u"%s, by %s" % (self.title, self.composer.disp(),)
 
+    # TODO: fix horrible hack
+    def audioclips(self):
+        if self.id == 373:  # chapela inguesu
+            return [ '/uploads/2012-13/audio/Inguesu.mp3' ]
+        if self.id == 366:  # beethoven 8th
+            return [ '/uploads/2012-13/audio/Beethoven1mvtexposition.mp3', '/uploads/2012-13/audio/Beethoven3mvtundance.mp3', '/uploads/2012-13/audio/Beethoven4mvtHaydn.mp3']
+        if self.id == 374:  # bernstein 1st
+            return [ '/uploads/2012-13/audio/Bernstein1.mp3', '/uploads/2012-13/audio/Bernstein2stings.mp3', '/uploads/2012-13/audio/Bernstein3mezzo.mp3']
+        return None
 
     class Meta:
         ordering = ['composer']

@@ -1,9 +1,110 @@
-{% extends 'mockup2.html' %}
+{% extends 'mockup.html' %}
 
 {% block title %}{{ seasonname }}{% endblock %}
 
+{% block header_extra %}
+<script type="text/javascript" src="/site_media/jquery.cycle.lite.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.image').cycle({
+            fx: 'fade', containerResize: 1, timeout: 5000
+        });
+     });
+</script>
+<style type="text/css">
+.vevent {
+  border-bottom: 1px dotted #000;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.vevent {
+}
+.soloist_imgs {
+width: 160px;
+/*border: 1px solid #000;*/
+text-align: center;
+display: inline-block;
+vertical-align: top;
+}
+.soloist_imgs img {
+border-style: none;
+vertical-align: middle;
+}
+.soloist_imgs .soloist_link {
+text-decoration: none;
+}
+.info_wrap{ 
+display: inline-block;
+vertical-align: top;
+width: 740px;
+/*border: 1px dotted gray;*/
+}
+.event_info {
+margin-left: 10px;
+/*border: 1px dotted #000;*/
+}
+.event_info .event_name {
+font-size: 1.5em;
+margin: 0;
+}
+.event_info p {
+margin: 0;
+}
+.event_info .venue {
+margin-top: 5px;
+/*border: 1px solid green;*/
+}
+.event_info .soloists {
+margin-top: 10px;
+/*border: 1px solid red; */
+}
+.event_info .col1 {
+width: 43%;
+display: inline-block;
+vertical-align: top;
+/*border: 1px solid green;*/
+}
+.event_info .col2_wrap {
+width: 43%;
+display: inline-block;
+vertical-align: top;
+/*border: 1px solid red;*/
+}
+.event_info .col2 {
+font-size: 89%;
+margin-left: 5px;
+margin-top: 8px;
+/*border: 1px dotted red;*/
+}
+.col3_wrap {
+width: 11%;
+display: inline-block;
+vertical-align: top;
+/*border: 1px solid blue;*/
+}
+.col3 {
+margin-left: 20px;
+/*border: 1px dotted blue;*/
+}
+a.button, a.button:visited, a.button:hover, a.button:active {
+font-size: 16px;
+padding: 2px 6px;
+text-decoration: none;
+color: #fff;
+}
+a.button, a.button:visited {
+background-color: #c00;
+}
+a.button:hover, a.button:active {
+background-color: #d00;
+}
+.buttonwrap {
+margin-top: 10px;
+}
+</style>
+{% endblock %}
+
 {% block content %}
-<div class="content">
     {% if seasonname %}
         <h2>{{ seasonname }}</h2>
         <div class="vcalendar">
@@ -12,12 +113,7 @@
             {% for event in events %}
             <div class="vevent" id="{{event.slug}}">
 
-
-
-                <h4 class="summary">{{ event.name }}</h4>
-
-
-                <div class="soloist_imgs">
+                <div class="image soloist_imgs">
                     <!-- this is so ugly, have to fix this ASAP!  -->
                     {% if event.image %}
                     <img src="/{{event.thumb.url}}" class="event_img" alt="{{event}}"/>
@@ -27,7 +123,7 @@
                         {% for p in event.pieces.all %}
                             {% for s in p.soloist.all %}
                                 {% if s.thumb.url %}
-                                    <a href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
+                                    <a class="soloist_link" href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
                                 {% endif %}
                             {% endfor %}
                         {% endfor %}                     
@@ -35,38 +131,47 @@
                     
                     {% if event.soloists %}
                         {% for s in event.soloists.all %}
-                            <a href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
+                            <a class="soloist_link" href="{{s.get_absolute_url}}"><img src="/{{s.thumb.url}}" class="event_img" alt="{{s}}"/></a>
                         {% endfor %}
                     {% endif %}
                 </div>
 
-                    
 
-                <p class="dtstart" title='{{ event.date|date:"Y-m-d\TH:i:s" }}-05:00'>{{ event.date|date:"l, F j, Y" }} - 
+		<div class="info_wrap">
+		<div class="event_info">
+
+                <h4 class="event_name">{{ event.name }}</h4>
+
+		<div class="subinfo">
+
+		<div class="col1">
+
+		<div class="venue">
+
+                <p title='{{ event.date|date:"Y-m-d\TH:i:s" }}-05:00'>{{ event.date|date:"l, F j, Y" }} - 
                 {{ event.date|date:"g:i a" }}
                 {% if event.alt_time %}
                     &amp; {{event.alt_time|time:"g:i a"}}
 		        {% endif %}
                 {% if event.alt_date %}
                     <br />
-			        <span class="rdate" title='{{ event.alt_date|date:"Y-m-d\TH:i:s" }}-05:00'>
+			        <span title='{{ event.alt_date|date:"Y-m-d\TH:i:s" }}-05:00'>
 			        {{ event.alt_date|date:"l, F j, Y" }} - {{event.alt_date|date:"g:i a"}}
 			        </span>
 		        {% endif %}
 		        </p>
                 {% comment %}
                 {% if event.alt_date %}
-			        <p class="rdate" title='{{ event.alt_date|date:"Y-m-d\TH:i:s" }}-05:00'>
+			        <p title='{{ event.alt_date|date:"Y-m-d\TH:i:s" }}-05:00'>
 			        {{ event.alt_date|date:"l, F j, Y" }} - {{event.alt_date|date:"g:i a"}}
 			        </p>
 		        {% endif %}
                 {% endcomment %}
-                <p class="location"><a href="{{ event.location.get_absolute_url }}">{{ event.location }}</a></p>
-                {% if event.ticket_link %}
-                <p class="tickets"><a href="{{ event.ticket_link }}">Click here to purchase tickets</a></p>
-                {% endif %}
+                <p>{{event.location }}</p>
 
-                <div class="concert_soloists">
+		</div> <!-- venue -->
+
+                <div class="soloists">
                 {% if event.soloists %}
                     {% for s in event.soloists.all %}
                     <div><a href="{{s.get_absolute_url}}">{{s.with_instrument}}</a></div>
@@ -82,7 +187,16 @@
                         {% endif %}
                     {% endfor %}
                 {% endif %}
-                </div>
+
+		{% if event.conductor %}
+		    <a href="{{event.conductor.get_absolute_url}}">{{event.conductor.name}}, conductor</a> <br />
+		{% endif %}
+                </div> <!-- soloists -->
+
+		</div> <!-- col1 -->
+
+		<div class="col2_wrap">
+		<div class="col2">
 
                 {% if event.pieces.all %}
                     <div class="program">
@@ -92,11 +206,41 @@
                     </div>
                     {% endfor %}
                     </div>
+                {% else %}
+                    {% if event.description %}
+                        {{ event.description|safe }}
+                    {% endif %}
                 {% endif %}
 
+		</div> <!-- col2 -->
+		</div> <!-- col2_wrap -->
+
+		<div class="col3_wrap">
+		<div class="col3">
+		<div class="buttonwrap">
+		<a class="button" href="{{event.get_absolute_url}}">details</a>
+		</div>
+                {% if event.ticket_link %}
+{% comment %}  TODO:  remove this hack after rollout
+                <p class="tickets"><a class="button" href="{{ event.ticket_link }}">tickets</a></p>
+{% endcomment %}
+                <div class="buttonwrap">
+                <p class="tickets"><a class="button" href="/tickets/">tickets</a></p>
+		</div>
+                {% endif %}
+		</div> <!-- col3 -->
+		</div> <!-- col3_wrap -->
+
+		</div> <!-- subinfo -->
+
+		</div> <!-- event_info -->
+		</div> <!-- info_wrap -->
+		
+{% comment %}
                 {% if event.description %}
                     {{ event.description|safe }}
                 {% endif %}
+{% endcomment %}
             </div>
             {% endfor %}
             {% endif %}
@@ -107,6 +251,5 @@
         <p>Unable to find the current season. Please contact the adminstrator.</p>
     {% endif %}
     <p><em>Events and performers are subject to change.</em></p>
-</div>
 {% endblock %}
 
